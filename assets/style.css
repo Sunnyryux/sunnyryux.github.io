@@ -1,6 +1,8 @@
 /* Name size is 80% of the first draft; the hero shade is exactly 20%. */
 #sunny-brand{--sunny-black:#090909;--sunny-white:#fff;--sunny-pink:#ff168a;--sunny-muted:#b9b9b9;--sunny-line:#343434;--sunny-font:"Manrope",Arial,sans-serif;--sunny-display:"Barlow Condensed","Arial Narrow",Impact,sans-serif;background:var(--sunny-black);color:var(--sunny-white);font:400 15px/1.65 var(--sunny-font);width:100%;overflow-wrap:break-word}
 #sunny-brand *,#sunny-brand *::before,#sunny-brand *::after{box-sizing:border-box}
+/* Each surface owns its text colour, including nested copy and future content. */
+#sunny-brand *{color:inherit}
 html{background:#090909;scroll-behavior:smooth}body{margin:0}
 #sunny-brand [hidden]{display:none!important}
 #sunny-brand a{color:inherit;text-decoration:none}
@@ -48,6 +50,8 @@ html{background:#090909;scroll-behavior:smooth}body{margin:0}
 #sunny-brand .download-format{font-size:11px;color:var(--sunny-muted);margin-top:14px;letter-spacing:.09em}
 #sunny-brand .contact-social{display:inline-block;margin-top:54px;font-size:13px;min-height:44px}
 #sunny-brand .hero-focus{font:600 clamp(17px,2.2vw,23px)/1.45 var(--sunny-font);max-width:650px}
+#sunny-brand #profile-focus{color:var(--sunny-white);font-family:"Manrope",Arial,sans-serif;font-weight:700;text-transform:uppercase}
+#sunny-brand #profile-statement,#sunny-brand #profile-mission{color:var(--sunny-white)}
 #sunny-brand .focus-slot{display:block;width:min(400px,90%);height:1px;background:rgba(255,255,255,.5);margin:16px 0;min-height:1px}
 #sunny-brand .hero-copy{max-width:620px;margin:44px 0 38px;display:grid;gap:34px}
 #sunny-brand .small-label{margin-bottom:12px}
@@ -95,7 +99,7 @@ html{background:#090909;scroll-behavior:smooth}body{margin:0}
 #sunny-brand .story-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px 28px}
 #sunny-brand .story-step{border-top:1px solid var(--sunny-line);padding-top:16px}
 #sunny-brand .story-step h4{font:700 11px/1.5 var(--sunny-font);letter-spacing:.12em;margin:0 0 9px;color:var(--sunny-pink)}
-#sunny-brand .story-step p{font-size:13px;line-height:1.8;color:#dedede}
+#sunny-brand .story-step p{font-size:13px;line-height:1.8;color:var(--sunny-white)}
 #sunny-brand .story-step.impact-step{grid-column:1/-1;border-color:var(--sunny-white);padding:20px 0}
 #sunny-brand .impact-step p{font-size:16px;color:var(--sunny-white)}
 #sunny-brand .career-visual{margin-top:28px}
@@ -119,6 +123,7 @@ html{background:#090909;scroll-behavior:smooth}body{margin:0}
 #sunny-brand .project-card .card-copy{padding:20px 0}
 #sunny-brand .project-card:first-child .card-copy{padding:36px}
 #sunny-brand .project-card .project-number{font-size:11px;letter-spacing:.08em;color:var(--sunny-pink);margin-bottom:12px}
+#sunny-brand .project-card:first-child .project-number{color:#a90051}
 #sunny-brand .project-card h2{font:600 clamp(32px,4vw,45px)/1.05 var(--sunny-display);margin-bottom:12px}
 #sunny-brand .project-card p{font-size:13px;line-height:1.7}
 #sunny-brand .project-card .card-period{font-size:11px;letter-spacing:.05em;margin-top:16px;color:#aaa}
@@ -140,7 +145,7 @@ html{background:#090909;scroll-behavior:smooth}body{margin:0}
 #sunny-brand .case-columns{display:grid;grid-template-columns:.75fr 1.25fr;gap:48px}
 #sunny-brand .case-section{border-top:1px solid var(--sunny-line);padding-top:22px;margin-bottom:32px}
 #sunny-brand .case-section h3{font:600 28px/1.1 var(--sunny-display);margin-bottom:16px}
-#sunny-brand .case-section p,#sunny-brand .case-section li{font-size:14px;line-height:1.85;color:#d7d7d7}
+#sunny-brand .case-section p,#sunny-brand .case-section li{font-size:14px;line-height:1.85;color:var(--sunny-white)}
 #sunny-brand .case-section ul{padding-left:19px;margin:0}
 #sunny-brand .case-section li{margin-bottom:12px}
 #sunny-brand .case-metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:24px;margin:6px 0 30px}
@@ -162,7 +167,7 @@ html{background:#090909;scroll-behavior:smooth}body{margin:0}
 #sunny-brand .philosophy-item{border-top:2px solid var(--sunny-pink);padding-top:22px}
 #sunny-brand .philosophy-item>span{font-size:11px;color:var(--sunny-muted)}
 #sunny-brand .philosophy-item h2{font:600 32px/1.1 var(--sunny-display);margin:16px 0}
-#sunny-brand .philosophy-item p{font-size:13px;line-height:1.8;color:var(--sunny-muted)}
+#sunny-brand .philosophy-item p{font-size:13px;line-height:1.8;color:var(--sunny-white)}
 #sunny-brand .process-section{margin:72px 0 60px;border-top:1px solid var(--sunny-line);padding-top:36px}
 #sunny-brand .process-list{list-style:none;margin:32px 0 0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}
 #sunny-brand .process-list li{font:600 22px/1.1 var(--sunny-display);border-top:1px solid var(--sunny-white);padding-top:15px}
@@ -189,3 +194,50 @@ html{background:#090909;scroll-behavior:smooth}body{margin:0}
 @media(max-width:640px){#sunny-brand .main-nav{width:100%;justify-content:space-between;gap:14px}#sunny-brand .main-nav a{font-size:11px}#sunny-brand .hero{min-height:850px}#sunny-brand .brand-message{font-size:45px;margin-bottom:24px}#sunny-brand .contact-grid{grid-template-columns:1fr;gap:44px}#sunny-brand .home-note .copy-slot{margin-top:24px}#sunny-brand .contact-item h2{font-size:37px}#sunny-brand .contact-email{font-size:29px}}
 @media(max-width:360px){#sunny-brand .site-header{gap:10px}#sunny-brand .main-nav{width:100%;justify-content:space-between}#sunny-brand .hero-name{font-size:80px}#sunny-brand .hero-content{padding-top:40px}#sunny-brand .hero{min-height:850px}#sunny-brand .page-heading h1{font-size:48px}#sunny-brand .case-metrics{grid-template-columns:1fr}#sunny-brand .brand-message{font-size:40px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}#sunny-brand *,#sunny-brand *::before,#sunny-brand *::after{transition:none!important;animation:none!important}}
+
+/* Bilingual typography and a compact, expandable career story. */
+#sunny-brand .header-tools{display:flex;align-items:center;gap:34px;min-width:0}
+#sunny-brand .language-switch{display:flex;align-items:center;gap:5px;border-left:1px solid var(--sunny-line);padding-left:20px;font-size:11px;color:var(--sunny-muted)}
+#sunny-brand .language-switch button{min-width:36px;min-height:44px;border:0;background:transparent;padding:8px 4px;font-size:12px;font-weight:700;color:var(--sunny-muted)}
+#sunny-brand .language-switch button[aria-pressed="true"]{color:var(--sunny-white);text-decoration:underline;text-decoration-color:var(--sunny-pink);text-decoration-thickness:3px;text-underline-offset:7px}
+#sunny-brand .hero-name,#sunny-brand .wordmark,#sunny-brand .brand-message{font-family:"Barlow Condensed","Arial Narrow",Impact,sans-serif}
+#sunny-brand #profile-statement>p,#sunny-brand #profile-mission>p{font-size:18px;line-height:1.65;min-height:5em;max-width:640px}
+#sunny-brand .home-note .home-journey-copy{font:400 14px/1.85 var(--sunny-font);max-width:370px;color:var(--sunny-white)}
+#sunny-brand .journey-intro{font-size:16px;line-height:1.85;max-width:780px;margin:-10px 0 44px;color:var(--sunny-white)}
+#sunny-brand .company-summary{font-size:13px;line-height:1.8;color:var(--sunny-white);margin:18px 0 26px;max-width:720px}
+#sunny-brand .role-summary{font-size:15px;line-height:1.85;color:var(--sunny-white);max-width:720px;margin:18px 0 22px}
+#sunny-brand .role-history{list-style:none;padding:0;margin:8px 0 26px;font-size:11px;line-height:1.9;color:var(--sunny-muted)}
+#sunny-brand .career-highlights{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:28px;margin:28px 0 32px;border-top:1px solid var(--sunny-line);padding-top:24px}
+#sunny-brand .highlight-value{font:600 52px/1.05 "Barlow Condensed","Arial Narrow",sans-serif;color:var(--sunny-pink);margin-bottom:10px}
+#sunny-brand .highlight-label{font-size:12px;line-height:1.7;max-width:290px}
+#sunny-brand .career-highlights>div:only-child{grid-column:1/-1}
+#sunny-brand .career-story{border-top:1px solid var(--sunny-white);border-bottom:1px solid var(--sunny-line);margin:28px 0}
+#sunny-brand .career-story summary{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 0;list-style:none;font-size:13px;font-weight:700;min-height:60px;cursor:pointer}
+#sunny-brand .career-story summary::-webkit-details-marker{display:none}
+#sunny-brand .career-story summary>span{font-size:23px;line-height:1;color:var(--sunny-pink)}
+#sunny-brand .career-story[open] summary>span{transform:rotate(45deg)}
+#sunny-brand .career-story .story-grid{padding:8px 0 20px}
+#sunny-brand .story-bullets{margin:0;padding-left:18px;color:var(--sunny-white);font-size:13px;line-height:1.8}
+#sunny-brand .story-bullets li{margin-bottom:12px;padding-left:3px}
+#sunny-brand .story-bullets strong{color:var(--sunny-white);font-weight:700}
+#sunny-brand .story-step.lesson-step{grid-column:1/-1}
+#sunny-brand .story-step.impact-step{padding:20px 0 4px}
+#sunny-brand .story-step.impact-step .story-bullets{font-size:14px}
+#sunny-brand .case-insight .story-bullets,#sunny-brand .case-insight .story-bullets strong{color:var(--sunny-black)}
+#sunny-brand .case-insight p,#sunny-brand .case-insight li{color:var(--sunny-black)}
+#sunny-brand[data-language="ko"]{--sunny-font:"Noto Sans KR",Arial,sans-serif;--sunny-display:"Noto Sans KR",Arial,sans-serif;word-break:keep-all}
+#sunny-brand[data-language="ko"] .page-heading h1{font-size:clamp(37px,5.8vw,65px);line-height:1.2;letter-spacing:-.045em;font-weight:800}
+#sunny-brand[data-language="ko"] .chapter-top h2{font-size:32px;line-height:1.25}
+#sunny-brand[data-language="ko"] .chapter-headline{font-size:clamp(24px,2.8vw,32px);line-height:1.5;letter-spacing:-.025em;font-weight:700}
+#sunny-brand[data-language="ko"] .project-card h2{font-size:clamp(24px,2.7vw,34px);line-height:1.35;letter-spacing:-.025em;font-weight:700}
+#sunny-brand[data-language="ko"] .case-title{font-size:clamp(32px,5vw,56px);line-height:1.25;font-weight:800;letter-spacing:-.04em}
+#sunny-brand[data-language="ko"] .reel-heading h2,#sunny-brand[data-language="ko"] .philosophy-item h2{font-size:30px;line-height:1.4;font-weight:700}
+#sunny-brand[data-language="ko"] .case-section h3,#sunny-brand[data-language="ko"] .about-facts h3{font-size:23px;line-height:1.4;font-weight:700}
+#sunny-brand[data-language="ko"] .contact-item h2{font-size:34px;line-height:1.35;font-weight:700}
+#sunny-brand[data-language="ko"] .contact-email{font-family:"Barlow Condensed","Arial Narrow",sans-serif;word-break:normal}
+@media(max-width:900px){#sunny-brand .header-tools{gap:23px}#sunny-brand .main-nav{gap:23px}#sunny-brand .language-switch{padding-left:16px}}
+@media(max-width:640px){
+ #sunny-brand .site-header{display:grid;grid-template-columns:1fr auto;gap:12px 20px}#sunny-brand .header-tools{display:contents}#sunny-brand .wordmark{grid-column:1;grid-row:1}#sunny-brand .language-switch{grid-column:2;grid-row:1;border-left:0;padding-left:0}#sunny-brand .main-nav{grid-column:1/-1;grid-row:2;width:100%;gap:12px;justify-content:space-between}
+ #sunny-brand #profile-statement>p,#sunny-brand #profile-mission>p{font-size:16px;line-height:1.7;min-height:5em}#sunny-brand .home-note .home-journey-copy{margin-top:24px}#sunny-brand .journey-intro{font-size:14px;margin-bottom:32px}#sunny-brand .role-summary{font-size:14px}#sunny-brand .career-highlights{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}#sunny-brand .highlight-value{font-size:44px}#sunny-brand .highlight-label{font-size:11px}
+ #sunny-brand[data-language="ko"] .main-nav a{font-size:12px}#sunny-brand[data-language="ko"] .page-heading h1{font-size:39px}#sunny-brand[data-language="ko"] .chapter-top h2{font-size:28px}#sunny-brand[data-language="ko"] .chapter-headline{font-size:25px}#sunny-brand[data-language="ko"] .project-card h2{font-size:26px}#sunny-brand[data-language="ko"] .case-title{font-size:35px}#sunny-brand[data-language="ko"] .contact-item h2{font-size:30px}
+}

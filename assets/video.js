@@ -13,6 +13,7 @@
   let ready = false;
   let userPaused = motion.matches;
   let failed = false;
+  const videoLabel = key => window.SunnySite?.t(key) || (key === 'pauseBackground' ? 'Pause background' : 'Play background');
   const homeVisible = () => window.SunnySite?.isHome() && !document.hidden;
   function fitVideo() {
     const rect = hero.getBoundingClientRect();
@@ -40,32 +41,38 @@
           event.target.mute();
           event.target.setVolume(0);
           const iframe = event.target.getIframe();
-          iframe.setAttribute('title','Muted portfolio background film');
+          iframe.setAttribute('title',window.SunnySite?.t('backgroundFilm') || 'Muted portfolio background film');
           iframe.setAttribute('aria-hidden','true');
           iframe.setAttribute('tabindex','-1');
           iframe.setAttribute('allow','autoplay; encrypted-media');
           iframe.setAttribute('referrerpolicy','strict-origin-when-cross-origin');
           toggle.hidden = false;
-          toggle.textContent = userPaused ? 'Play background' : 'Pause background';
+          toggle.textContent = userPaused ? videoLabel('playBackground') : videoLabel('pauseBackground');
           fitVideo();syncPlayback();
         },
         onStateChange(event){
           if (event.data === YT.PlayerState.PLAYING) {
             event.target.mute();hero.classList.add('video-playing');
-            toggle.textContent = 'Pause background';
+            toggle.textContent = videoLabel('pauseBackground');
             if (!homeVisible() || userPaused) event.target.pauseVideo();
           }
-          if (event.data === YT.PlayerState.PAUSED) toggle.textContent = 'Play background';
+          if (event.data === YT.PlayerState.PAUSED) toggle.textContent = videoLabel('playBackground');
           if (event.data === YT.PlayerState.ENDED && homeVisible() && !userPaused) {event.target.mute();event.target.seekTo(0,true);event.target.playVideo();}
         },
-        onAutoplayBlocked(){userPaused = true;toggle.textContent = 'Play background';},
+        onAutoplayBlocked(){userPaused = true;toggle.textContent = videoLabel('playBackground');},
         onError(){failed = true;hero.classList.remove('video-playing');toggle.hidden = true;}
       }
     });
   };
-  toggle.addEventListener('click',() => {if (!ready || failed) return;userPaused = !userPaused;syncPlayback();toggle.textContent = userPaused ? 'Play background' : 'Pause background';});
+  toggle.addEventListener('click',() => {if (!ready || failed) return;userPaused = !userPaused;syncPlayback();toggle.textContent = userPaused ? videoLabel('playBackground') : videoLabel('pauseBackground');});
   document.addEventListener('sunnyviewchange',() => {fitVideo();syncPlayback();});
   document.addEventListener('visibilitychange',syncPlayback);
+  document.addEventListener('sunnylanguagechange',() => {
+    if (!ready || failed) return;
+    const playing = player.getPlayerState() === YT.PlayerState.PLAYING;
+    toggle.textContent = videoLabel(playing ? 'pauseBackground' : 'playBackground');
+    player.getIframe().setAttribute('title',window.SunnySite.t('backgroundFilm'));
+  });
   motion.addEventListener('change',event => {userPaused = event.matches;syncPlayback();});
   new ResizeObserver(fitVideo).observe(hero);
   const script = document.createElement('script');

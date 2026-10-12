@@ -3,30 +3,37 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Sunny Ryu — I'm Still in Progress. A personal journey across culture, marketing, partnerships and growth.">
+  <meta name="description" content="Sunny Ryu — Global Brand Culturalization Expert. 20 years connecting cultural insight, people and partnerships with business growth.">
   <meta name="theme-color" content="#090909">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Sunny Ryu — I'm Still in Progress.</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css">
-  <script src="assets/content.js" defer></script>
-  <script src="assets/site.js" defer></script>
-  <script src="assets/video.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css?v=20261012-contrast">
+  <script src="assets/content.js?v=20261012-contrast" defer></script>
+  <script src="assets/site.js?v=20261012-contrast" defer></script>
+  <script src="assets/video.js?v=20261012-contrast" defer></script>
 </head>
 <body>
-  <div id="sunny-brand">
-    <a href="#main" class="skip-link">Skip to content</a>
+  <div id="sunny-brand" data-language="en" lang="en">
+    <a href="#main" class="skip-link" data-i18n="skip">Skip to content</a>
     <header class="site-header">
       <a class="wordmark" href="#home" aria-label="Sunny Ryu home">SUNNY RYU<span class="wordmark-dot">.</span></a>
-      <nav class="main-nav" aria-label="Main navigation">
-        <a href="#career" data-nav="career">Career</a>
-        <a href="#project" data-nav="project">Project</a>
-        <a href="#about" data-nav="about">About Me</a>
-        <a href="#contact" data-nav="contact">Contact Me</a>
-      </nav>
+      <div class="header-tools">
+        <nav class="main-nav" aria-label="Main navigation" data-i18n-aria="mainNav">
+          <a href="#career" data-nav="career" data-i18n="navCareer">Career</a>
+          <a href="#project" data-nav="project" data-i18n="navProject">Project</a>
+          <a href="#about" data-nav="about" data-i18n="navAbout">About Me</a>
+          <a href="#contact" data-nav="contact" data-i18n="navContact">Contact Me</a>
+        </nav>
+        <div class="language-switch" role="group" aria-label="Site language" data-i18n-aria="languageNav">
+          <button type="button" data-language-switch="en" aria-pressed="true" aria-label="English">EN</button>
+          <span aria-hidden="true">/</span>
+          <button type="button" data-language-switch="ko" aria-pressed="false" aria-label="한국어">KO</button>
+        </div>
+      </div>
     </header>
     <main id="main">
       <section data-view="home" class="home-view" aria-labelledby="home-heading">
@@ -35,54 +42,55 @@
           <div class="hero-video-box" aria-hidden="true"><div id="hero-player"></div></div>
           <div class="hero-shade" aria-hidden="true"></div>
           <div class="hero-content">
-            <p class="eyebrow hero-eyebrow">PERSONAL BRAND / WORK & LIFE</p>
+            <p class="eyebrow hero-eyebrow" data-i18n="heroEyebrow">PERSONAL BRAND / WORK & LIFE</p>
             <h1 id="home-heading" class="hero-name">Sunny Ryu<span>.</span></h1>
             <h2 class="brand-message">I'm Still <span>in Progress.</span></h2>
             <p class="hero-focus" id="profile-focus"></p>
             <div class="hero-copy">
-              <div class="hero-statement"><p class="small-label">MY PERSPECTIVE</p><div id="profile-statement"></div></div>
-              <div class="hero-mission"><p class="small-label">NEXT MISSION</p><div id="profile-mission"></div></div>
+              <div class="hero-statement"><p class="small-label" data-i18n="perspective">MY PERSPECTIVE</p><div id="profile-statement"></div></div>
+              <div class="hero-mission"><p class="small-label" data-i18n="mission">NEXT MISSION</p><div id="profile-mission"></div></div>
             </div>
-            <a class="action action-light" href="#career">Explore my journey <span aria-hidden="true">↗</span></a>
+            <a class="action action-light" href="#career" data-i18n="exploreJourney">Explore my journey ↗</a>
           </div>
-          <div class="hero-bottom"><span id="profile-location"></span><div class="video-tools"><span>SOUND OFF</span><button type="button" id="video-toggle" hidden>Pause background</button><a id="hero-video-link" target="_blank" rel="noopener noreferrer">View film ↗</a></div></div>
+          <div class="hero-bottom"><span id="profile-location"></span><div class="video-tools"><span data-i18n="soundOff">SOUND OFF</span><button type="button" id="video-toggle" hidden>Pause background</button><a id="hero-video-link" target="_blank" rel="noopener noreferrer" data-i18n="viewFilm">View film ↗</a></div></div>
         </div>
-        <div class="keyword-strip" id="profile-keywords" aria-label="Areas of focus"></div>
-        <div class="home-note"><p>My journey.<br><strong>My next chapter.</strong></p><div class="copy-slot small-slot" aria-label="Additional introduction, not yet added"><span></span><span></span></div></div>
+        <div class="keyword-strip" id="profile-keywords" aria-label="Areas of focus" data-i18n-aria="focusKeywords"></div>
+        <div class="home-note"><p><span data-i18n="homeJourney">My journey.</span><br><strong data-i18n="homeNext">My next chapter.</strong></p><p id="home-journey-intro" class="home-journey-copy"></p></div>
       </section>
       <section data-view="career" class="page-view" aria-labelledby="career-heading" hidden>
-        <div class="page-heading"><div><p class="eyebrow">01 / CAREER</p><h1 id="career-heading">My journey.<br>Still in progress.</h1></div><p>Choices. Challenges. Change.</p></div>
-        <div class="journey-layout"><nav id="career-nav" class="journey-nav" aria-label="Career chapters"></nav><article id="career-detail" class="journey-detail" aria-live="polite"></article></div>
+        <div class="page-heading"><div><p class="eyebrow" data-i18n="careerEyebrow">01 / CAREER</p><h1 id="career-heading" data-i18n="careerHeading">My journey.<br>Still in progress.</h1></div></div>
+        <p id="journey-intro" class="journey-intro"></p>
+        <div class="journey-layout"><nav id="career-nav" class="journey-nav" aria-label="Career chapters" data-i18n-aria="careerNav"></nav><article id="career-detail" class="journey-detail" aria-live="polite"></article></div>
       </section>
       <section data-view="project" class="page-view" aria-labelledby="project-heading" hidden>
         <div id="project-overview">
-          <div class="page-heading"><div><p class="eyebrow">02 / PROJECT</p><h1 id="project-heading">Selected<br>work.</h1></div><div class="copy-slot small-slot" aria-label="Project introduction, not yet added"><span></span><span></span></div></div>
+          <div class="page-heading"><div><p class="eyebrow" data-i18n="projectEyebrow">02 / PROJECT</p><h1 id="project-heading" data-i18n="projectHeading">Selected<br>work.</h1></div><div id="project-intro"></div></div>
           <div id="project-grid" class="project-grid"></div>
-          <div class="reel-heading"><p class="eyebrow">IN MOTION</p><h2>Campaign reels.</h2><p>Selected campaign films and creator collaborations.</p></div>
+          <div class="reel-heading"><p class="eyebrow" data-i18n="reelEyebrow">IN MOTION</p><h2 data-i18n="reelHeading">Campaign reels.</h2><p data-i18n="reelIntro">Selected campaign films and creator collaborations.</p></div>
           <div id="reel-grid" class="reel-grid"></div>
-          <button type="button" id="more-reels" class="action action-outline">Show all campaign reels <span aria-hidden="true">↓</span></button>
+          <button type="button" id="more-reels" class="action action-outline" data-i18n="allReels">Show all campaign reels ↓</button>
         </div>
         <article id="project-detail" aria-live="polite" hidden></article>
       </section>
       <section data-view="about" class="page-view" aria-labelledby="about-heading" hidden>
-        <div class="page-heading"><div><p class="eyebrow">03 / ABOUT ME</p><h1 id="about-heading">Beyond<br>the work.</h1></div><div class="copy-slot small-slot" aria-label="About introduction, not yet added"><span></span><span></span></div></div>
-        <div class="about-intro"><div><p class="small-label">MY STORY</p><div id="about-intro"></div><div class="contact-links"><a href="#contact" class="action action-light">Contact Me <span aria-hidden="true">↗</span></a><a id="linkedin-link" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div><figure><img id="about-image" loading="lazy" alt=""><figcaption>IN THE FIELD / FOOTBALL PARTNERSHIPS</figcaption></figure></div>
+        <div class="page-heading"><div><p class="eyebrow" data-i18n="aboutEyebrow">03 / ABOUT ME</p><h1 id="about-heading" data-i18n="aboutHeading">Beyond<br>the work.</h1></div><div id="about-heading-intro"></div></div>
+        <div class="about-intro"><div><p class="small-label" data-i18n="myStory">MY STORY</p><div id="about-intro"></div><div class="contact-links"><a href="#contact" class="action action-light" data-i18n="navContact">Contact Me</a><a id="linkedin-link" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div><figure><img id="about-image" loading="lazy" alt=""><figcaption data-i18n="fieldCaption">IN THE FIELD / FOOTBALL PARTNERSHIPS</figcaption></figure></div>
         <div id="philosophy-grid" class="philosophy-grid"></div>
-        <div class="process-section"><p class="eyebrow">HOW I WORK</p><div id="process-copy"></div></div>
-        <div class="about-facts"><div><h3>What I value</h3><div id="values-copy"></div></div><div><h3>What inspires me</h3><div id="inspiration-copy"></div></div><div><h3>What comes next</h3><div id="next-copy"></div></div></div>
+        <div class="process-section"><p class="eyebrow" data-i18n="howWork">HOW I WORK</p><div id="process-copy"></div></div>
+        <div class="about-facts"><div><h3 data-i18n="values">What I value</h3><div id="values-copy"></div></div><div><h3 data-i18n="inspiration">What inspires me</h3><div id="inspiration-copy"></div></div><div><h3 data-i18n="next">What comes next</h3><div id="next-copy"></div></div></div>
       </section>
       <section data-view="contact" class="page-view contact-view" aria-labelledby="contact-heading" hidden>
-        <div class="page-heading"><div><p class="eyebrow">04 / CONTACT ME</p><h1 id="contact-heading">Let’s connect.</h1></div></div>
+        <div class="page-heading"><div><p class="eyebrow" data-i18n="contactEyebrow">04 / CONTACT ME</p><h1 id="contact-heading" data-i18n="contactHeading">Let’s connect.</h1></div></div>
         <div id="contact-intro"></div>
         <div class="contact-grid">
-          <article class="contact-item"><p class="small-label">EMAIL</p><a id="email-link" class="contact-email"></a><a id="send-email-link" class="action action-light">Send an email <span aria-hidden="true">↗</span></a></article>
-          <article class="contact-item"><p class="small-label">RÉSUMÉ</p><h2>A closer look<br>at my experience.</h2><a id="resume-link" class="action action-pink" download>Download résumé <span aria-hidden="true">↓</span></a><p class="download-format">DOCX / ENGLISH</p></article>
+          <article class="contact-item"><p class="small-label" data-i18n="email">EMAIL</p><a id="email-link" class="contact-email"></a><a id="send-email-link" class="action action-light" data-i18n="sendEmail">Send an email ↗</a></article>
+          <article class="contact-item"><p class="small-label" data-i18n="resume">RÉSUMÉ</p><h2 data-i18n="resumeHeading">A closer look<br>at my experience.</h2><a id="resume-link" class="action action-pink" data-i18n="downloadResume" download>Download résumé ↓</a><p class="download-format" data-i18n="resumeFormat">DOCX / ENGLISH</p></article>
         </div>
-        <a id="contact-linkedin" class="contact-social" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a>
+        <a id="contact-linkedin" class="contact-social" target="_blank" rel="noopener noreferrer" data-i18n="linkedin">Connect on LinkedIn ↗</a>
       </section>
     </main>
-    <footer class="site-footer"><a href="#home">SUNNY RYU.</a><p>I'M STILL IN PROGRESS.</p><a href="#contact">Contact Me ↗</a></footer>
-    <noscript><p class="noscript-note">Please enable JavaScript to explore this portfolio. Contact Sunny at <a href="mailto:sunny.ryu@hotmail.com">sunny.ryu@hotmail.com</a>.</p></noscript>
+    <footer class="site-footer"><a href="#home">SUNNY RYU.</a><p>I'M STILL IN PROGRESS.</p><a href="#contact" data-i18n="navContact">Contact Me</a></footer>
+    <noscript><p class="noscript-note">Please enable JavaScript to explore this portfolio. / 포트폴리오를 보려면 JavaScript를 활성화해주세요. <a href="mailto:sunny.ryu@hotmail.com">sunny.ryu@hotmail.com</a></p></noscript>
   </div>
 </body>
 </html>
