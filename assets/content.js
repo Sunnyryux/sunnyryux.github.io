@@ -1,4 +1,4 @@
-/* EN is the default. Edit paired en/ko text here; no build step is required. */
+/* Edit paired EN/KO copy and project media here. No build step is required. */
 window.SUNNY_CONTENT = {
   "profile": {
     "name": "Sunny Ryu",
@@ -36,7 +36,7 @@ window.SUNNY_CONTENT = {
         "ko": "성장 체계"
       }
     ],
-    "brandMessage": "I'm Still in Progress.",
+    "brandMessage": "I'M STILL IN PROGRESS.",
     "journeyIntro": {
       "en": "From exhibitions and technology to games and sport: understanding customers and markets, connecting teams and partners, and turning growth opportunities into action.",
       "ko": "전시와 컨벤션에서 기술, 게임, 스포츠로 이어진 여정. 고객과 시장을 이해하고, 서로 다른 팀과 파트너의 역량을 연결하며 성장의 가능성을 실행으로 옮겨왔습니다."
@@ -286,7 +286,12 @@ window.SUNNY_CONTENT = {
             }
           ],
           "projects": [
-            "partnerships"
+            "kleague-ratings",
+            "fc-futures",
+            "summer-2024",
+            "kleague-renewal",
+            "worldclass-fc",
+            "juventus-class"
           ]
         },
         {
@@ -384,7 +389,11 @@ window.SUNNY_CONTENT = {
             }
           ],
           "projects": [
-            "football-culture",
+            "fifa20-adidas",
+            "cultural-kits",
+            "fc24-house",
+            "jonathan",
+            "fifa23-pc",
             "sims"
           ]
         },
@@ -472,8 +481,11 @@ window.SUNNY_CONTENT = {
             }
           ],
           "projects": [
-            "fo4",
-            "player-first"
+            "fo4-reveal",
+            "fo4-launch",
+            "el-tornado",
+            "chelsea-class",
+            "kleague-potm"
           ],
           "history": {
             "en": [
@@ -488,11 +500,13 @@ window.SUNNY_CONTENT = {
         }
       ],
       "projects": [
-        "football-culture",
-        "partnerships",
-        "fo4",
-        "sims",
-        "player-first"
+        "fifa20-adidas",
+        "cultural-kits",
+        "kleague-ratings",
+        "fc-futures",
+        "fc24-house",
+        "el-tornado",
+        "sims"
       ],
       "summary": {
         "en": "Nine years expanding from publisher launch collaboration into Korean marketing leadership and a regional football partnership function.",
@@ -1066,232 +1080,2145 @@ window.SUNNY_CONTENT = {
   ],
   "projects": [
     {
-      "id": "football-culture",
-      "number": "01",
+      "id": "fifa20-adidas",
       "title": {
-        "en": "FC Console · Korea",
-        "ko": "FC 콘솔 문화 · 한국"
+        "en": "FIFA 20 Korea Launch Showcase × adidas",
+        "ko": "FIFA20 한국 출시 쇼케이스 × adidas"
       },
-      "subtitle": "",
-      "period": "2019 — 2024",
+      "period": "Sep 2019",
       "brand": "EA SPORTS FIFA / FC",
       "category": {
-        "en": "Cultural GTM",
-        "ko": "문화 기반 GTM"
+        "en": "Launch & Commerce",
+        "ko": "출시와 비즈니스"
       },
+      "summary": {
+        "en": "Connected futsal, gameplay trial and retail offers in one launch experience with adidas and partners → contributed to 200% of the launch-week sales target.",
+        "ko": "풋살·게임 체험·리테일 혜택을 하나의 출시 경험으로 설계 → 출시 주간 매출 목표의 200% 달성에 기여."
+      },
+      "context": {
+        "en": "Korean-language support and VOLTA needed a launch experience that football fans and players could try, understand and act on.",
+        "ko": "한국어 지원과 VOLTA의 새 경험을 한국 축구 팬과 게이머가 직접 체감하고 구매로 이어갈 수 있는 출시 기회가 필요했습니다."
+      },
+      "actions": {
+        "en": [
+          "Positioned the launch as a shared experience for football and gaming communities on a futsal pitch.",
+          "Connected adidas, PlayStation, K League and retail partners’ resources and touchpoints.",
+          "Designed a path linking product trial, brand experience and purchase offers."
+        ],
+        "ko": [
+          "풋살 피치에서 축구와 게임 커뮤니티가 함께하는 경험으로 출시를 포지셔닝.",
+          "adidas, PlayStation, K리그, 리테일 파트너의 자원과 접점을 연결.",
+          "게임 체험·브랜드 경험·구매 혜택이 이어지는 동선 설계."
+        ]
+      },
+      "outcome": {
+        "en": "contributed to 200% of the launch-week sales target.",
+        "ko": "출시 주간 매출 목표의 200% 달성에 기여."
+      },
+      "insight": {
+        "en": "A launch can turn product news into an experience that gives fans a reason to act.",
+        "ko": "출시는 제품을 알리는 순간을 넘어, 팬이 브랜드를 경험하고 행동으로 옮기는 접점이 될 수 있습니다."
+      },
+      "metrics": [
+        {
+          "value": "200%",
+          "label": {
+            "en": "of the launch-week sales target",
+            "ko": "출시 주간 매출 목표 달성률"
+          }
+        }
+      ],
       "keywords": [],
-      "image": "assets/images/football-culture-main.jpg",
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "NlOJRRTC6d4",
+          "url": "https://www.youtube.com/watch?v=NlOJRRTC6d4",
+          "poster": "assets/images/video-NlOJRRTC6d4.jpg",
+          "caption": {
+            "en": "FIFA20 Korea Launch Showcase · Sunny Ryu",
+            "ko": "FIFA20 한국 출시 쇼케이스 · Sunny Ryu"
+          }
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/fifa20-extra-2.jpg",
+          "alt": {
+            "en": "FIFA 20 launch showcase · adidas The Base Seoul · Sep 2019",
+            "ko": "FIFA20 출시 쇼케이스 · adidas 더 베이스 서울 · 2019년 9월"
+          },
+          "caption": {
+            "en": "FIFA 20 launch showcase · adidas The Base Seoul · Sep 2019",
+            "ko": "FIFA20 출시 쇼케이스 · adidas 더 베이스 서울 · 2019년 9월"
+          },
+          "source": "https://www.inven.co.kr/webzine/news/?news=227263",
+          "contain": false
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/fifa20-extra-4.jpg",
+          "alt": {
+            "en": "FIFA 20 launch showcase · adidas The Base Seoul · Sep 2019",
+            "ko": "FIFA20 출시 쇼케이스 · adidas 더 베이스 서울 · 2019년 9월"
+          },
+          "caption": {
+            "en": "FIFA 20 launch showcase · adidas The Base Seoul · Sep 2019",
+            "ko": "FIFA20 출시 쇼케이스 · adidas 더 베이스 서울 · 2019년 9월"
+          },
+          "source": "https://www.inven.co.kr/webzine/news/?news=227263",
+          "contain": false
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/fifa20-extra-3.jpg",
+          "alt": {
+            "en": "FIFA 20 launch showcase · adidas The Base Seoul · Sep 2019",
+            "ko": "FIFA20 출시 쇼케이스 · adidas 더 베이스 서울 · 2019년 9월"
+          },
+          "caption": {
+            "en": "FIFA 20 launch showcase · adidas The Base Seoul · Sep 2019",
+            "ko": "FIFA20 출시 쇼케이스 · adidas 더 베이스 서울 · 2019년 9월"
+          },
+          "source": "https://www.inven.co.kr/webzine/news/?news=227263",
+          "contain": false
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/fifa20-photo-7.jpg",
+          "alt": {
+            "en": "FIFA 20 launch showcase · adidas The Base Seoul · Sep 2019",
+            "ko": "FIFA20 출시 쇼케이스 · adidas 더 베이스 서울 · 2019년 9월"
+          },
+          "caption": {
+            "en": "FIFA 20 launch showcase · adidas The Base Seoul · Sep 2019",
+            "ko": "FIFA20 출시 쇼케이스 · adidas 더 베이스 서울 · 2019년 9월"
+          },
+          "source": "https://www.inven.co.kr/webzine/news/?news=227263",
+          "contain": false
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/fifa20-photo-8.jpg",
+          "alt": {
+            "en": "FIFA 20 launch showcase · adidas The Base Seoul · Sep 2019",
+            "ko": "FIFA20 출시 쇼케이스 · adidas 더 베이스 서울 · 2019년 9월"
+          },
+          "caption": {
+            "en": "FIFA 20 launch showcase · adidas The Base Seoul · Sep 2019",
+            "ko": "FIFA20 출시 쇼케이스 · adidas 더 베이스 서울 · 2019년 9월"
+          },
+          "source": "https://www.inven.co.kr/webzine/news/?news=227263",
+          "contain": false
+        }
+      ],
+      "related": [],
+      "career": "ea",
+      "image": "assets/images/fifa20-extra-2.jpg",
       "imageAlt": {
-        "en": "EA SPORTS FC reveal event with a community gathered around a stage",
-        "ko": "EA SPORTS FC 공개 행사와 커뮤니티"
-      },
-      "summary": "",
-      "context": "",
-      "role": "",
-      "actions": [],
-      "metrics": [],
-      "outcome": "",
-      "insight": "",
-      "gallery": [
-        "assets/images/football-culture-2.jpg",
-        "assets/images/football-culture-3.jpg"
-      ],
-      "reelIds": [
-        "KdH1lE6wl4o",
-        "gLlSxK2lUns",
-        "tCCjBev_vuo",
-        "tEeuKjq4Crw"
-      ],
-      "sourceSlide": 7
+        "en": "FIFA 20 Korea Launch Showcase × adidas",
+        "ko": "FIFA20 한국 출시 쇼케이스 × adidas"
+      }
     },
     {
-      "id": "partnerships",
-      "number": "02",
+      "id": "cultural-kits",
       "title": {
-        "en": "Football Partnerships · Asia & MENA",
-        "ko": "축구 파트너십 · 아시아·MENA"
+        "en": "Korean Cultural Kit Collection",
+        "ko": "한국 문화 기반 킷 컬렉션"
       },
-      "subtitle": "",
-      "period": "2023 — 2026",
-      "brand": "EA SPORTS FC",
+      "period": "2019–2023",
+      "brand": "EA SPORTS FIFA / FC",
       "category": {
-        "en": "Partnerships",
-        "ko": "파트너십"
+        "en": "Local Creation",
+        "ko": "로컬 크리에이션"
       },
+      "summary": {
+        "en": "Brought Korean culture and local design into a global football game → extended in-game identity into physical kits, fan participation and retail touchpoints.",
+        "ko": "한국 문화와 로컬 디자이너의 표현을 글로벌 게임에 반영 → 인게임 경험을 실물 킷·팬 참여·리테일 접점으로 확장."
+      },
+      "context": {
+        "en": "Korean fans needed ways to see their cultural identity expressed meaningfully within a global football product.",
+        "ko": "한국 팬의 정체성과 문화가 글로벌 게임 안에서도 의미 있는 제품 경험으로 표현될 기회가 필요했습니다."
+      },
+      "actions": {
+        "en": [
+          "Influenced the global studio to create opportunities for local culture and designer collaboration.",
+          "Connected Korean heritage, places and supporter culture with football design.",
+          "Extended relevant collaborations into physical kits, fan promotions and retail touchpoints."
+        ],
+        "ko": [
+          "글로벌 스튜디오를 설득해 로컬 문화와 디자이너 협업의 제품 기회를 확보.",
+          "한국의 전통·지역·응원 문화와 축구 디자인을 함께 연결.",
+          "적절한 협업을 실물 킷과 팬 프로모션·리테일 접점으로 확장."
+        ]
+      },
+      "outcome": {
+        "en": "extended in-game identity into physical kits, fan participation and retail touchpoints.",
+        "ko": "인게임 경험을 실물 킷·팬 참여·리테일 접점으로 확장."
+      },
+      "insight": {
+        "en": "Local relevance can shape the products fans choose and wear, as well as the stories they hear.",
+        "ko": "현지화는 메시지뿐 아니라, 팬이 선택하고 착용하는 제품 경험에도 영향을 줄 수 있습니다."
+      },
+      "metrics": [],
       "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/kit-jeju-1.jpg",
+          "alt": {
+            "en": "FIFA 22 × Over The Pitch · Jeju collection",
+            "ko": "FIFA22 × 오버더피치 · 제주 컬렉션"
+          },
+          "caption": {
+            "en": "FIFA 22 × Over The Pitch · Jeju collection",
+            "ko": "FIFA22 × 오버더피치 · 제주 컬렉션"
+          },
+          "source": "https://www.nss-sports.com/en/lifestyle/27626/over-the-pitch-fifa-22",
+          "contain": true
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/kit-supernova.jpg",
+          "alt": {
+            "en": "FIFA 22 × GOALSTUDIO · Supernova kit",
+            "ko": "FIFA22 × 골스튜디오 · 수퍼노바 킷"
+          },
+          "caption": {
+            "en": "FIFA 22 × GOALSTUDIO · Supernova kit",
+            "ko": "FIFA22 × 골스튜디오 · 수퍼노바 킷"
+          },
+          "source": "https://m.en.goalstudio.com/product/ea-sports-x-goalstudio-fifa-22-supernova-kit/2015/",
+          "contain": true
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/kit-red-devils.jpg",
+          "alt": {
+            "en": "FIFA 23 · Red Devils 2022 FUT Kit",
+            "ko": "FIFA23 · 붉은악마 2022 FUT 킷"
+          },
+          "caption": {
+            "en": "FIFA 23 · Red Devils 2022 FUT Kit",
+            "ko": "FIFA23 · 붉은악마 2022 FUT 킷"
+          },
+          "source": "https://www.cnet.co.kr/view/?no=20221125093513",
+          "contain": true
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/kleague40-branding.jpg",
+          "alt": {
+            "en": "A tribute to 40 years of K League · EA × K League; designed by Over The Pitch, 2023",
+            "ko": "EA가 함께 헌정한 K리그 40주년 기념 브랜딩 · 디자인: 오버더피치, 2023"
+          },
+          "caption": {
+            "en": "A tribute to 40 years of K League · EA × K League; designed by Over The Pitch, 2023",
+            "ko": "EA가 함께 헌정한 K리그 40주년 기념 브랜딩 · 디자인: 오버더피치, 2023"
+          },
+          "source": "https://www.goal.com/kr/뉴스/공식발표-k리그-40주년-기념-브랜딩-발표--슈팅스타-모티브/bltc53f73efdff3fea9",
+          "contain": true
+        }
+      ],
+      "related": [],
+      "career": "ea",
+      "image": "assets/images/kit-jeju-1.jpg",
+      "imageAlt": {
+        "en": "Korean Cultural Kit Collection",
+        "ko": "한국 문화 기반 킷 컬렉션"
+      }
+    },
+    {
+      "id": "kleague-ratings",
+      "title": {
+        "en": "K League Ratings Reveal Programme",
+        "ko": "K리그 Ratings Reveal 프로그램"
+      },
+      "period": "2020–2024",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Partners & Fandom",
+        "ko": "파트너와 팬덤"
+      },
+      "summary": {
+        "en": "Enabled club-led ratings content across most K League 1 clubs → more than doubled the in-game K League supporter base in FC 24.",
+        "ko": "K리그1 대부분의 클럽이 각자의 팬 문화에 맞춘 능력치 콘텐츠를 만들도록 협업 지원 → FC24 게임 내 K리그 서포터 팬 규모 2배 이상 성장."
+      },
+      "context": {
+        "en": "High player ratings alone were not the route to engaging K League fans in a global football game. Each club needed a playful format that suited its own community.",
+        "ko": "글로벌 선수 중심의 게임에서 높은 능력치만으로 한국 축구 팬의 참여를 만들기는 어려웠습니다. 각 클럽과 팬에게 맞는 즐거운 콘텐츠 접점이 필요했습니다."
+      },
+      "actions": {
+        "en": [
+          "Supported a multi-year content collaboration with K League and most K League 1 clubs.",
+          "Enabled clubs to tailor ratings content to their own audience, tone and engagement goals.",
+          "Connected game content with the fan culture around real players and clubs."
+        ],
+        "ko": [
+          "K리그와 대부분의 K리그1 클럽이 참여할 수 있는 다년간 제작 협업 지원.",
+          "클럽마다 원하는 팬 참여 방식과 톤으로 능력치 공개 콘텐츠를 만들도록 지원.",
+          "게임의 콘텐츠 자산을 실제 선수·클럽의 팬 문화와 연결."
+        ]
+      },
+      "outcome": {
+        "en": "more than doubled the in-game K League supporter base in FC 24.",
+        "ko": "FC24 게임 내 K리그 서포터 팬 규모 2배 이상 성장."
+      },
+      "insight": {
+        "en": "Fan engagement can come from putting the players and clubs people care about at the centre of the story.",
+        "ko": "팬 참여의 가치는 능력치의 높고 낮음보다, 자신이 응원하는 선수와 클럽이 이야기의 주인이 되는 데서 만들어집니다."
+      },
+      "metrics": [
+        {
+          "value": ">2×",
+          "label": {
+            "en": "in-game K League supporter base · FC 24",
+            "ko": "FC24 게임 내 K리그 서포터 팬 규모"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "PUR4RGVPhv0",
+          "url": "https://www.youtube.com/watch?v=PUR4RGVPhv0",
+          "poster": "assets/images/video-PUR4RGVPhv0.jpg",
+          "caption": {
+            "en": "Programme reference: Jeonbuk Hyundai Motors · FIFA 23 Ratings Reveal",
+            "ko": "프로그램 레퍼런스: 전북현대 · FIFA23 능력치 공개"
+          }
+        }
+      ],
+      "related": [],
+      "career": "ea",
+      "image": "assets/images/video-PUR4RGVPhv0.jpg",
+      "imageAlt": {
+        "en": "K League Ratings Reveal Programme",
+        "ko": "K리그 Ratings Reveal 프로그램"
+      }
+    },
+    {
+      "id": "fc-futures",
+      "title": {
+        "en": "EA SPORTS FC Futures × K League",
+        "ko": "EA SPORTS FC Futures × K리그"
+      },
+      "period": "2024–2025",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Grassroots & Community",
+        "ko": "축구 저변과 커뮤니티"
+      },
+      "summary": {
+        "en": "Connected game-based training with schools, coaches and equipment support → enabled football participation for 5,000+ children in Seoul and Gyeonggi.",
+        "ko": "게임 기반 훈련 콘텐츠에 학교·트레이너·운동 킷 지원을 연결 → 서울·경기 어린이 5,000명 이상의 축구 참여 지원."
+      },
+      "context": {
+        "en": "The connection between digital and real football needed to become an opportunity for children to participate safely, beyond watching content.",
+        "ko": "게임과 실제 축구의 연결을 콘텐츠에 그치지 않고, 어린이가 안전하게 참여할 수 있는 기회와 환경으로 확장하고자 했습니다."
+      },
+      "actions": {
+        "en": [
+          "Connected game-based training content with school programmes through the K League and education partnership.",
+          "Supported coaches and equipment to make real participation possible.",
+          "Helped deliver after-school football training across schools in Seoul and Gyeonggi."
+        ],
+        "ko": [
+          "K리그·교육부 협업 맥락에서 게임 기반 훈련 콘텐츠를 학교 프로그램과 연결.",
+          "트레이너 운영과 어린이 운동 킷 지원을 통해 실제 참여의 기반 마련.",
+          "서울·경기 학교 현장의 방과 후 축구 훈련 운영 지원."
+        ]
+      },
+      "outcome": {
+        "en": "enabled football participation for 5,000+ children in Seoul and Gyeonggi.",
+        "ko": "서울·경기 어린이 5,000명 이상의 축구 참여 지원."
+      },
+      "insight": {
+        "en": "Brand value can extend from attracting attention to creating the conditions for people to participate.",
+        "ko": "브랜드의 가치는 관심을 모으는 데서 시작해, 사람들이 실제로 참여할 수 있는 환경을 만드는 데까지 이어질 수 있습니다."
+      },
+      "metrics": [
+        {
+          "value": "5,000+",
+          "label": {
+            "en": "children supported · Seoul & Gyeonggi programmes",
+            "ko": "서울·경기 프로그램에서 참여를 지원한 어린이"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/futures-training.jpg",
+          "alt": {
+            "en": "FC Futures football festival · training and participation, 2025",
+            "ko": "FC Futures 풋볼 페스티벌 · 훈련과 참여, 2025"
+          },
+          "caption": {
+            "en": "FC Futures football festival · training and participation, 2025",
+            "ko": "FC Futures 풋볼 페스티벌 · 훈련과 참여, 2025"
+          },
+          "source": "https://www.sportsseoul.com/news/read/1516350",
+          "contain": false
+        }
+      ],
+      "related": [],
+      "career": "ea",
+      "image": "assets/images/futures-training.jpg",
+      "imageAlt": {
+        "en": "EA SPORTS FC Futures × K League",
+        "ko": "EA SPORTS FC Futures × K리그"
+      }
+    },
+    {
+      "id": "fifa21-digital",
+      "title": {
+        "en": "FIFA 21 Digital Launch Showcase",
+        "ko": "FIFA21 디지털 출시 쇼케이스"
+      },
+      "period": "Sep 2020",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Launch & Commerce",
+        "ko": "출시와 비즈니스"
+      },
+      "summary": {
+        "en": "Reframed a pandemic-era launch around live football conversation and online retail offers → kept fan participation and purchase touchpoints connected.",
+        "ko": "코로나 시기 출시 경험을 추석 라이브 축구 토크와 온라인 리테일 혜택으로 전환 → 팬 참여와 구매 접점을 온라인에서 유지."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Replaced the physical launch with a live digital experience during the pandemic.",
+          "Connected the Steam launch and Chuseok period with football conversation and gameplay previews.",
+          "Linked participation with online retail offers."
+        ],
+        "ko": [
+          "코로나 시기 오프라인 출시 경험을 온라인 라이브 이벤트로 전환.",
+          "Steam 출시와 추석 모먼트에 축구 토크·게임 사전 체험 연결.",
+          "온라인 리테일 프로모션과 참여 동선 연계."
+        ]
+      },
+      "outcome": {
+        "en": "kept fan participation and purchase touchpoints connected.",
+        "ko": "팬 참여와 구매 접점을 온라인에서 유지."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "btc4EqCRDF4",
+          "url": "https://www.youtube.com/watch?v=btc4EqCRDF4",
+          "poster": "assets/images/video-btc4EqCRDF4.jpg",
+          "caption": {
+            "en": "FIFA21 | 디지털 쇼케이스 1부",
+            "ko": "FIFA21 | 디지털 쇼케이스 1부"
+          }
+        }
+      ],
+      "related": [
+        "fifa22-digital",
+        "fifa23-pc",
+        "fc24-house",
+        "fc25-psg",
+        "fc26-popup"
+      ],
+      "career": "ea",
+      "image": "assets/images/video-btc4EqCRDF4.jpg",
+      "imageAlt": {
+        "en": "FIFA 21 Digital Launch Showcase",
+        "ko": "FIFA21 디지털 출시 쇼케이스"
+      }
+    },
+    {
+      "id": "fifa22-digital",
+      "title": {
+        "en": "FIFA 22 Digital Launch Showcase",
+        "ko": "FIFA22 디지털 출시 쇼케이스"
+      },
+      "period": "Sep 2021",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Launch & Commerce",
+        "ko": "출시와 비즈니스"
+      },
+      "summary": {
+        "en": "Connected creator-led online experiences with a PlayStation Plus trial → built a path from launch interest to hands-on play.",
+        "ko": "크리에이터와 함께하는 온라인 체험에 PlayStation Plus 무료 체험을 연결 → 관심이 실제 플레이로 이어지는 참여 동선 설계."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Built a creator-led livestream launch experience during the pandemic.",
+          "Connected community participation with PlayStation Plus trial opportunities."
+        ],
+        "ko": [
+          "코로나 시기 크리에이터와 함께하는 라이브 출시 경험 구성.",
+          "커뮤니티 참여를 PlayStation Plus 체험 기회와 연결."
+        ]
+      },
+      "outcome": {
+        "en": "built a path from launch interest to hands-on play.",
+        "ko": "관심이 실제 플레이로 이어지는 참여 동선 설계."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "sC6b7VmXreA",
+          "url": "https://www.youtube.com/watch?v=sC6b7VmXreA",
+          "poster": "assets/images/video-sC6b7VmXreA.jpg",
+          "caption": {
+            "en": "ALL THAT FIFA - FIFA22 한국 런칭 쇼케이스 하이라이트",
+            "ko": "ALL THAT FIFA - FIFA22 한국 런칭 쇼케이스 하이라이트"
+          }
+        }
+      ],
+      "related": [
+        "fifa21-digital",
+        "fifa23-pc",
+        "fc24-house",
+        "fc25-psg",
+        "fc26-popup"
+      ],
+      "career": "ea",
+      "image": "assets/images/video-sC6b7VmXreA.jpg",
+      "imageAlt": {
+        "en": "FIFA 22 Digital Launch Showcase",
+        "ko": "FIFA22 디지털 출시 쇼케이스"
+      }
+    },
+    {
+      "id": "fifa23-pc",
+      "title": {
+        "en": "FIFA 23 PC Gaming Launch Showcase",
+        "ko": "FIFA23 PC방 출시 쇼케이스"
+      },
+      "period": "Sep 2022",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Launch & Commerce",
+        "ko": "출시와 비즈니스"
+      },
+      "summary": {
+        "en": "Extended a PC-bang launch beyond limited seats through livestreaming and retail promotions → connected Korean gaming culture with wider trial and purchase opportunities.",
+        "ko": "PC방 체험의 한계를 라이브 스트리밍과 리테일 프로모션으로 확장 → 한국의 PC 게임 문화를 출시 참여와 구매 기회로 연결."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Positioned the PC bang as a culturally relevant venue for new PC gameplay features.",
+          "Brought Park Ji-sung and football talent into a shared early-play experience.",
+          "Extended limited venue capacity through livestreaming and retail promotions."
+        ],
+        "ko": [
+          "한국 게임 문화 공간인 PC방에서 새 PC 게임플레이 기능을 체험하는 출시 경험 구성.",
+          "박지성과 축구 탤런트를 얼리 플레이 경험에 연결.",
+          "라이브스트리밍과 리테일 프로모션으로 현장 좌석의 한계를 넘어 도달 확장."
+        ]
+      },
+      "outcome": {
+        "en": "connected Korean gaming culture with wider trial and purchase opportunities.",
+        "ko": "한국의 PC 게임 문화를 출시 참여와 구매 기회로 연결."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "tEeuKjq4Crw",
+          "url": "https://www.youtube.com/watch?v=tEeuKjq4Crw",
+          "poster": "assets/images/video-tEeuKjq4Crw.jpg",
+          "caption": {
+            "en": "FIFA 23 | 박지성과 함께한 한국 런칭 쇼케이스 현장 스케치",
+            "ko": "FIFA 23 | 박지성과 함께한 한국 런칭 쇼케이스 현장 스케치"
+          }
+        }
+      ],
+      "related": [
+        "fifa21-digital",
+        "fifa22-digital",
+        "fc24-house",
+        "fc25-psg",
+        "fc26-popup"
+      ],
+      "career": "ea",
+      "image": "assets/images/video-tEeuKjq4Crw.jpg",
+      "imageAlt": {
+        "en": "FIFA 23 PC Gaming Launch Showcase",
+        "ko": "FIFA23 PC방 출시 쇼케이스"
+      }
+    },
+    {
+      "id": "fc24-house",
+      "title": {
+        "en": "EA SPORTS FC 24: House of Football Fans",
+        "ko": "EA SPORTS FC24: 축덕의 집"
+      },
+      "period": "Sep 2023",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Launch & Commerce",
+        "ko": "출시와 비즈니스"
+      },
+      "summary": {
+        "en": "Connected a fan-led pop-up with early access and retail pre-order benefits → contributed to a 63% increase in pre-order conversion.",
+        "ko": "팬과 게이머가 함께하는 팝업에 얼리 액세스와 예약 구매 혜택을 연결 → 출시 전 예약 구매 전환율 63% 증가에 기여."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Positioned the FC rebrand as a gathering place for football fans and gamers.",
+          "Built early-access gameplay into a football community popup.",
+          "Connected product experience with retail pre-order benefits."
+        ],
+        "ko": [
+          "FC 리브랜딩을 축구 팬과 게이머가 모이는 커뮤니티 경험으로 포지셔닝.",
+          "팝업 공간에 얼리액세스 게임 체험 구성.",
+          "체험을 리테일 예약 구매 혜택과 연결."
+        ]
+      },
+      "outcome": {
+        "en": "contributed to a 63% increase in pre-order conversion.",
+        "ko": "출시 전 예약 구매 전환율 63% 증가에 기여."
+      },
+      "insight": "",
+      "metrics": [
+        {
+          "value": "+63%",
+          "label": {
+            "en": "pre-order conversion improvement supported",
+            "ko": "예약 구매 전환율 개선에 기여"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "KdH1lE6wl4o",
+          "url": "https://www.youtube.com/watch?v=KdH1lE6wl4o",
+          "poster": "assets/images/video-KdH1lE6wl4o.jpg",
+          "caption": {
+            "en": "EA SPORTS FC 24 I 축덕의 집 팝업스토어 뜨거웠던 현장!",
+            "ko": "EA SPORTS FC 24 I 축덕의 집 팝업스토어 뜨거웠던 현장!"
+          }
+        }
+      ],
+      "related": [
+        "fifa21-digital",
+        "fifa22-digital",
+        "fifa23-pc",
+        "fc25-psg",
+        "fc26-popup"
+      ],
+      "career": "ea",
+      "image": "assets/images/video-KdH1lE6wl4o.jpg",
+      "imageAlt": {
+        "en": "EA SPORTS FC 24: House of Football Fans",
+        "ko": "EA SPORTS FC24: 축덕의 집"
+      }
+    },
+    {
+      "id": "fc25-psg",
+      "title": {
+        "en": "EA SPORTS FC 25 × PSG Community Launch Showcase",
+        "ko": "EA SPORTS FC25 × PSG 커뮤니티 출시 쇼케이스"
+      },
+      "period": "Sep 2024",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Launch & Commerce",
+        "ko": "출시와 비즈니스"
+      },
+      "summary": {
+        "en": "Mobilised PSG’s retail space and football-gaming communities → delivered a launch experience without a dedicated EA marketing budget.",
+        "ko": "PSG 리테일 공간과 축구·게이밍 커뮤니티 자원을 연결 → 별도 EA 마케팅 예산 없이 출시 경험을 구현."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Proposed a partner-led launch at the PSG retail store with no dedicated EA marketing budget.",
+          "Connected football and gaming communities with commentary talent, PSG and a fashion publication."
+        ],
+        "ko": [
+          "별도 EA 마케팅 예산 없이 PSG 리테일 스토어에서 파트너 중심 출시 경험 제안.",
+          "해설위원, PSG, 패션 매거진과 축구·게이밍 커뮤니티 연결."
+        ]
+      },
+      "outcome": {
+        "en": "delivered a launch experience without a dedicated EA marketing budget.",
+        "ko": "별도 EA 마케팅 예산 없이 출시 경험을 구현."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/football-culture-2.jpg",
+          "alt": {
+            "en": "EA SPORTS FC showcase at the PSG retail store",
+            "ko": "PSG 리테일 스토어에서 열린 EA SPORTS FC 쇼케이스"
+          },
+          "caption": {
+            "en": "EA SPORTS FC × PSG · retail and community",
+            "ko": "EA SPORTS FC × PSG · 리테일과 커뮤니티"
+          }
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/football-culture-3.jpg",
+          "alt": {
+            "en": "EA SPORTS FC community conversation",
+            "ko": "EA SPORTS FC 커뮤니티 토크"
+          },
+          "caption": {
+            "en": "Community conversation",
+            "ko": "커뮤니티 토크"
+          }
+        }
+      ],
+      "related": [
+        "fifa21-digital",
+        "fifa22-digital",
+        "fifa23-pc",
+        "fc24-house",
+        "fc26-popup"
+      ],
+      "career": "ea",
+      "image": "assets/images/football-culture-2.jpg",
+      "imageAlt": {
+        "en": "EA SPORTS FC 25 × PSG Community Launch Showcase",
+        "ko": "EA SPORTS FC25 × PSG 커뮤니티 출시 쇼케이스"
+      }
+    },
+    {
+      "id": "fc26-popup",
+      "title": {
+        "en": "EA SPORTS FC 26 Football Festival Pop-up",
+        "ko": "EA SPORTS FC26 풋볼 페스티벌 팝업"
+      },
+      "period": "Sep 2025",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Launch & Commerce",
+        "ko": "출시와 비즈니스"
+      },
+      "summary": {
+        "en": "Connected retail, platform and K League partners around early-access play → designed a journey from brand experience to on-site purchase.",
+        "ko": "리테일·플랫폼·K리그 파트너를 얼리 액세스 체험에 연결 → 브랜드 체험에서 현장 구매로 이어지는 동선을 설계."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Connected Yongsan I’Park Mall, Gamepia and PlayStation resources for the launch popup.",
+          "Built early-access gameplay and community activities into the newly opened Dopamine Station.",
+          "Designed a path from brand experience to purchase."
+        ],
+        "ko": [
+          "용산 아이파크몰, 게임피아, PlayStation의 자원을 출시 팝업에 연결.",
+          "새로 오픈한 도파민스테이션에서 얼리액세스 게임 체험·커뮤니티 이벤트 구성.",
+          "브랜드 체험에서 구매로 이어지는 동선 설계."
+        ]
+      },
+      "outcome": {
+        "en": "designed a journey from brand experience to on-site purchase.",
+        "ko": "브랜드 체험에서 현장 구매로 이어지는 동선을 설계."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [],
+      "related": [
+        "fifa21-digital",
+        "fifa22-digital",
+        "fifa23-pc",
+        "fc24-house",
+        "fc25-psg"
+      ],
+      "career": "ea",
+      "image": "",
+      "imageAlt": {
+        "en": "EA SPORTS FC 26 Football Festival Pop-up",
+        "ko": "EA SPORTS FC26 풋볼 페스티벌 팝업"
+      }
+    },
+    {
+      "id": "hwang-global",
+      "title": {
+        "en": "FIFA 21: Hwang Hee-chan Global Rising Stars Partnership",
+        "ko": "FIFA21: 황희찬 글로벌 라이징 스타 협업"
+      },
+      "period": "2020",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Partners & Fandom",
+        "ko": "파트너와 팬덤"
+      },
+      "summary": {
+        "en": "Advocated for Korean talent within global Rising Stars planning → strengthened the connection between global football storytelling and local marketing.",
+        "ko": "한국 선수의 성장 가능성을 글로벌 캠페인 우선순위에 반영하도록 설득 → 글로벌 축구 스토리와 로컬 마케팅의 연결을 강화."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Advocated for Korean talent within global Rising Stars planning"
+        ],
+        "ko": [
+          "한국 선수의 성장 가능성을 글로벌 캠페인 우선순위에 반영하도록 설득"
+        ]
+      },
+      "outcome": {
+        "en": "strengthened the connection between global football storytelling and local marketing.",
+        "ko": "글로벌 축구 스토리와 로컬 마케팅의 연결을 강화."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [],
+      "related": [
+        "son-global",
+        "fifa22-talent",
+        "olympic-support",
+        "park-marvel",
+        "fc25-commentary"
+      ],
+      "career": "ea",
+      "image": "",
+      "imageAlt": {
+        "en": "FIFA 21: Hwang Hee-chan Global Rising Stars Partnership",
+        "ko": "FIFA21: 황희찬 글로벌 라이징 스타 협업"
+      }
+    },
+    {
+      "id": "son-global",
+      "title": {
+        "en": "Son Heung-min: Global FIFA / FC Ambassador Programme",
+        "ko": "손흥민: 글로벌 FIFA / FC 앰베서더 프로그램"
+      },
+      "period": "2021–2025",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Partners & Fandom",
+        "ko": "파트너와 팬덤"
+      },
+      "summary": {
+        "en": "Enabled Son Heung-min’s ambassador partnership across console, Online and Mobile campaigns → built a cross-franchise model for activating one athlete’s fandom.",
+        "ko": "손흥민의 글로벌 앰베서더십을 콘솔·온라인·모바일의 시즈널 캠페인에 연결 → 한 선수의 팬덤을 여러 시장과 제품에서 활용하는 협업 체계 구축."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Enabled Son Heung-min’s ambassador partnership across console, Online and Mobile campaigns"
+        ],
+        "ko": [
+          "손흥민의 글로벌 앰베서더십을 콘솔·온라인·모바일의 시즈널 캠페인에 연결"
+        ]
+      },
+      "outcome": {
+        "en": "built a cross-franchise model for activating one athlete’s fandom.",
+        "ko": "한 선수의 팬덤을 여러 시장과 제품에서 활용하는 협업 체계 구축."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "tCCjBev_vuo",
+          "url": "https://www.youtube.com/watch?v=tCCjBev_vuo",
+          "poster": "assets/images/video-tCCjBev_vuo.jpg",
+          "caption": {
+            "en": "FIFA 22 | 손흥민 히어로 런칭 트레일러",
+            "ko": "FIFA 22 | 손흥민 히어로 런칭 트레일러"
+          }
+        }
+      ],
+      "related": [
+        "hwang-global",
+        "fifa22-talent",
+        "olympic-support",
+        "park-marvel",
+        "fc25-commentary"
+      ],
+      "career": "ea",
+      "image": "assets/images/video-tCCjBev_vuo.jpg",
+      "imageAlt": {
+        "en": "Son Heung-min: Global FIFA / FC Ambassador Programme",
+        "ko": "손흥민: 글로벌 FIFA / FC 앰베서더 프로그램"
+      }
+    },
+    {
+      "id": "fifa22-talent",
+      "title": {
+        "en": "FIFA 22 Korean Talent Launch Campaign",
+        "ko": "FIFA22 한국 축구 선수 출시 캠페인"
+      },
+      "period": "2021",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Partners & Fandom",
+        "ko": "파트너와 팬덤"
+      },
+      "summary": {
+        "en": "Connected Korean talent partnerships with global launch storytelling → made global assets more relevant to local football fans.",
+        "ko": "한국 선수의 글로벌 앰베서더십을 출시 스토리텔링에 연결 → 글로벌 어셋이 한국 팬에게도 의미 있는 캠페인으로 작동하도록 지원."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Connected Korean talent partnerships with global launch storytelling"
+        ],
+        "ko": [
+          "한국 선수의 글로벌 앰베서더십을 출시 스토리텔링에 연결"
+        ]
+      },
+      "outcome": {
+        "en": "made global assets more relevant to local football fans.",
+        "ko": "글로벌 어셋이 한국 팬에게도 의미 있는 캠페인으로 작동하도록 지원."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "tCCjBev_vuo",
+          "url": "https://www.youtube.com/watch?v=tCCjBev_vuo",
+          "poster": "assets/images/video-tCCjBev_vuo.jpg",
+          "caption": {
+            "en": "FIFA 22 | 손흥민 히어로 런칭 트레일러",
+            "ko": "FIFA 22 | 손흥민 히어로 런칭 트레일러"
+          }
+        }
+      ],
+      "related": [
+        "hwang-global",
+        "son-global",
+        "olympic-support",
+        "park-marvel",
+        "fc25-commentary"
+      ],
+      "career": "ea",
+      "image": "assets/images/video-tCCjBev_vuo.jpg",
+      "imageAlt": {
+        "en": "FIFA 22 Korean Talent Launch Campaign",
+        "ko": "FIFA22 한국 축구 선수 출시 캠페인"
+      }
+    },
+    {
+      "id": "olympic-support",
+      "title": {
+        "en": "FIFA Online & Mobile Olympic Support Campaign",
+        "ko": "FIFA Online · Mobile 올림픽 응원 캠페인"
+      },
+      "period": "2021",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Partners & Fandom",
+        "ko": "파트너와 팬덤"
+      },
+      "summary": {
+        "en": "Activated athlete partnerships across Online and Mobile around national-team support → connected a seasonal football moment with game fandom.",
+        "ko": "선수 앰베서더십을 국가대표 응원 모먼트에 맞춰 두 플랫폼에서 활용 → 시즈널 축구 관심과 게임 팬덤을 연결."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Activated athlete partnerships across Online and Mobile around national-team support"
+        ],
+        "ko": [
+          "선수 앰베서더십을 국가대표 응원 모먼트에 맞춰 두 플랫폼에서 활용"
+        ]
+      },
+      "outcome": {
+        "en": "connected a seasonal football moment with game fandom.",
+        "ko": "시즈널 축구 관심과 게임 팬덤을 연결."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "VAd6q78PovQ",
+          "url": "https://www.youtube.com/watch?v=VAd6q78PovQ",
+          "poster": "assets/images/video-VAd6q78PovQ.jpg",
+          "caption": {
+            "en": "YOU KNOW WHAT? WE'RE GONNA WIN! 대한민국 축구 국가대표팀을 응원합니다! I 피파온라인4 I 피파4",
+            "ko": "YOU KNOW WHAT? WE'RE GONNA WIN! 대한민국 축구 국가대표팀을 응원합니다! I 피파온라인4 I 피파4"
+          }
+        }
+      ],
+      "related": [
+        "hwang-global",
+        "son-global",
+        "fifa22-talent",
+        "park-marvel",
+        "fc25-commentary"
+      ],
+      "career": "ea",
+      "image": "assets/images/video-VAd6q78PovQ.jpg",
+      "imageAlt": {
+        "en": "FIFA Online & Mobile Olympic Support Campaign",
+        "ko": "FIFA Online · Mobile 올림픽 응원 캠페인"
+      }
+    },
+    {
+      "id": "park-marvel",
+      "title": {
+        "en": "FIFA 23 × Marvel: Park Ji-sung FUT Hero",
+        "ko": "FIFA23 × Marvel: 박지성 FUT Hero"
+      },
+      "period": "Jul–Sep 2022",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Partners & Fandom",
+        "ko": "파트너와 팬덤"
+      },
+      "summary": {
+        "en": "Advocated for Park Ji-sung’s story within the global Heroes collaboration → connected Korean football pride with a global product and launch interest.",
+        "ko": "박지성의 한국 축구 서사를 글로벌 Heroes 협업에 반영하도록 설득 → 한국 팬의 자부심을 글로벌 제품과 출시 관심으로 연결."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Influenced the global Heroes × Marvel programme to include Korean football legend Park Ji-sung.",
+          "Brought his football story into local launch communication through the Tiger Heart identity."
+        ],
+        "ko": [
+          "글로벌 Heroes × Marvel 프로그램에 한국 레전드 박지성이 포함되도록 설득.",
+          "타이거 하트 정체성을 통해 박지성의 축구 스토리를 로컬 출시 커뮤니케이션으로 연결."
+        ]
+      },
+      "outcome": {
+        "en": "connected Korean football pride with a global product and launch interest.",
+        "ko": "한국 팬의 자부심을 글로벌 제품과 출시 관심으로 연결."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/park-marvel.jpg",
+          "alt": {
+            "en": "Park Ji-sung · Tiger Heart · FIFA 23 Heroes × Marvel",
+            "ko": "박지성 · 타이거 하트 · FIFA23 Heroes × Marvel"
+          },
+          "caption": {
+            "en": "Park Ji-sung · Tiger Heart · FIFA 23 Heroes × Marvel",
+            "ko": "박지성 · 타이거 하트 · FIFA23 Heroes × Marvel"
+          },
+          "source": "https://news.nateimg.co.kr/orgImg/pt/2022/08/16/202208161736777818_62fb5aa987dee.jpeg",
+          "contain": true
+        }
+      ],
+      "related": [
+        "hwang-global",
+        "son-global",
+        "fifa22-talent",
+        "olympic-support",
+        "fc25-commentary"
+      ],
+      "career": "ea",
+      "image": "assets/images/park-marvel.jpg",
+      "imageAlt": {
+        "en": "FIFA 23 × Marvel: Park Ji-sung FUT Hero",
+        "ko": "FIFA23 × Marvel: 박지성 FUT Hero"
+      }
+    },
+    {
+      "id": "fc25-commentary",
+      "title": {
+        "en": "EA SPORTS FC 25 Korean Commentary Activation",
+        "ko": "EA SPORTS FC25 한국어 해설 액티베이션"
+      },
+      "period": "2024",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Local Creation",
+        "ko": "로컬 크리에이션"
+      },
+      "summary": {
+        "en": "Turned Korean commentary into a locally relevant product story → made familiar football voices part of the FC experience.",
+        "ko": "한국어 해설을 로컬 축구 팬이 공감할 제품 스토리로 전달 → 익숙한 목소리가 게임 경험의 일부가 되도록 연결."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Turned Korean commentary into a locally relevant product story"
+        ],
+        "ko": [
+          "한국어 해설을 로컬 축구 팬이 공감할 제품 스토리로 전달"
+        ]
+      },
+      "outcome": {
+        "en": "made familiar football voices part of the FC experience.",
+        "ko": "익숙한 목소리가 게임 경험의 일부가 되도록 연결."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "gLlSxK2lUns",
+          "url": "https://www.youtube.com/watch?v=gLlSxK2lUns",
+          "poster": "assets/images/video-gLlSxK2lUns.jpg",
+          "caption": {
+            "en": "배성재 임형철과 함께하는 EA SPORTS FC 25 한국어 해설 녹음기",
+            "ko": "배성재 임형철과 함께하는 EA SPORTS FC 25 한국어 해설 녹음기"
+          }
+        }
+      ],
+      "related": [
+        "hwang-global",
+        "son-global",
+        "fifa22-talent",
+        "olympic-support",
+        "park-marvel"
+      ],
+      "career": "ea",
+      "image": "assets/images/video-gLlSxK2lUns.jpg",
+      "imageAlt": {
+        "en": "EA SPORTS FC 25 Korean Commentary Activation",
+        "ko": "EA SPORTS FC25 한국어 해설 액티베이션"
+      }
+    },
+    {
+      "id": "chelsea-class",
+      "title": {
+        "en": "FIFA Online 4 & Mobile × Chelsea Ambassador Class",
+        "ko": "FIFA Online 4 · Mobile × Chelsea Ambassador Class"
+      },
+      "period": "Oct 2021",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Partners & Fandom",
+        "ko": "파트너와 팬덤"
+      },
+      "summary": {
+        "en": "Connected Chelsea legends’ fandom with an Ambassador Class launch → activated club heritage through live-service participation.",
+        "ko": "첼시 레전드의 팬덤을 앰베서더 클래스에 연결 → 클럽의 역사와 라이브서비스 참여를 함께 활성화."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Connected Chelsea legends’ fandom with an Ambassador Class launch"
+        ],
+        "ko": [
+          "첼시 레전드의 팬덤을 앰베서더 클래스에 연결"
+        ]
+      },
+      "outcome": {
+        "en": "activated club heritage through live-service participation.",
+        "ko": "클럽의 역사와 라이브서비스 참여를 함께 활성화."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "YpfRS1Rej0c",
+          "url": "https://www.youtube.com/watch?v=YpfRS1Rej0c",
+          "poster": "assets/images/video-YpfRS1Rej0c.jpg",
+          "caption": {
+            "en": "첼시FC엠버서더 - 첼시 선수들이 들려주는 레전드 이야기 (피파온라인4)",
+            "ko": "첼시FC엠버서더 - 첼시 선수들이 들려주는 레전드 이야기 (피파온라인4)"
+          }
+        }
+      ],
+      "related": [
+        "madrid-class",
+        "juventus-class"
+      ],
+      "career": "ea",
+      "image": "assets/images/video-YpfRS1Rej0c.jpg",
+      "imageAlt": {
+        "en": "FIFA Online 4 & Mobile × Chelsea Ambassador Class",
+        "ko": "FIFA Online 4 · Mobile × Chelsea Ambassador Class"
+      }
+    },
+    {
+      "id": "madrid-class",
+      "title": {
+        "en": "FIFA Online 4 & Mobile × Real Madrid Ambassador Class",
+        "ko": "FIFA Online 4 · Mobile × Real Madrid Ambassador Class"
+      },
+      "period": "Sep 2022",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Partners & Fandom",
+        "ko": "파트너와 팬덤"
+      },
+      "summary": {
+        "en": "Activated Real Madrid legends and partner rights through game content → connected club fandom with a seasonal game experience.",
+        "ko": "레알 마드리드 레전드와 파트너 권리를 게임 콘텐츠로 활성화 → 클럽 팬덤과 시즌별 게임 경험을 연결."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Activated Real Madrid legends and partner rights through game content"
+        ],
+        "ko": [
+          "레알 마드리드 레전드와 파트너 권리를 게임 콘텐츠로 활성화"
+        ]
+      },
+      "outcome": {
+        "en": "connected club fandom with a seasonal game experience.",
+        "ko": "클럽 팬덤과 시즌별 게임 경험을 연결."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "BoM7xZ82q5c",
+          "url": "https://www.youtube.com/watch?v=BoM7xZ82q5c",
+          "poster": "assets/images/video-BoM7xZ82q5c.jpg",
+          "caption": {
+            "en": "유럽의 왕을 만나보세요! 레알 마드리드 앰버서더 클래스 출시 l 피파온라인4 l RMCF l Real Madrid C.F. AMBASSADOR Class",
+            "ko": "유럽의 왕을 만나보세요! 레알 마드리드 앰버서더 클래스 출시 l 피파온라인4 l RMCF l Real Madrid C.F. AMBASSADOR Class"
+          }
+        }
+      ],
+      "related": [
+        "chelsea-class",
+        "juventus-class"
+      ],
+      "career": "ea",
+      "image": "assets/images/video-BoM7xZ82q5c.jpg",
+      "imageAlt": {
+        "en": "FIFA Online 4 & Mobile × Real Madrid Ambassador Class",
+        "ko": "FIFA Online 4 · Mobile × Real Madrid Ambassador Class"
+      }
+    },
+    {
+      "id": "juventus-class",
+      "title": {
+        "en": "FC Online & Mobile × Juventus Ambassador Class",
+        "ko": "FC Online · Mobile × Juventus Ambassador Class"
+      },
+      "period": "Sep 2023",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Partners & Fandom",
+        "ko": "파트너와 팬덤"
+      },
+      "summary": {
+        "en": "Connected Juventus legends’ club stories with live-service content → gave partner fandom a seasonal way to reconnect inside the game.",
+        "ko": "유벤투스 레전드의 클럽 서사를 라이브서비스 콘텐츠로 연결 → 파트너 팬덤이 게임 안에서 다시 만나는 시즌별 경험을 제공."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Connected Juventus legends’ club stories with live-service content"
+        ],
+        "ko": [
+          "유벤투스 레전드의 클럽 서사를 라이브서비스 콘텐츠로 연결"
+        ]
+      },
+      "outcome": {
+        "en": "gave partner fandom a seasonal way to reconnect inside the game.",
+        "ko": "파트너 팬덤이 게임 안에서 다시 만나는 시즌별 경험을 제공."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [],
+      "related": [
+        "chelsea-class",
+        "madrid-class"
+      ],
+      "career": "ea",
+      "image": "",
+      "imageAlt": {
+        "en": "FC Online & Mobile × Juventus Ambassador Class",
+        "ko": "FC Online · Mobile × Juventus Ambassador Class"
+      }
+    },
+    {
+      "id": "summer-2023",
+      "title": {
+        "en": "Summer Football Tour: Jersey-to-Game Rewards",
+        "ko": "여름 축구 투어: 유니폼에서 게임 리워드로"
+      },
+      "period": "Jul 2023",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Partners & Fandom",
+        "ko": "파트너와 팬덤"
+      },
+      "summary": {
+        "en": "Turned Team K League and Manchester City jersey visibility into game rewards → connected live football attention with gameplay and reciprocal fan benefits.",
+        "ko": "팀 K리그·맨시티의 경기 유니폼에 게임 쿠폰 접점을 설계 → 실제 경기의 관심을 게임 리워드와 상호 팬 혜택으로 연결."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Turned Team K League and Manchester City jersey visibility into game rewards"
+        ],
+        "ko": [
+          "팀 K리그·맨시티의 경기 유니폼에 게임 쿠폰 접점을 설계"
+        ]
+      },
+      "outcome": {
+        "en": "connected live football attention with gameplay and reciprocal fan benefits.",
+        "ko": "실제 경기의 관심을 게임 리워드와 상호 팬 혜택으로 연결."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [],
+      "related": [
+        "summer-2024"
+      ],
+      "career": "ea",
+      "image": "",
+      "imageAlt": {
+        "en": "Summer Football Tour: Jersey-to-Game Rewards",
+        "ko": "여름 축구 투어: 유니폼에서 게임 리워드로"
+      }
+    },
+    {
+      "id": "summer-2024",
+      "title": {
+        "en": "Team K League × Tottenham: Jersey-to-Game Rewards",
+        "ko": "팀 K리그 × Tottenham: 유니폼·게임 리워드 액티베이션"
+      },
+      "period": "Jul 2024",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Partners & Fandom",
+        "ko": "파트너와 팬덤"
+      },
+      "summary": {
+        "en": "Extended the jersey-to-game reward model to Tottenham’s Korea match → built a repeatable seasonal activation for football fans and players.",
+        "ko": "전년의 유니폼·게임 리워드 모델을 토트넘 내한 경기로 확장 → 축구 팬과 게임 유저가 함께 참여하는 반복 가능한 시즌 모델 구축."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Extended the jersey-to-game reward model to Tottenham’s Korea match"
+        ],
+        "ko": [
+          "전년의 유니폼·게임 리워드 모델을 토트넘 내한 경기로 확장"
+        ]
+      },
+      "outcome": {
+        "en": "built a repeatable seasonal activation for football fans and players.",
+        "ko": "축구 팬과 게임 유저가 함께 참여하는 반복 가능한 시즌 모델 구축."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/partnerships-main.jpg",
+          "alt": {
+            "en": "2024 Team K League jersey and FC Online rewards",
+            "ko": "2024 팀 K리그 유니폼과 FC Online 리워드"
+          },
+          "caption": {
+            "en": "Team K League · FC Online jersey rewards, 2024",
+            "ko": "팀 K리그 · FC Online 유니폼 리워드, 2024"
+          }
+        }
+      ],
+      "related": [
+        "summer-2023"
+      ],
+      "career": "ea",
       "image": "assets/images/partnerships-main.jpg",
       "imageAlt": {
-        "en": "EA SPORTS FC partner campaign with a football player and jersey",
-        "ko": "EA SPORTS FC 선수·유니폼 파트너 캠페인"
-      },
-      "summary": "",
-      "context": "",
-      "role": "",
-      "actions": [],
-      "metrics": [],
-      "outcome": "",
-      "insight": "",
-      "gallery": [
-        "assets/images/partnerships-2.jpg",
-        "assets/images/partnerships-3.jpg",
-        "assets/images/partnerships-4.jpg"
-      ],
-      "reelIds": [],
-      "sourceSlide": 8
+        "en": "Team K League × Tottenham: Jersey-to-Game Rewards",
+        "ko": "팀 K리그 × Tottenham: 유니폼·게임 리워드 액티베이션"
+      }
     },
     {
-      "id": "fo4",
-      "number": "03",
+      "id": "fo3-laliga",
       "title": {
-        "en": "FIFA Online 4 · Asia Launch",
-        "ko": "FIFA Online 4 · 아시아 출시"
+        "en": "FIFA Online 3 × LaLiga Viewing Party",
+        "ko": "FIFA Online 3 × LaLiga 뷰잉 파티"
       },
-      "subtitle": "",
-      "period": "2018",
-      "brand": "FIFA ONLINE 4",
+      "period": "Dec 2017",
+      "brand": "FIFA ONLINE",
       "category": {
-        "en": "Launch Strategy",
-        "ko": "출시 전략"
+        "en": "Partners & Fandom",
+        "ko": "파트너와 팬덤"
       },
-      "keywords": [],
-      "image": "assets/images/fo4-main.jpg",
-      "imageAlt": {
-        "en": "FIFA Online 4 More Than a Game campaign visual",
-        "ko": "FIFA Online 4 More Than a Game 캠페인"
+      "summary": {
+        "en": "Extended loyal players’ game experience into a LaLiga viewing party with Fernando Torres → gave digital fandom a real-world football connection.",
+        "ko": "로열 유저의 게임 경험을 토레스와 함께하는 축구 관람으로 확장 → 디지털 팬덤에 실제 축구와 만나는 접점을 제공."
       },
-      "summary": "",
       "context": "",
-      "role": "",
-      "actions": [],
-      "metrics": [],
-      "outcome": "",
-      "insight": "",
-      "gallery": [],
-      "video": "https://www.youtube.com/watch?v=cUz9Rq-luRI",
-      "videoLabel": {
-        "en": "Watch the launch trailer",
-        "ko": "출시 영상 보기"
+      "actions": {
+        "en": [
+          "Extended loyal players’ game experience into a LaLiga viewing party with Fernando Torres"
+        ],
+        "ko": [
+          "로열 유저의 게임 경험을 토레스와 함께하는 축구 관람으로 확장"
+        ]
       },
-      "reelIds": [],
-      "sourceSlide": 5
+      "outcome": {
+        "en": "gave digital fandom a real-world football connection.",
+        "ko": "디지털 팬덤에 실제 축구와 만나는 접점을 제공."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [],
+      "related": [
+        "kleague-potm",
+        "kleague-renewal",
+        "fco-festival"
+      ],
+      "career": "ea",
+      "image": "",
+      "imageAlt": {
+        "en": "FIFA Online 3 × LaLiga Viewing Party",
+        "ko": "FIFA Online 3 × LaLiga 뷰잉 파티"
+      }
+    },
+    {
+      "id": "kleague-potm",
+      "title": {
+        "en": "EA SPORTS × K League Player of the Month",
+        "ko": "EA SPORTS × K리그 이달의 선수 프로그램"
+      },
+      "period": "2019–2025",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Partners & Fandom",
+        "ko": "파트너와 팬덤"
+      },
+      "summary": {
+        "en": "Built a monthly programme connecting expert, football-fan and player votes → created a recurring bridge between league stories, fan participation and live service.",
+        "ko": "전문가·축구 팬·게임 유저가 함께 선수를 선정하는 월간 프로그램을 구축 → 실제 리그의 이야기가 팬 참여와 게임 서비스로 이어지는 접점 마련."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Built a monthly programme connecting expert, football-fan and player votes"
+        ],
+        "ko": [
+          "전문가·축구 팬·게임 유저가 함께 선수를 선정하는 월간 프로그램을 구축"
+        ]
+      },
+      "outcome": {
+        "en": "created a recurring bridge between league stories, fan participation and live service.",
+        "ko": "실제 리그의 이야기가 팬 참여와 게임 서비스로 이어지는 접점 마련."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [],
+      "related": [
+        "fo3-laliga",
+        "kleague-renewal",
+        "fco-festival"
+      ],
+      "career": "ea",
+      "image": "",
+      "imageAlt": {
+        "en": "EA SPORTS × K League Player of the Month",
+        "ko": "EA SPORTS × K리그 이달의 선수 프로그램"
+      }
+    },
+    {
+      "id": "kleague-renewal",
+      "title": {
+        "en": "EA SPORTS FC × K League Partnership Renewal Activation",
+        "ko": "EA SPORTS FC × K리그 파트너십 리뉴얼 액티베이션"
+      },
+      "period": "Jul 2023",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Partners & Fandom",
+        "ko": "파트너와 팬덤"
+      },
+      "summary": {
+        "en": "Turned a partnership renewal into football experiences with fans and players → made the partnership tangible beyond a brand announcement.",
+        "ko": "파트너십 갱신을 팬과 선수의 축구 체험으로 전환 → 계약의 가치를 브랜드 발표를 넘어 실제 참여 경험으로 전달."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Turned a partnership renewal into football experiences with fans and players"
+        ],
+        "ko": [
+          "파트너십 갱신을 팬과 선수의 축구 체험으로 전환"
+        ]
+      },
+      "outcome": {
+        "en": "made the partnership tangible beyond a brand announcement.",
+        "ko": "계약의 가치를 브랜드 발표를 넘어 실제 참여 경험으로 전달."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "fCN0yTkaZZw",
+          "url": "https://www.youtube.com/watch?v=fCN0yTkaZZw",
+          "poster": "assets/images/video-fCN0yTkaZZw.jpg",
+          "caption": {
+            "en": "Partnership brand film · EA SPORTS FC × K League",
+            "ko": "파트너십 브랜드 필름 · EA SPORTS FC × K리그"
+          }
+        }
+      ],
+      "related": [
+        "fo3-laliga",
+        "kleague-potm",
+        "fco-festival"
+      ],
+      "career": "ea",
+      "image": "assets/images/video-fCN0yTkaZZw.jpg",
+      "imageAlt": {
+        "en": "EA SPORTS FC × K League Partnership Renewal Activation",
+        "ko": "EA SPORTS FC × K리그 파트너십 리뉴얼 액티베이션"
+      }
+    },
+    {
+      "id": "fco-festival",
+      "title": {
+        "en": "FC Online Festival: Football Partner Exhibition",
+        "ko": "FC Online Festival: 축구 파트너 전시"
+      },
+      "period": "Nov 2023",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Partners & Fandom",
+        "ko": "파트너와 팬덤"
+      },
+      "summary": {
+        "en": "Brought partner-league stories and exhibits into an esports experience → extended competition content into a shared football-fandom experience.",
+        "ko": "파트너 리그의 이야기와 전시를 이스포츠 경험에 결합 → 경쟁 콘텐츠를 축구 팬덤이 함께 즐기는 경험으로 확장."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Brought partner-league stories and exhibits into an esports experience"
+        ],
+        "ko": [
+          "파트너 리그의 이야기와 전시를 이스포츠 경험에 결합"
+        ]
+      },
+      "outcome": {
+        "en": "extended competition content into a shared football-fandom experience.",
+        "ko": "경쟁 콘텐츠를 축구 팬덤이 함께 즐기는 경험으로 확장."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [],
+      "related": [
+        "fo3-laliga",
+        "kleague-potm",
+        "kleague-renewal"
+      ],
+      "career": "ea",
+      "image": "",
+      "imageAlt": {
+        "en": "FC Online Festival: Football Partner Exhibition",
+        "ko": "FC Online Festival: 축구 파트너 전시"
+      }
+    },
+    {
+      "id": "jonathan",
+      "title": {
+        "en": "EA SPORTS FC: FC Il-jjang with Jonathan",
+        "ko": "EA SPORTS FC: 조나단과 함께한 FC일짱"
+      },
+      "period": "Mar–Nov 2023",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Partners & Fandom",
+        "ko": "파트너와 팬덤"
+      },
+      "summary": {
+        "en": "Turned Jonathan’s genuine FC fandom into a community challenge series → contributed to 15% growth in new players.",
+        "ko": "크리에이터의 실제 FC 팬 경험을 커뮤니티 도전 콘텐츠로 확장 → 신규 유저 15% 증가에 기여."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Built a couch-gaming storyline with long-time FIFA fan Jonathan.",
+          "Connected his creator network, the FC24 popup and a final challenge with Son Heung-min."
+        ],
+        "ko": [
+          "오랜 FIFA 팬 조나단과 카우치 게이밍 문화를 보여주는 스토리 구성.",
+          "크리에이터 네트워크, FC24 팝업, 손흥민과의 최종 대결을 콘텐츠 시리즈로 연결."
+        ]
+      },
+      "outcome": {
+        "en": "contributed to 15% growth in new players.",
+        "ko": "신규 유저 15% 증가에 기여."
+      },
+      "insight": "",
+      "metrics": [
+        {
+          "value": "+15%",
+          "label": {
+            "en": "new-player growth supported by the content series",
+            "ko": "콘텐츠 시리즈를 통한 신규 유저 성장"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "ssctL0kNEk8",
+          "url": "https://www.youtube.com/watch?v=ssctL0kNEk8",
+          "poster": "assets/images/video-ssctL0kNEk8.jpg",
+          "caption": {
+            "en": "[ENG] 대한민국 FC일짱은 접니다! 흥민이형 드루ㅇ? 아니 왜 진짜 나와?!  (feat. 손흥민)",
+            "ko": "[ENG] 대한민국 FC일짱은 접니다! 흥민이형 드루ㅇ? 아니 왜 진짜 나와?!  (feat. 손흥민)"
+          }
+        }
+      ],
+      "related": [
+        "nivel-worldcup"
+      ],
+      "career": "ea",
+      "image": "assets/images/video-ssctL0kNEk8.jpg",
+      "imageAlt": {
+        "en": "EA SPORTS FC: FC Il-jjang with Jonathan",
+        "ko": "EA SPORTS FC: 조나단과 함께한 FC일짱"
+      }
+    },
+    {
+      "id": "nivel-worldcup",
+      "title": {
+        "en": "EA SPORTS × Nike × NIVELCRACK World Cup Activation",
+        "ko": "EA SPORTS × Nike × NIVELCRACK 월드컵 액티베이션"
+      },
+      "period": "Nov 2022",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Partners & Fandom",
+        "ko": "파트너와 팬덤"
+      },
+      "summary": {
+        "en": "Supported a local football and design community’s World Cup celebration → connected the gaming brand with places where fans gather and share their passion.",
+        "ko": "로컬 축구·디자인 커뮤니티의 월드컵 응원을 지원 → 게임 브랜드가 팬들이 실제로 모이고 즐기는 문화에 참여하도록 연결."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Supported a local football and design community’s World Cup celebration"
+        ],
+        "ko": [
+          "로컬 축구·디자인 커뮤니티의 월드컵 응원을 지원"
+        ]
+      },
+      "outcome": {
+        "en": "connected the gaming brand with places where fans gather and share their passion.",
+        "ko": "게임 브랜드가 팬들이 실제로 모이고 즐기는 문화에 참여하도록 연결."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [],
+      "related": [
+        "jonathan"
+      ],
+      "career": "ea",
+      "image": "",
+      "imageAlt": {
+        "en": "EA SPORTS × Nike × NIVELCRACK World Cup Activation",
+        "ko": "EA SPORTS × Nike × NIVELCRACK 월드컵 액티베이션"
+      }
+    },
+    {
+      "id": "worldclass-fc",
+      "title": {
+        "en": "FC × LaLiga × Shoot for Love: World Class FC Season 3",
+        "ko": "FC × LaLiga × 슛포러브: 월드클래스 FC 시즌3"
+      },
+      "period": "Jul–Nov 2023",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Grassroots & Community",
+        "ko": "축구 저변과 커뮤니티"
+      },
+      "summary": {
+        "en": "Connected gameplay with youth football training and storytelling → created a way for fans to engage with young players’ development.",
+        "ko": "게임플레이를 유소년 축구 훈련과 콘텐츠에 연결 → 어린 선수의 성장 이야기에 팬이 함께 참여할 수 있는 접점 마련."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Connected gameplay with youth football training and storytelling"
+        ],
+        "ko": [
+          "게임플레이를 유소년 축구 훈련과 콘텐츠에 연결"
+        ]
+      },
+      "outcome": {
+        "en": "created a way for fans to engage with young players’ development.",
+        "ko": "어린 선수의 성장 이야기에 팬이 함께 참여할 수 있는 접점 마련."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "YeUu0XvUyjU",
+          "url": "https://www.youtube.com/watch?v=YeUu0XvUyjU",
+          "poster": "assets/images/video-YeUu0XvUyjU.jpg",
+          "caption": {
+            "en": "이번엔 라리가다! | 월드클래스FC 시즌3 | 슛포러브",
+            "ko": "이번엔 라리가다! | 월드클래스FC 시즌3 | 슛포러브"
+          }
+        }
+      ],
+      "related": [
+        "football-festival"
+      ],
+      "career": "ea",
+      "image": "assets/images/video-YeUu0XvUyjU.jpg",
+      "imageAlt": {
+        "en": "FC × LaLiga × Shoot for Love: World Class FC Season 3",
+        "ko": "FC × LaLiga × 슛포러브: 월드클래스 FC 시즌3"
+      }
+    },
+    {
+      "id": "football-festival",
+      "title": {
+        "en": "FC × K League Football Festival",
+        "ko": "FC × K리그 풋볼 페스티벌"
+      },
+      "period": "2024–2025",
+      "brand": "FIFA ONLINE",
+      "category": {
+        "en": "Grassroots & Community",
+        "ko": "축구 저변과 커뮤니티"
+      },
+      "summary": {
+        "en": "Connected gameplay and football training in a day for families → extended children’s participation into a community experience.",
+        "ko": "게임과 실제 축구 훈련을 가족이 함께 즐기는 하루로 구성 → 어린이의 축구 참여를 지역 커뮤니티 경험으로 확장."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Connected gameplay and football training in a day for families"
+        ],
+        "ko": [
+          "게임과 실제 축구 훈련을 가족이 함께 즐기는 하루로 구성"
+        ]
+      },
+      "outcome": {
+        "en": "extended children’s participation into a community experience.",
+        "ko": "어린이의 축구 참여를 지역 커뮤니티 경험으로 확장."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/futures-training.jpg",
+          "alt": {
+            "en": "FC Futures football festival · training and participation, 2025",
+            "ko": "FC Futures 풋볼 페스티벌 · 훈련과 참여, 2025"
+          },
+          "caption": {
+            "en": "FC Futures football festival · training and participation, 2025",
+            "ko": "FC Futures 풋볼 페스티벌 · 훈련과 참여, 2025"
+          },
+          "source": "https://www.sportsseoul.com/news/read/1516350",
+          "contain": false
+        }
+      ],
+      "related": [
+        "worldclass-fc"
+      ],
+      "career": "ea",
+      "image": "assets/images/futures-training.jpg",
+      "imageAlt": {
+        "en": "FC × K League Football Festival",
+        "ko": "FC × K리그 풋볼 페스티벌"
+      }
+    },
+    {
+      "id": "fo4-reveal",
+      "title": {
+        "en": "FIFA Online 4 Reveal Showcase",
+        "ko": "FIFA Online 4 최초 공개 쇼케이스"
+      },
+      "period": "Nov 2017",
+      "brand": "FIFA ONLINE",
+      "category": {
+        "en": "Launch & Commerce",
+        "ko": "출시와 비즈니스"
+      },
+      "summary": {
+        "en": "Shaped an intrigue-led reveal with Nexon around the new product experience → built media visibility and search interest ahead of launch.",
+        "ko": "넥슨과 미공개 프로젝트의 호기심을 새 게임의 핵심 경험으로 연결하는 공개 전략을 설계 → 출시 전 미디어와 검색 화제를 형성."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Proposed an intrigue-led reveal under the EA × NEXON New Project name.",
+          "Aligned the showcase around product truth and positive community conversation.",
+          "Connected studio and publisher teams for the first public reveal."
+        ],
+        "ko": [
+          "EA × NEXON 미공개 프로젝트 네이밍으로 호기심을 높이는 공개 방향 제안.",
+          "새 게임의 Product Truth가 긍정적인 유저 대화로 이어지도록 쇼케이스 구성.",
+          "개발팀과 퍼블리셔를 연결해 최초 공개 준비."
+        ]
+      },
+      "outcome": {
+        "en": "built media visibility and search interest ahead of launch.",
+        "ko": "출시 전 미디어와 검색 화제를 형성."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "dDY93Lwku-g",
+          "url": "https://www.youtube.com/watch?v=dDY93Lwku-g",
+          "poster": "assets/images/video-dDY93Lwku-g.jpg",
+          "caption": {
+            "en": "EA x NEXON NEW PROJECT",
+            "ko": "EA x NEXON NEW PROJECT"
+          }
+        }
+      ],
+      "related": [
+        "fo4-launch",
+        "el-tornado"
+      ],
+      "career": "ea",
+      "image": "assets/images/video-dDY93Lwku-g.jpg",
+      "imageAlt": {
+        "en": "FIFA Online 4 Reveal Showcase",
+        "ko": "FIFA Online 4 최초 공개 쇼케이스"
+      }
+    },
+    {
+      "id": "fo4-launch",
+      "title": {
+        "en": "FIFA Online 4 Korea Launch Showcase",
+        "ko": "FIFA Online 4 한국 출시 쇼케이스"
+      },
+      "period": "Apr 2018",
+      "brand": "FIFA ONLINE",
+      "category": {
+        "en": "Launch & Commerce",
+        "ko": "출시와 비즈니스"
+      },
+      "summary": {
+        "en": "Aligned studio, operations and marketing around gameplay and player benefits → made the reasons to move to the new title clearer before launch.",
+        "ko": "개발팀과 넥슨의 운영·마케팅 메시지를 출시 전 체험과 유저 혜택 중심으로 정렬 → 새 게임으로 이동할 이유를 명확히 전달."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Aligned studio, Nexon operations and marketing before launch.",
+          "Designed livestream and media content around gameplay direction and player benefits.",
+          "Made the reasons to transition from FIFA Online 3 to FIFA Online 4 clear."
+        ],
+        "ko": [
+          "개발팀, 넥슨 운영·마케팅팀의 출시 메시지 정렬.",
+          "게임의 개발 방향과 유저 혜택을 전달하는 라이브스트리밍·미디어 쇼케이스 구성.",
+          "FIFA Online 3에서 FIFA Online 4로 전환할 이유를 명확히 전달."
+        ]
+      },
+      "outcome": {
+        "en": "made the reasons to move to the new title clearer before launch.",
+        "ko": "새 게임으로 이동할 이유를 명확히 전달."
+      },
+      "insight": "",
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "Pq-QkeJF2tg",
+          "url": "https://www.youtube.com/watch?v=Pq-QkeJF2tg",
+          "poster": "assets/images/video-Pq-QkeJF2tg.jpg",
+          "caption": {
+            "en": "[LIVE] FO4 LAUNCH SHOWCASE",
+            "ko": "[LIVE] FO4 LAUNCH SHOWCASE"
+          }
+        }
+      ],
+      "related": [
+        "fo4-reveal",
+        "el-tornado"
+      ],
+      "career": "ea",
+      "image": "assets/images/video-Pq-QkeJF2tg.jpg",
+      "imageAlt": {
+        "en": "FIFA Online 4 Korea Launch Showcase",
+        "ko": "FIFA Online 4 한국 출시 쇼케이스"
+      }
+    },
+    {
+      "id": "el-tornado",
+      "title": {
+        "en": "FIFA Online 4 Launch Campaign: El Tornado",
+        "ko": "FIFA Online 4 출시 캠페인: El Tornado"
+      },
+      "period": "Apr–May 2018",
+      "brand": "FIFA ONLINE",
+      "category": {
+        "en": "Launch & Commerce",
+        "ko": "출시와 비즈니스"
+      },
+      "summary": {
+        "en": "Adapted global star assets around new gameplay and secured joint funding → supported 5M pre-registrations and a launch model extended to China and Southeast Asia.",
+        "ko": "글로벌 스타 어셋을 새 게임플레이에 맞게 현지화하고 공동 펀딩을 이끌어냄 → 사전등록 500만 달성과 중국·동남아 확장에 기여."
+      },
+      "context": "",
+      "actions": {
+        "en": [
+          "Secured joint funding and alignment across global brand, studio, agency and Nexon.",
+          "Adapted global creative for the new gameplay experience across TV and digital.",
+          "Supported the campaign model’s extension to China and Southeast Asia."
+        ],
+        "ko": [
+          "글로벌 브랜드, 개발팀, 에이전시, 넥슨의 공동 펀딩과 협업 정렬.",
+          "새 게임플레이 경험에 맞춰 글로벌 크리에이티브를 TV·디지털에 현지화.",
+          "한국의 협업 모델을 중국·동남아 출시 캠페인으로 확장 지원."
+        ]
+      },
+      "outcome": {
+        "en": "supported 5M pre-registrations and a launch model extended to China and Southeast Asia.",
+        "ko": "사전등록 500만 달성과 중국·동남아 확장에 기여."
+      },
+      "insight": "",
+      "metrics": [
+        {
+          "value": "5M",
+          "label": {
+            "en": "launch pre-registrations",
+            "ko": "출시 사전등록"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "cUz9Rq-luRI",
+          "url": "https://www.youtube.com/watch?v=cUz9Rq-luRI",
+          "poster": "assets/images/video-cUz9Rq-luRI.jpg",
+          "caption": {
+            "en": "[FIFA온라인4] EL TORNADO (FULL)",
+            "ko": "[FIFA온라인4] EL TORNADO (FULL)"
+          }
+        }
+      ],
+      "related": [
+        "fo4-reveal",
+        "fo4-launch"
+      ],
+      "career": "ea",
+      "image": "assets/images/video-cUz9Rq-luRI.jpg",
+      "imageAlt": {
+        "en": "FIFA Online 4 Launch Campaign: El Tornado",
+        "ko": "FIFA Online 4 출시 캠페인: El Tornado"
+      }
     },
     {
       "id": "sims",
-      "number": "04",
       "title": {
         "en": "The Sims · Cultural Activations",
         "ko": "The Sims · 문화적 협업"
       },
-      "subtitle": "",
-      "period": "2020 — 2022",
+      "period": "2020–2022",
       "brand": "THE SIMS",
       "category": {
-        "en": "Cultural GTM",
-        "ko": "문화 기반 GTM"
+        "en": "Culture & Entertainment",
+        "ko": "문화와 엔터테인먼트"
       },
-      "keywords": [],
+      "summary": {
+        "en": "Connected music, creators and Asian cultural insight with a global life-simulation franchise → made local expression part of the brand experience.",
+        "ko": "음악과 크리에이터, 아시아 문화의 인사이트를 글로벌 라이프 시뮬레이션에 연결 → 로컬의 표현을 브랜드 경험으로 확장."
+      },
+      "context": {
+        "en": "Korean and Asian cultural expression offered a way to make a global franchise feel closer to local players.",
+        "ko": "한국과 아시아의 문화적 표현을 통해 글로벌 프랜차이즈를 로컬 유저에게 더 가까운 경험으로 만들고자 했습니다."
+      },
+      "actions": {
+        "en": [
+          "Influenced global teams to explore Korean talent and cultural content.",
+          "Tested music and creator collaborations, then built on the formats that resonated."
+        ],
+        "ko": [
+          "글로벌 팀을 설득해 한국의 아티스트와 문화 콘텐츠 기회를 발굴.",
+          "음악·크리에이터 협업을 테스트하고 유저가 공감하는 포맷을 확장."
+        ]
+      },
+      "outcome": {
+        "en": "Contributed to 263% new-player growth and more than doubled Korean revenue in 2020–2021.",
+        "ko": "2020–2021년 한국 신규 유저 263% 증가와 매출 2배 이상의 성장에 기여."
+      },
+      "metrics": [
+        {
+          "value": "+263%",
+          "label": {
+            "en": "new-player growth · Korea, 2020–2021",
+            "ko": "한국 신규 유저 증가 · 2020–2021"
+          }
+        }
+      ],
+      "insight": {
+        "en": "Culture makes a product more meaningful when people can see their own ways of living and creating within it.",
+        "ko": "사람들이 살아가고 표현하는 방식이 제품에 반영될 때, 문화는 더 의미 있는 경험이 됩니다."
+      },
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/sims-main.jpg",
+          "alt": {
+            "en": "BENEE × The Sims 4 campaign",
+            "ko": "BENEE × The Sims4 캠페인"
+          },
+          "caption": {
+            "en": "Music × Play with Life",
+            "ko": "음악 × Play with Life"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "PM06EvWTaSo",
+          "url": "https://www.youtube.com/watch?v=PM06EvWTaSo",
+          "poster": "assets/images/reel-21.jpg",
+          "caption": {
+            "en": "Campaign film",
+            "ko": "캠페인 영상"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "EB7lkji52Xs",
+          "url": "https://www.youtube.com/watch?v=EB7lkji52Xs",
+          "poster": "assets/images/reel-18.jpg",
+          "caption": {
+            "en": "Campaign film",
+            "ko": "캠페인 영상"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "djTf1JVxZ1Y",
+          "url": "https://www.youtube.com/watch?v=djTf1JVxZ1Y",
+          "poster": "assets/images/reel-16.jpg",
+          "caption": {
+            "en": "Campaign film",
+            "ko": "캠페인 영상"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "Z7eKVpkATo8",
+          "url": "https://www.youtube.com/watch?v=Z7eKVpkATo8",
+          "poster": "assets/images/reel-14.jpg",
+          "caption": {
+            "en": "Campaign film",
+            "ko": "캠페인 영상"
+          }
+        }
+      ],
       "image": "assets/images/sims-main.jpg",
       "imageAlt": {
-        "en": "BENEE and The Sims 4 cultural music campaign creative",
-        "ko": "BENEE와 The Sims 4 음악 캠페인"
-      },
-      "summary": "",
-      "context": "",
-      "role": "",
-      "actions": [],
-      "metrics": [],
-      "outcome": "",
-      "insight": "",
-      "gallery": [
-        "assets/images/sims-2.jpg",
-        "assets/images/sims-3.jpg"
-      ],
-      "reelIds": [
-        "PM06EvWTaSo",
-        "EB7lkji52Xs",
-        "djTf1JVxZ1Y",
-        "Z7eKVpkATo8"
-      ],
-      "sourceSlide": 6
-    },
-    {
-      "id": "player-first",
-      "number": "05",
-      "title": {
-        "en": "Player-first Communications",
-        "ko": "유저 중심 커뮤니케이션"
-      },
-      "subtitle": "",
-      "period": "2018 — 2023",
-      "brand": "EA / ASIA PUBLISHERS",
-      "category": {
-        "en": "Operating Models",
-        "ko": "운영 체계"
+        "en": "The Sims cultural activation",
+        "ko": "The Sims 문화적 협업"
       },
       "keywords": [],
-      "image": "assets/images/player-first-main.jpg",
-      "imageAlt": {
-        "en": "EA and Nexon new-project media showcase visual",
-        "ko": "EA와 넥슨의 신작 미디어 쇼케이스"
-      },
-      "summary": "",
-      "context": "",
-      "role": "",
-      "actions": [],
-      "metrics": [],
-      "outcome": "",
-      "insight": "",
-      "gallery": [
-        "assets/images/player-first-2.jpg"
-      ],
-      "video": "https://www.youtube.com/watch?v=WUywinAe0Yw",
-      "videoLabel": {
-        "en": "Watch the campaign example",
-        "ko": "캠페인 사례 영상 보기"
-      },
-      "reelIds": [],
-      "sourceSlide": 9
+      "related": [],
+      "career": "ea"
     }
   ],
   "about": {
     "headline": "",
-    "intro": "",
+    "intro": {
+      "en": "Working on diverse football marketing projects has shown how games, athletes, clubs and fans can build a culture that brings people together. Bridging global brands and local communities has deepened an interest in the meaning a brand can bring to people’s lives.\n\nThe next chapter is about continuing to grow, while helping brands and businesses grow in ways that create meaning and value for people. That means understanding what moves people, reading cultural context, and building lasting experiences with the people involved.",
+      "ko": "다양한 축구 마케팅을 하며, 게임과 선수, 클럽과 팬이 함께 만드는 문화가 사람들을 연결하는 힘을 경험했습니다. 글로벌 브랜드와 로컬 커뮤니티 사이에서 일할수록, 브랜드가 사람들의 삶에 어떤 의미를 남길 수 있는지 더 깊이 생각하게 되었습니다.\n\n이제는 쌓아온 경험을 바탕으로 스스로도 더 성장하고, 비즈니스와 브랜드의 성장을 사람들에게 의미와 가치를 주는 일로 연결하고 싶습니다. 사람의 마음과 문화의 맥락을 이해하고, 함께하는 사람들과 오래가는 경험을 만드는 것이 다음 여정의 방향입니다."
+    },
     "philosophy": [
       {
         "title": {
-          "en": "My philosophy",
+          "en": "My Philosophy",
           "ko": "나의 철학"
         },
-        "text": ""
+        "text": {
+          "en": [
+            "**Start with Why.** Clarify the purpose before choosing the action.",
+            "**Zero to One.** Build the foundations when no clear path exists.",
+            "**Detail Oriented.** Carry the intent through every execution detail."
+          ],
+          "ko": [
+            "**Start with Why.** 행동을 정하기 전에 목적부터 이해합니다.",
+            "**Zero to One.** 정해진 길이 없을 때 필요한 기반부터 만듭니다.",
+            "**Detail Oriented.** 처음의 의도가 실행의 디테일까지 이어지도록 살핍니다."
+          ]
+        }
       },
       {
         "title": {
-          "en": "My working style",
+          "en": "My Working Style",
           "ko": "일하는 방식"
         },
-        "text": ""
+        "text": {
+          "en": "People-centred collaboration, backed by passion and dedication — building a shared direction and seeing the work through together.",
+          "ko": "사람을 중심에 두고, 열정과 헌신으로 매사에 임합니다. 함께 일하는 사람들과 방향을 맞추고, 맡은 일이 끝까지 이어지도록 책임을 다합니다."
+        }
       },
       {
         "title": {
-          "en": "My interests",
-          "ko": "관심사"
+          "en": "My Interests",
+          "ko": "나의 관심사"
         },
-        "text": ""
+        "text": {
+          "en": "Football, music, games and entertainment in many forms, alongside wellness and education — exploring how culture can help people live well and grow together.",
+          "ko": "축구, 음악, 게임을 비롯한 다양한 엔터테인먼트와 웰니스, 교육에 관심이 깊습니다. 사람들이 건강하게 살아가고 함께 성장할 수 있는, 지속가능한 문화를 탐구합니다."
+        }
       }
     ],
     "process": [],
     "education": [],
     "leadership": [],
     "recognition": [],
-    "image": "assets/images/in-the-field.jpg",
+    "image": "assets/images/sunny-about.jpg",
     "imageAlt": {
-      "en": "Football partnership event with speakers on stage, from Sunny Ryu’s portfolio",
-      "ko": "축구 파트너십 행사 현장"
+      "en": "Sunny Ryu at an EA SPORTS FC event.",
+      "ko": "EA SPORTS FC 행사 현장의 Sunny Ryu."
     },
-    "workingStyle": "",
-    "values": "",
-    "inspiration": "",
-    "next": ""
+    "values": {
+      "en": "Trust, clear purpose and shared ownership. Growth matters most when it creates meaningful value for the people and partners involved.",
+      "ko": "신뢰, 명확한 목적, 함께하는 책임감을 중요하게 생각합니다. 성장은 사람과 파트너 모두에게 의미 있는 가치를 남길 때 더욱 중요하다고 믿습니다."
+    },
+    "inspiration": {
+      "en": "How people play, create and connect — from music and everyday culture to communities that turn shared passions into something lasting.",
+      "ko": "사람들이 즐기고, 만들고, 연결되는 방식에서 영감을 얻습니다. 음악과 일상의 문화, 같은 관심으로 모인 커뮤니티가 오래가는 경험을 만드는 모습에 주목합니다."
+    },
+    "next": {
+      "en": "Keep learning. Build new possibilities where culture, technology and human understanding meet — and turn them into meaningful experiences and lasting growth.",
+      "ko": "계속 배우고, 새로운 가능성을 만들고 싶습니다. 문화와 기술, 사람에 대한 이해를 연결해 의미 있는 경험과 지속되는 성장으로 이어가려 합니다."
+    }
   },
   "reels": [
     {
@@ -1545,19 +3472,12 @@ window.SUNNY_CONTENT = {
       "sourceSlide": 11
     }
   ],
-  "contact": {
-    "intro": {
-      "en": "Connect by email or LinkedIn to discuss a collaboration or request a résumé.",
-      "ko": "협업 제안이나 이력서 요청은 이메일 또는 LinkedIn으로 연락해 주세요."
-    }
-  },
   "defaultLanguage": "en",
   "ui": {
     "en": {
       "navCareer": "Career",
       "navProject": "Project",
       "navAbout": "About Me",
-      "navContact": "Contact Me",
       "mainNav": "Main navigation",
       "languageNav": "Site language",
       "skip": "Skip to content",
@@ -1577,7 +3497,7 @@ window.SUNNY_CONTENT = {
       "careerNav": "Career chapters",
       "roleNav": "EA roles",
       "projectEyebrow": "02 / PROJECT",
-      "projectHeading": "Selected\nwork.",
+      "projectHeading": "Football.\nCulture. Growth.",
       "reelEyebrow": "IN MOTION",
       "reelHeading": "Campaign reels.",
       "reelIntro": "Selected campaign films and creator collaborations.",
@@ -1585,16 +3505,11 @@ window.SUNNY_CONTENT = {
       "aboutEyebrow": "03 / ABOUT ME",
       "aboutHeading": "Beyond\nthe work.",
       "myStory": "MY STORY",
-      "fieldCaption": "IN THE FIELD / FOOTBALL PARTNERSHIPS",
+      "fieldCaption": "A MOMENT IN THE JOURNEY / EA SPORTS FC",
       "howWork": "HOW I WORK",
-      "values": "What I value",
-      "inspiration": "What inspires me",
-      "next": "What comes next",
-      "contactEyebrow": "04 / CONTACT ME",
-      "contactHeading": "Let’s connect.",
-      "email": "EMAIL",
-      "resume": "RÉSUMÉ",
-      "resumeHeading": "Résumé available\non request.",
+      "values": "What I Value",
+      "inspiration": "What Inspires Me",
+      "next": "What Comes Next",
       "sendEmail": "Send me an email ↗",
       "linkedin": "Connect on LinkedIn ↗",
       "challenge": "THE CHALLENGE",
@@ -1602,41 +3517,54 @@ window.SUNNY_CONTENT = {
       "impact": "GROWTH CONTRIBUTION",
       "insight": "WHAT I LEARNED",
       "chapterDetails": "Explore this chapter",
-      "relatedWork": "EXPLORE THE WORK",
+      "relatedWork": "RELATED PROJECTS",
       "notAdded": "not yet added",
       "extraIntro": "Additional introduction",
       "focusKeywords": "Areas of focus",
       "aboutIntro": "About introduction",
       "projectIntro": "Project introduction",
       "projectSummary": "Project summary",
-      "context": "The context",
+      "context": "Why it mattered",
       "myRole": "My role",
-      "decisions": "The decisions",
-      "projectImpact": "The impact",
-      "lesson": "WHAT THIS TAUGHT ME",
-      "projectExplore": "Explore project ↗",
+      "decisions": "The contribution",
+      "projectImpact": "What it changed",
+      "lesson": "THE PERSPECTIVE",
+      "projectExplore": "Explore the story ↗",
       "allProjects": "← All projects",
       "backCareer": "← Back to career",
       "nextProject": "Next project ↗",
-      "campaignThumb": "Campaign film thumbnail from the supplied portfolio",
-      "supportImage": "Supporting campaign image from the supplied portfolio",
+      "campaignThumb": "Project film poster",
+      "supportImage": "Project photograph or campaign artwork",
       "youtubeOpen": "opens on YouTube",
       "campaignReel": "Campaign reel",
       "results": "Results and metrics",
       "outcome": "Outcome",
       "noScript": "Please enable JavaScript to explore this portfolio. Connect on LinkedIn.",
       "moreInfo": "Read the story behind the results",
-      "emailHeading": "Start a\nconversation.",
-      "emailNote": "For collaborations, consulting or a new opportunity.",
-      "resumeNote": "For a copy of my résumé, send a request by email.",
-      "requestResume": "Request my résumé ↗",
-      "resumeSubject": "Résumé request — Sunny Ryu"
+      "aboutContact": "Contact links",
+      "featuredWork": "SELECTED STORIES",
+      "programmesHeading": "More ways to connect.",
+      "programmesIntro": "Explore the programmes behind launches, partnerships and communities.",
+      "playFilm": "Play film",
+      "filmBadge": "FILM",
+      "playFilmLabel": "Play this project film",
+      "closeFilm": "Close film",
+      "videoFallback": "Open on YouTube ↗",
+      "backOrigin": "← Back to where you were",
+      "relatedStories": "Keep exploring.",
+      "projectNav": "Project navigation",
+      "projectMedia": "THE WORK IN MOTION & IMAGES",
+      "collectionHeading": "Culture, made wearable.",
+      "collectionIntro": "Korean heritage, places and supporter culture, expressed through football design.",
+      "additionalWork": "Beyond football",
+      "viewSource": "View programme reference ↗",
+      "viewImage": "View full image",
+      "closeImage": "Close image"
     },
     "ko": {
       "navCareer": "커리어",
       "navProject": "프로젝트",
       "navAbout": "소개",
-      "navContact": "연락하기",
       "mainNav": "주요 메뉴",
       "languageNav": "사이트 언어",
       "skip": "본문으로 이동",
@@ -1656,7 +3584,7 @@ window.SUNNY_CONTENT = {
       "careerNav": "회사별 커리어",
       "roleNav": "EA 역할 선택",
       "projectEyebrow": "02 / 프로젝트",
-      "projectHeading": "아이디어를\n성과로.",
+      "projectHeading": "축구와 문화,\n그리고 성장.",
       "reelEyebrow": "캠페인 영상",
       "reelHeading": "캠페인 릴스.",
       "reelIntro": "캠페인 영상과 크리에이터 협업 사례.",
@@ -1664,16 +3592,11 @@ window.SUNNY_CONTENT = {
       "aboutEyebrow": "03 / 소개",
       "aboutHeading": "일을 넘어,\n나를 만드는 것.",
       "myStory": "나의 이야기",
-      "fieldCaption": "현장에서 / 축구 파트너십",
+      "fieldCaption": "여정의 한 순간 / EA SPORTS FC",
       "howWork": "일하는 방식",
       "values": "중요하게 생각하는 것",
       "inspiration": "영감을 주는 것",
       "next": "다음 방향",
-      "contactEyebrow": "04 / 연락하기",
-      "contactHeading": "함께 이야기해요.",
-      "email": "이메일",
-      "resume": "이력서",
-      "resumeHeading": "이력서는\n요청해 주세요.",
       "sendEmail": "이메일 보내기 ↗",
       "linkedin": "LinkedIn에서 연결하기 ↗",
       "challenge": "과제",
@@ -1688,28 +3611,302 @@ window.SUNNY_CONTENT = {
       "aboutIntro": "소개 문구",
       "projectIntro": "프로젝트 소개",
       "projectSummary": "프로젝트 요약",
-      "context": "배경과 문제",
+      "context": "왜 필요했는가",
       "myRole": "나의 역할",
-      "decisions": "전략과 실행",
-      "projectImpact": "성과",
-      "lesson": "이 경험에서 배운 점",
-      "projectExplore": "프로젝트 보기 ↗",
+      "decisions": "기여한 방식",
+      "projectImpact": "만들어낸 변화",
+      "lesson": "이 경험에서 얻은 관점",
+      "projectExplore": "프로젝트 살펴보기 ↗",
       "allProjects": "← 전체 프로젝트",
       "backCareer": "← 커리어로 돌아가기",
       "nextProject": "다음 프로젝트 ↗",
-      "campaignThumb": "첨부 포트폴리오의 캠페인 영상 썸네일",
-      "supportImage": "첨부 포트폴리오의 캠페인 이미지",
+      "campaignThumb": "프로젝트 영상 포스터",
+      "supportImage": "프로젝트 사진 또는 캠페인 이미지",
       "youtubeOpen": "YouTube에서 열기",
       "campaignReel": "캠페인 릴스",
       "results": "성과 지표",
       "outcome": "결과",
       "noScript": "포트폴리오를 보려면 JavaScript를 활성화해주세요. LinkedIn에서 연결할 수 있어요.",
       "moreInfo": "결과를 만든 과정 살펴보기",
-      "emailHeading": "새로운 대화를\n시작해요.",
-      "emailNote": "협업, 컨설팅 또는 새로운 기회에 대해 이야기해요.",
-      "resumeNote": "이력서가 필요하시면 이메일로 요청해 주세요.",
-      "requestResume": "이력서 요청하기 ↗",
-      "resumeSubject": "이력서 요청 — Sunny Ryu"
+      "aboutContact": "연락 링크",
+      "featuredWork": "대표 프로젝트",
+      "programmesHeading": "연결을 만드는 다양한 방식.",
+      "programmesIntro": "출시, 파트너십, 커뮤니티를 연결했던 프로그램을 살펴보세요.",
+      "playFilm": "영상 재생",
+      "filmBadge": "영상",
+      "playFilmLabel": "프로젝트 영상 재생",
+      "closeFilm": "영상 닫기",
+      "videoFallback": "YouTube에서 보기 ↗",
+      "backOrigin": "← 이전 화면으로",
+      "relatedStories": "다음 이야기.",
+      "projectNav": "프로젝트 탐색",
+      "projectMedia": "영상과 이미지로 보는 프로젝트",
+      "collectionHeading": "입을 수 있는 문화.",
+      "collectionIntro": "한국의 전통, 지역, 응원 문화를 축구 디자인으로 표현한 컬렉션.",
+      "additionalWork": "축구를 넘어",
+      "viewSource": "프로그램 레퍼런스 보기 ↗",
+      "viewImage": "이미지 크게 보기",
+      "closeImage": "이미지 닫기"
     }
+  },
+  "projectIntroduction": {
+    "en": "Selected work connecting global football brands with Korean culture, communities and commercial opportunities.",
+    "ko": "글로벌 축구 브랜드를 한국의 문화, 커뮤니티, 비즈니스 성장과 연결했던 프로젝트."
+  },
+  "featuredProjectIds": [
+    "fifa20-adidas",
+    "cultural-kits",
+    "kleague-ratings",
+    "fc-futures"
+  ],
+  "projectAliases": {
+    "football-culture": "fc24-house",
+    "partnerships": "kleague-ratings",
+    "fo4": "el-tornado",
+    "player-first": "fo4-reveal"
+  },
+  "projectGroups": [
+    {
+      "id": "launches",
+      "title": {
+        "en": "Next Launch Experiences",
+        "ko": "다음 출시 경험"
+      },
+      "period": "2020–2025",
+      "projectIds": [
+        "fifa21-digital",
+        "fifa22-digital",
+        "fifa23-pc",
+        "fc24-house",
+        "fc25-psg",
+        "fc26-popup"
+      ]
+    },
+    {
+      "id": "talent",
+      "title": {
+        "en": "Korean Talent, Global Stories",
+        "ko": "한국의 선수, 글로벌 스토리"
+      },
+      "period": "2020–2025",
+      "projectIds": [
+        "hwang-global",
+        "son-global",
+        "fifa22-talent",
+        "olympic-support",
+        "park-marvel",
+        "fc25-commentary"
+      ]
+    },
+    {
+      "id": "legends",
+      "title": {
+        "en": "Club Legends, Live Service",
+        "ko": "클럽 레전드와 라이브서비스"
+      },
+      "period": "2021–2023",
+      "projectIds": [
+        "chelsea-class",
+        "madrid-class",
+        "juventus-class"
+      ]
+    },
+    {
+      "id": "summer",
+      "title": {
+        "en": "Summer Football, Game Rewards",
+        "ko": "여름 축구와 게임 리워드"
+      },
+      "period": "2023–2024",
+      "projectIds": [
+        "summer-2023",
+        "summer-2024"
+      ]
+    },
+    {
+      "id": "partners",
+      "title": {
+        "en": "Football Partner Experiences",
+        "ko": "축구 파트너 경험"
+      },
+      "period": "2017–2025",
+      "projectIds": [
+        "fo3-laliga",
+        "kleague-potm",
+        "kleague-renewal",
+        "fco-festival"
+      ]
+    },
+    {
+      "id": "creators",
+      "title": {
+        "en": "Creator-led Football Culture",
+        "ko": "크리에이터와 축구 문화"
+      },
+      "period": "2022–2023",
+      "projectIds": [
+        "jonathan",
+        "nivel-worldcup"
+      ]
+    },
+    {
+      "id": "youth",
+      "title": {
+        "en": "Youth Football Experiences",
+        "ko": "어린이와 가족의 축구 경험"
+      },
+      "period": "2023–2025",
+      "projectIds": [
+        "worldclass-fc",
+        "football-festival"
+      ]
+    },
+    {
+      "id": "online",
+      "title": {
+        "en": "FIFA Online 4 Launch Platform",
+        "ko": "FIFA Online 4 출시 플랫폼"
+      },
+      "period": "2017–2018",
+      "projectIds": [
+        "fo4-reveal",
+        "fo4-launch",
+        "el-tornado"
+      ]
+    }
+  ],
+  "kitCollection": [
+    {
+      "id": "kit-gonryongpo",
+      "title": {
+        "en": "FIFA 20 × OVER THE PITCH: Gonryongpo Kit",
+        "ko": "FIFA20 × 오버더피치: 곤룡포 킷"
+      },
+      "period": "2019",
+      "summary": {
+        "en": "Translated Korean royal-dress symbolism into football kit design → proposed local culture as a form of self-expression in a global game.",
+        "ko": "한국 전통 의복의 상징을 축구 킷 디자인으로 번역 → 로컬 문화가 글로벌 게임의 자기표현 소재가 되도록 제안."
+      },
+      "image": "",
+      "video": {
+        "kind": "video",
+        "provider": "facebook",
+        "videoId": "312851923017221",
+        "url": "https://www.facebook.com/overthepitch/videos/312851923017221/",
+        "poster": "assets/images/kit-gonryongpo.jpg",
+        "caption": {
+          "en": "Gonryongpo Kit · Director’s Cut EP.3",
+          "ko": "곤룡포 킷 · 디렉터스컷 EP.3"
+        }
+      }
+    },
+    {
+      "id": "kit-hanbok",
+      "title": {
+        "en": "FIFA 21 × OVER THE PITCH: Hanbok Kit",
+        "ko": "FIFA21 × 오버더피치: 한복 킷"
+      },
+      "period": "2021",
+      "summary": {
+        "en": "Connected hanbok design with a seasonal football moment → brought a Korean cultural celebration into digital and physical kit experiences.",
+        "ko": "한복의 문화적 언어를 시즌 콘텐츠로 연결 → 한국의 명절 경험을 글로벌 게임과 실물 킷에 담음."
+      },
+      "image": ""
+    },
+    {
+      "id": "kit-jeju",
+      "title": {
+        "en": "FIFA 22 × OVER THE PITCH: Jeju Kit",
+        "ko": "FIFA22 × 오버더피치: JEJU KIT"
+      },
+      "period": "2021",
+      "summary": {
+        "en": "Translated Jeju’s landscape and local identity into football style → brought Korean regional culture into the global VOLTA experience.",
+        "ko": "제주의 자연과 지역 정체성을 축구 스타일로 표현 → 한국의 지역 문화가 글로벌 VOLTA 경험에 참여하는 접점 마련."
+      },
+      "image": "assets/images/kit-jeju-1.jpg"
+    },
+    {
+      "id": "kit-red-devils",
+      "title": {
+        "en": "FIFA 23 · Red Devils 2022 Kit",
+        "ko": "FIFA23 · 붉은악마 2022 킷"
+      },
+      "period": "2022",
+      "summary": {
+        "en": "Connected Korean national-team supporter culture with an in-game kit → enabled fans to express belonging through digital football.",
+        "ko": "한국의 국가대표 응원 문화를 게임 속 킷에 연결 → 팬의 소속감이 디지털 축구 경험에서도 표현되도록 지원."
+      },
+      "image": "assets/images/kit-red-devils.jpg"
+    },
+    {
+      "id": "kit-hero",
+      "title": {
+        "en": "FIFA 22 × NIVELCRACK: Hero Kit",
+        "ko": "FIFA22 × 니벨크랙: 히어로 킷"
+      },
+      "period": "2022",
+      "summary": {
+        "en": "Connected a local football-design perspective with the global game experience → expanded how fans could express their football identity.",
+        "ko": "로컬 축구 디자인의 캐릭터를 글로벌 게임 경험에 연결 → 팬이 자신만의 축구 정체성을 표현하는 선택지를 확장."
+      },
+      "image": ""
+    },
+    {
+      "id": "kit-supernova",
+      "title": {
+        "en": "FIFA 22 × GOALSTUDIO: Supernova Kit",
+        "ko": "FIFA22 × 골스튜디오: 수퍼노바 킷"
+      },
+      "period": "2022",
+      "summary": {
+        "en": "Connected local sportswear design across digital and physical kits → created a brand experience spanning play and wear.",
+        "ko": "로컬 스포츠웨어의 디자인을 게임과 실물 상품에 함께 연결 → 플레이와 착용을 잇는 브랜드 경험 마련."
+      },
+      "image": "assets/images/kit-supernova.jpg"
+    },
+    {
+      "id": "kit-korean-tiger",
+      "title": {
+        "en": "FIFA 22 × GOALSTUDIO: Korean Tiger Kit",
+        "ko": "FIFA22 × 골스튜디오: 코리안 타이거 킷"
+      },
+      "period": "Dec 2021 / 2022 seasonal moment",
+      "summary": {
+        "en": "Connected Korean tiger symbolism with a seasonal kit → linked gameplay, a physical jersey and fan promotions.",
+        "ko": "한국 호랑이와 새해의 문화적 모티브를 킷으로 표현 → 게임 플레이·실물 져지·팬 프로모션을 연결."
+      },
+      "image": ""
+    },
+    {
+      "id": "kit-kleague40",
+      "title": {
+        "en": "FIFA 23 × OVER THE PITCH: K League 40th Anniversary",
+        "ko": "FIFA23 × 오버더피치: K리그 40주년 브랜딩·킷"
+      },
+      "period": "2023",
+      "summary": {
+        "en": "Connected K League’s 40-year story with shared branding and kit design → extended an in-game tribute into the league’s real-world anniversary programme.",
+        "ko": "K리그의 40년 이야기를 공동 브랜딩과 킷으로 연결 → 게임 안의 헌정이 실제 리그 기념사업에서도 활용되도록 지원."
+      },
+      "image": "",
+      "video": {
+        "kind": "video",
+        "videoId": "kDN0cWFEkCA",
+        "url": "https://www.youtube.com/watch?v=kDN0cWFEkCA",
+        "poster": "assets/images/video-kDN0cWFEkCA.jpg",
+        "caption": {
+          "en": "FIFA23 VOLTA에서 K리그 출범 40주년을 함께 축하해주세요 I FIFA23",
+          "ko": "FIFA23 VOLTA에서 K리그 출범 40주년을 함께 축하해주세요 I FIFA23"
+        }
+      }
+    }
+  ],
+  "additionalProjectIds": [
+    "sims"
+  ],
+  "release": {
+    "date": "2026-10-14",
+    "version": "final-portfolio-1"
   }
 };

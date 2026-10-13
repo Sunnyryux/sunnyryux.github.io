@@ -10,11 +10,11 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css?v=20261013-contact">
-  <script src="assets/content.js?v=20261013-contact" defer></script>
-  <script src="assets/site.js?v=20261013-contact" defer></script>
-  <script src="assets/video.js?v=20261013-contact" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css?v=20261014-final">
+  <script src="assets/content.js?v=20261014-final" defer></script>
+  <script src="assets/site.js?v=20261014-final" defer></script>
+  <script src="assets/video.js?v=20261014-final" defer></script>
 </head>
 <body>
   <div id="sunny-brand" data-language="en" lang="en">
@@ -26,7 +26,6 @@
           <a href="#career" data-nav="career" data-i18n="navCareer">Career</a>
           <a href="#project" data-nav="project" data-i18n="navProject">Project</a>
           <a href="#about" data-nav="about" data-i18n="navAbout">About Me</a>
-          <a href="#contact" data-nav="contact" data-i18n="navContact">Contact Me</a>
         </nav>
         <div class="language-switch" role="group" aria-label="Site language" data-i18n-aria="languageNav">
           <button type="button" data-language-switch="en" aria-pressed="true" aria-label="English">EN</button>
@@ -44,8 +43,8 @@
           <div class="hero-content">
             <p class="eyebrow hero-eyebrow" data-i18n="heroEyebrow">PERSONAL BRAND / WORK & LIFE</p>
             <h1 id="home-heading" class="hero-name">Sunny Ryu<span>.</span></h1>
-            <h2 class="brand-message">I'm Still <span>in Progress.</span></h2>
             <p class="hero-focus" id="profile-focus"></p>
+            <h2 class="brand-message">I'M STILL IN PROGRESS.</h2>
             <div class="hero-copy">
               <div class="hero-statement"><p class="small-label" data-i18n="perspective">MY PERSPECTIVE</p><div id="profile-statement"></div></div>
               <div class="hero-mission"><p class="small-label" data-i18n="mission">NEXT MISSION</p><div id="profile-mission"></div></div>
@@ -65,31 +64,23 @@
       <section data-view="project" class="page-view" aria-labelledby="project-heading" hidden>
         <div id="project-overview">
           <div class="page-heading"><div><p class="eyebrow" data-i18n="projectEyebrow">02 / PROJECT</p><h1 id="project-heading" data-i18n="projectHeading">Selected<br>work.</h1></div><div id="project-intro"></div></div>
+          <p class="small-label selected-label" data-i18n="featuredWork">SELECTED STORIES</p>
           <div id="project-grid" class="project-grid"></div>
-          <div class="reel-heading"><p class="eyebrow" data-i18n="reelEyebrow">IN MOTION</p><h2 data-i18n="reelHeading">Campaign reels.</h2><p data-i18n="reelIntro">Selected campaign films and creator collaborations.</p></div>
-          <div id="reel-grid" class="reel-grid"></div>
-          <button type="button" id="more-reels" class="action action-outline" data-i18n="allReels">Show all campaign reels ↓</button>
+          <div class="programmes-heading"><p class="eyebrow" data-i18n="programmesHeading">More ways to connect.</p><p data-i18n="programmesIntro">Explore the programmes behind launches, partnerships and communities.</p></div>
+          <div id="programme-list" class="programme-list"></div>
+          <div id="additional-work"></div>
         </div>
         <article id="project-detail" aria-live="polite" hidden></article>
       </section>
       <section data-view="about" class="page-view" aria-labelledby="about-heading" hidden>
-        <div class="page-heading"><div><p class="eyebrow" data-i18n="aboutEyebrow">03 / ABOUT ME</p><h1 id="about-heading" data-i18n="aboutHeading">Beyond<br>the work.</h1></div><div id="about-heading-intro"></div></div>
-        <div class="about-intro"><div><p class="small-label" data-i18n="myStory">MY STORY</p><div id="about-intro"></div><div class="contact-links"><a href="#contact" class="action action-light" data-i18n="navContact">Contact Me</a><a id="linkedin-link" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div><figure><img id="about-image" loading="lazy" alt=""><figcaption data-i18n="fieldCaption">IN THE FIELD / FOOTBALL PARTNERSHIPS</figcaption></figure></div>
+        <div class="page-heading"><div><p class="eyebrow" data-i18n="aboutEyebrow">03 / ABOUT ME</p><h1 id="about-heading" data-i18n="aboutHeading">Beyond<br>the work.</h1><div class="contact-links about-top-links" role="group" aria-label="Contact links" data-i18n-aria="aboutContact"><a id="send-email-link" class="action action-light" data-i18n="sendEmail">Send me an email ↗</a><a id="linkedin-link" target="_blank" rel="noopener noreferrer" data-i18n="linkedin">Connect on LinkedIn ↗</a></div></div></div>
+        <div class="about-intro"><div><p class="small-label" data-i18n="myStory">MY STORY</p><div id="about-intro"></div></div><figure><img id="about-image" loading="lazy" alt=""><figcaption data-i18n="fieldCaption">A MOMENT IN THE JOURNEY / EA SPORTS FC</figcaption></figure></div>
         <div id="philosophy-grid" class="philosophy-grid"></div>
-        <div class="process-section"><p class="eyebrow" data-i18n="howWork">HOW I WORK</p><div id="process-copy"></div></div>
         <div class="about-facts"><div><h3 data-i18n="values">What I value</h3><div id="values-copy"></div></div><div><h3 data-i18n="inspiration">What inspires me</h3><div id="inspiration-copy"></div></div><div><h3 data-i18n="next">What comes next</h3><div id="next-copy"></div></div></div>
       </section>
-      <section data-view="contact" class="page-view contact-view" aria-labelledby="contact-heading" hidden>
-        <div class="page-heading"><div><p class="eyebrow" data-i18n="contactEyebrow">04 / CONTACT ME</p><h1 id="contact-heading" data-i18n="contactHeading">Let’s connect.</h1></div></div>
-        <div id="contact-intro"></div>
-        <div class="contact-grid">
-          <article class="contact-item"><p class="small-label" data-i18n="email">EMAIL</p><h2 data-i18n="emailHeading">Start a<br>conversation.</h2><p class="contact-description" data-i18n="emailNote">For collaborations, consulting or a new opportunity.</p><a id="send-email-link" class="action action-light" data-i18n="sendEmail">Send me an email ↗</a></article>
-          <article class="contact-item"><p class="small-label" data-i18n="resume">RÉSUMÉ</p><h2 data-i18n="resumeHeading">Résumé available<br>on request.</h2><p class="contact-description" data-i18n="resumeNote">For a copy of my résumé, send a request by email.</p><a id="request-resume-link" class="action action-pink" data-i18n="requestResume">Request my résumé ↗</a></article>
-        </div>
-        <a id="contact-linkedin" class="contact-social" target="_blank" rel="noopener noreferrer" data-i18n="linkedin">Connect on LinkedIn ↗</a>
-      </section>
     </main>
-    <footer class="site-footer"><a href="#home">SUNNY RYU.</a><p>I'M STILL IN PROGRESS.</p><a href="#contact" data-i18n="navContact">Contact Me</a></footer>
+    <dialog id="media-dialog" class="media-dialog" aria-labelledby="media-title"><div class="media-dialog-top"><h2 id="media-title"></h2><button type="button" id="media-close" data-i18n-aria="closeFilm" aria-label="Close film">✕</button></div><div id="media-content"></div><div id="media-link"></div></dialog>
+    <footer class="site-footer"><a href="#home">SUNNY RYU.</a><p>I'M STILL IN PROGRESS.</p><a id="footer-linkedin" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></footer>
     <noscript><p class="noscript-note">Please enable JavaScript to explore this portfolio. / 포트폴리오를 보려면 JavaScript를 활성화해주세요. <a href="https://www.linkedin.com/in/sunny-ryu-94ba6843" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a></p></noscript>
   </div>
 </body>
