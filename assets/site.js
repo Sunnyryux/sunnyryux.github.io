@@ -62,11 +62,9 @@
     find('philosophy-grid').innerHTML = data.about.philosophy.map((p,i) => '<section class="philosophy-item"><span>' + String(i+1).padStart(2,'0') + '</span><h2>' + inline(p.title) + '</h2>' + copy(p.text,local(p.title),3) + '</section>').join('');
     for (const [id,key,name] of [['process-copy','workingStyle','howWork'],['values-copy','values','values'],['inspiration-copy','inspiration','inspiration'],['next-copy','next','next']]) find(id).innerHTML = copy(data.about[key],ui(name),3);
     find('contact-intro').innerHTML = copy(data.contact.intro,ui('navContact'),2);
-    find('email-link').textContent = data.profile.email;
-    for (const id of ['email-link','send-email-link']) find(id).href = 'mailto:' + data.profile.email;
+    find('send-email-link').href = 'mailto:' + data.profile.email;
+    find('request-resume-link').setAttribute('href','mailto:' + data.profile.email + '?subject=' + encodeURIComponent(ui('resumeSubject')));
     for (const id of ['linkedin-link','contact-linkedin']) find(id).href = data.profile.linkedin;
-    find('resume-link').href = data.profile.resume;
-    find('resume-link').setAttribute('download','Sunny_Ryu_Resume.docx');
   }
   function renderCareer() {
     const career = data.careers.find(c => c.id === selectedCareer) || data.careers[0];

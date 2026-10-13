@@ -46,8 +46,7 @@ html{background:#090909;scroll-behavior:smooth}body{margin:0}
 #sunny-brand .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;margin-top:30px}
 #sunny-brand .contact-item{border-top:1px solid var(--sunny-white);padding-top:26px;min-width:0}
 #sunny-brand .contact-item h2{font:600 43px/1.1 var(--sunny-display);margin:22px 0 32px}
-#sunny-brand .contact-email{display:block;font:600 clamp(21px,3.2vw,37px)/1.4 var(--sunny-display);margin:28px 0 40px;overflow-wrap:anywhere}
-#sunny-brand .download-format{font-size:11px;color:var(--sunny-muted);margin-top:14px;letter-spacing:.09em}
+#sunny-brand .contact-description{font-size:14px;line-height:1.8;max-width:450px;margin:0 0 30px;color:var(--sunny-white)}
 #sunny-brand .contact-social{display:inline-block;margin-top:54px;font-size:13px;min-height:44px}
 #sunny-brand .hero-focus{font:600 clamp(17px,2.2vw,23px)/1.45 var(--sunny-font);max-width:650px}
 #sunny-brand #profile-focus{color:var(--sunny-white);font-family:"Manrope",Arial,sans-serif;font-weight:700;text-transform:uppercase}
@@ -234,7 +233,6 @@ html{background:#090909;scroll-behavior:smooth}body{margin:0}
 #sunny-brand[data-language="ko"] .reel-heading h2,#sunny-brand[data-language="ko"] .philosophy-item h2{font-size:30px;line-height:1.4;font-weight:700}
 #sunny-brand[data-language="ko"] .case-section h3,#sunny-brand[data-language="ko"] .about-facts h3{font-size:23px;line-height:1.4;font-weight:700}
 #sunny-brand[data-language="ko"] .contact-item h2{font-size:34px;line-height:1.35;font-weight:700}
-#sunny-brand[data-language="ko"] .contact-email{font-family:"Barlow Condensed","Arial Narrow",sans-serif;word-break:normal}
 @media(max-width:900px){#sunny-brand .header-tools{gap:23px}#sunny-brand .main-nav{gap:23px}#sunny-brand .language-switch{padding-left:16px}}
 @media(max-width:640px){
  #sunny-brand .site-header{display:grid;grid-template-columns:1fr auto;gap:12px 20px}#sunny-brand .header-tools{display:contents}#sunny-brand .wordmark{grid-column:1;grid-row:1}#sunny-brand .language-switch{grid-column:2;grid-row:1;border-left:0;padding-left:0}#sunny-brand .main-nav{grid-column:1/-1;grid-row:2;width:100%;gap:12px;justify-content:space-between}

@@ -37,7 +37,6 @@ window.SUNNY_CONTENT = {
       }
     ],
     "brandMessage": "I'm Still in Progress.",
-    "resume": "assets/downloads/Sunny_Ryu_Resume.docx",
     "journeyIntro": {
       "en": "From exhibitions and technology to games and sport: understanding customers and markets, connecting teams and partners, and turning growth opportunities into action.",
       "ko": "전시와 컨벤션에서 기술, 게임, 스포츠로 이어진 여정. 고객과 시장을 이해하고, 서로 다른 팀과 파트너의 역량을 연결하며 성장의 가능성을 실행으로 옮겨왔습니다."
@@ -1547,7 +1546,10 @@ window.SUNNY_CONTENT = {
     }
   ],
   "contact": {
-    "intro": ""
+    "intro": {
+      "en": "Connect by email or LinkedIn to discuss a collaboration or request a résumé.",
+      "ko": "협업 제안이나 이력서 요청은 이메일 또는 LinkedIn으로 연락해 주세요."
+    }
   },
   "defaultLanguage": "en",
   "ui": {
@@ -1592,10 +1594,8 @@ window.SUNNY_CONTENT = {
       "contactHeading": "Let’s connect.",
       "email": "EMAIL",
       "resume": "RÉSUMÉ",
-      "resumeHeading": "A closer look\nat my experience.",
-      "sendEmail": "Send an email ↗",
-      "downloadResume": "Download résumé ↓",
-      "resumeFormat": "DOCX / ENGLISH",
+      "resumeHeading": "Résumé available\non request.",
+      "sendEmail": "Send me an email ↗",
       "linkedin": "Connect on LinkedIn ↗",
       "challenge": "THE CHALLENGE",
       "approach": "MY APPROACH",
@@ -1624,8 +1624,13 @@ window.SUNNY_CONTENT = {
       "campaignReel": "Campaign reel",
       "results": "Results and metrics",
       "outcome": "Outcome",
-      "noScript": "Please enable JavaScript to explore this portfolio. Contact Sunny at",
-      "moreInfo": "Read the story behind the results"
+      "noScript": "Please enable JavaScript to explore this portfolio. Connect on LinkedIn.",
+      "moreInfo": "Read the story behind the results",
+      "emailHeading": "Start a\nconversation.",
+      "emailNote": "For collaborations, consulting or a new opportunity.",
+      "resumeNote": "For a copy of my résumé, send a request by email.",
+      "requestResume": "Request my résumé ↗",
+      "resumeSubject": "Résumé request — Sunny Ryu"
     },
     "ko": {
       "navCareer": "커리어",
@@ -1668,10 +1673,8 @@ window.SUNNY_CONTENT = {
       "contactHeading": "함께 이야기해요.",
       "email": "이메일",
       "resume": "이력서",
-      "resumeHeading": "경험을\n더 자세히.",
+      "resumeHeading": "이력서는\n요청해 주세요.",
       "sendEmail": "이메일 보내기 ↗",
-      "downloadResume": "이력서 다운로드 ↓",
-      "resumeFormat": "DOCX / 영문 이력서",
       "linkedin": "LinkedIn에서 연결하기 ↗",
       "challenge": "과제",
       "approach": "실행",
@@ -1700,8 +1703,13 @@ window.SUNNY_CONTENT = {
       "campaignReel": "캠페인 릴스",
       "results": "성과 지표",
       "outcome": "결과",
-      "noScript": "포트폴리오를 보려면 JavaScript를 활성화해주세요. 이메일:",
-      "moreInfo": "결과를 만든 과정 살펴보기"
+      "noScript": "포트폴리오를 보려면 JavaScript를 활성화해주세요. LinkedIn에서 연결할 수 있어요.",
+      "moreInfo": "결과를 만든 과정 살펴보기",
+      "emailHeading": "새로운 대화를\n시작해요.",
+      "emailNote": "협업, 컨설팅 또는 새로운 기회에 대해 이야기해요.",
+      "resumeNote": "이력서가 필요하시면 이메일로 요청해 주세요.",
+      "requestResume": "이력서 요청하기 ↗",
+      "resumeSubject": "이력서 요청 — Sunny Ryu"
     }
   }
 };
