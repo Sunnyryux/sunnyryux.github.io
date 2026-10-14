@@ -8,11 +8,12 @@
   let language = new URLSearchParams(location.search).get('lang') === 'ko' ? 'ko' : data.defaultLanguage;
   let selectedCareer = 'ea', selectedRole = 0, currentView = 'home', currentProject = '';
   let returnContext = null, lastRoute = '', modalTrigger = null;
+  let earlierWorkOpen = false, behindMoreOpen = false;
   const chapterOpen = {}, groupOpen = {};
   const find = id => root.querySelector('#' + id);
   const local = value => value && typeof value === 'object' && !Array.isArray(value) ? (value[language] ?? value.en ?? '') : (value ?? '');
   const escape = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
-  const englishHeadingKeys = new Set(['navCareer','navProject','navAbout','heroEyebrow','perspective','mission','homeJourney','homeNext','careerEyebrow','careerHeading','projectEyebrow','projectHeading','featuredWork','programmesHeading','aboutEyebrow','aboutHeading','myStory','howWork','values','inspiration','next','challenge','approach','impact','insight','relatedWork','relatedStories','context','decisions','projectImpact','lesson','projectMedia','collectionHeading','additionalWork','kingWork','references']);
+  const englishHeadingKeys = new Set(['navCareer','navProject','navAbout','heroEyebrow','perspective','mission','homeJourney','homeNext','careerEyebrow','careerHeading','projectEyebrow','projectHeading','featuredWork','programmesHeading','aboutEyebrow','aboutHeading','myStory','howWork','values','inspiration','next','challenge','approach','impact','insight','relatedWork','relatedStories','context','decisions','projectImpact','lesson','projectMedia','collectionHeading','additionalWork','kingWork','references','behindHeading','behindEyebrow']);
   const ui = key => (englishHeadingKeys.has(key) ? data.ui.en[key] : data.ui[language][key]) ?? data.ui.en[key] ?? key;
   const inline = value => escape(local(value)).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
   const heading = value => escape(value && typeof value === 'object' && !Array.isArray(value) ? value.en ?? local(value) : value);
@@ -29,6 +30,8 @@
     const role = data.careers.find(c => c.id === selectedCareer)?.roles[selectedRole];
     if (story && role) chapterOpen[selectedCareer + '/' + role.id] = story.open;
     root.querySelectorAll('[data-programme]').forEach(el => {groupOpen[el.dataset.programme] = el.open;});
+    if(find('earlier-work')) earlierWorkOpen=!!find('earlier-work').open;
+    if(find('behind-more')) behindMoreOpen=!!find('behind-more').open;
   }
   const snapshot = () => ({hash:currentHash(), scroll:window.scrollY || 0, career:selectedCareer, role:selectedRole});
   function persistSnapshot() {
@@ -63,7 +66,7 @@
     root.querySelectorAll('[data-language-switch]').forEach(el => {el.setAttribute('aria-pressed',String(el.dataset.languageSwitch===language));});
     find('home-heading').innerHTML=escape(data.profile.name)+'<span>.</span>';
     root.querySelector('.brand-message').innerHTML=escape(data.profile.brandMessage.toUpperCase()).replace(/\bPROGRESS\b([.!?]?)/,'<span class="brand-progress">$&</span>');
-    find('profile-focus').innerHTML=inline(data.profile.focus);
+    find('profile-focus').innerHTML=inline(data.profile.focus).replace(/\n/g,'<br>');
     find('profile-statement').innerHTML=copy(data.profile.statement);
     find('profile-mission').innerHTML=copy(data.profile.mission);
     find('profile-location').textContent=local(data.profile.location);
@@ -73,6 +76,7 @@
     find('home-journey-intro').textContent=local(data.profile.journeyIntro);
     find('journey-intro').textContent=local(data.profile.journeyIntro);
     find('project-intro').innerHTML=copy(data.projectIntroduction);
+    find('project-scale').innerHTML=(data.projectScale||[]).map(m=>'<li><strong>'+inline(m.value)+'</strong> <span>'+inline(m.label)+'</span></li>').join('');
     renderProjectCards();renderProgrammes();
     find('about-intro').innerHTML=local(data.about.intro).split(/\n\s*\n/).filter(Boolean).map(p=>'<p>'+inline(p)+'</p>').join('');
     find('about-image').src=data.about.image;find('about-image').alt=local(data.about.imageAlt);
@@ -80,6 +84,7 @@
     for (const key of ['values','inspiration','next']) find(key+'-copy').innerHTML=copy(data.about[key]);
     find('send-email-link').href='mailto:'+data.profile.email;
     for (const id of ['linkedin-link','footer-linkedin']) find(id).href=data.profile.linkedin;
+    renderBehindGallery();
   }
   function thumbCard(p) {
     return '<a class="related-card cursor-interaction" href="'+projectHref(p.id)+'">'+(p.image ? '<div class="related-image">'+image(p.image,p.imageAlt)+'</div>' : '')+'<span class="related-card-title">'+heading(p.title)+'</span><span class="related-card-period">'+escape(p.period)+'<span aria-hidden="true">↗</span></span></a>';
@@ -102,18 +107,31 @@
   function renderProjectCards() {
     find('project-grid').innerHTML=data.featuredProjectIds.map((id,i)=>{
       const p=projectById(id);const parts=local(p.summary).split(' → ');
-      return '<a class="project-card" href="'+projectHref(id)+'"><div class="image-wrap">'+image(p.image,p.imageAlt)+(p.media[0]?.kind==='video'?'<span class="poster-badge">▶ '+label('filmBadge')+'</span>':'')+'<span class="case-index">'+String(i+1).padStart(2,'0')+'</span></div><div class="card-copy"><p class="project-number">'+inline(p.category)+' / '+escape(p.period)+'</p><h2>'+heading(p.title)+'</h2><p class="card-decision">'+escape(parts[0])+'</p>'+(parts[1]?'<p class="card-result"><span aria-hidden="true">↳</span> '+escape(parts[1])+'</p>':'')+'<span class="card-link">'+label('projectExplore')+'</span></div></a>';
+      return '<a class="project-card" href="'+projectHref(id)+'"><div class="image-wrap'+(p.posterContain?' artwork-poster':'')+'">'+image(p.image,p.imageAlt)+(p.media[0]?.kind==='video'?'<span class="poster-badge">▶ '+label('filmBadge')+'</span>':'')+'<span class="case-index">'+String(i+1).padStart(2,'0')+'</span></div><div class="card-copy"><p class="project-number">'+inline(p.category)+' / '+escape(p.period)+'</p><h2>'+heading(p.title)+'</h2>'+cardMetric(p)+'<p class="card-decision">'+escape(parts[0])+'</p>'+(parts[1]?'<p class="card-result"><span aria-hidden="true">↳</span> '+escape(parts[1])+'</p>':'')+'<span class="card-link">'+label('projectExplore')+'</span></div></a>';
     }).join('');
+  }
+  function cardMetric(p,compact=false) {
+    const m=p.metrics?.[0];
+    return m?'<p class="card-metric'+(compact?' compact-metric':'')+'"><strong>'+inline(m.value)+'</strong><span>'+inline(m.label)+'</span></p>':'';
   }
   function projectRow(p) {
-    return '<a class="programme-project'+(!p.image?' text-project':'')+'" href="'+projectHref(p.id)+'">'+(p.image?'<div class="programme-project-image">'+image(p.image,p.imageAlt)+'</div>':'')+'<div><p class="programme-period">'+escape(p.period)+'</p><h4>'+heading(p.title)+'</h4><p>'+inline(p.summary)+'</p></div><span class="row-arrow" aria-hidden="true">↗</span></a>';
+    return '<a class="programme-project'+(!p.image?' text-project':'')+'" href="'+projectHref(p.id)+'">'+(p.image?'<div class="programme-project-image">'+image(p.image,p.imageAlt)+'</div>':'')+'<div><p class="programme-period">'+escape(p.period)+'</p><h4>'+heading(p.title)+'</h4>'+cardMetric(p,true)+'<p>'+inline(p.summary)+'</p></div><span class="row-arrow" aria-hidden="true">↗</span></a>';
   }
   function renderProgrammes() {
-    find('programme-list').innerHTML=data.projectGroups.map((g,i)=>{
+    const renderGroup=(g,i)=>{
       const projects=g.projectIds.map(projectById).filter(Boolean);const cover=projects.find(p=>p.image);
-      return (g.company==='king' && data.projectGroups[i-1]?.company!=='king' ? '<p class="small-label programme-divider">'+label('kingWork')+'</p>' : '')+'<details class="programme-group" data-programme="'+escape(g.id)+'"'+(groupOpen[g.id]?' open':'')+'><summary><span class="programme-index">'+String(i+1).padStart(2,'0')+'</span>'+(cover?'<div class="programme-thumb">'+image(cover.image,cover.imageAlt)+'</div>':'')+'<div class="programme-title"><h3>'+heading(g.title)+'</h3><span>'+escape(g.period)+'</span></div><span class="programme-plus" aria-hidden="true">+</span></summary><div class="programme-items">'+projects.map(projectRow).join('')+'</div></details>';
-    }).join('');
+      return '<details class="programme-group" data-programme="'+escape(g.id)+'"'+(groupOpen[g.id]?' open':'')+'><summary><span class="programme-index">'+String(i+1).padStart(2,'0')+'</span>'+(cover?'<div class="programme-thumb">'+image(cover.image,cover.imageAlt)+'</div>':'')+'<div class="programme-title"><h3>'+heading(g.title)+'</h3><span>'+escape(g.period)+'</span></div><span class="programme-plus" aria-hidden="true">+</span></summary><div class="programme-items">'+projects.map(projectRow).join('')+'</div></details>';
+    };
+    const football=data.projectGroups.filter(g=>g.company!=='king');
+    const earlier=data.projectGroups.filter(g=>g.company==='king');
+    find('programme-list').innerHTML=football.map(renderGroup).join('')+(earlier.length?'<details class="earlier-work" id="earlier-work"'+(earlierWorkOpen?' open':'')+'><summary><span>'+label('kingWork')+'</span><span aria-hidden="true">+</span></summary><div>'+earlier.map((g,i)=>renderGroup(g,football.length+i)).join('')+'</div></details>':'');
     find('additional-work').innerHTML=data.additionalProjectIds?.length ? '<section class="additional-work"><p class="small-label">'+label('additionalWork')+'</p>'+data.additionalProjectIds.map(projectById).filter(Boolean).map(projectRow).join('')+'</section>' : '';
+  }
+  function renderBehindGallery() {
+    const photos=data.about.gallery||[];
+    const tile=(p,i)=>'<figure class="behind-moment"><button type="button" class="behind-photo" data-about-photo="'+i+'" aria-label="'+escape(ui('viewImage')+': '+local(p.alt))+'">'+image(p.src,p.alt,'width="'+Number(p.width)+'" height="'+Number(p.height)+'"')+'</button><figcaption>'+inline(p.caption)+'</figcaption></figure>';
+    find('behind-work').hidden=!photos.length;
+    find('behind-gallery').innerHTML='<div class="behind-grid">'+photos.slice(0,6).map(tile).join('')+'</div>'+(photos.length>6?'<details class="behind-more" id="behind-more"'+(behindMoreOpen?' open':'')+'><summary><span>'+label('moreMoments')+' <span class="moment-count">'+(photos.length-6)+'</span></span><span aria-hidden="true">+</span></summary><div class="behind-grid">'+photos.slice(6).map((p,i)=>tile(p,i+6)).join('')+'</div></details>':'');
   }
   function mediaMarkup(m,index,pid,large=false) {
     const key=escape(pid+':'+index);
@@ -143,7 +161,7 @@
   function updateTitle() {
     const p=currentView==='project'?projectById(currentProject):null;
     const name=p?p.title.en:({career:ui('navCareer'),project:ui('navProject'),about:ui('navAbout')}[currentView] || '');
-    document.title=(name?name+' — ':'')+"Sunny Ryu — I'M STILL IN PROGRESS.";
+    document.title=(name?name+' — ':'')+'Sunny Ryu — Football Business, Marketing & Partnerships';
     const desc=document.querySelector('meta[name="description"]');if(desc)desc.content=p?local(p.summary):local(data.profile.statement);
   }
   function renderCurrent() {
@@ -197,6 +215,8 @@
       renderCareer();if(!preview){const url=new URL(location.href);url.hash=currentHash();history.replaceState({...history.state,sunnySnapshot:snapshot()},'',url.href);lastRoute=location.href;}return;
     }
     const back=event.target.closest('[data-case-back]');if(back){const context=returnContext;navigate(context?.hash||'#project',context);return;}
+    const aboutPhoto=event.target.closest('[data-about-photo]');
+    if(aboutPhoto){const p=data.about.gallery?.[Number(aboutPhoto.dataset.aboutPhoto)];if(p)showMedia({kind:'image',src:p.src},p.caption,aboutPhoto);return;}
     const film=event.target.closest('[data-film]'), photo=event.target.closest('[data-photo]');
     if(film || photo){const key=(film||photo).dataset[film?'film':'photo'];const split=key.lastIndexOf(':');const p=projectById(key.slice(0,split));const m=p?.media[Number(key.slice(split+1))];if(m)showMedia(m,m.caption||p.title,film||photo);return;}
     const kit=event.target.closest('[data-kit]'), kitFilm=event.target.closest('[data-kit-film]');

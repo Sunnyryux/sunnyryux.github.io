@@ -3,20 +3,20 @@ window.SUNNY_CONTENT = {
   "profile": {
     "name": "Sunny Ryu",
     "focus": {
-      "en": "GLOBAL BRAND — CULTURALIZATION EXPERT",
-      "ko": "GLOBAL BRAND — CULTURALIZATION EXPERT"
+      "en": "FOOTBALL BUSINESS\nMARKETING & PARTNERSHIPS",
+      "ko": "FOOTBALL BUSINESS\nMARKETING & PARTNERSHIPS"
     },
     "location": {
       "en": "Seoul · Korea & Asia",
       "ko": "서울 · 한국과 아시아"
     },
     "statement": {
-      "en": "20 years in global brand localisation and GTM — reading cultural context, connecting people and partners, and building growth through customer and market insight.",
-      "ko": "글로벌 브랜드의 현지화와 GTM을 이끌어온 20년 차 마케터입니다. 고객과 시장의 인사이트로 문화적 맥락을 읽고, 사람과 파트너를 연결하며 새로운 성장 체계를 만들어왔습니다."
+      "en": "20 years in global brand marketing. Nine years connecting football, gaming and culture at EA — translating fan insight into local relevance, partner activation and commercial growth across Korea and Asia.",
+      "ko": "글로벌 브랜드 마케팅 20년, EA에서 축구 비즈니스를 이끈 9년. 한국과 아시아의 팬 인사이트를 바탕으로 축구·게임·문화를 연결하고, 로컬 브랜드 경험과 파트너십을 비즈니스 성장으로 이어왔습니다."
     },
     "mission": {
-      "en": "Understanding what moves people in a world flooded with AI. Shaping culture that connects people. Drawing on experience and passion to contribute to a healthier society and business growth.",
-      "ko": "AI가 넘쳐나는 시대에도 사람의 마음을 이해하고, 사람들이 공감하고 참여하는 문화를 만들고 싶습니다. 쌓아온 경험과 열정으로 건강한 사회와 비즈니스 성장에 기여하는 다음 여정을 만들어가겠습니다."
+      "en": "Turn football passion into participation. Build brand and retail experiences that move fans from digital engagement to real-world action. Bring global teams and local partners together for lasting growth.",
+      "ko": "축구를 향한 열정을 실제 참여로 연결하고 싶습니다. 디지털 팬덤을 현실의 브랜드 경험과 리테일 접점으로 확장하고, 글로벌 팀과 로컬 파트너의 역량을 모아 지속되는 성장을 만들어가겠습니다."
     },
     "email": "sunny.ryu@hotmail.com",
     "linkedin": "https://www.linkedin.com/in/sunny-ryu-94ba6843",
@@ -24,16 +24,16 @@ window.SUNNY_CONTENT = {
     "backgroundPoster": "assets/images/hero-poster.jpg",
     "keywords": [
       {
-        "en": "Cultural Insight",
-        "ko": "문화적 인사이트"
+        "en": "Football Culture",
+        "ko": "축구 문화"
       },
       {
-        "en": "People & Partners",
-        "ko": "사람과 파트너"
+        "en": "Global & Local",
+        "ko": "글로벌과 로컬"
       },
       {
-        "en": "Growth Systems",
-        "ko": "성장 체계"
+        "en": "Partners & Growth",
+        "ko": "파트너와 성장"
       }
     ],
     "brandMessage": "I'M STILL IN PROGRESS.",
@@ -1110,12 +1110,12 @@ window.SUNNY_CONTENT = {
         "ko": "출시와 비즈니스"
       },
       "summary": {
-        "en": "Connected futsal, gameplay trial and retail offers in one launch experience with adidas and partners → contributed to 200% of the launch-week sales target.",
-        "ko": "풋살·게임 체험·리테일 혜택을 하나의 출시 경험으로 설계 → 출시 주간 매출 목표의 200% 달성에 기여."
+        "en": "Built the first Korean console launch showcase around Korean-language FIFA 20, new VOLTA gameplay and adidas’s futsal pitch → 200% of launch-week sales target.",
+        "ko": "한국어 FIFA20·새 VOLTA 모드를 adidas 풋살 피치에서 만나는 첫 한국 콘솔 출시 쇼케이스로 설계 → 출시 주간 매출 목표 200% 달성."
       },
       "context": {
-        "en": "Korean-language support and VOLTA needed a launch experience that football fans and players could try, understand and act on.",
-        "ko": "한국어 지원과 VOLTA의 새 경험을 한국 축구 팬과 게이머가 직접 체감하고 구매로 이어갈 수 있는 출시 기회가 필요했습니다."
+        "en": "Korean-language FIFA 20 and the debut of VOLTA FOOTBALL needed a first local console launch experience that football fans and gamers could try together — and that partners could convert into retail demand.",
+        "ko": "한국어 FIFA20과 VOLTA FOOTBALL의 첫선을 축구 팬과 게이머가 함께 체험하고, 파트너의 리테일 구매로 연결하는 첫 로컬 콘솔 출시 경험이 필요했습니다."
       },
       "actions": {
         "en": [
@@ -1130,8 +1130,8 @@ window.SUNNY_CONTENT = {
         ]
       },
       "outcome": {
-        "en": "contributed to 200% of the launch-week sales target.",
-        "ko": "출시 주간 매출 목표의 200% 달성에 기여."
+        "en": "The launch campaign recorded 200% of its launch-week sales target. The showcase connected product trial, partner brand experiences and retail offers within that campaign.",
+        "ko": "출시 캠페인은 출시 주간 매출 목표의 200%를 기록했습니다. 쇼케이스는 게임 체험, 파트너 브랜드 경험, 리테일 혜택을 연결하는 역할을 했습니다."
       },
       "insight": {
         "en": "A launch can turn product news into an experience that gives fans a reason to act.",
@@ -1141,7 +1141,7 @@ window.SUNNY_CONTENT = {
         {
           "value": "200%",
           "label": {
-            "en": "of the launch-week sales target",
+            "en": "of launch-week sales target",
             "ko": "출시 주간 매출 목표 달성률"
           }
         }
@@ -1250,8 +1250,8 @@ window.SUNNY_CONTENT = {
         "ko": "로컬 크리에이션"
       },
       "summary": {
-        "en": "Brought Korean culture and local design into a global football game → extended in-game identity into physical kits, fan participation and retail touchpoints.",
-        "ko": "한국 문화와 로컬 디자이너의 표현을 글로벌 게임에 반영 → 인게임 경험을 실물 킷·팬 참여·리테일 접점으로 확장."
+        "en": "Influenced global studios to make Korean heritage, local design and supporter culture part of FIFA → 8 kit designs spanning digital identity, physical products and fan participation.",
+        "ko": "글로벌 스튜디오를 설득해 한국 전통·로컬 디자인·응원 문화를 FIFA 제품에 반영 → 디지털 정체성·실물 제품·팬 참여를 잇는 8개 킷 디자인."
       },
       "context": {
         "en": "Korean fans needed ways to see their cultural identity expressed meaningfully within a global football product.",
@@ -1277,7 +1277,15 @@ window.SUNNY_CONTENT = {
         "en": "Local relevance can shape the products fans choose and wear, as well as the stories they hear.",
         "ko": "현지화는 메시지뿐 아니라, 팬이 선택하고 착용하는 제품 경험에도 영향을 줄 수 있습니다."
       },
-      "metrics": [],
+      "metrics": [
+        {
+          "value": "8",
+          "label": {
+            "en": "Korean cultural kit designs · 2019–2023",
+            "ko": "한국 문화 기반 킷 디자인 · 2019–2023"
+          }
+        }
+      ],
       "keywords": [],
       "media": [
         {
@@ -1459,8 +1467,8 @@ window.SUNNY_CONTENT = {
         {
           "value": "5,000+",
           "label": {
-            "en": "children supported · Seoul & Gyeonggi programmes",
-            "ko": "서울·경기 프로그램에서 참여를 지원한 어린이"
+            "en": "children · school football programmes",
+            "ko": "어린이 · 학교 축구 프로그램"
           }
         }
       ],
@@ -1468,22 +1476,21 @@ window.SUNNY_CONTENT = {
       "media": [
         {
           "kind": "image",
-          "src": "assets/images/futures-training.jpg",
+          "src": "assets/images/futures-schools-2024.jpg",
           "alt": {
-            "en": "FC Futures football festival · training and participation, 2025",
-            "ko": "FC Futures 풋볼 페스티벌 · 훈련과 참여, 2025"
+            "en": "FC Futures school programme with Seongnam FC in 2024",
+            "ko": "2024 성남FC와 함께한 FC Futures 학교 프로그램"
           },
           "caption": {
-            "en": "FC Futures football festival · training and participation, 2025",
-            "ko": "FC Futures 풋볼 페스티벌 · 훈련과 참여, 2025"
+            "en": "School football programme · Seongnam FC × K League × EA, March 2024",
+            "ko": "학교 축구 프로그램 · 성남FC × K리그 × EA, 2024년 3월"
           },
-          "source": "https://www.sportsseoul.com/news/read/1516350",
-          "contain": false
+          "source": "https://www.kleague.com/news_view.do?orderBy=seq&page=1&seq=89722&viewOption=album"
         }
       ],
       "related": [],
       "career": "ea",
-      "image": "assets/images/futures-training.jpg",
+      "image": "assets/images/futures-schools-2024.jpg",
       "imageAlt": {
         "en": "EA SPORTS FC Futures × K League",
         "ko": "EA SPORTS FC Futures × K리그"
@@ -1624,8 +1631,8 @@ window.SUNNY_CONTENT = {
         "ko": "출시와 비즈니스"
       },
       "summary": {
-        "en": "Extended a PC-bang launch beyond limited seats through livestreaming and retail promotions → connected Korean gaming culture with wider trial and purchase opportunities.",
-        "ko": "PC방 체험의 한계를 라이브 스트리밍과 리테일 프로모션으로 확장 → 한국의 PC 게임 문화를 출시 참여와 구매 기회로 연결."
+        "en": "Brought world-first hands-on launch play to a Korean PC bang, amplified by livestreaming and retail offers → record launch sales and player traffic.",
+        "ko": "한국 PC방에서 세계 최초 출시 선행 체험을 열고 라이브스트리밍·리테일 혜택으로 확장 → 역대 최고 출시 매출·유저 트래픽."
       },
       "context": "",
       "actions": {
@@ -1641,11 +1648,19 @@ window.SUNNY_CONTENT = {
         ]
       },
       "outcome": {
-        "en": "connected Korean gaming culture with wider trial and purchase opportunities.",
-        "ko": "한국의 PC 게임 문화를 출시 참여와 구매 기회로 연결."
+        "en": "The Korea launch recorded its highest sales and player traffic. A PC-bang LAN party, Park Ji-sung and football talent, livestreaming and retail promotions connected limited-capacity trial with wider access.",
+        "ko": "한국 출시 캠페인은 역대 최고 매출과 유저 트래픽을 기록했습니다. PC방 랜파티, 박지성·축구 탤런트, 라이브스트리밍, 리테일 프로모션을 연결해 한정된 현장 좌석의 체험을 더 넓은 유저 접점으로 확장했습니다."
       },
       "insight": "",
-      "metrics": [],
+      "metrics": [
+        {
+          "value": "RECORD",
+          "label": {
+            "en": "launch sales & player traffic",
+            "ko": "출시 매출·유저 트래픽"
+          }
+        }
+      ],
       "keywords": [],
       "media": [
         {
@@ -1686,8 +1701,8 @@ window.SUNNY_CONTENT = {
         "ko": "출시와 비즈니스"
       },
       "summary": {
-        "en": "Connected a fan-led pop-up with early access and retail pre-order benefits → contributed to a 63% increase in pre-order conversion.",
-        "ko": "팬과 게이머가 함께하는 팝업에 얼리 액세스와 예약 구매 혜택을 연결 → 출시 전 예약 구매 전환율 63% 증가에 기여."
+        "en": "Turned the FC rebrand into a football fan popup with early-access play and retail offers → +63% pre-order conversion.",
+        "ko": "FC 리브랜딩을 팬 커뮤니티 팝업·얼리 액세스 체험·리테일 혜택으로 연결 → 예약 구매 전환율 63% 증가."
       },
       "context": "",
       "actions": {
@@ -1703,16 +1718,16 @@ window.SUNNY_CONTENT = {
         ]
       },
       "outcome": {
-        "en": "contributed to a 63% increase in pre-order conversion.",
-        "ko": "출시 전 예약 구매 전환율 63% 증가에 기여."
+        "en": "Pre-order conversion increased by 63% during the launch campaign. The popup contributed by connecting early-access product trial, football community participation and retail pre-order benefits.",
+        "ko": "출시 캠페인에서 예약 구매 전환율이 63% 증가했습니다. 팝업은 얼리 액세스 게임 체험, 축구 커뮤니티 참여, 리테일 예약 구매 혜택을 연결하며 성과에 기여했습니다."
       },
       "insight": "",
       "metrics": [
         {
           "value": "+63%",
           "label": {
-            "en": "pre-order conversion improvement supported",
-            "ko": "예약 구매 전환율 개선에 기여"
+            "en": "pre-order conversion",
+            "ko": "예약 구매 전환율"
           }
         }
       ],
@@ -1853,7 +1868,36 @@ window.SUNNY_CONTENT = {
       "insight": "",
       "metrics": [],
       "keywords": [],
-      "media": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/fc26-popup-poster.jpg",
+          "contain": true,
+          "alt": {
+            "en": "FC 26 Football Festival popup announcement at Yongsan I’Park Mall",
+            "ko": "용산 아이파크몰 FC26 풋볼 페스티벌 팝업 안내"
+          },
+          "caption": {
+            "en": "FC 26 popup announcement · EA press material, via Inven",
+            "ko": "FC26 팝업 공식 안내 · EA 제공, 인벤 보도"
+          },
+          "source": "https://v.daum.net/v/WKhdiP6Fl2"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/fc26-popup-offers.jpg",
+          "contain": true,
+          "alt": {
+            "en": "PlayStation offers, K League merchandise and FC 26 trial at the popup",
+            "ko": "팝업의 PlayStation 혜택, K리그 굿즈, FC26 체험 구성"
+          },
+          "caption": {
+            "en": "Trial, football merchandise and retail offers · EA press material, via Inven",
+            "ko": "게임 체험·축구 굿즈·리테일 혜택 · EA 제공, 인벤 보도"
+          },
+          "source": "https://v.daum.net/v/WKhdiP6Fl2"
+        }
+      ],
       "related": [
         "fifa21-digital",
         "fifa22-digital",
@@ -1862,11 +1906,20 @@ window.SUNNY_CONTENT = {
         "fc25-psg"
       ],
       "career": "ea",
-      "image": "",
+      "image": "assets/images/fc26-popup-poster.jpg",
       "imageAlt": {
         "en": "EA SPORTS FC 26 Football Festival Pop-up",
         "ko": "EA SPORTS FC26 풋볼 페스티벌 팝업"
-      }
+      },
+      "references": [
+        {
+          "label": {
+            "en": "FC 26 Football Festival official event website",
+            "ko": "FC26 풋볼 페스티벌 공식 행사 사이트"
+          },
+          "url": "https://www.fc-festival.com/"
+        }
+      ]
     },
     {
       "id": "hwang-global",
@@ -1881,16 +1934,20 @@ window.SUNNY_CONTENT = {
         "ko": "파트너와 팬덤"
       },
       "summary": {
-        "en": "Advocated for Korean talent within global Rising Stars planning → strengthened the connection between global football storytelling and local marketing.",
-        "ko": "한국 선수의 성장 가능성을 글로벌 캠페인 우선순위에 반영하도록 설득 → 글로벌 축구 스토리와 로컬 마케팅의 연결을 강화."
+        "en": "Secured an Asian place in FIFA 21’s global Rising Stars lineup → Hwang Hee-chan became FIFA’s first Asian Global Rising Star ambassador.",
+        "ko": "아시아 선수의 성장 가능성을 글로벌 Rising Stars 계획에 반영하도록 설득 → 황희찬을 FIFA 최초 아시아인 글로벌 라이징 스타 앰베서더로 선정."
       },
       "context": "",
       "actions": {
         "en": [
-          "Advocated for Korean talent within global Rising Stars planning"
+          "Provided local football and fan insight to global stakeholders.",
+          "Advocated for Hwang Hee-chan’s place in the global Rising Stars ambassador lineup.",
+          "Brought global creative resources into Korean launch marketing."
         ],
         "ko": [
-          "한국 선수의 성장 가능성을 글로벌 캠페인 우선순위에 반영하도록 설득"
+          "글로벌 이해관계자에게 로컬 축구·팬 인사이트 제공.",
+          "글로벌 Rising Stars 앰베서더 라인업에 황희찬이 포함되도록 설득.",
+          "글로벌 크리에이티브 자원을 한국 출시 마케팅에 연결."
         ]
       },
       "outcome": {
@@ -1898,9 +1955,32 @@ window.SUNNY_CONTENT = {
         "ko": "글로벌 축구 스토리와 로컬 마케팅의 연결을 강화."
       },
       "insight": "",
-      "metrics": [],
+      "metrics": [
+        {
+          "value": "FIRST",
+          "label": {
+            "en": "Asian Global Rising Star ambassador · FIFA 21",
+            "ko": "아시아인 글로벌 라이징 스타 앰베서더 · FIFA21"
+          }
+        }
+      ],
       "keywords": [],
-      "media": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/hwang-fifa21.jpg",
+          "contain": true,
+          "alt": {
+            "en": "Hwang Hee-chan in FIFA 21 ambassador launch creative",
+            "ko": "FIFA21 앰베서더 황희찬의 출시 크리에이티브"
+          },
+          "caption": {
+            "en": "Hwang Hee-chan · FIFA 21 / FIFA Next · EA Korea press material",
+            "ko": "황희찬 · FIFA21 / FIFA Next · EA Korea 제공 자료"
+          },
+          "source": "https://www.inven.co.kr/webzine/news/?game=9713&news=244659"
+        }
+      ],
       "related": [
         "son-global",
         "fifa22-talent",
@@ -1909,7 +1989,7 @@ window.SUNNY_CONTENT = {
         "fc25-commentary"
       ],
       "career": "ea",
-      "image": "",
+      "image": "assets/images/hwang-fifa21.jpg",
       "imageAlt": {
         "en": "FIFA 21: Hwang Hee-chan Global Rising Stars Partnership",
         "ko": "FIFA21: 황희찬 글로벌 라이징 스타 협업"
@@ -1928,8 +2008,8 @@ window.SUNNY_CONTENT = {
         "ko": "파트너와 팬덤"
       },
       "summary": {
-        "en": "Enabled Son Heung-min’s ambassador partnership across console, Online and Mobile campaigns → built a cross-franchise model for activating one athlete’s fandom.",
-        "ko": "손흥민의 글로벌 앰베서더십을 콘솔·온라인·모바일의 시즈널 캠페인에 연결 → 한 선수의 팬덤을 여러 시장과 제품에서 활용하는 협업 체계 구축."
+        "en": "Built Son Heung-min’s global ambassador partnership into a shared activation platform → 3 franchises: console, Online and Mobile.",
+        "ko": "손흥민의 글로벌 앰베서더십을 여러 제품에서 활용할 수 있는 협업 플랫폼으로 구축 → 콘솔·온라인·모바일 3개 프랜차이즈에 확장."
       },
       "context": "",
       "actions": {
@@ -1945,17 +2025,25 @@ window.SUNNY_CONTENT = {
         "ko": "한 선수의 팬덤을 여러 시장과 제품에서 활용하는 협업 체계 구축."
       },
       "insight": "",
-      "metrics": [],
+      "metrics": [
+        {
+          "value": "3",
+          "label": {
+            "en": "franchises · console / Online / Mobile",
+            "ko": "프랜차이즈 · 콘솔 / 온라인 / 모바일"
+          }
+        }
+      ],
       "keywords": [],
       "media": [
         {
           "kind": "video",
-          "videoId": "tCCjBev_vuo",
-          "url": "https://www.youtube.com/watch?v=tCCjBev_vuo",
-          "poster": "assets/images/video-tCCjBev_vuo.jpg",
+          "videoId": "Ltdn9S1AIrI",
+          "url": "https://www.youtube.com/watch?v=Ltdn9S1AIrI",
+          "poster": "assets/images/reel-09.jpg",
           "caption": {
-            "en": "FIFA 22 | 손흥민 히어로 런칭 트레일러",
-            "ko": "FIFA 22 | 손흥민 히어로 런칭 트레일러"
+            "en": "Son Heung-min × Vinícius Júnior · FC Online Team of the Year campaign example",
+            "ko": "손흥민 × 비니시우스 · FC Online TOTY 캠페인 예시"
           }
         }
       ],
@@ -1967,7 +2055,7 @@ window.SUNNY_CONTENT = {
         "fc25-commentary"
       ],
       "career": "ea",
-      "image": "assets/images/video-tCCjBev_vuo.jpg",
+      "image": "assets/images/reel-09.jpg",
       "imageAlt": {
         "en": "Son Heung-min: Global FIFA / FC Ambassador Programme",
         "ko": "손흥민: 글로벌 FIFA / FC 앰베서더 프로그램"
@@ -2102,26 +2190,42 @@ window.SUNNY_CONTENT = {
         "ko": "파트너와 팬덤"
       },
       "summary": {
-        "en": "Advocated for Park Ji-sung’s story within the global Heroes collaboration → connected Korean football pride with a global product and launch interest.",
-        "ko": "박지성의 한국 축구 서사를 글로벌 Heroes 협업에 반영하도록 설득 → 한국 팬의 자부심을 글로벌 제품과 출시 관심으로 연결."
+        "en": "Won global alignment to bring Park Ji-sung into FIFA 23’s Heroes × Marvel lineup → 10× first reveal-week pre-orders, year on year.",
+        "ko": "글로벌을 설득해 FIFA23 Heroes × Marvel 라인업에 한국 레전드 박지성을 포함 → 공개 첫 주 예약 구매 전년 대비 10배."
       },
-      "context": "",
+      "context": {
+        "en": "A global Heroes × Marvel collaboration offered a product and storytelling opportunity to make a Korean football legend part of the worldwide launch.",
+        "ko": "글로벌 Heroes × Marvel 협업에서 한국의 축구 레전드를 제품과 스토리텔링에 반영하고, 글로벌 출시의 주인공으로 만들 기회가 있었습니다."
+      },
       "actions": {
         "en": [
-          "Influenced the global Heroes × Marvel programme to include Korean football legend Park Ji-sung.",
-          "Brought his football story into local launch communication through the Tiger Heart identity."
+          "Influenced global stakeholders to include Park Ji-sung in the Heroes × Marvel product lineup.",
+          "Connected his football legacy with the Tiger Heart creative identity and Korean fan insight.",
+          "Aligned global product storytelling with local FIFA 23 reveal and pre-order communication."
         ],
         "ko": [
-          "글로벌 Heroes × Marvel 프로그램에 한국 레전드 박지성이 포함되도록 설득.",
-          "타이거 하트 정체성을 통해 박지성의 축구 스토리를 로컬 출시 커뮤니케이션으로 연결."
+          "글로벌 이해관계자를 설득해 Heroes × Marvel 제품 라인업에 박지성 포함.",
+          "박지성의 축구 서사와 타이거 하트 크리에이티브를 한국 팬 인사이트와 연결.",
+          "글로벌 제품 스토리텔링과 한국 FIFA23 공개·예약 구매 커뮤니케이션을 정렬."
         ]
       },
       "outcome": {
-        "en": "connected Korean football pride with a global product and launch interest.",
-        "ko": "한국 팬의 자부심을 글로벌 제품과 출시 관심으로 연결."
+        "en": "FIFA 23 recorded 10× year-on-year pre-orders in the first reveal week. Global influence, a relevant Korean football story and local launch communication came together in this campaign.",
+        "ko": "FIFA23 공개 첫 주 예약 구매가 전년 대비 10배를 기록했습니다. 글로벌 설득, 한국 팬이 공감할 축구 서사, 로컬 출시 커뮤니케이션을 함께 연결한 캠페인이었습니다."
       },
-      "insight": "",
-      "metrics": [],
+      "insight": {
+        "en": "Local insight has greater impact when it influences the global product lineup, as well as the local campaign.",
+        "ko": "로컬 인사이트는 현지 캠페인을 넘어 글로벌 제품 라인업에 영향을 줄 때 더 큰 임팩트를 만듭니다."
+      },
+      "metrics": [
+        {
+          "value": "10×",
+          "label": {
+            "en": "first reveal-week pre-orders · YoY",
+            "ko": "공개 첫 주 예약 구매 · 전년 대비"
+          }
+        }
+      ],
       "keywords": [],
       "media": [
         {
@@ -2151,7 +2255,8 @@ window.SUNNY_CONTENT = {
       "imageAlt": {
         "en": "FIFA 23 × Marvel: Park Ji-sung FUT Hero",
         "ko": "FIFA23 × Marvel: 박지성 FUT Hero"
-      }
+      },
+      "posterContain": true
     },
     {
       "id": "fc25-commentary",
@@ -2368,8 +2473,8 @@ window.SUNNY_CONTENT = {
     {
       "id": "summer-2023",
       "title": {
-        "en": "Summer Football Tour: Jersey-to-Game Rewards",
-        "ko": "여름 축구 투어: 유니폼에서 게임 리워드로"
+        "en": "FC Online: Team K League & Manchester City Tour Activation",
+        "ko": "FC Online: 팀 K리그·맨시티 내한 경기 액티베이션"
       },
       "period": "Jul 2023",
       "brand": "EA SPORTS FIFA / FC",
@@ -2378,16 +2483,20 @@ window.SUNNY_CONTENT = {
         "ko": "파트너와 팬덤"
       },
       "summary": {
-        "en": "Turned Team K League and Manchester City jersey visibility into game rewards → connected live football attention with gameplay and reciprocal fan benefits.",
-        "ko": "팀 K리그·맨시티의 경기 유니폼에 게임 쿠폰 접점을 설계 → 실제 경기의 관심을 게임 리워드와 상호 팬 혜택으로 연결."
+        "en": "Put in-game codes on Team K League and Manchester City match kits for the first time → turned Korea-tour attention into game rewards and reciprocal fan benefits.",
+        "ko": "팀 K리그·맨시티 경기 킷에 최초로 게임 쿠폰 코드를 적용 → 내한 경기의 관심을 게임 리워드와 상호 팬 혜택으로 연결."
       },
       "context": "",
       "actions": {
         "en": [
-          "Turned Team K League and Manchester City jersey visibility into game rewards"
+          "Aligned Nexon, K League and Manchester City around summer football moments and the FC rebrand.",
+          "Put game reward messages on Team K League shirts and Manchester City shorts.",
+          "Connected event participation with game rewards and Manchester City membership benefits."
         ],
         "ko": [
-          "팀 K리그·맨시티의 경기 유니폼에 게임 쿠폰 접점을 설계"
+          "넥슨·K리그·맨시티를 여름 축구 모먼트와 FC 리브랜딩에 맞춰 정렬.",
+          "팀 K리그 유니폼 상의와 맨시티 하의에 게임 리워드 메시지 적용.",
+          "경기 참여를 게임 리워드와 맨시티 멤버십 혜택으로 연결."
         ]
       },
       "outcome": {
@@ -2395,14 +2504,37 @@ window.SUNNY_CONTENT = {
         "ko": "실제 경기의 관심을 게임 리워드와 상호 팬 혜택으로 연결."
       },
       "insight": "",
-      "metrics": [],
+      "metrics": [
+        {
+          "value": "FIRST",
+          "label": {
+            "en": "in-game codes on Team K League & Man City match kits",
+            "ko": "팀 K리그·맨시티 경기 킷 게임 쿠폰 적용"
+          }
+        }
+      ],
       "keywords": [],
-      "media": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/summer-2023-kit.jpg",
+          "alt": {
+            "en": "2023 Team K League jersey with FC Online branding",
+            "ko": "FC Online 브랜딩이 적용된 2023 팀 K리그 유니폼"
+          },
+          "caption": {
+            "en": "2023 Team K League jersey · Nexon announcement, via Daily Esports",
+            "ko": "2023 팀 K리그 유니폼 · 넥슨 발표, 데일리e스포츠 보도"
+          },
+          "source": "https://v.daum.net/v/20230726155637585",
+          "contain": true
+        }
+      ],
       "related": [
         "summer-2024"
       ],
       "career": "ea",
-      "image": "",
+      "image": "assets/images/summer-2023-kit.jpg",
       "imageAlt": {
         "en": "Summer Football Tour: Jersey-to-Game Rewards",
         "ko": "여름 축구 투어: 유니폼에서 게임 리워드로"
@@ -2483,10 +2615,14 @@ window.SUNNY_CONTENT = {
       "context": "",
       "actions": {
         "en": [
-          "Extended loyal players’ game experience into a LaLiga viewing party with Fernando Torres"
+          "Connected loyal FIFA Online 3 players with the LaLiga × SPOTV viewing party.",
+          "Created a football encounter with Fernando Torres as a player benefit.",
+          "Added a gameplay match before the viewing party to build participation and anticipation."
         ],
         "ko": [
-          "로열 유저의 게임 경험을 토레스와 함께하는 축구 관람으로 확장"
+          "FIFA Online 3 로열 유저를 LaLiga × SPOTV 뷰잉파티에 연결.",
+          "페르난도 토레스와 만나는 축구 경험을 유저 혜택으로 제공.",
+          "관람 전 게임플레이 매치를 구성해 참여와 몰입을 높임."
         ]
       },
       "outcome": {
@@ -2496,18 +2632,46 @@ window.SUNNY_CONTENT = {
       "insight": "",
       "metrics": [],
       "keywords": [],
-      "media": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/laliga-viewing-party.jpg",
+          "alt": {
+            "en": "LaLiga viewing party stage and football interview",
+            "ko": "라리가 뷰잉파티 무대와 축구 인터뷰"
+          },
+          "caption": {
+            "en": "LaLiga viewing party · personal project archive",
+            "ko": "라리가 뷰잉파티 · 개인 프로젝트 기록"
+          },
+          "nativeAspect": true
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/behind-work-b05.jpg",
+          "nativeAspect": true,
+          "caption": {
+            "en": "LaLiga partnership moment · personal project archive",
+            "ko": "LaLiga 파트너십의 한 순간 · 개인 프로젝트 기록"
+          },
+          "alt": {
+            "en": "Group photo in front of a LaLiga Extra Time backdrop",
+            "ko": "LaLiga Extra Time 배경 앞에서 함께한 사진"
+          }
+        }
+      ],
       "related": [
         "kleague-potm",
         "kleague-renewal",
         "fco-festival"
       ],
       "career": "ea",
-      "image": "",
+      "image": "assets/images/laliga-viewing-party.jpg",
       "imageAlt": {
         "en": "FIFA Online 3 × LaLiga Viewing Party",
         "ko": "FIFA Online 3 × LaLiga 뷰잉 파티"
-      }
+      },
+      "photoGallery": true
     },
     {
       "id": "kleague-potm",
@@ -2657,8 +2821,8 @@ window.SUNNY_CONTENT = {
     {
       "id": "fco-festival",
       "title": {
-        "en": "FC Online Festival: Football Partner Exhibition",
-        "ko": "FC Online Festival: 축구 파트너 전시"
+        "en": "FC PRO Festival: Football Partner Exhibition",
+        "ko": "FC PRO Festival: 축구 파트너 전시"
       },
       "period": "Nov 2023",
       "brand": "EA SPORTS FIFA / FC",
@@ -2686,18 +2850,42 @@ window.SUNNY_CONTENT = {
       "insight": "",
       "metrics": [],
       "keywords": [],
-      "media": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/fc-pro-festival-poster.jpg",
+          "contain": true,
+          "alt": {
+            "en": "FC PRO Festival 2023 official event poster",
+            "ko": "FC PRO Festival 2023 공식 행사 포스터"
+          },
+          "caption": {
+            "en": "FC PRO Festival 2023 · official ticketing announcement",
+            "ko": "FC PRO Festival 2023 · 공식 예매 안내"
+          },
+          "source": "https://www.ticketlink.co.kr/help/notice/58000"
+        }
+      ],
       "related": [
         "fo3-laliga",
         "kleague-potm",
         "kleague-renewal"
       ],
       "career": "ea",
-      "image": "",
+      "image": "assets/images/fc-pro-festival-poster.jpg",
       "imageAlt": {
         "en": "FC Online Festival: Football Partner Exhibition",
         "ko": "FC Online Festival: 축구 파트너 전시"
-      }
+      },
+      "references": [
+        {
+          "label": {
+            "en": "Official FC PRO Festival programme",
+            "ko": "공식 FC PRO Festival 프로그램"
+          },
+          "url": "https://fconline.nexon.com/news/notice/view?n4ArticleSN=4425"
+        }
+      ]
     },
     {
       "id": "jonathan",
@@ -2712,8 +2900,8 @@ window.SUNNY_CONTENT = {
         "ko": "파트너와 팬덤"
       },
       "summary": {
-        "en": "Turned Jonathan’s genuine FC fandom into a community challenge series → contributed to 15% growth in new players.",
-        "ko": "크리에이터의 실제 FC 팬 경험을 커뮤니티 도전 콘텐츠로 확장 → 신규 유저 15% 증가에 기여."
+        "en": "Turned Jonathan’s genuine FC fandom into a community challenge series → +15% new players during the series.",
+        "ko": "조나단의 실제 FC 팬 경험을 커뮤니티 도전 콘텐츠로 확장 → 콘텐츠 시리즈 기간 신규 유저 15% 증가."
       },
       "context": "",
       "actions": {
@@ -2735,8 +2923,8 @@ window.SUNNY_CONTENT = {
         {
           "value": "+15%",
           "label": {
-            "en": "new-player growth supported by the content series",
-            "ko": "콘텐츠 시리즈를 통한 신규 유저 성장"
+            "en": "new-player growth",
+            "ko": "신규 유저 증가"
           }
         }
       ],
@@ -2753,57 +2941,12 @@ window.SUNNY_CONTENT = {
           }
         }
       ],
-      "related": [
-        "nivel-worldcup"
-      ],
+      "related": [],
       "career": "ea",
       "image": "assets/images/video-ssctL0kNEk8.jpg",
       "imageAlt": {
         "en": "EA SPORTS FC: FC Il-jjang with Jonathan",
         "ko": "EA SPORTS FC: 조나단과 함께한 FC일짱"
-      }
-    },
-    {
-      "id": "nivel-worldcup",
-      "title": {
-        "en": "EA SPORTS × Nike × NIVELCRACK World Cup Activation",
-        "ko": "EA SPORTS × Nike × NIVELCRACK 월드컵 액티베이션"
-      },
-      "period": "Nov 2022",
-      "brand": "EA SPORTS FIFA / FC",
-      "category": {
-        "en": "Partners & Fandom",
-        "ko": "파트너와 팬덤"
-      },
-      "summary": {
-        "en": "Supported a local football and design community’s World Cup celebration → connected the gaming brand with places where fans gather and share their passion.",
-        "ko": "로컬 축구·디자인 커뮤니티의 월드컵 응원을 지원 → 게임 브랜드가 팬들이 실제로 모이고 즐기는 문화에 참여하도록 연결."
-      },
-      "context": "",
-      "actions": {
-        "en": [
-          "Supported a local football and design community’s World Cup celebration"
-        ],
-        "ko": [
-          "로컬 축구·디자인 커뮤니티의 월드컵 응원을 지원"
-        ]
-      },
-      "outcome": {
-        "en": "connected the gaming brand with places where fans gather and share their passion.",
-        "ko": "게임 브랜드가 팬들이 실제로 모이고 즐기는 문화에 참여하도록 연결."
-      },
-      "insight": "",
-      "metrics": [],
-      "keywords": [],
-      "media": [],
-      "related": [
-        "jonathan"
-      ],
-      "career": "ea",
-      "image": "",
-      "imageAlt": {
-        "en": "EA SPORTS × Nike × NIVELCRACK World Cup Activation",
-        "ko": "EA SPORTS × Nike × NIVELCRACK 월드컵 액티베이션"
       }
     },
     {
@@ -3049,8 +3192,8 @@ window.SUNNY_CONTENT = {
         "ko": "출시와 비즈니스"
       },
       "summary": {
-        "en": "Adapted global star assets around new gameplay and secured joint funding → supported 5M pre-registrations and a launch model extended to China and Southeast Asia.",
-        "ko": "글로벌 스타 어셋을 새 게임플레이에 맞게 현지화하고 공동 펀딩을 이끌어냄 → 사전등록 500만 달성과 중국·동남아 확장에 기여."
+        "en": "Localised global star assets around new gameplay and secured joint funding → 5M pre-registrations; a launch model extended to China and Southeast Asia.",
+        "ko": "새 게임플레이를 중심으로 글로벌 스타 어셋을 현지화하고 공동 펀딩 확보 → 사전등록 500만; 중국·동남아로 확장된 출시 모델."
       },
       "context": "",
       "actions": {
@@ -4080,7 +4223,744 @@ window.SUNNY_CONTENT = {
     "next": {
       "en": "Keep learning. Build new possibilities where culture, technology and human understanding meet — and turn them into meaningful experiences and lasting growth.",
       "ko": "계속 배우고, 새로운 가능성을 만들고 싶습니다. 문화와 기술, 사람에 대한 이해를 연결해 의미 있는 경험과 지속되는 성장으로 이어가려 합니다."
-    }
+    },
+    "gallery": [
+      {
+        "id": "behind-b17",
+        "src": "assets/images/behind-work-b17.jpg",
+        "width": 638,
+        "height": 360,
+        "caption": {
+          "en": "Together on the adidas pitch",
+          "ko": "adidas 피치에서 함께"
+        },
+        "alt": {
+          "en": "Together on the adidas pitch",
+          "ko": "adidas 피치에서 함께"
+        },
+        "uploaded_name": "BA158120-98F5-45FA-B3F6-1A31C059D726_4_5005_c.jpeg"
+      },
+      {
+        "src": "assets/images/behind-work-17.jpg",
+        "width": 1024,
+        "height": 769,
+        "uploaded_name": "15C60220-60CD-4083-AF19-F7A1E61BF566_1_105_c.jpeg",
+        "id": "behind-17",
+        "caption": {
+          "en": "Together at FIFA 23",
+          "ko": "FIFA23 현장에서 함께"
+        },
+        "alt": {
+          "en": "Together at FIFA 23",
+          "ko": "FIFA23 현장에서 함께"
+        }
+      },
+      {
+        "id": "behind-b09",
+        "src": "assets/images/behind-work-b09.jpg",
+        "width": 1024,
+        "height": 768,
+        "caption": {
+          "en": "Together for football",
+          "ko": "축구를 위해 함께한 사람들"
+        },
+        "alt": {
+          "en": "Together for football",
+          "ko": "축구를 위해 함께한 사람들"
+        },
+        "uploaded_name": "3E9BDAAC-5454-4AF5-8885-E6F5F7A065F8_1_105_c.jpeg"
+      },
+      {
+        "id": "behind-c10",
+        "src": "assets/images/behind-work-c10.jpg",
+        "width": 1439,
+        "height": 1439,
+        "caption": {
+          "en": "Sharing ideas and insight",
+          "ko": "생각과 인사이트를 나누며"
+        },
+        "alt": {
+          "en": "Sharing ideas and insight",
+          "ko": "생각과 인사이트를 나누며"
+        },
+        "uploaded_name": "C2460769-0A3B-4E7C-8E3D-C27DD4166EBC.jpeg"
+      },
+      {
+        "src": "assets/images/behind-work-10.jpg",
+        "width": 480,
+        "height": 360,
+        "uploaded_name": "0F8F85F1-9354-4184-A214-C9F0BB3302F5_4_5005_c.jpeg",
+        "id": "behind-10",
+        "caption": {
+          "en": "Behind the cameras",
+          "ko": "카메라 뒤의 사람들"
+        },
+        "alt": {
+          "en": "Behind the cameras",
+          "ko": "카메라 뒤의 사람들"
+        }
+      },
+      {
+        "src": "assets/images/behind-work-01.jpg",
+        "width": 1098,
+        "height": 715,
+        "uploaded_name": "F9B5F9D1-0022-4240-8E0A-1883A1F27CCF_1_105_c.jpeg",
+        "id": "behind-01",
+        "caption": {
+          "en": "Together at the King VIP Party",
+          "ko": "King VIP Party에서 함께한 순간"
+        },
+        "alt": {
+          "en": "Together at the King VIP Party",
+          "ko": "King VIP Party에서 함께한 순간"
+        }
+      },
+      {
+        "id": "behind-b03",
+        "src": "assets/images/behind-work-b03.jpg",
+        "width": 360,
+        "height": 638,
+        "caption": {
+          "en": "At the FC Futures pitch",
+          "ko": "FC Futures 축구 피치에서"
+        },
+        "alt": {
+          "en": "At the FC Futures pitch",
+          "ko": "FC Futures 축구 피치에서"
+        },
+        "uploaded_name": "C74F7632-3263-43A0-B0EC-7D4BBBA2FDFC_4_5005_c.jpeg"
+      },
+      {
+        "src": "assets/images/behind-work-19.jpg",
+        "width": 360,
+        "height": 480,
+        "uploaded_name": "26F61DB5-612E-497D-9826-098980D4C45A_4_5005_c.jpeg",
+        "id": "behind-19",
+        "caption": {
+          "en": "Together on the pitch",
+          "ko": "축구 피치 위에서 함께"
+        },
+        "alt": {
+          "en": "Together on the pitch",
+          "ko": "축구 피치 위에서 함께"
+        }
+      },
+      {
+        "src": "assets/images/behind-work-20.jpg",
+        "width": 480,
+        "height": 360,
+        "uploaded_name": "4CF5E6E0-D7F6-4D2C-B7E0-FC5C44EB9795_4_5005_c.jpeg",
+        "id": "behind-20",
+        "caption": {
+          "en": "Sharing the matchday experience",
+          "ko": "함께 즐긴 매치데이"
+        },
+        "alt": {
+          "en": "Sharing the matchday experience",
+          "ko": "함께 즐긴 매치데이"
+        }
+      },
+      {
+        "src": "assets/images/behind-work-09.jpg",
+        "width": 1024,
+        "height": 768,
+        "uploaded_name": "BEF638B8-A774-42D3-B5E0-2DAE19099071_1_105_c.jpeg",
+        "id": "behind-09",
+        "caption": {
+          "en": "On location with the production team",
+          "ko": "제작팀과 함께한 로케이션"
+        },
+        "alt": {
+          "en": "On location with the production team",
+          "ko": "제작팀과 함께한 로케이션"
+        }
+      },
+      {
+        "src": "assets/images/behind-work-18.jpg",
+        "width": 360,
+        "height": 480,
+        "uploaded_name": "765FC3AF-0793-439A-B454-4DFBA09F1F71_4_5005_c.jpeg",
+        "id": "behind-18",
+        "caption": {
+          "en": "A moment in the FC journey",
+          "ko": "FC 여정 속 한 순간"
+        },
+        "alt": {
+          "en": "A moment in the FC journey",
+          "ko": "FC 여정 속 한 순간"
+        }
+      },
+      {
+        "src": "assets/images/behind-work-13.jpg",
+        "width": 360,
+        "height": 360,
+        "uploaded_name": "2781F816-CDA2-478B-B9E8-2141000004E7_4_5005_c.jpeg",
+        "id": "behind-13",
+        "caption": {
+          "en": "A football campaign moment",
+          "ko": "축구 캠페인의 한 장면"
+        },
+        "alt": {
+          "en": "A football campaign moment",
+          "ko": "축구 캠페인의 한 장면"
+        }
+      },
+      {
+        "src": "assets/images/behind-work-16.jpg",
+        "width": 768,
+        "height": 1024,
+        "uploaded_name": "EBCEDDC8-69C8-4582-A970-E9CAE943C4C5_1_105_c.jpeg",
+        "id": "behind-16",
+        "caption": {
+          "en": "A partnership moment",
+          "ko": "파트너십의 한 순간"
+        },
+        "alt": {
+          "en": "A partnership moment",
+          "ko": "파트너십의 한 순간"
+        }
+      },
+      {
+        "src": "assets/images/behind-work-14.jpg",
+        "width": 768,
+        "height": 1024,
+        "uploaded_name": "AE852FA3-5B2F-4F8B-9596-AFB296F1E6A0_1_105_c.jpeg",
+        "id": "behind-14",
+        "caption": {
+          "en": "With the creative community",
+          "ko": "크리에이티브 커뮤니티와 함께"
+        },
+        "alt": {
+          "en": "With the creative community",
+          "ko": "크리에이티브 커뮤니티와 함께"
+        }
+      },
+      {
+        "src": "assets/images/behind-work-06.jpg",
+        "width": 636,
+        "height": 360,
+        "uploaded_name": "81F5B7FD-733B-4ED2-AD2E-FC90BA4379B2_4_5005_c.jpeg",
+        "id": "behind-06",
+        "caption": {
+          "en": "In the creative review room",
+          "ko": "크리에이티브 리뷰 현장에서"
+        },
+        "alt": {
+          "en": "In the creative review room",
+          "ko": "크리에이티브 리뷰 현장에서"
+        }
+      },
+      {
+        "src": "assets/images/behind-work-04.jpg",
+        "width": 886,
+        "height": 886,
+        "uploaded_name": "ECCB2D5D-0DDA-481E-8983-4EA4941273CB_1_105_c.jpeg",
+        "id": "behind-04",
+        "caption": {
+          "en": "A Candy Crush Soda summer moment",
+          "ko": "캔디크러쉬소다의 여름 현장"
+        },
+        "alt": {
+          "en": "A Candy Crush Soda summer moment",
+          "ko": "캔디크러쉬소다의 여름 현장"
+        }
+      },
+      {
+        "src": "assets/images/behind-work-02.jpg",
+        "width": 360,
+        "height": 480,
+        "uploaded_name": "439EB31E-AFFC-4A42-98B3-05AD79FD83EF_4_5005_c.jpeg",
+        "id": "behind-02",
+        "caption": {
+          "en": "Bringing game characters into everyday life",
+          "ko": "게임 속 캐릭터를 일상으로"
+        },
+        "alt": {
+          "en": "Bringing game characters into everyday life",
+          "ko": "게임 속 캐릭터를 일상으로"
+        }
+      },
+      {
+        "src": "assets/images/behind-work-03.jpg",
+        "width": 640,
+        "height": 360,
+        "uploaded_name": "26A0050A-753B-4C22-8CF5-343483396F78_4_5005_c.jpeg",
+        "id": "behind-03",
+        "caption": {
+          "en": "Around the table, building together",
+          "ko": "같은 테이블에서 함께 만드는 시간"
+        },
+        "alt": {
+          "en": "Around the table, building together",
+          "ko": "같은 테이블에서 함께 만드는 시간"
+        }
+      },
+      {
+        "src": "assets/images/behind-work-11.jpg",
+        "width": 480,
+        "height": 360,
+        "uploaded_name": "CFB207B8-2EA1-4DF2-9ED3-19E650C05124_4_5005_c.jpeg",
+        "id": "behind-11",
+        "caption": {
+          "en": "The team, after the work",
+          "ko": "일을 마친 뒤 팀과 함께"
+        },
+        "alt": {
+          "en": "The team, after the work",
+          "ko": "일을 마친 뒤 팀과 함께"
+        }
+      },
+      {
+        "src": "assets/images/behind-work-12.jpg",
+        "width": 768,
+        "height": 1024,
+        "uploaded_name": "55DAF494-8F72-42A9-A7AC-0AE27A72F396_1_105_c.jpeg",
+        "id": "behind-12",
+        "caption": {
+          "en": "Conversations over a shared meal",
+          "ko": "식탁에서 이어지는 대화"
+        },
+        "alt": {
+          "en": "Conversations over a shared meal",
+          "ko": "식탁에서 이어지는 대화"
+        }
+      },
+      {
+        "src": "assets/images/behind-work-05.jpg",
+        "width": 360,
+        "height": 480,
+        "uploaded_name": "9376C759-F895-4EA8-B95C-68A14D2467AC_4_5005_c.jpeg",
+        "id": "behind-05",
+        "caption": {
+          "en": "A moment with collaborators",
+          "ko": "함께 일한 사람들과의 순간"
+        },
+        "alt": {
+          "en": "A moment with collaborators",
+          "ko": "함께 일한 사람들과의 순간"
+        }
+      },
+      {
+        "src": "assets/images/behind-work-07.jpg",
+        "width": 768,
+        "height": 1024,
+        "uploaded_name": "6083F0AA-5A36-4FE4-A785-A511A4C5E83E_1_105_c.jpeg",
+        "id": "behind-07",
+        "caption": {
+          "en": "Shared moments beyond the work",
+          "ko": "일 밖에서도 함께한 순간"
+        },
+        "alt": {
+          "en": "Shared moments beyond the work",
+          "ko": "일 밖에서도 함께한 순간"
+        }
+      },
+      {
+        "src": "assets/images/behind-work-08.jpg",
+        "width": 768,
+        "height": 1024,
+        "uploaded_name": "13323233-DD89-4AFD-8851-CBAA237A076E_1_105_c.jpeg",
+        "id": "behind-08",
+        "caption": {
+          "en": "Celebrating together",
+          "ko": "함께 즐기는 시간"
+        },
+        "alt": {
+          "en": "Celebrating together",
+          "ko": "함께 즐기는 시간"
+        }
+      },
+      {
+        "id": "behind-b01",
+        "src": "assets/images/behind-work-b01.jpg",
+        "width": 1200,
+        "height": 1600,
+        "caption": {
+          "en": "Matchday with colleagues",
+          "ko": "동료들과 함께한 매치데이"
+        },
+        "alt": {
+          "en": "Matchday with colleagues",
+          "ko": "동료들과 함께한 매치데이"
+        },
+        "uploaded_name": "57290173-A821-4ED2-8DE7-E1DA45492160_1_102_o.jpeg"
+      },
+      {
+        "id": "behind-b02",
+        "src": "assets/images/behind-work-b02.jpg",
+        "width": 1024,
+        "height": 768,
+        "caption": {
+          "en": "Together behind a football partnership",
+          "ko": "축구 파트너십을 함께 만든 사람들"
+        },
+        "alt": {
+          "en": "Together behind a football partnership",
+          "ko": "축구 파트너십을 함께 만든 사람들"
+        },
+        "uploaded_name": "725533B7-DC4D-4584-8457-0BAD5B89CB2E_1_105_c.jpeg"
+      },
+      {
+        "id": "behind-b04",
+        "src": "assets/images/behind-work-b04.jpg",
+        "width": 360,
+        "height": 480,
+        "caption": {
+          "en": "A football event moment",
+          "ko": "축구 행사에서 함께한 순간"
+        },
+        "alt": {
+          "en": "A football event moment",
+          "ko": "축구 행사에서 함께한 순간"
+        },
+        "uploaded_name": "78CA5D8D-A312-483F-83E7-28256EC68249_4_5005_c.jpeg"
+      },
+      {
+        "id": "behind-b05",
+        "src": "assets/images/behind-work-b05.jpg",
+        "width": 768,
+        "height": 1024,
+        "caption": {
+          "en": "A LaLiga partnership moment",
+          "ko": "LaLiga 파트너십의 한 순간"
+        },
+        "alt": {
+          "en": "A LaLiga partnership moment",
+          "ko": "LaLiga 파트너십의 한 순간"
+        },
+        "uploaded_name": "2F86CE2B-2956-4597-B167-685449D3699F_1_105_c.jpeg"
+      },
+      {
+        "id": "behind-b06",
+        "src": "assets/images/behind-work-b06.jpg",
+        "width": 480,
+        "height": 360,
+        "caption": {
+          "en": "After the work, around the table",
+          "ko": "일을 마친 뒤 함께한 식탁"
+        },
+        "alt": {
+          "en": "After the work, around the table",
+          "ko": "일을 마친 뒤 함께한 식탁"
+        },
+        "uploaded_name": "E76AC364-BE48-4AE5-AB22-759F516D0944_4_5005_c.jpeg"
+      },
+      {
+        "id": "behind-b07",
+        "src": "assets/images/behind-work-b07.jpg",
+        "width": 480,
+        "height": 360,
+        "caption": {
+          "en": "Connections across markets",
+          "ko": "서로 다른 시장을 잇는 사람들"
+        },
+        "alt": {
+          "en": "Connections across markets",
+          "ko": "서로 다른 시장을 잇는 사람들"
+        },
+        "uploaded_name": "941EAEDA-4DB4-4F47-BEBE-F2813271E298_4_5005_c.jpeg"
+      },
+      {
+        "id": "behind-b08",
+        "src": "assets/images/behind-work-b08.jpg",
+        "width": 480,
+        "height": 360,
+        "caption": {
+          "en": "Shared moments in Seoul",
+          "ko": "서울에서 함께한 순간"
+        },
+        "alt": {
+          "en": "Shared moments in Seoul",
+          "ko": "서울에서 함께한 순간"
+        },
+        "uploaded_name": "C1D7EAF3-36E9-49F7-9926-B960CF35CC4E_4_5005_c.jpeg"
+      },
+      {
+        "id": "behind-b10",
+        "src": "assets/images/behind-work-b10.jpg",
+        "width": 1200,
+        "height": 1600,
+        "caption": {
+          "en": "Sharing the stadium experience",
+          "ko": "함께 즐긴 스타디움 경험"
+        },
+        "alt": {
+          "en": "Sharing the stadium experience",
+          "ko": "함께 즐긴 스타디움 경험"
+        },
+        "uploaded_name": "1605CDE8-734C-4C98-A58C-E3B21CE5AE95_1_102_o.jpeg"
+      },
+      {
+        "id": "behind-b11",
+        "src": "assets/images/behind-work-b11.jpg",
+        "width": 360,
+        "height": 480,
+        "caption": {
+          "en": "A moment with football heritage",
+          "ko": "축구의 역사와 만나는 순간"
+        },
+        "alt": {
+          "en": "A moment with football heritage",
+          "ko": "축구의 역사와 만나는 순간"
+        },
+        "uploaded_name": "C725810B-2A79-49FE-9D41-B6E154AE6B23_4_5005_c.jpeg"
+      },
+      {
+        "id": "behind-b12",
+        "src": "assets/images/behind-work-b12.jpg",
+        "width": 1200,
+        "height": 1600,
+        "caption": {
+          "en": "A partnership conversation",
+          "ko": "파트너들과 함께한 시간"
+        },
+        "alt": {
+          "en": "A partnership conversation",
+          "ko": "파트너들과 함께한 시간"
+        },
+        "uploaded_name": "3CDE1063-E5F3-45C8-A573-3174559E8E51_1_102_o.jpeg"
+      },
+      {
+        "id": "behind-b13",
+        "src": "assets/images/behind-work-b13.jpg",
+        "width": 768,
+        "height": 1024,
+        "caption": {
+          "en": "The team behind the programme",
+          "ko": "프로그램 뒤의 팀"
+        },
+        "alt": {
+          "en": "The team behind the programme",
+          "ko": "프로그램 뒤의 팀"
+        },
+        "uploaded_name": "766DCBD2-27DE-41CE-B2F4-B5EFFD827073_1_105_c.jpeg"
+      },
+      {
+        "id": "behind-b14",
+        "src": "assets/images/behind-work-b14.jpg",
+        "width": 480,
+        "height": 360,
+        "caption": {
+          "en": "Inside a football community event",
+          "ko": "축구 커뮤니티 행사 현장"
+        },
+        "alt": {
+          "en": "Inside a football community event",
+          "ko": "축구 커뮤니티 행사 현장"
+        },
+        "uploaded_name": "DC3ACE92-8CEC-4F27-A9FC-C61EAC5DDB91_4_5005_c.jpeg"
+      },
+      {
+        "id": "behind-b15",
+        "src": "assets/images/behind-work-b15.jpg",
+        "width": 768,
+        "height": 1024,
+        "caption": {
+          "en": "A shared FC experience",
+          "ko": "함께한 FC 경험"
+        },
+        "alt": {
+          "en": "A shared FC experience",
+          "ko": "함께한 FC 경험"
+        },
+        "uploaded_name": "A8A29C78-0C19-46A3-A5E2-16A3E126A986_1_105_c.jpeg"
+      },
+      {
+        "id": "behind-b16",
+        "src": "assets/images/behind-work-b16.jpg",
+        "width": 655,
+        "height": 1198,
+        "caption": {
+          "en": "A moment at the stadium",
+          "ko": "스타디움에서의 한 순간"
+        },
+        "alt": {
+          "en": "A moment at the stadium",
+          "ko": "스타디움에서의 한 순간"
+        },
+        "uploaded_name": "BEFB2F23-ADD0-4A9A-B021-0DC0C99B86F1_1_105_c.jpeg"
+      },
+      {
+        "id": "behind-b18",
+        "src": "assets/images/behind-work-b18.jpg",
+        "width": 1200,
+        "height": 1600,
+        "caption": {
+          "en": "A moment in the football journey",
+          "ko": "축구 여정 속 한 순간"
+        },
+        "alt": {
+          "en": "A moment in the football journey",
+          "ko": "축구 여정 속 한 순간"
+        },
+        "uploaded_name": "216064F8-8A7C-4E2F-8054-B382388C32AC_1_102_o.jpeg"
+      },
+      {
+        "id": "behind-b19",
+        "src": "assets/images/behind-work-b19.jpg",
+        "width": 1200,
+        "height": 1600,
+        "caption": {
+          "en": "Celebrating The Sims together",
+          "ko": "심즈를 함께 기념하며"
+        },
+        "alt": {
+          "en": "Celebrating The Sims together",
+          "ko": "심즈를 함께 기념하며"
+        },
+        "uploaded_name": "0CE11B2E-8067-40C0-883A-EDB67C8A540C_1_102_o.jpeg"
+      },
+      {
+        "id": "behind-c01",
+        "src": "assets/images/behind-work-c01.jpg",
+        "width": 480,
+        "height": 360,
+        "caption": {
+          "en": "Inside a FIFA Online 4 media event",
+          "ko": "FIFA Online 4 미디어 행사 현장"
+        },
+        "alt": {
+          "en": "Inside a FIFA Online 4 media event",
+          "ko": "FIFA Online 4 미디어 행사 현장"
+        },
+        "uploaded_name": "F557925D-4CB5-421B-9EEC-650F25F37E75_4_5005_c.jpeg"
+      },
+      {
+        "id": "behind-c02",
+        "src": "assets/images/behind-work-c02.jpg",
+        "width": 1080,
+        "height": 1082,
+        "caption": {
+          "en": "The energy of a gaming event",
+          "ko": "게임 행사 현장의 에너지"
+        },
+        "alt": {
+          "en": "The energy of a gaming event",
+          "ko": "게임 행사 현장의 에너지"
+        },
+        "uploaded_name": "68DC92FE-C67D-4BF2-9227-7C90607135B1.jpeg"
+      },
+      {
+        "id": "behind-c03",
+        "src": "assets/images/behind-work-c03.jpg",
+        "width": 480,
+        "height": 360,
+        "caption": {
+          "en": "Bringing games to the audience",
+          "ko": "게임과 관객이 만나는 현장"
+        },
+        "alt": {
+          "en": "Bringing games to the audience",
+          "ko": "게임과 관객이 만나는 현장"
+        },
+        "uploaded_name": "92AC6F50-4A2A-43D0-8C52-DE6C3D9AACFB_4_5005_c.jpeg"
+      },
+      {
+        "id": "behind-c04",
+        "src": "assets/images/behind-work-c04.jpg",
+        "width": 480,
+        "height": 360,
+        "caption": {
+          "en": "Watching the creative work come together",
+          "ko": "함께 크리에이티브를 살피는 시간"
+        },
+        "alt": {
+          "en": "Watching the creative work come together",
+          "ko": "함께 크리에이티브를 살피는 시간"
+        },
+        "uploaded_name": "A83E2FAD-234F-482B-BEBE-A12620475420_4_5005_c.jpeg"
+      },
+      {
+        "id": "behind-c05",
+        "src": "assets/images/behind-work-c05.jpg",
+        "width": 480,
+        "height": 360,
+        "caption": {
+          "en": "A conversation with the player community",
+          "ko": "유저 커뮤니티와 함께하는 현장"
+        },
+        "alt": {
+          "en": "A conversation with the player community",
+          "ko": "유저 커뮤니티와 함께하는 현장"
+        },
+        "uploaded_name": "67585ABF-0892-4315-B45A-B717C2752924_4_5005_c.jpeg"
+      },
+      {
+        "id": "behind-c06",
+        "src": "assets/images/behind-work-c06.jpg",
+        "width": 480,
+        "height": 360,
+        "caption": {
+          "en": "Football culture in the city",
+          "ko": "도시 속 축구 문화"
+        },
+        "alt": {
+          "en": "Football culture in the city",
+          "ko": "도시 속 축구 문화"
+        },
+        "uploaded_name": "E7D7AB3D-4425-4788-8ACA-CB35954CB71A_4_5005_c.jpeg"
+      },
+      {
+        "id": "behind-c07",
+        "src": "assets/images/behind-work-c07.jpg",
+        "width": 768,
+        "height": 1024,
+        "caption": {
+          "en": "Connections beyond the meeting room",
+          "ko": "회의실 밖에서도 이어지는 관계"
+        },
+        "alt": {
+          "en": "Connections beyond the meeting room",
+          "ko": "회의실 밖에서도 이어지는 관계"
+        },
+        "uploaded_name": "A3711488-397D-4C02-B279-68E6BA2EB15B_1_105_c.jpeg"
+      },
+      {
+        "id": "behind-c08",
+        "src": "assets/images/behind-work-c08.jpg",
+        "width": 1576,
+        "height": 1600,
+        "caption": {
+          "en": "A moment at the K League Awards",
+          "ko": "K리그 시상식에서의 한 순간"
+        },
+        "alt": {
+          "en": "A moment at the K League Awards",
+          "ko": "K리그 시상식에서의 한 순간"
+        },
+        "uploaded_name": "F513F9AD-0272-42E1-B056-C5F06CB8B91E_1_102_a.jpeg"
+      },
+      {
+        "id": "behind-c09",
+        "src": "assets/images/behind-work-c09.jpg",
+        "width": 359,
+        "height": 446,
+        "caption": {
+          "en": "With the people behind the work",
+          "ko": "함께 일한 사람들과"
+        },
+        "alt": {
+          "en": "With the people behind the work",
+          "ko": "함께 일한 사람들과"
+        },
+        "uploaded_name": "E7C18E06-DD56-4A76-B1A7-387DBA9B1D8E_4_5005_c.jpeg"
+      },
+      {
+        "id": "behind-c11",
+        "src": "assets/images/behind-work-c11.jpg",
+        "width": 1600,
+        "height": 1200,
+        "caption": {
+          "en": "A moment with the gaming community",
+          "ko": "게임 커뮤니티와 함께한 순간"
+        },
+        "alt": {
+          "en": "A moment with the gaming community",
+          "ko": "게임 커뮤니티와 함께한 순간"
+        },
+        "uploaded_name": "68558155-A4D5-4C4F-B7BC-BD571E88B9D1_1_102_o.jpeg"
+      }
+    ]
   },
   "reels": [
     {
@@ -4343,7 +5223,7 @@ window.SUNNY_CONTENT = {
       "mainNav": "Main navigation",
       "languageNav": "Site language",
       "skip": "Skip to content",
-      "heroEyebrow": "PERSONAL BRAND / WORK & LIFE",
+      "heroEyebrow": "FOOTBALL / CULTURE / COMMERCIAL GROWTH",
       "perspective": "MY PERSPECTIVE",
       "mission": "NEXT MISSION",
       "exploreJourney": "Explore my journey ↗",
@@ -4419,11 +5299,17 @@ window.SUNNY_CONTENT = {
       "collectionHeading": "Culture, made wearable.",
       "collectionIntro": "Korean heritage, places and supporter culture, expressed through football design.",
       "additionalWork": "Beyond football",
-      "kingWork": "KING / PLAY IN EVERYDAY LIFE",
+      "kingWork": "Earlier Work · King",
       "references": "Programme references",
       "viewSource": "View programme reference ↗",
       "viewImage": "View full image",
-      "closeImage": "Close image"
+      "closeImage": "Close image",
+      "behindHeading": "Behind the Work.",
+      "behindEyebrow": "PEOPLE / PROCESS / SHARED MOMENTS",
+      "behindIntro": "The people, places and shared moments behind the work. From creative development to time on the pitch — an ongoing journey built together.",
+      "moreMoments": "More moments",
+      "projectScaleLabel": "Football work at a glance",
+      "projectArchiveCredit": "From Sunny’s personal project archive."
     },
     "ko": {
       "navCareer": "커리어",
@@ -4432,7 +5318,7 @@ window.SUNNY_CONTENT = {
       "mainNav": "주요 메뉴",
       "languageNav": "사이트 언어",
       "skip": "본문으로 이동",
-      "heroEyebrow": "PERSONAL BRAND / WORK & LIFE",
+      "heroEyebrow": "FOOTBALL / CULTURE / COMMERCIAL GROWTH",
       "perspective": "나의 관점",
       "mission": "다음 미션",
       "exploreJourney": "커리어 여정 보기 ↗",
@@ -4508,22 +5394,30 @@ window.SUNNY_CONTENT = {
       "collectionHeading": "입을 수 있는 문화.",
       "collectionIntro": "한국의 전통, 지역, 응원 문화를 축구 디자인으로 표현한 컬렉션.",
       "additionalWork": "축구를 넘어",
-      "kingWork": "KING / 일상 속의 즐거움",
+      "kingWork": "Earlier Work · King",
       "references": "프로그램 레퍼런스",
       "viewSource": "프로그램 레퍼런스 보기 ↗",
       "viewImage": "이미지 크게 보기",
-      "closeImage": "이미지 닫기"
+      "closeImage": "이미지 닫기",
+      "behindHeading": "Behind the Work.",
+      "behindEyebrow": "PEOPLE / PROCESS / SHARED MOMENTS",
+      "behindIntro": "결과물 뒤에는 함께한 사람들과 시간이 있습니다. 크리에이티브를 준비하는 현장부터 축구 피치 위의 순간까지, 함께 만들어온 여정의 기록입니다.",
+      "moreMoments": "더 많은 순간 보기",
+      "projectScaleLabel": "축구 프로젝트 규모",
+      "projectArchiveCredit": "Sunny의 개인 프로젝트 기록 사진."
     }
   },
   "projectIntroduction": {
-    "en": "Selected work connecting global brands with local culture, people and commercial growth.",
-    "ko": "글로벌 브랜드를 로컬 문화와 사람들, 비즈니스 성장으로 연결했던 프로젝트."
+    "en": "Football marketing, partnerships and fan experiences led across Korea and Asia — connecting cultural relevance with participation and commercial growth.",
+    "ko": "한국과 아시아에서 리딩한 축구 마케팅·파트너십·팬 경험. 문화적 공감을 실제 참여와 비즈니스 성장으로 연결했던 프로젝트입니다."
   },
   "featuredProjectIds": [
     "fifa20-adidas",
     "cultural-kits",
     "kleague-ratings",
-    "fc-futures"
+    "fc-futures",
+    "park-marvel",
+    "fc24-house"
   ],
   "projectAliases": {
     "football-culture": "fc24-house",
@@ -4535,33 +5429,42 @@ window.SUNNY_CONTENT = {
     {
       "id": "launches",
       "title": {
-        "en": "Next Launch Experiences",
-        "ko": "다음 출시 경험"
+        "en": "Launch Experiences & Retail",
+        "ko": "출시 경험과 리테일"
       },
       "period": "2020–2025",
       "projectIds": [
         "fifa21-digital",
         "fifa22-digital",
         "fifa23-pc",
-        "fc24-house",
         "fc25-psg",
         "fc26-popup"
       ]
     },
     {
-      "id": "talent",
+      "id": "partners",
       "title": {
-        "en": "Korean Talent, Global Stories",
-        "ko": "한국의 선수, 글로벌 스토리"
+        "en": "K League & Club Fan Engagement",
+        "ko": "K리그·클럽 팬 인게이지먼트"
       },
-      "period": "2020–2025",
+      "period": "2017–2025",
       "projectIds": [
-        "hwang-global",
-        "son-global",
-        "fifa22-talent",
-        "olympic-support",
-        "park-marvel",
-        "fc25-commentary"
+        "fo3-laliga",
+        "kleague-potm",
+        "kleague-renewal",
+        "fco-festival"
+      ]
+    },
+    {
+      "id": "summer",
+      "title": {
+        "en": "Match Kits, Game Rewards",
+        "ko": "경기 킷과 게임 리워드"
+      },
+      "period": "2023–2024",
+      "projectIds": [
+        "summer-2023",
+        "summer-2024"
       ]
     },
     {
@@ -4578,29 +5481,30 @@ window.SUNNY_CONTENT = {
       ]
     },
     {
-      "id": "summer",
+      "id": "talent",
       "title": {
-        "en": "Summer Football, Game Rewards",
-        "ko": "여름 축구와 게임 리워드"
+        "en": "Korean Talent, Global Stories",
+        "ko": "한국의 선수, 글로벌 스토리"
       },
-      "period": "2023–2024",
+      "period": "2020–2025",
       "projectIds": [
-        "summer-2023",
-        "summer-2024"
+        "hwang-global",
+        "son-global",
+        "fifa22-talent",
+        "olympic-support",
+        "fc25-commentary"
       ]
     },
     {
-      "id": "partners",
+      "id": "youth",
       "title": {
-        "en": "Football Partner Experiences",
-        "ko": "축구 파트너 경험"
+        "en": "Grassroots & Family Football",
+        "ko": "축구 저변과 가족의 축구 경험"
       },
-      "period": "2017–2025",
+      "period": "2023–2025",
       "projectIds": [
-        "fo3-laliga",
-        "kleague-potm",
-        "kleague-renewal",
-        "fco-festival"
+        "worldclass-fc",
+        "football-festival"
       ]
     },
     {
@@ -4611,20 +5515,7 @@ window.SUNNY_CONTENT = {
       },
       "period": "2022–2023",
       "projectIds": [
-        "jonathan",
-        "nivel-worldcup"
-      ]
-    },
-    {
-      "id": "youth",
-      "title": {
-        "en": "Youth Football Experiences",
-        "ko": "어린이와 가족의 축구 경험"
-      },
-      "period": "2023–2025",
-      "projectIds": [
-        "worldclass-fc",
-        "football-festival"
+        "jonathan"
       ]
     },
     {
@@ -4812,8 +5703,42 @@ window.SUNNY_CONTENT = {
   "additionalProjectIds": [
     "sims"
   ],
-  "release": {
-    "date": "2026-10-14",
-    "version": "final-portfolio-1"
-  }
+  "release": "20261014-football-3",
+  "projectScale": [
+    {
+      "value": "9",
+      "label": {
+        "en": "launch showcases",
+        "ko": "출시·공개 쇼케이스"
+      }
+    },
+    {
+      "value": "8",
+      "label": {
+        "en": "cultural kits",
+        "ko": "컬처 킷"
+      }
+    },
+    {
+      "value": "5,000+",
+      "label": {
+        "en": "children",
+        "ko": "어린이 참여"
+      }
+    },
+    {
+      "value": "7",
+      "label": {
+        "en": "K League seasons",
+        "ko": "K리그 시즌"
+      }
+    },
+    {
+      "value": "5M",
+      "label": {
+        "en": "pre-registrations",
+        "ko": "사전등록"
+      }
+    }
+  ]
 };
