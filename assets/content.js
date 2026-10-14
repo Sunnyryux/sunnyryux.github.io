@@ -629,10 +629,28 @@ window.SUNNY_CONTENT = {
               }
             }
           ],
-          "projects": []
+          "projects": [
+            "king-soda-infinite-challenge",
+            "king-bubble-witch-2",
+            "king-sweet-soda-play-day",
+            "king-paradise-bay",
+            "king-candy-crush-jelly",
+            "king-blossom-blast",
+            "king-soda-cosmopolitan",
+            "king-vip-google-play"
+          ]
         }
       ],
-      "projects": [],
+      "projects": [
+        "king-soda-infinite-challenge",
+        "king-bubble-witch-2",
+        "king-sweet-soda-play-day",
+        "king-paradise-bay",
+        "king-candy-crush-jelly",
+        "king-blossom-blast",
+        "king-soda-cosmopolitan",
+        "king-vip-google-play"
+      ],
       "summary": ""
     },
     {
@@ -2504,37 +2522,81 @@ window.SUNNY_CONTENT = {
         "ko": "파트너와 팬덤"
       },
       "summary": {
-        "en": "Built a monthly programme connecting expert, football-fan and player votes → created a recurring bridge between league stories, fan participation and live service.",
-        "ko": "전문가·축구 팬·게임 유저가 함께 선수를 선정하는 월간 프로그램을 구축 → 실제 리그의 이야기가 팬 참여와 게임 서비스로 이어지는 접점 마련."
+        "en": "Connected expert assessment, football-fan votes and game-player votes in a recurring monthly programme → turned real league performances into fan participation, player recognition and in-game relevance.",
+        "ko": "전문가 평가·축구 팬·게임 유저 투표를 월간 프로그램으로 연결 → 실제 리그의 활약을 팬 참여·선수 스토리·인게임 경험으로 확장."
       },
-      "context": "",
+      "context": {
+        "en": "Football fans and game players needed a shared reason to participate in real K League stories throughout the season.",
+        "ko": "축구 팬과 게임 유저가 시즌 내내 실제 K리그의 이야기에 함께 참여할 수 있는 접점이 필요했습니다."
+      },
       "actions": {
         "en": [
-          "Built a monthly programme connecting expert, football-fan and player votes"
+          "Launched and operated the programme with K League to connect expert, fan and game-player participation.",
+          "Built monthly player stories through awards, recognition and supporting video content.",
+          "Connected real-world player achievements with the game’s live-service experience."
         ],
         "ko": [
-          "전문가·축구 팬·게임 유저가 함께 선수를 선정하는 월간 프로그램을 구축"
+          "K리그와 프로그램을 런칭·운영하며 전문가·축구 팬·게임 유저의 참여 연결.",
+          "시상과 선수 스토리, 영상 콘텐츠로 월간 팬 인게이지먼트 접점 구성.",
+          "실제 선수의 활약을 게임 라이브서비스 경험과 연결."
         ]
       },
       "outcome": {
-        "en": "created a recurring bridge between league stories, fan participation and live service.",
-        "ko": "실제 리그의 이야기가 팬 참여와 게임 서비스로 이어지는 접점 마련."
+        "en": "Established a recurring link between league stories, fan participation and game content across multiple seasons.",
+        "ko": "여러 시즌에 걸쳐 리그의 이야기·팬 참여·게임 콘텐츠를 연결하는 정기 프로그램으로 운영."
       },
-      "insight": "",
+      "insight": {
+        "en": "Partnerships become more useful when they give people a recurring role in the story.",
+        "ko": "사람들이 브랜드의 이야기에 정기적으로 참여할 역할을 갖게 될 때, 파트너십의 가치는 더 오래 이어집니다."
+      },
       "metrics": [],
       "keywords": [],
-      "media": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "zR1uVXx6V3U",
+          "url": "https://www.youtube.com/watch?v=zR1uVXx6V3U",
+          "poster": "assets/images/video-zR1uVXx6V3U.jpg",
+          "caption": {
+            "en": "Programme reference · Player of the Month club content, Oct 2023",
+            "ko": "프로그램 레퍼런스 · 이달의 선수 클럽 콘텐츠, 2023년 10월"
+          }
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/kleague-potm-2021.jpg",
+          "alt": {
+            "en": "EA SPORTS × K League Player of the Month · March 2021 nominees",
+            "ko": "EA SPORTS × K리그 이달의 선수 · 2021년 3월 후보"
+          },
+          "caption": {
+            "en": "EA SPORTS × K League Player of the Month · March 2021 nominees",
+            "ko": "EA SPORTS × K리그 이달의 선수 · 2021년 3월 후보"
+          },
+          "source": "https://www.kleague.com/news_view.do?orderBy=seq&page=5&seq=8980&viewOption=album",
+          "contain": true
+        }
+      ],
       "related": [
         "fo3-laliga",
         "kleague-renewal",
         "fco-festival"
       ],
       "career": "ea",
-      "image": "",
+      "image": "assets/images/video-zR1uVXx6V3U.jpg",
       "imageAlt": {
         "en": "EA SPORTS × K League Player of the Month",
         "ko": "EA SPORTS × K리그 이달의 선수 프로그램"
-      }
+      },
+      "references": [
+        {
+          "url": "https://www.kleague.com/video_list.do?searchWord=%EC%9D%B4%EB%8B%AC%EC%9D%98%20%EC%84%A0%EC%88%98",
+          "label": {
+            "en": "K League Player of the Month · official video archive",
+            "ko": "K리그 이달의 선수 · 공식 영상 아카이브"
+          }
+        }
+      ]
     },
     {
       "id": "kleague-renewal",
@@ -3042,6 +3104,806 @@ window.SUNNY_CONTENT = {
       }
     },
     {
+      "id": "king-bubble-witch-2",
+      "title": {
+        "en": "Bubble Witch 2 Saga · Korea Launch Campaign",
+        "ko": "버블위치사가2 · 한국 출시 캠페인"
+      },
+      "period": "Sep 2015",
+      "category": {
+        "en": "Character-led Launch",
+        "ko": "캐릭터 중심 출시"
+      },
+      "summary": {
+        "en": "Introduced a different casual-game experience through character and story → helped build launch awareness and attract players beyond the familiar Candy Crush format.",
+        "ko": "캐릭터와 스토리로 새로운 캐주얼 게임 경험을 전달 → 출시 인지도와 유저 유입 확대에 기여."
+      },
+      "context": {
+        "en": "The new title needed a distinctive identity rather than relying on familiarity with Candy Crush.",
+        "ko": "캔디크러쉬의 익숙함에 기대기보다, 새 타이틀만의 캐릭터와 경험을 선명하게 전달할 필요가 있었습니다."
+      },
+      "actions": {
+        "en": [
+          "Centred the communication on the witch character and story world.",
+          "Used character-led creative to explain the new bubble-shooting experience.",
+          "Connected the launch proposition with Korean audience interests."
+        ],
+        "ko": [
+          "마녀 캐릭터와 스토리 세계를 중심으로 브랜드 메시지 구성.",
+          "캐릭터 중심 크리에이티브로 새로운 버블슈팅 경험 전달.",
+          "한국 타깃 오디언스가 공감할 수 있는 방식으로 출시 매력 표현."
+        ]
+      },
+      "outcome": {
+        "en": "Contributed to brand awareness and player traffic during the Korea launch campaign.",
+        "ko": "한국 출시 캠페인에서 브랜드 인지와 게임 트래픽 성장에 기여."
+      },
+      "insight": {
+        "en": "A new title needs an emotional identity as well as a gameplay explanation.",
+        "ko": "새로운 타이틀은 게임플레이 설명과 함께, 사람들이 기억할 감정적 정체성도 필요합니다."
+      },
+      "references": [],
+      "metrics": [],
+      "brand": "KING",
+      "career": "king",
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "gLR0WgBDPYg",
+          "url": "https://www.youtube.com/watch?v=gLR0WgBDPYg",
+          "poster": "assets/images/video-gLR0WgBDPYg.jpg",
+          "caption": {
+            "en": "Bubble Witch 2 Saga · Kim Seul-gi campaign film",
+            "ko": "버블위치사가2 · 김슬기 캠페인 영상"
+          }
+        }
+      ],
+      "related": [
+        "king-paradise-bay",
+        "king-candy-crush-jelly",
+        "king-blossom-blast"
+      ],
+      "image": "assets/images/video-gLR0WgBDPYg.jpg",
+      "imageAlt": {
+        "en": "Bubble Witch 2 Saga · Korea Launch Campaign",
+        "ko": "버블위치사가2 · 한국 출시 캠페인"
+      }
+    },
+    {
+      "id": "king-paradise-bay",
+      "title": {
+        "en": "Paradise Bay · Korea Launch Campaign",
+        "ko": "파라다이스베이 · 한국 출시 캠페인"
+      },
+      "period": "Nov 2015",
+      "category": {
+        "en": "Story & Sound",
+        "ko": "스토리와 사운드"
+      },
+      "summary": {
+        "en": "Brought a casual simulation world to life through characters, charming content and a memorable theme song → supported launch awareness, player traffic and community conversation.",
+        "ko": "캐릭터·아기자기한 콘텐츠·테마송으로 새로운 시뮬레이션 세계를 전달 → 브랜드 인지와 유저 유입, 커뮤니티 화제 형성에 기여."
+      },
+      "context": {
+        "en": "The simulation title needed a recognisable mood and world that could stand apart from King’s puzzle franchises.",
+        "ko": "퍼즐 프랜차이즈와 구분되는 시뮬레이션 타이틀만의 분위기와 세계를 전달할 필요가 있었습니다."
+      },
+      "actions": {
+        "en": [
+          "Highlighted the characters and inviting details of the game world.",
+          "Used a memorable theme song to reinforce the title’s mood and recognition.",
+          "Connected the creative with conversation in Korean online communities."
+        ],
+        "ko": [
+          "캐릭터와 게임 세계의 아기자기한 디테일 강조.",
+          "기억에 남는 테마송으로 브랜드 분위기와 인지 형성.",
+          "한국 커뮤니티에서 이야깃거리가 되는 크리에이티브 구성."
+        ]
+      },
+      "outcome": {
+        "en": "Contributed to launch awareness and traffic; the theme song became an earworm talking point in Korean communities.",
+        "ko": "출시 인지도와 트래픽 성장에 기여했고, 테마송이 커뮤니티에서 ‘수능금지곡’으로 회자됨."
+      },
+      "insight": {
+        "en": "Sound can make a new brand world easier to recognise and remember.",
+        "ko": "사운드는 새로운 브랜드 세계를 더 쉽게 기억하고 알아보게 만드는 요소가 될 수 있습니다."
+      },
+      "references": [],
+      "metrics": [],
+      "brand": "KING",
+      "career": "king",
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "qfFXrvaru7s",
+          "url": "https://www.youtube.com/watch?v=qfFXrvaru7s",
+          "poster": "assets/images/video-qfFXrvaru7s.jpg",
+          "caption": {
+            "en": "Paradise Bay · Gong Seung-yeon campaign film",
+            "ko": "파라다이스베이 · 공승연 캠페인 영상"
+          }
+        }
+      ],
+      "related": [
+        "king-bubble-witch-2",
+        "king-candy-crush-jelly",
+        "king-blossom-blast"
+      ],
+      "image": "assets/images/video-qfFXrvaru7s.jpg",
+      "imageAlt": {
+        "en": "Paradise Bay · Korea Launch Campaign",
+        "ko": "파라다이스베이 · 한국 출시 캠페인"
+      }
+    },
+    {
+      "id": "king-candy-crush-jelly",
+      "title": {
+        "en": "Candy Crush Jelly · Korea Launch Campaign",
+        "ko": "캔디크러쉬젤리 · 한국 출시 캠페인"
+      },
+      "period": "Feb 2016",
+      "category": {
+        "en": "Creative & Media Effectiveness",
+        "ko": "크리에이티브와 미디어 효율"
+      },
+      "summary": {
+        "en": "Reframed Jelly Queen battles through a familiar movie-review format and a focused TV channel mix → delivered the strongest TV user-acquisition efficiency among the campaigns managed.",
+        "ko": "젤리여왕과의 대결을 영화 리뷰 포맷과 타깃 TV 채널 믹스로 전달 → 담당 TV 캠페인 중 가장 높은 유저 유입 효율을 기록."
+      },
+      "context": {
+        "en": "The new boss-battle experience needed a clear, entertaining explanation that would reach the right potential players.",
+        "ko": "새로운 보스 대결 경험을 재미있고 명확하게 설명하고, 관심을 가질 잠재 유저에게 효율적으로 전달할 필요가 있었습니다."
+      },
+      "actions": {
+        "en": [
+          "Adapted global Jelly Queen creative into a locally familiar movie-review format.",
+          "Made the new confrontation mechanic the centre of the brand story.",
+          "Focused the TV channel mix on the intended audience."
+        ],
+        "ko": [
+          "글로벌 젤리여왕 크리에이티브에 익숙한 영화 리뷰 포맷 적용.",
+          "새로운 대결 경험을 브랜드 스토리의 중심으로 구성.",
+          "타깃 오디언스에 맞는 TV 채널 믹스로 집행 효율화."
+        ]
+      },
+      "outcome": {
+        "en": "Recorded the strongest TV user-acquisition efficiency among the campaigns managed, based on the supplied career account.",
+        "ko": "담당 캠페인 가운데 TV를 통한 유저 유입 효율이 가장 높았던 사례."
+      },
+      "insight": {
+        "en": "Creative relevance and media choices work best when they start from the same audience insight.",
+        "ko": "크리에이티브와 미디어가 같은 오디언스 인사이트에서 출발할 때, 메시지의 공감과 집행 효율이 함께 높아집니다."
+      },
+      "references": [],
+      "metrics": [],
+      "brand": "KING",
+      "career": "king",
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "EMUWJwuTNCM",
+          "url": "https://www.youtube.com/watch?v=EMUWJwuTNCM",
+          "poster": "assets/images/video-EMUWJwuTNCM.jpg",
+          "caption": {
+            "en": "Candy Crush Jelly · full-length launch creative",
+            "ko": "캔디크러쉬젤리 · 출시 크리에이티브 풀버전"
+          }
+        }
+      ],
+      "related": [
+        "king-bubble-witch-2",
+        "king-paradise-bay",
+        "king-blossom-blast"
+      ],
+      "image": "assets/images/video-EMUWJwuTNCM.jpg",
+      "imageAlt": {
+        "en": "Candy Crush Jelly · Korea Launch Campaign",
+        "ko": "캔디크러쉬젤리 · 한국 출시 캠페인"
+      }
+    },
+    {
+      "id": "king-blossom-blast",
+      "title": {
+        "en": "Blossom Blast Saga · Korea Launch Campaign",
+        "ko": "블라썸블라스트사가 · 한국 출시 캠페인"
+      },
+      "period": "May 2016",
+      "category": {
+        "en": "Local Creative Strategy",
+        "ko": "로컬 크리에이티브 전략"
+      },
+      "summary": {
+        "en": "Used offbeat Korean humour to introduce a new casual title → gave the launch a distinctive personality and supported brand awareness.",
+        "ko": "한국 오디언스에게 익숙한 엉뚱한 유머로 새 캐주얼 타이틀을 소개 → 차별화된 출시 인상과 브랜드 인지 형성에 기여."
+      },
+      "context": {
+        "en": "The title needed a memorable introduction in a crowded casual-game market.",
+        "ko": "경쟁이 많은 캐주얼 게임 시장에서 새로운 타이틀을 기억하게 만드는 출시 표현이 필요했습니다."
+      },
+      "actions": {
+        "en": [
+          "Built the launch creative around deliberately offbeat humour.",
+          "Used a locally recognisable tone to give the brand its own personality."
+        ],
+        "ko": [
+          "의도적으로 엉뚱한 유머를 중심으로 출시 크리에이티브 기획.",
+          "한국 오디언스가 알아볼 수 있는 톤으로 브랜드의 개성 표현."
+        ]
+      },
+      "outcome": {
+        "en": "Supported awareness of the new title through a distinctive local creative approach.",
+        "ko": "차별화된 로컬 크리에이티브로 새 타이틀 인지도 형성에 기여."
+      },
+      "insight": {
+        "en": "Localisation can shape a brand’s tone, as well as its language.",
+        "ko": "현지화는 언어뿐 아니라, 브랜드가 사람들에게 말을 거는 톤도 바꿀 수 있습니다."
+      },
+      "references": [],
+      "metrics": [],
+      "brand": "KING",
+      "career": "king",
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "Xy9QrBjC5rU",
+          "url": "https://www.youtube.com/watch?v=Xy9QrBjC5rU",
+          "poster": "assets/images/video-Xy9QrBjC5rU.jpg",
+          "caption": {
+            "en": "Blossom Blast Saga · offbeat launch creative",
+            "ko": "블라썸블라스트사가 · 유머 중심 출시 크리에이티브"
+          }
+        }
+      ],
+      "related": [
+        "king-bubble-witch-2",
+        "king-paradise-bay",
+        "king-candy-crush-jelly"
+      ],
+      "image": "assets/images/video-Xy9QrBjC5rU.jpg",
+      "imageAlt": {
+        "en": "Blossom Blast Saga · Korea Launch Campaign",
+        "ko": "블라썸블라스트사가 · 한국 출시 캠페인"
+      }
+    },
+    {
+      "id": "king-soda-infinite-challenge",
+      "title": {
+        "en": "Candy Crush Soda × Infinite Challenge",
+        "ko": "캔디크러쉬소다 × 무한도전"
+      },
+      "period": "Jun 2015",
+      "category": {
+        "en": "Entertainment & Culture",
+        "ko": "엔터테인먼트와 문화"
+      },
+      "summary": {
+        "en": "Turned a familiar variety-show format into an ad-making challenge with the full Infinite Challenge cast → supported a surge in game traffic and a stronger position among leading puzzle titles.",
+        "ko": "무한도전 전 멤버의 개성을 광고 제작 챌린지로 연결 → 게임 트래픽 증가와 주요 퍼즐게임으로의 입지 강화에 기여."
+      },
+      "context": {
+        "en": "A casual game needed to become part of the entertainment people already enjoyed in everyday life.",
+        "ko": "캐주얼 게임을 단순한 광고를 넘어, 사람들이 일상에서 즐기는 엔터테인먼트의 일부로 만들고자 했습니다."
+      },
+      "actions": {
+        "en": [
+          "Collaborated with the full Infinite Challenge cast on an ad-making challenge using in-game gold bars as the prize.",
+          "Built distinct creative concepts around each member’s personality.",
+          "Distributed the campaign as a variety-show-style content series and TV creative."
+        ],
+        "ko": [
+          "무한도전 전 멤버와 인게임 골드바를 내건 광고 제작 챌린지 기획.",
+          "각 멤버의 개성이 드러나는 서로 다른 광고 콘셉트 구성.",
+          "예능 프로그램 형식의 콘텐츠 시리즈와 TV 광고로 배포."
+        ]
+      },
+      "outcome": {
+        "en": "Supported a surge in game traffic and strengthened the title’s presence in the Korean puzzle category.",
+        "ko": "게임 트래픽 증가와 한국 퍼즐게임 시장에서의 입지 강화에 기여."
+      },
+      "insight": {
+        "en": "A familiar entertainment format can make a brand story something people choose to watch.",
+        "ko": "익숙한 엔터테인먼트 포맷은 브랜드의 메시지를 사람들이 스스로 즐기는 콘텐츠로 바꿀 수 있습니다."
+      },
+      "references": [
+        {
+          "url": "https://m.blog.naver.com/PostView.naver?blogId=2ppune&logNo=220473570686&categoryNo=86",
+          "label": {
+            "en": "Campaign reference",
+            "ko": "캠페인 레퍼런스"
+          }
+        }
+      ],
+      "metrics": [],
+      "brand": "KING",
+      "career": "king",
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "4vvO-NL-HQQ",
+          "url": "https://www.youtube.com/watch?v=4vvO-NL-HQQ",
+          "poster": "assets/images/video-4vvO-NL-HQQ.jpg",
+          "caption": {
+            "en": "Infinite Challenge campaign · full-length creative",
+            "ko": "무한도전 캠페인 · 풀버전 크리에이티브"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "IUUfMxmyT4o",
+          "url": "https://www.youtube.com/watch?v=IUUfMxmyT4o",
+          "poster": "assets/images/video-IUUfMxmyT4o.jpg",
+          "caption": {
+            "en": "Infinite Challenge campaign · second teaser",
+            "ko": "무한도전 캠페인 · 2차 티저"
+          }
+        }
+      ],
+      "related": [
+        "king-sweet-soda-play-day",
+        "king-soda-cosmopolitan"
+      ],
+      "image": "assets/images/video-4vvO-NL-HQQ.jpg",
+      "imageAlt": {
+        "en": "Candy Crush Soda × Infinite Challenge",
+        "ko": "캔디크러쉬소다 × 무한도전"
+      }
+    },
+    {
+      "id": "king-sweet-soda-play-day",
+      "title": {
+        "en": "Sweet Soda Play Day · Roadshow & Popup",
+        "ko": "스윗소다 플레이데이 · 로드쇼 & 팝업"
+      },
+      "period": "Jul–Oct 2015",
+      "category": {
+        "en": "Licensing & Brand Experience",
+        "ko": "라이선싱과 브랜드 경험"
+      },
+      "summary": {
+        "en": "Turned Soda Bears and candy into confectionery and real-world play → connected the mobile game with nationwide sampling and a Times Square popup, reaching 200,000 participants.",
+        "ko": "소다곰과 캔디를 젤리 상품·오프라인 놀이로 확장 → 전국 로드쇼와 타임스퀘어 팝업을 통해 20만 명의 참여를 이끌어냄."
+      },
+      "context": {
+        "en": "The brand needed tangible experiences that could bring a mobile game into people’s daily routines.",
+        "ko": "모바일 게임을 사람들의 일상으로 가져올 수 있는, 직접 맛보고 참여하는 브랜드 경험이 필요했습니다."
+      },
+      "actions": {
+        "en": [
+          "Collaborated with a confectionery partner to license jelly products inspired by Soda Bears and candy.",
+          "Combined product sampling and gameplay encouragement across Seoul and major Korean cities.",
+          "Created a game-inspired mini-game popup at Yeongdeungpo Times Square on 5–6 September."
+        ],
+        "ko": [
+          "스위트스페이스와 소다곰·캔디 모티브의 젤리 라이선싱 협업.",
+          "서울과 전국 주요 도시에서 젤리 샘플링과 게임 플레이 접점 운영.",
+          "9월 5–6일 영등포 타임스퀘어에서 게임을 모티브로 한 미니게임 팝업 구성."
+        ]
+      },
+      "outcome": {
+        "en": "Reached 200,000 participants across the roadshow and popup programme, extending the brand beyond the screen.",
+        "ko": "로드쇼·팝업 프로그램에 20만 명이 참여하며 브랜드 경험을 화면 밖으로 확장."
+      },
+      "insight": {
+        "en": "Licensing can become a route to participation when the product and experience reflect how people already enjoy the brand.",
+        "ko": "브랜드를 즐기는 방식이 상품과 체험에 반영될 때, 라이선싱은 사람들의 참여를 만드는 접점이 됩니다."
+      },
+      "references": [],
+      "metrics": [
+        {
+          "value": "200K",
+          "label": {
+            "en": "participants across the programme",
+            "ko": "프로그램 전체 참여 규모"
+          }
+        }
+      ],
+      "brand": "KING",
+      "career": "king",
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/sweet-soda-photo-06.jpg",
+          "alt": {
+            "en": "Sweet Soda Play Day · roadshow cart and Soda Bears",
+            "ko": "스윗소다 플레이데이 · 로드쇼 카트와 소다곰"
+          },
+          "caption": {
+            "en": "Sweet Soda Play Day · roadshow cart and Soda Bears",
+            "ko": "스윗소다 플레이데이 · 로드쇼 카트와 소다곰"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/sweet-soda-photo-02.jpg",
+          "alt": {
+            "en": "Times Square popup · the game brought into a shared play space",
+            "ko": "타임스퀘어 팝업 · 함께 즐기는 공간으로 옮겨온 게임"
+          },
+          "caption": {
+            "en": "Times Square popup · the game brought into a shared play space",
+            "ko": "타임스퀘어 팝업 · 함께 즐기는 공간으로 옮겨온 게임"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/sweet-soda-photo-03.jpg",
+          "alt": {
+            "en": "Times Square popup · game-inspired physical play",
+            "ko": "타임스퀘어 팝업 · 게임을 모티브로 한 몸으로 즐기는 놀이"
+          },
+          "caption": {
+            "en": "Times Square popup · game-inspired physical play",
+            "ko": "타임스퀘어 팝업 · 게임을 모티브로 한 몸으로 즐기는 놀이"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/sweet-soda-photo-04.jpg",
+          "alt": {
+            "en": "Times Square popup · visitors taking part",
+            "ko": "타임스퀘어 팝업 · 방문객 참여"
+          },
+          "caption": {
+            "en": "Times Square popup · visitors taking part",
+            "ko": "타임스퀘어 팝업 · 방문객 참여"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/sweet-soda-photo-05.jpg",
+          "alt": {
+            "en": "Sweet Soda Play Day · character experience",
+            "ko": "스윗소다 플레이데이 · 캐릭터 경험"
+          },
+          "caption": {
+            "en": "Sweet Soda Play Day · character experience",
+            "ko": "스윗소다 플레이데이 · 캐릭터 경험"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/sweet-soda-photo-01.jpg",
+          "alt": {
+            "en": "Times Square popup · gameplay with the community",
+            "ko": "타임스퀘어 팝업 · 커뮤니티와 함께하는 게임 플레이"
+          },
+          "caption": {
+            "en": "Times Square popup · gameplay with the community",
+            "ko": "타임스퀘어 팝업 · 커뮤니티와 함께하는 게임 플레이"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/sweet-soda-photo-07.jpg",
+          "alt": {
+            "en": "Sweet Soda Play Day · sampling on the road",
+            "ko": "스윗소다 플레이데이 · 거리 샘플링"
+          },
+          "caption": {
+            "en": "Sweet Soda Play Day · sampling on the road",
+            "ko": "스윗소다 플레이데이 · 거리 샘플링"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/sweet-soda-photo-08.jpg",
+          "alt": {
+            "en": "Soda Bears and candy · licensed jelly products",
+            "ko": "소다곰과 캔디 · 라이선싱 젤리 상품"
+          },
+          "caption": {
+            "en": "Soda Bears and candy · licensed jelly products",
+            "ko": "소다곰과 캔디 · 라이선싱 젤리 상품"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        }
+      ],
+      "related": [
+        "king-soda-infinite-challenge",
+        "king-soda-cosmopolitan"
+      ],
+      "image": "assets/images/sweet-soda-photo-06.jpg",
+      "imageAlt": {
+        "en": "Sweet Soda Play Day · roadshow cart and Soda Bears",
+        "ko": "스윗소다 플레이데이 · 로드쇼 카트와 소다곰"
+      },
+      "photoGallery": true
+    },
+    {
+      "id": "king-soda-cosmopolitan",
+      "title": {
+        "en": "Candy Crush Soda × Cosmopolitan Bikini Festival",
+        "ko": "캔디크러쉬소다 × 코스모폴리탄 비키니 페스티벌"
+      },
+      "period": "2016",
+      "category": {
+        "en": "Lifestyle Partnership",
+        "ko": "라이프스타일 파트너십"
+      },
+      "summary": {
+        "en": "Brought Candy Crush Soda into a summer lifestyle occasion through a Cosmopolitan poolside partnership → turned game elements into experiences people could enjoy and share.",
+        "ko": "코스모폴리탄 풀사이드 파티에 캔디크러쉬소다의 요소를 연결 → 게임을 즐기고 공유하는 여름 라이프스타일 경험으로 확장."
+      },
+      "context": {
+        "en": "The brand needed to meet its audience in lifestyle settings they already valued.",
+        "ko": "타깃 오디언스가 이미 즐기는 라이프스타일 공간에서 브랜드와 만나는 경험을 만들고자 했습니다."
+      },
+      "actions": {
+        "en": [
+          "Partnered with Cosmopolitan’s summer poolside festival.",
+          "Brought Soda’s game elements into the venue’s brand experiences.",
+          "Connected the live experience with magazine and participant conversation."
+        ],
+        "ko": [
+          "코스모폴리탄의 서머 시즌 풀사이드 페스티벌과 협업.",
+          "행사장 브랜드 경험에 소다의 게임 요소 반영.",
+          "현장 참여 경험을 매거진과 오디언스의 이야깃거리로 연결."
+        ]
+      },
+      "outcome": {
+        "en": "Extended the brand into summer lifestyle culture and created conversation among the publication and participating audience.",
+        "ko": "브랜드를 여름 라이프스타일 문화로 확장하고 매거진·참여 오디언스 사이의 화제 형성에 기여."
+      },
+      "insight": {
+        "en": "A lifestyle partnership becomes more meaningful when the brand contributes to the occasion itself.",
+        "ko": "브랜드가 행사 자체의 즐거움에 기여할 때, 라이프스타일 파트너십은 더 의미 있는 경험이 됩니다."
+      },
+      "references": [
+        {
+          "url": "https://blog.naver.com/love0327y/220753665163",
+          "label": {
+            "en": "Event reference",
+            "ko": "행사 레퍼런스"
+          }
+        }
+      ],
+      "metrics": [],
+      "brand": "KING",
+      "career": "king",
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/soda-cosmopolitan-photo-01.jpg",
+          "alt": {
+            "en": "Candy Crush Soda × Cosmopolitan · playful summer details",
+            "ko": "캔디크러쉬소다 × 코스모폴리탄 · 즐거운 여름의 디테일"
+          },
+          "caption": {
+            "en": "Candy Crush Soda × Cosmopolitan · playful summer details",
+            "ko": "캔디크러쉬소다 × 코스모폴리탄 · 즐거운 여름의 디테일"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/soda-cosmopolitan-photo-02.jpg",
+          "alt": {
+            "en": "Cosmopolitan Bikini Festival · the Soda brand experience",
+            "ko": "코스모폴리탄 비키니 페스티벌 · 소다 브랜드 경험"
+          },
+          "caption": {
+            "en": "Cosmopolitan Bikini Festival · the Soda brand experience",
+            "ko": "코스모폴리탄 비키니 페스티벌 · 소다 브랜드 경험"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/soda-cosmopolitan-photo-03.jpg",
+          "alt": {
+            "en": "Cosmopolitan Bikini Festival · hands-on participation",
+            "ko": "코스모폴리탄 비키니 페스티벌 · 직접 참여하는 체험"
+          },
+          "caption": {
+            "en": "Cosmopolitan Bikini Festival · hands-on participation",
+            "ko": "코스모폴리탄 비키니 페스티벌 · 직접 참여하는 체험"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/soda-cosmopolitan-photo-04.jpg",
+          "alt": {
+            "en": "Cosmopolitan Bikini Festival · a moment to share",
+            "ko": "코스모폴리탄 비키니 페스티벌 · 함께 나누는 순간"
+          },
+          "caption": {
+            "en": "Cosmopolitan Bikini Festival · a moment to share",
+            "ko": "코스모폴리탄 비키니 페스티벌 · 함께 나누는 순간"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        }
+      ],
+      "related": [
+        "king-soda-infinite-challenge",
+        "king-sweet-soda-play-day"
+      ],
+      "image": "assets/images/soda-cosmopolitan-photo-01.jpg",
+      "imageAlt": {
+        "en": "Candy Crush Soda × Cosmopolitan · playful summer details",
+        "ko": "캔디크러쉬소다 × 코스모폴리탄 · 즐거운 여름의 디테일"
+      },
+      "photoGallery": true
+    },
+    {
+      "id": "king-vip-google-play",
+      "title": {
+        "en": "King VIP Party × Google Play",
+        "ko": "King VIP Party × Google Play"
+      },
+      "period": "2016",
+      "category": {
+        "en": "Loyalty & Community",
+        "ko": "로열티와 커뮤니티"
+      },
+      "summary": {
+        "en": "Turned loyal-player appreciation into a shared offline experience with Google Play → filled invitations within a day and generated strong participant satisfaction.",
+        "ko": "Google Play와 로열 유저를 위한 오프라인 브랜드 경험 구성 → 초대 모집 하루 만에 마감하고 높은 참여 만족도 달성."
+      },
+      "context": {
+        "en": "Loyal players deserved a way to experience the brand together beyond the mobile screen.",
+        "ko": "브랜드를 오래 사랑해온 유저들이 모바일 화면 밖에서도 함께 즐기고 연결될 기회가 필요했습니다."
+      },
+      "actions": {
+        "en": [
+          "Partnered with Google Play on an offline event for loyal King players.",
+          "Created themed experiences around the games’ characters and playful elements.",
+          "Built opportunities for players to enjoy the brand together."
+        ],
+        "ko": [
+          "Google Play와 King의 로열 유저를 위한 오프라인 행사 협업.",
+          "게임 캐릭터와 플레이 요소를 중심으로 테마형 브랜드 경험 구성.",
+          "유저들이 함께 브랜드를 즐기고 연결되는 참여 기회 제공."
+        ]
+      },
+      "outcome": {
+        "en": "Invitations filled within a day, with strong reported participant satisfaction.",
+        "ko": "초대 모집 하루 만에 마감했으며 높은 참여 만족도를 기록."
+      },
+      "insight": {
+        "en": "Loyalty grows when appreciation becomes an experience people can share.",
+        "ko": "유저에 대한 감사가 함께 나눌 수 있는 경험으로 이어질 때, 브랜드 로열티는 더 단단해집니다."
+      },
+      "references": [
+        {
+          "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A201608220410",
+          "label": {
+            "en": "Event coverage",
+            "ko": "행사 보도"
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "value": "1 DAY",
+          "label": {
+            "en": "to fill the invitations",
+            "ko": "초대 모집 마감까지 걸린 시간"
+          }
+        }
+      ],
+      "brand": "KING",
+      "career": "king",
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "PYJ60nANmUY",
+          "url": "https://www.youtube.com/watch?v=PYJ60nANmUY",
+          "poster": "assets/images/video-PYJ60nANmUY.jpg",
+          "caption": {
+            "en": "King VIP Party · event reference film",
+            "ko": "King VIP Party · 행사 레퍼런스 영상"
+          }
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/king-vip-photo-03.jpg",
+          "alt": {
+            "en": "King VIP Party × Google Play · community celebration",
+            "ko": "King VIP Party × Google Play · 커뮤니티와 함께한 축제"
+          },
+          "caption": {
+            "en": "King VIP Party × Google Play · community celebration",
+            "ko": "King VIP Party × Google Play · 커뮤니티와 함께한 축제"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/king-vip-photo-01.jpg",
+          "alt": {
+            "en": "King VIP Party · host and community",
+            "ko": "King VIP Party · 진행자와 커뮤니티"
+          },
+          "caption": {
+            "en": "King VIP Party · host and community",
+            "ko": "King VIP Party · 진행자와 커뮤니티"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/king-vip-photo-02.jpg",
+          "alt": {
+            "en": "King × Google Play · games turned into physical experiences",
+            "ko": "King × Google Play · 실제 공간의 체험으로 확장된 게임"
+          },
+          "caption": {
+            "en": "King × Google Play · games turned into physical experiences",
+            "ko": "King × Google Play · 실제 공간의 체험으로 확장된 게임"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/king-vip-photo-04.jpg",
+          "alt": {
+            "en": "King VIP Party · themed moments and playful details",
+            "ko": "King VIP Party · 테마 경험과 즐거운 디테일"
+          },
+          "caption": {
+            "en": "King VIP Party · themed moments and playful details",
+            "ko": "King VIP Party · 테마 경험과 즐거운 디테일"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        }
+      ],
+      "related": [],
+      "image": "assets/images/king-vip-photo-03.jpg",
+      "imageAlt": {
+        "en": "King VIP Party × Google Play · community celebration",
+        "ko": "King VIP Party × Google Play · 커뮤니티와 함께한 축제"
+      },
+      "photoGallery": true
+    },
+    {
       "id": "sims",
       "title": {
         "en": "The Sims · Cultural Activations",
@@ -3497,7 +4359,7 @@ window.SUNNY_CONTENT = {
       "careerNav": "Career chapters",
       "roleNav": "EA roles",
       "projectEyebrow": "02 / PROJECT",
-      "projectHeading": "Football.\nCulture. Growth.",
+      "projectHeading": "Culture.\nPeople. Growth.",
       "reelEyebrow": "IN MOTION",
       "reelHeading": "Campaign reels.",
       "reelIntro": "Selected campaign films and creator collaborations.",
@@ -3557,6 +4419,8 @@ window.SUNNY_CONTENT = {
       "collectionHeading": "Culture, made wearable.",
       "collectionIntro": "Korean heritage, places and supporter culture, expressed through football design.",
       "additionalWork": "Beyond football",
+      "kingWork": "KING / PLAY IN EVERYDAY LIFE",
+      "references": "Programme references",
       "viewSource": "View programme reference ↗",
       "viewImage": "View full image",
       "closeImage": "Close image"
@@ -3577,14 +4441,14 @@ window.SUNNY_CONTENT = {
       "playBackground": "배경 영상 재생",
       "backgroundFilm": "무음 포트폴리오 배경 영상",
       "viewFilm": "영상 보기 ↗",
-      "homeJourney": "나의 여정.",
-      "homeNext": "다음 챕터.",
+      "homeJourney": "My journey.",
+      "homeNext": "My next chapter.",
       "careerEyebrow": "01 / 커리어",
       "careerHeading": "나의 여정.\n계속되는 성장.",
       "careerNav": "회사별 커리어",
       "roleNav": "EA 역할 선택",
       "projectEyebrow": "02 / 프로젝트",
-      "projectHeading": "축구와 문화,\n그리고 성장.",
+      "projectHeading": "문화와 사람,\n그리고 성장.",
       "reelEyebrow": "캠페인 영상",
       "reelHeading": "캠페인 릴스.",
       "reelIntro": "캠페인 영상과 크리에이터 협업 사례.",
@@ -3644,14 +4508,16 @@ window.SUNNY_CONTENT = {
       "collectionHeading": "입을 수 있는 문화.",
       "collectionIntro": "한국의 전통, 지역, 응원 문화를 축구 디자인으로 표현한 컬렉션.",
       "additionalWork": "축구를 넘어",
+      "kingWork": "KING / 일상 속의 즐거움",
+      "references": "프로그램 레퍼런스",
       "viewSource": "프로그램 레퍼런스 보기 ↗",
       "viewImage": "이미지 크게 보기",
       "closeImage": "이미지 닫기"
     }
   },
   "projectIntroduction": {
-    "en": "Selected work connecting global football brands with Korean culture, communities and commercial opportunities.",
-    "ko": "글로벌 축구 브랜드를 한국의 문화, 커뮤니티, 비즈니스 성장과 연결했던 프로젝트."
+    "en": "Selected work connecting global brands with local culture, people and commercial growth.",
+    "ko": "글로벌 브랜드를 로컬 문화와 사람들, 비즈니스 성장으로 연결했던 프로젝트."
   },
   "featuredProjectIds": [
     "fifa20-adidas",
@@ -3773,6 +4639,47 @@ window.SUNNY_CONTENT = {
         "fo4-launch",
         "el-tornado"
       ]
+    },
+    {
+      "id": "king-launches",
+      "title": {
+        "en": "Casual Game Launches",
+        "ko": "캐주얼 게임 출시"
+      },
+      "period": "2015–2016",
+      "projectIds": [
+        "king-bubble-witch-2",
+        "king-paradise-bay",
+        "king-candy-crush-jelly",
+        "king-blossom-blast"
+      ],
+      "company": "king"
+    },
+    {
+      "id": "king-culture",
+      "title": {
+        "en": "Play in Everyday Culture",
+        "ko": "일상의 문화 속으로"
+      },
+      "period": "2015–2016",
+      "projectIds": [
+        "king-soda-infinite-challenge",
+        "king-sweet-soda-play-day",
+        "king-soda-cosmopolitan"
+      ],
+      "company": "king"
+    },
+    {
+      "id": "king-community",
+      "title": {
+        "en": "Loyalty & Community",
+        "ko": "로열티와 커뮤니티"
+      },
+      "period": "2016",
+      "projectIds": [
+        "king-vip-google-play"
+      ],
+      "company": "king"
     }
   ],
   "kitCollection": [

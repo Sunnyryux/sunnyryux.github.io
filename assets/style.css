@@ -26,9 +26,12 @@ html{background:#090909;scroll-behavior:smooth}body{margin:0}
 #sunny-brand .hero-video-box iframe{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);border:0;max-width:none}
 #sunny-brand .hero-shade{position:absolute;inset:0;z-index:-1;background:rgba(0,0,0,.20);pointer-events:none}
 #sunny-brand .hero-content{position:relative;padding:72px 5% 110px;max-width:990px;text-shadow:0 2px 12px rgba(0,0,0,.95)}
-#sunny-brand .hero-eyebrow{color:#fff}#sunny-brand .hero-name{font:700 clamp(65.6px,12vw,128px)/.95 "Barlow Condensed","Arial Narrow",Impact,sans-serif;letter-spacing:-.015em;color:#fff;margin-bottom:22px}
-#sunny-brand #profile-focus{font:800 clamp(36px,5.8vw,70px)/1.05 "Barlow Condensed","Arial Narrow",Impact,sans-serif;color:#fff;text-transform:uppercase;max-width:850px;letter-spacing:-.01em}
-#sunny-brand .brand-message{font:800 clamp(17px,2.2vw,23px)/1.45 "Manrope",Arial,sans-serif;color:#fff;text-transform:uppercase;letter-spacing:.08em;margin:20px 0 0;padding-left:15px;border-left:3px solid var(--sunny-pink)}
+#sunny-brand .hero-eyebrow{color:#fff}#sunny-brand .hero-name{font:700 clamp(59.04px,10.8vw,115.2px)/.95 "Barlow Condensed","Arial Narrow",Impact,sans-serif;letter-spacing:-.015em;color:#fff;margin-bottom:22px}
+#sunny-brand #profile-focus{font:800 clamp(32.4px,5.22vw,63px)/1.05 "Barlow Condensed","Arial Narrow",Impact,sans-serif;color:#fff;text-transform:uppercase;max-width:850px;letter-spacing:-.01em}
+#sunny-brand .brand-message{font:800 clamp(17px,2.2vw,23px)/1.45 "Manrope",Arial,sans-serif;color:#fff;text-transform:uppercase;letter-spacing:.08em;margin:20px 0 0;padding-left:15px;border-left:3px solid var(--sunny-pink);animation:sunny-message-reveal .8s cubic-bezier(.2,.7,.3,1) .2s 1 both}
+#sunny-brand .brand-progress{display:inline-block;color:var(--sunny-pink);opacity:1;transform:none;animation:sunny-progress-emphasis .9s ease-out .8s 1 both}
+@keyframes sunny-message-reveal{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes sunny-progress-emphasis{0%{opacity:.55;transform:translateY(3px)}45%{opacity:1;transform:translateY(0) scale(1.035)}100%{opacity:1;transform:none}}
 #sunny-brand .hero-copy{max-width:640px;margin:44px 0 38px;display:grid;gap:30px}
 #sunny-brand #profile-statement>p,#sunny-brand #profile-mission>p{color:#fff;font-size:18px;line-height:1.75;min-height:4em;max-width:640px}
 #sunny-brand .hero-mission{padding-top:26px;border-top:1px solid rgba(255,255,255,.45)}
@@ -38,9 +41,9 @@ html{background:#090909;scroll-behavior:smooth}body{margin:0}
 #sunny-brand .video-tools{display:flex;gap:20px;flex-wrap:wrap;align-items:center}#sunny-brand .video-tools button{background:transparent;border:0;padding:0;text-decoration:underline;font-size:11px;min-height:32px;letter-spacing:0}
 #sunny-brand .keyword-strip{display:flex;justify-content:center;gap:30px;flex-wrap:wrap;padding:25px 5%;border-bottom:1px solid var(--sunny-line);font:600 17px/1.4 var(--sunny-display);text-transform:uppercase;letter-spacing:.07em}
 #sunny-brand .keyword-strip span::before{content:"/";color:var(--sunny-pink);padding-right:14px}
-#sunny-brand .home-note{display:flex;justify-content:space-between;align-items:end;gap:40px;padding:64px 5% 76px}
-#sunny-brand .home-note>p:first-child{font:600 clamp(38px,5vw,60px)/1.05 var(--sunny-display)}#sunny-brand .home-note strong{font-weight:600;color:var(--sunny-pink)}
-#sunny-brand .home-note .home-journey-copy{font:400 14px/1.85 var(--sunny-font);max-width:370px;color:#fff}
+#sunny-brand .home-note{display:flex;flex-direction:column;align-items:center;gap:24px;padding:64px 5% 76px;text-align:center}
+#sunny-brand .home-journey-heading{font:600 clamp(34.2px,4.5vw,54px)/1.05 var(--sunny-display);white-space:nowrap;max-width:100%}#sunny-brand .home-note strong{font-weight:600;color:var(--sunny-pink)}
+#sunny-brand .home-note .home-journey-copy{font:400 14px/1.85 var(--sunny-font);max-width:660px;margin-inline:auto;color:#fff}
 /* Shared page rhythm. */
 #sunny-brand .page-view{padding:64px 5% 90px;max-width:1480px;margin:auto}
 #sunny-brand .page-heading{display:flex;justify-content:space-between;align-items:end;gap:36px;margin-bottom:48px}
@@ -136,23 +139,16 @@ html{background:#090909;scroll-behavior:smooth}body{margin:0}
 #sunny-brand .about-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;border-top:1px solid var(--sunny-line);padding-top:32px}#sunny-brand .about-facts h3{font:600 28px/1.1 var(--sunny-display);margin-bottom:20px}#sunny-brand .about-facts p{font-size:14px;line-height:1.8;color:#fff}
 #sunny-brand .site-footer{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:32px 5%;border-top:1px solid var(--sunny-line)}#sunny-brand .site-footer>a:first-child{font:700 24px/1 var(--sunny-display)}#sunny-brand .site-footer p{font-size:10px;letter-spacing:.09em;color:var(--sunny-muted)}#sunny-brand .site-footer>a:last-child{font-size:12px}#sunny-brand .noscript-note{padding:32px 5%}
 /* Korean copy keeps the same visual hierarchy with readable Korean typography. */
-#sunny-brand[data-language="ko"]{--sunny-font:"Noto Sans KR",Arial,sans-serif;--sunny-display:"Noto Sans KR",Arial,sans-serif;word-break:keep-all}
-#sunny-brand[data-language="ko"] .page-heading h1{font-size:clamp(37px,5.8vw,65px);line-height:1.2;letter-spacing:-.045em;font-weight:800}
+#sunny-brand[data-language="ko"]{--sunny-font:"Noto Sans KR",Arial,sans-serif;--sunny-display:"Barlow Condensed","Arial Narrow",Impact,sans-serif;word-break:keep-all}
 #sunny-brand[data-language="ko"] .wordmark{font-family:"Barlow Condensed","Arial Narrow",Impact,sans-serif}#sunny-brand[data-language="ko"] .chapter-top h2{font-size:32px;line-height:1.25}
-#sunny-brand[data-language="ko"] .chapter-headline{font-size:clamp(24px,2.8vw,32px);line-height:1.5;letter-spacing:-.025em;font-weight:700}
-#sunny-brand[data-language="ko"] .project-card h2{font-size:clamp(24px,2.7vw,34px);line-height:1.35;letter-spacing:-.025em;font-weight:700}
-#sunny-brand[data-language="ko"] .case-title{font-size:clamp(32px,5vw,56px);line-height:1.25;font-weight:800;letter-spacing:-.04em}
-#sunny-brand[data-language="ko"] .case-section h2,#sunny-brand[data-language="ko"] .about-facts h3{font-size:23px;line-height:1.4;font-weight:700}
-#sunny-brand[data-language="ko"] .programme-title h3{font-size:23px;line-height:1.4;font-weight:700}#sunny-brand[data-language="ko"] .programmes-heading .eyebrow{font-size:34px;line-height:1.4}
-#sunny-brand[data-language="ko"] .philosophy-item h2{font-size:28px;line-height:1.4;font-weight:700}#sunny-brand[data-language="ko"] .related-stories h2,#sunny-brand[data-language="ko"] .kit-collection>.eyebrow{font-size:30px;line-height:1.4}
 @media(min-width:1400px){#sunny-brand .hero-content{padding-left:calc((100vw - 1260px)/2);max-width:1200px}}
 @media(max-width:900px){#sunny-brand .journey-layout{grid-template-columns:190px minmax(0,1fr);gap:28px}#sunny-brand .chapter-top{display:block}#sunny-brand .chapter-top>span{display:block}#sunny-brand .story-grid{grid-template-columns:1fr}#sunny-brand .about-intro{gap:36px}#sunny-brand .case-columns{gap:36px}#sunny-brand .header-tools{gap:23px}#sunny-brand .main-nav{gap:23px}#sunny-brand .language-switch{padding-left:16px}#sunny-brand .career-projects{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:640px){
  #sunny-brand .site-header{position:static;display:grid;grid-template-columns:1fr auto;padding:16px 6%;gap:12px 20px}#sunny-brand .header-tools{display:contents}#sunny-brand .wordmark{grid-column:1;grid-row:1;font-size:25px}#sunny-brand .language-switch{grid-column:2;grid-row:1;border-left:0;padding-left:0}#sunny-brand .main-nav{grid-column:1/-1;grid-row:2;width:100%;gap:12px;justify-content:space-between}#sunny-brand .main-nav a{font-size:12px}
- #sunny-brand .hero{min-height:850px}#sunny-brand .hero-content{padding:48px 6% 132px}#sunny-brand .hero-name{font-size:clamp(65.6px,22.4vw,89.6px)}#sunny-brand .hero-eyebrow{font-size:10px;letter-spacing:.10em}
- #sunny-brand #profile-focus{font-size:clamp(35px,10vw,48px);line-height:1.08}#sunny-brand .brand-message{font-size:17px;letter-spacing:.045em;margin-top:18px;padding-left:12px}#sunny-brand .hero-copy{margin-top:36px;gap:28px}#sunny-brand #profile-statement>p,#sunny-brand #profile-mission>p{font-size:16px;line-height:1.7;min-height:5em}
+ #sunny-brand .hero{min-height:850px}#sunny-brand .hero-content{padding:48px 6% 132px}#sunny-brand .hero-name{font-size:clamp(59.04px,20.16vw,80.64px)}#sunny-brand .hero-eyebrow{font-size:10px;letter-spacing:.10em}
+ #sunny-brand #profile-focus{font-size:clamp(31.5px,9vw,43.2px);line-height:1.08}#sunny-brand .brand-message{font-size:17px;letter-spacing:.045em;margin-top:18px;padding-left:12px}#sunny-brand .hero-copy{margin-top:36px;gap:28px}#sunny-brand #profile-statement>p,#sunny-brand #profile-mission>p{font-size:16px;line-height:1.7;min-height:5em}
  #sunny-brand .hero-bottom{left:6%;right:6%;flex-direction:column;gap:10px;font-size:10px}#sunny-brand .video-tools{gap:14px}#sunny-brand .keyword-strip{justify-content:start;gap:14px 24px;font-size:14px;padding:22px 6%}
- #sunny-brand .home-note{display:block;padding:40px 6% 50px}#sunny-brand .home-note .home-journey-copy{margin-top:24px}#sunny-brand .page-view{padding:42px 6% 60px}#sunny-brand .page-heading{display:block;margin-bottom:32px}#sunny-brand .page-heading h1{font-size:56px}#sunny-brand #project-intro{margin-top:24px}
+ #sunny-brand .home-note{padding:40px 6% 50px}#sunny-brand .home-journey-heading{font-size:min(34.2px,5.7vw)}#sunny-brand .page-view{padding:42px 6% 60px}#sunny-brand .page-heading{display:block;margin-bottom:32px}#sunny-brand .page-heading h1{font-size:56px}#sunny-brand #project-intro{margin-top:24px}
  #sunny-brand .journey-layout{display:block}#sunny-brand .journey-nav{position:static;display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:32px}#sunny-brand .chapter-button{min-height:74px;padding:11px 12px}#sunny-brand .chapter-button strong{font-size:12px}#sunny-brand .chapter-button span{font-size:10px}
  #sunny-brand .journey-intro{font-size:14px;margin-bottom:32px}#sunny-brand .chapter-top h2{font-size:36px}#sunny-brand .chapter-headline{font-size:32px}#sunny-brand .role-title{font-size:16px}#sunny-brand .role-summary{font-size:14px}
  #sunny-brand .career-highlights{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}#sunny-brand .highlight-value{font-size:44px}#sunny-brand .highlight-label{font-size:11px}#sunny-brand .career-projects{gap:24px 14px}
@@ -163,6 +159,22 @@ html{background:#090909;scroll-behavior:smooth}body{margin:0}
  #sunny-brand .kit-grid{grid-template-columns:1fr;gap:28px}#sunny-brand .related-stories{margin-top:56px}#sunny-brand .kit-collection>.eyebrow{font-size:36px}#sunny-brand .media-dialog{padding:16px;width:96vw}
  #sunny-brand .about-intro{display:block}#sunny-brand .about-intro figure{margin-top:32px}#sunny-brand .contact-links{gap:18px}#sunny-brand .philosophy-grid{grid-template-columns:1fr;margin-top:42px;gap:30px}#sunny-brand .about-facts{grid-template-columns:1fr;gap:28px}
  #sunny-brand .site-footer{align-items:start;flex-wrap:wrap}#sunny-brand .site-footer p{width:100%;order:3}
- #sunny-brand[data-language="ko"] .page-heading h1{font-size:39px}#sunny-brand[data-language="ko"] .chapter-top h2{font-size:28px}#sunny-brand[data-language="ko"] .chapter-headline{font-size:25px}#sunny-brand[data-language="ko"] .project-card h2{font-size:26px}#sunny-brand[data-language="ko"] .case-title{font-size:35px}#sunny-brand[data-language="ko"] .programme-title h3{font-size:18px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}#sunny-brand *,#sunny-brand *::before,#sunny-brand *::after{transition:none!important;animation:none!important}}
+
+#sunny-brand .programme-divider{margin:56px 0 20px;color:var(--sunny-pink)}
+#sunny-brand .action-outline{border:1px solid var(--sunny-line);background:transparent}
+#sunny-brand .case-references{margin:48px 0}
+#sunny-brand .case-references h2{font:600 30px/1.15 var(--sunny-display);margin-bottom:20px}
+#sunny-brand .case-references>div{display:flex;flex-wrap:wrap;gap:16px}
+
+#sunny-brand .related-text-projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:26px;border-top:1px solid var(--sunny-line);padding-top:22px}
+@media(max-width:640px){#sunny-brand .related-text-projects{grid-template-columns:1fr}}
+
+/* Supplied event photos keep their original aspect ratio in the gallery. */
+#sunny-brand .uploaded-photo .image-poster{aspect-ratio:auto}
+#sunny-brand .uploaded-photo .image-poster img{height:auto;object-fit:contain}
+#sunny-brand .main-media.uploaded-photo{max-width:960px;margin-left:auto;margin-right:auto}
+#sunny-brand .upload-gallery .media-grid{display:block;columns:2;column-gap:24px}
+#sunny-brand .upload-gallery .project-media{display:inline-block;width:100%;break-inside:avoid;margin:0 0 30px;vertical-align:top}
+@media(max-width:640px){#sunny-brand .upload-gallery .media-grid{columns:1}}

@@ -12,8 +12,10 @@
   const find = id => root.querySelector('#' + id);
   const local = value => value && typeof value === 'object' && !Array.isArray(value) ? (value[language] ?? value.en ?? '') : (value ?? '');
   const escape = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
-  const ui = key => data.ui[language][key] ?? data.ui.en[key] ?? key;
+  const englishHeadingKeys = new Set(['navCareer','navProject','navAbout','heroEyebrow','perspective','mission','homeJourney','homeNext','careerEyebrow','careerHeading','projectEyebrow','projectHeading','featuredWork','programmesHeading','aboutEyebrow','aboutHeading','myStory','howWork','values','inspiration','next','challenge','approach','impact','insight','relatedWork','relatedStories','context','decisions','projectImpact','lesson','projectMedia','collectionHeading','additionalWork','kingWork','references']);
+  const ui = key => (englishHeadingKeys.has(key) ? data.ui.en[key] : data.ui[language][key]) ?? data.ui.en[key] ?? key;
   const inline = value => escape(local(value)).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  const heading = value => escape(value && typeof value === 'object' && !Array.isArray(value) ? value.en ?? local(value) : value);
   const label = key => escape(ui(key)).replace(/\n/g, '<br>');
   const has = value => Array.isArray(local(value)) ? local(value).length > 0 : !!local(value);
   const copy = value => Array.isArray(local(value)) ? '<ul class="story-bullets">' + local(value).map(v => '<li>' + inline(v) + '</li>').join('') + '</ul>' : has(value) ? '<p>' + inline(value) + '</p>' : '';
@@ -60,7 +62,7 @@
     root.querySelectorAll('[data-i18n-aria]').forEach(el => {el.setAttribute('aria-label',ui(el.getAttribute('data-i18n-aria')));});
     root.querySelectorAll('[data-language-switch]').forEach(el => {el.setAttribute('aria-pressed',String(el.dataset.languageSwitch===language));});
     find('home-heading').innerHTML=escape(data.profile.name)+'<span>.</span>';
-    root.querySelector('.brand-message').textContent=data.profile.brandMessage.toUpperCase();
+    root.querySelector('.brand-message').innerHTML=escape(data.profile.brandMessage.toUpperCase()).replace(/\bPROGRESS\b([.!?]?)/,'<span class="brand-progress">$&</span>');
     find('profile-focus').innerHTML=inline(data.profile.focus);
     find('profile-statement').innerHTML=copy(data.profile.statement);
     find('profile-mission').innerHTML=copy(data.profile.mission);
@@ -74,48 +76,49 @@
     renderProjectCards();renderProgrammes();
     find('about-intro').innerHTML=local(data.about.intro).split(/\n\s*\n/).filter(Boolean).map(p=>'<p>'+inline(p)+'</p>').join('');
     find('about-image').src=data.about.image;find('about-image').alt=local(data.about.imageAlt);
-    find('philosophy-grid').innerHTML=data.about.philosophy.map((p,i)=>'<section class="philosophy-item"><span>'+String(i+1).padStart(2,'0')+'</span><h2>'+inline(p.title)+'</h2>'+copy(p.text)+'</section>').join('');
+    find('philosophy-grid').innerHTML=data.about.philosophy.map((p,i)=>'<section class="philosophy-item"><span>'+String(i+1).padStart(2,'0')+'</span><h2>'+heading(p.title)+'</h2>'+copy(p.text)+'</section>').join('');
     for (const key of ['values','inspiration','next']) find(key+'-copy').innerHTML=copy(data.about[key]);
     find('send-email-link').href='mailto:'+data.profile.email;
     for (const id of ['linkedin-link','footer-linkedin']) find(id).href=data.profile.linkedin;
   }
   function thumbCard(p) {
-    return '<a class="related-card cursor-interaction" href="'+projectHref(p.id)+'">'+(p.image ? '<div class="related-image">'+image(p.image,p.imageAlt)+'</div>' : '')+'<span class="related-card-title">'+inline(p.title)+'</span><span class="related-card-period">'+escape(p.period)+'<span aria-hidden="true">↗</span></span></a>';
+    return '<a class="related-card cursor-interaction" href="'+projectHref(p.id)+'">'+(p.image ? '<div class="related-image">'+image(p.image,p.imageAlt)+'</div>' : '')+'<span class="related-card-title">'+heading(p.title)+'</span><span class="related-card-period">'+escape(p.period)+'<span aria-hidden="true">↗</span></span></a>';
   }
   function renderCareer() {
     const career=data.careers.find(c=>c.id===selectedCareer)||data.careers[0];selectedCareer=career.id;
     const role=career.roles[selectedRole]||career.roles[0];selectedRole=career.roles.indexOf(role);
     const key=career.id+'/'+role.id;
     find('career-nav').innerHTML=data.careers.map(c=>'<button type="button" class="chapter-button" data-career="'+escape(c.id)+'" aria-controls="career-detail" aria-pressed="'+(c.id===career.id)+'"><span>'+inline(c.years)+'</span><strong>'+escape(c.company)+'</strong></button>').join('');
-    const tabs=career.roles.length>1 ? '<div class="role-tabs" aria-label="'+escape(ui('roleNav'))+'">'+career.roles.map((r,i)=>'<button type="button" data-role="'+i+'" aria-pressed="'+(r===role)+'" aria-controls="career-role">'+inline(r.shortTitle||r.title)+'</button>').join('')+'</div><p class="overlap-note">'+inline(career.overlapNote)+'</p>' : '';
+    const tabs=career.roles.length>1 ? '<div class="role-tabs" aria-label="'+escape(ui('roleNav'))+'">'+career.roles.map((r,i)=>'<button type="button" data-role="'+i+'" aria-pressed="'+(r===role)+'" aria-controls="career-role">'+heading(r.shortTitle||r.title)+'</button>').join('')+'</div><p class="overlap-note">'+inline(career.overlapNote)+'</p>' : '';
     const projects=(role.projects||career.projects||[]).map(projectById).filter(Boolean);
-    const related=projects.length ? '<section class="related-work"><p class="small-label">'+label('relatedWork')+'</p><div class="career-projects">'+projects.map(thumbCard).join('')+'</div></section>' : '';
+    const illustrated=projects.filter(p=>p.image), textProjects=projects.filter(p=>!p.image);
+    const related=projects.length ? '<section class="related-work"><p class="small-label">'+label('relatedWork')+'</p>'+(illustrated.length?'<div class="career-projects">'+illustrated.map(thumbCard).join('')+'</div>':'')+(textProjects.length?'<div class="related-text-projects">'+textProjects.map(thumbCard).join('')+'</div>':'')+'</section>' : '';
     const highlights=(role.highlights||[]).length ? '<div class="career-highlights">'+role.highlights.map(h=>'<div><p class="highlight-value">'+escape(h.value)+'</p><p class="highlight-label">'+inline(h.label)+'</p></div>').join('')+'</div>' : '';
     const fields=[['challenge','challenge'],['approach','approach'],['impact','impact'],['insight','insight']];
     const historyCopy=role.history ? '<ul class="role-history">'+local(role.history).map(v=>'<li>'+inline(v)+'</li>').join('')+'</ul>' : '<p class="role-period">'+inline(role.period)+'</p>';
-    find('career-detail').innerHTML='<div class="chapter-top"><h2>'+escape(career.company)+'</h2><span>'+inline(career.period)+'</span></div>'+(has(career.summary)?'<p class="company-summary">'+inline(career.summary)+'</p>':'')+tabs+'<div id="career-role"><h3 class="role-title">'+inline(role.title)+'</h3>'+historyCopy+'<h3 class="chapter-headline">'+inline(role.headline)+'</h3><p class="role-summary">'+inline(role.summary)+'</p>'+tags(role.keywords)+highlights+'<details class="career-story" id="career-story"'+(chapterOpen[key]?' open':'')+'><summary>'+label('chapterDetails')+'<span aria-hidden="true">+</span></summary><div class="story-grid">'+fields.filter(([,field])=>has(role[field])).map(([name,field])=>'<section class="story-step '+(field==='impact'?'impact-step':field==='insight'?'lesson-step':'')+'"><h4>'+label(name)+'</h4>'+copy(role[field])+'</section>').join('')+'</div></details></div>'+related;
+    find('career-detail').innerHTML='<div class="chapter-top"><h2>'+escape(career.company)+'</h2><span>'+inline(career.period)+'</span></div>'+(has(career.summary)?'<p class="company-summary">'+inline(career.summary)+'</p>':'')+tabs+'<div id="career-role"><h3 class="role-title">'+heading(role.title)+'</h3>'+historyCopy+'<h3 class="chapter-headline">'+heading(role.headline)+'</h3><p class="role-summary">'+inline(role.summary)+'</p>'+tags(role.keywords)+highlights+'<details class="career-story" id="career-story"'+(chapterOpen[key]?' open':'')+'><summary>'+label('chapterDetails')+'<span aria-hidden="true">+</span></summary><div class="story-grid">'+fields.filter(([,field])=>has(role[field])).map(([name,field])=>'<section class="story-step '+(field==='impact'?'impact-step':field==='insight'?'lesson-step':'')+'"><h4>'+label(name)+'</h4>'+copy(role[field])+'</section>').join('')+'</div></details></div>'+related;
     find('career-story').addEventListener('toggle',e=>{chapterOpen[key]=e.currentTarget.open;});
   }
   function renderProjectCards() {
     find('project-grid').innerHTML=data.featuredProjectIds.map((id,i)=>{
       const p=projectById(id);const parts=local(p.summary).split(' → ');
-      return '<a class="project-card" href="'+projectHref(id)+'"><div class="image-wrap">'+image(p.image,p.imageAlt)+(p.media[0]?.kind==='video'?'<span class="poster-badge">▶ '+label('filmBadge')+'</span>':'')+'<span class="case-index">'+String(i+1).padStart(2,'0')+'</span></div><div class="card-copy"><p class="project-number">'+inline(p.category)+' / '+escape(p.period)+'</p><h2>'+inline(p.title)+'</h2><p class="card-decision">'+escape(parts[0])+'</p>'+(parts[1]?'<p class="card-result"><span aria-hidden="true">↳</span> '+escape(parts[1])+'</p>':'')+'<span class="card-link">'+label('projectExplore')+'</span></div></a>';
+      return '<a class="project-card" href="'+projectHref(id)+'"><div class="image-wrap">'+image(p.image,p.imageAlt)+(p.media[0]?.kind==='video'?'<span class="poster-badge">▶ '+label('filmBadge')+'</span>':'')+'<span class="case-index">'+String(i+1).padStart(2,'0')+'</span></div><div class="card-copy"><p class="project-number">'+inline(p.category)+' / '+escape(p.period)+'</p><h2>'+heading(p.title)+'</h2><p class="card-decision">'+escape(parts[0])+'</p>'+(parts[1]?'<p class="card-result"><span aria-hidden="true">↳</span> '+escape(parts[1])+'</p>':'')+'<span class="card-link">'+label('projectExplore')+'</span></div></a>';
     }).join('');
   }
   function projectRow(p) {
-    return '<a class="programme-project'+(!p.image?' text-project':'')+'" href="'+projectHref(p.id)+'">'+(p.image?'<div class="programme-project-image">'+image(p.image,p.imageAlt)+'</div>':'')+'<div><p class="programme-period">'+escape(p.period)+'</p><h4>'+inline(p.title)+'</h4><p>'+inline(p.summary)+'</p></div><span class="row-arrow" aria-hidden="true">↗</span></a>';
+    return '<a class="programme-project'+(!p.image?' text-project':'')+'" href="'+projectHref(p.id)+'">'+(p.image?'<div class="programme-project-image">'+image(p.image,p.imageAlt)+'</div>':'')+'<div><p class="programme-period">'+escape(p.period)+'</p><h4>'+heading(p.title)+'</h4><p>'+inline(p.summary)+'</p></div><span class="row-arrow" aria-hidden="true">↗</span></a>';
   }
   function renderProgrammes() {
     find('programme-list').innerHTML=data.projectGroups.map((g,i)=>{
       const projects=g.projectIds.map(projectById).filter(Boolean);const cover=projects.find(p=>p.image);
-      return '<details class="programme-group" data-programme="'+escape(g.id)+'"'+(groupOpen[g.id]?' open':'')+'><summary><span class="programme-index">'+String(i+1).padStart(2,'0')+'</span>'+(cover?'<div class="programme-thumb">'+image(cover.image,cover.imageAlt)+'</div>':'')+'<div class="programme-title"><h3>'+inline(g.title)+'</h3><span>'+escape(g.period)+'</span></div><span class="programme-plus" aria-hidden="true">+</span></summary><div class="programme-items">'+projects.map(projectRow).join('')+'</div></details>';
+      return (g.company==='king' && data.projectGroups[i-1]?.company!=='king' ? '<p class="small-label programme-divider">'+label('kingWork')+'</p>' : '')+'<details class="programme-group" data-programme="'+escape(g.id)+'"'+(groupOpen[g.id]?' open':'')+'><summary><span class="programme-index">'+String(i+1).padStart(2,'0')+'</span>'+(cover?'<div class="programme-thumb">'+image(cover.image,cover.imageAlt)+'</div>':'')+'<div class="programme-title"><h3>'+heading(g.title)+'</h3><span>'+escape(g.period)+'</span></div><span class="programme-plus" aria-hidden="true">+</span></summary><div class="programme-items">'+projects.map(projectRow).join('')+'</div></details>';
     }).join('');
     find('additional-work').innerHTML=data.additionalProjectIds?.length ? '<section class="additional-work"><p class="small-label">'+label('additionalWork')+'</p>'+data.additionalProjectIds.map(projectById).filter(Boolean).map(projectRow).join('')+'</section>' : '';
   }
   function mediaMarkup(m,index,pid,large=false) {
     const key=escape(pid+':'+index);
     if (m.kind==='video') return '<figure class="project-media '+(large?'main-media':'')+'"><button type="button" class="film-poster" data-film="'+key+'" aria-label="'+escape(ui('playFilmLabel')+': '+local(m.caption))+'">'+image(m.poster,m.caption)+'<span class="film-play"><span aria-hidden="true">▶</span> '+label('playFilm')+'</span></button><figcaption>'+inline(m.caption)+' <a href="'+escape(m.url)+'" target="_blank" rel="noopener noreferrer">YouTube ↗</a></figcaption></figure>';
-    return '<figure class="project-media '+(large?'main-media':'')+'"><button type="button" class="image-poster'+(m.contain?' contain':'')+'" data-photo="'+key+'" aria-label="'+escape(ui('viewImage')+': '+local(m.alt))+'">'+image(m.src,m.alt)+'</button><figcaption>'+inline(m.caption)+(m.source?' <a href="'+escape(m.source)+'" target="_blank" rel="noopener noreferrer">'+(language==='ko'?'출처':'Source')+' ↗</a>':'')+'</figcaption></figure>';
+    return '<figure class="project-media '+(large?'main-media ':'')+(m.nativeAspect?'uploaded-photo':'')+'"><button type="button" class="image-poster'+(m.contain?' contain':'')+'" data-photo="'+key+'" aria-label="'+escape(ui('viewImage')+': '+local(m.alt))+'">'+image(m.src,m.alt)+'</button><figcaption>'+inline(m.caption)+(m.source?' <a href="'+escape(m.source)+'" target="_blank" rel="noopener noreferrer">'+(language==='ko'?'출처':'Source')+' ↗</a>':'')+'</figcaption></figure>';
   }
   function caseNav(p,bottom=false) {
     const ids=data.projects.map(p=>p.id);const i=ids.indexOf(p.id);const next=projectById(ids[(i+1)%ids.length]);const previous=projectById(ids[(i-1+ids.length)%ids.length]);
@@ -124,7 +127,7 @@
     return '<nav class="'+(bottom?'case-footer':'case-toolbar')+'" aria-label="'+escape(ui('projectNav'))+'"><button type="button" class="case-back" data-case-back>'+label(backLabel)+'</button>'+(origin!=='#project'?'<a href="#project">'+label('allProjects')+'</a>':'')+'<div class="case-adjacent"><a href="'+projectHref(previous.id)+'" aria-label="'+escape((language==='ko'?'이전 프로젝트: ':'Previous project: ')+local(previous.title))+'">←</a><a href="'+projectHref(next.id)+'" aria-label="'+escape((language==='ko'?'다음 프로젝트: ':'Next project: ')+local(next.title))+'">'+label('nextProject')+'</a></div></nav>';
   }
   function collectionMarkup() {
-    return '<section class="kit-collection"><p class="eyebrow">'+label('collectionHeading')+'</p><p class="collection-intro">'+label('collectionIntro')+'</p><div class="kit-grid">'+data.kitCollection.map(k=>'<article class="kit-item'+(!k.image&&!k.video?' kit-text':'')+'">'+(k.image?'<button type="button" class="image-poster contain" data-kit="'+escape(k.id)+'" aria-label="'+escape(ui('viewImage')+': '+local(k.title))+'">'+image(k.image,k.title)+'</button>':k.video?'<button type="button" class="film-poster" data-kit-film="'+escape(k.id)+'" aria-label="'+escape(ui('playFilmLabel')+': '+local(k.title))+'">'+image(k.video.poster,k.title)+'<span class="film-play">▶ '+label('playFilm')+'</span></button>':'')+'<p class="programme-period">'+escape(k.period)+'</p><h3>'+inline(k.title)+'</h3>'+copy(k.summary)+'</article>').join('')+'</div></section>';
+    return '<section class="kit-collection"><p class="eyebrow">'+label('collectionHeading')+'</p><p class="collection-intro">'+label('collectionIntro')+'</p><div class="kit-grid">'+data.kitCollection.map(k=>'<article class="kit-item'+(!k.image&&!k.video?' kit-text':'')+'">'+(k.image?'<button type="button" class="image-poster contain" data-kit="'+escape(k.id)+'" aria-label="'+escape(ui('viewImage')+': '+local(k.title))+'">'+image(k.image,k.title)+'</button>':k.video?'<button type="button" class="film-poster" data-kit-film="'+escape(k.id)+'" aria-label="'+escape(ui('playFilmLabel')+': '+local(k.title))+'">'+image(k.video.poster,k.title)+'<span class="film-play">▶ '+label('playFilm')+'</span></button>':'')+'<p class="programme-period">'+escape(k.period)+'</p><h3>'+heading(k.title)+'</h3>'+copy(k.summary)+'</article>').join('')+'</div></section>';
   }
   function renderProject(id) {
     const p=projectById(id);
@@ -135,11 +138,11 @@
     const metrics=(p.metrics||[]).length ? '<div class="case-metrics">'+p.metrics.map(m=>'<div class="case-metric"><p class="metric-value">'+inline(m.value)+'</p><p class="metric-label">'+inline(m.label)+'</p></div>').join('')+'</div>' : '';
     const section=(name,value)=>has(value)?'<section class="case-section"><h2>'+label(name)+'</h2>'+copy(value)+'</section>':'';
     const related=(p.related?.length?p.related:data.featuredProjectIds.filter(x=>x!==p.id)).slice(0,3).map(projectById).filter(Boolean);
-    find('project-detail').innerHTML=caseNav(p)+'<header class="case-heading"><p class="eyebrow">'+escape(p.brand)+' / '+escape(p.period)+'</p><h1 class="case-title" id="project-case-heading">'+inline(p.title)+'</h1><p class="case-summary">'+inline(p.summary)+'</p></header>'+(p.media.length?mediaMarkup(p.media[0],0,p.id,true):'')+'<div class="case-columns"><div>'+section('context',p.context)+section('decisions',p.actions)+'</div><div><section class="case-section"><h2>'+label('projectImpact')+'</h2>'+metrics+copy(p.outcome)+'</section>'+(has(p.insight)?'<section class="case-insight"><p class="eyebrow">'+label('lesson')+'</p>'+copy(p.insight)+'</section>':'')+'</div></div>'+(p.media.length>1?'<section class="case-media-gallery"><p class="small-label">'+label('projectMedia')+'</p><div class="media-grid">'+p.media.slice(1).map((m,i)=>mediaMarkup(m,i+1,p.id)).join('')+'</div></section>':'')+(p.id==='cultural-kits'?collectionMarkup():'')+(related.length?'<section class="related-stories"><h2>'+label('relatedStories')+'</h2><div class="career-projects">'+related.map(thumbCard).join('')+'</div></section>':'')+caseNav(p,true);
+    find('project-detail').innerHTML=caseNav(p)+'<header class="case-heading"><p class="eyebrow">'+escape(p.brand)+' / '+escape(p.period)+'</p><h1 class="case-title" id="project-case-heading">'+heading(p.title)+'</h1><p class="case-summary">'+inline(p.summary)+'</p></header>'+(p.media.length?mediaMarkup(p.media[0],0,p.id,true):'')+'<div class="case-columns"><div>'+section('context',p.context)+section('decisions',p.actions)+'</div><div><section class="case-section"><h2>'+label('projectImpact')+'</h2>'+metrics+copy(p.outcome)+'</section>'+(has(p.insight)?'<section class="case-insight"><p class="eyebrow">'+label('lesson')+'</p>'+copy(p.insight)+'</section>':'')+'</div></div>'+(p.media.length>1?'<section class="case-media-gallery '+(p.photoGallery?'upload-gallery':'')+'"><p class="small-label">'+label('projectMedia')+'</p><div class="media-grid">'+p.media.slice(1).map((m,i)=>mediaMarkup(m,i+1,p.id)).join('')+'</div></section>':'')+(p.id==='cultural-kits'?collectionMarkup():'')+((p.references||[]).length?'<section class="case-references"><h2>'+label('references')+'</h2><div>'+p.references.map(r=>'<a class="action action-outline" href="'+escape(r.url)+'" target="_blank" rel="noopener noreferrer">'+inline(r.label)+' ↗</a>').join('')+'</div></section>':'')+(related.length?'<section class="related-stories"><h2>'+label('relatedStories')+'</h2><div class="career-projects">'+related.map(thumbCard).join('')+'</div></section>':'')+caseNav(p,true);
   }
   function updateTitle() {
     const p=currentView==='project'?projectById(currentProject):null;
-    const name=p?local(p.title):({career:ui('navCareer'),project:ui('navProject'),about:ui('navAbout')}[currentView] || '');
+    const name=p?p.title.en:({career:ui('navCareer'),project:ui('navProject'),about:ui('navAbout')}[currentView] || '');
     document.title=(name?name+' — ':'')+"Sunny Ryu — I'M STILL IN PROGRESS.";
     const desc=document.querySelector('meta[name="description"]');if(desc)desc.content=p?local(p.summary):local(data.profile.statement);
   }
