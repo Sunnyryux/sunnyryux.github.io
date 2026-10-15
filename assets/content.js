@@ -92,12 +92,12 @@ window.SUNNY_CONTENT = {
           },
           "approach": {
             "en": [
-              "Analyse Royal Match and Royal Kingdom player and market insight.",
+              "Analyse player behaviour, market signals and category dynamics across flagship mobile puzzle titles.",
               "Recommend creative, media and partnership priorities.",
               "Review market fit, execution risks and measurement with global teams and agencies."
             ],
             "ko": [
-              "Royal Match·Royal Kingdom의 유저·시장 인사이트 분석",
+              "대표 모바일 퍼즐 타이틀의 유저 행동, 시장 신호와 카테고리 동향 분석",
               "크리에이티브·미디어·파트너십 우선순위 제안",
               "글로벌 팀·에이전시와 시장 적합성, 실행 리스크, 측정 방향 검토"
             ]
