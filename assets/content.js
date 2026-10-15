@@ -45,10 +45,10 @@ window.SUNNY_CONTENT = {
   "careers": [
     {
       "id": "dream-games",
-      "company": "Dream Games",
+      "company": "Global Mobile Game Publisher",
       "period": {
-        "en": "Mar 2026 — Present · Consulting Engagement",
-        "ko": "2026.03–현재 · 프로젝트 계약"
+        "en": "Apr 2026 — Present · Consulting Engagement",
+        "ko": "2026.04–현재 · 프로젝트 계약"
       },
       "years": {
         "en": "2026 — NOW",
@@ -77,8 +77,8 @@ window.SUNNY_CONTENT = {
             "ko": "한국 시장 전략·마케팅 독립 컨설턴트"
           },
           "period": {
-            "en": "Mar 2026 — Present · Consulting Engagement",
-            "ko": "2026.03–현재 · 프로젝트 계약"
+            "en": "Apr 2026 — Present · Consulting Engagement",
+            "ko": "2026.04–현재 · 프로젝트 계약"
           },
           "challenge": {
             "en": [
@@ -122,8 +122,8 @@ window.SUNNY_CONTENT = {
             "ko": "쌓아온 경험으로 시장의 다음 성장 기회를 찾다"
           },
           "summary": {
-            "en": "An independent consulting engagement supporting Dream Games' Korea growth through cultural insight, consumer understanding and integrated marketing strategy.",
-            "ko": "Dream Games의 독립 컨설턴트로서 문화·고객·파트너십에 대한 이해를 바탕으로 한국 시장의 성장과 통합 마케팅 전략을 지원하는 현재 진행형의 프로젝트입니다."
+            "en": "An independent consulting engagement supporting a global mobile game publisher's Korea growth through cultural insight, consumer understanding and integrated marketing strategy.",
+            "ko": "글로벌 모바일 게임 퍼블리셔의 독립 컨설턴트로서 문화·고객·파트너십에 대한 이해를 바탕으로 한국 시장의 성장과 통합 마케팅 전략을 지원하는 현재 진행형의 프로젝트입니다."
           },
           "keywords": {
             "en": [
