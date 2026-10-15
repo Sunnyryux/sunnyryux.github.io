@@ -47,8 +47,8 @@ window.SUNNY_CONTENT = {
       "id": "dream-games",
       "company": "Dream Games",
       "period": {
-        "en": "Apr 2026 — Present",
-        "ko": "2026.04–현재"
+        "en": "Mar 2026 — Present · Consulting Engagement",
+        "ko": "2026.03–현재 · 프로젝트 계약"
       },
       "years": {
         "en": "2026 — NOW",
@@ -62,23 +62,23 @@ window.SUNNY_CONTENT = {
         "en": [
           "Korea Market Strategy",
           "Consumer Insight",
-          "Growth Consulting"
+          "Integrated Marketing"
         ],
         "ko": [
           "한국 시장 전략",
           "소비자 인사이트",
-          "성장 컨설팅"
+          "통합 마케팅"
         ]
       },
       "roles": [
         {
           "title": {
-            "en": "Korea Market Consultant",
-            "ko": "한국 시장 컨설턴트"
+            "en": "Independent Korea Market Consultant",
+            "ko": "한국 시장 전략·마케팅 독립 컨설턴트"
           },
           "period": {
-            "en": "Apr 2026 — Present",
-            "ko": "2026.04–현재"
+            "en": "Mar 2026 — Present · Consulting Engagement",
+            "ko": "2026.03–현재 · 프로젝트 계약"
           },
           "challenge": {
             "en": [
@@ -122,24 +122,24 @@ window.SUNNY_CONTENT = {
             "ko": "쌓아온 경험으로 시장의 다음 성장 기회를 찾다"
           },
           "summary": {
-            "en": "Korea market growth consulting grounded in cultural insight, consumer understanding and partnership experience.",
-            "ko": "문화·고객·파트너십에서 쌓은 경험을 바탕으로 한국 시장의 성장 전략을 돕는 현재 진행형의 여정입니다."
+            "en": "An independent consulting engagement supporting Dream Games' Korea growth through cultural insight, consumer understanding and integrated marketing strategy.",
+            "ko": "Dream Games의 독립 컨설턴트로서 문화·고객·파트너십에 대한 이해를 바탕으로 한국 시장의 성장과 통합 마케팅 전략을 지원하는 현재 진행형의 프로젝트입니다."
           },
           "keywords": {
             "en": [
               "Korea Market Strategy",
               "Consumer Insight",
-              "Growth Consulting"
+              "Integrated Marketing"
             ],
             "ko": [
               "한국 시장 전략",
               "소비자 인사이트",
-              "성장 컨설팅"
+              "통합 마케팅"
             ]
           },
           "shortTitle": {
-            "en": "Korea Market Consultant",
-            "ko": "한국 시장 컨설턴트"
+            "en": "Independent Korea Market Consultant",
+            "ko": "한국 시장 독립 컨설턴트"
           },
           "highlights": [],
           "projects": []
