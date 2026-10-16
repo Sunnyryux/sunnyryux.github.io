@@ -440,12 +440,12 @@ window.SUNNY_CONTENT = {
           },
           "impact": {
             "en": [
-              "Contribute to **5M FIFA Online 4 pre-registrations**.",
+              "Drive **large-scale pre-launch player acquisition** for FIFA Online 4.",
               "Extend the Korean publisher collaboration model to **China and Southeast Asia**.",
               "Support a successful franchise player transition and record franchise revenue in **the second year after launch**."
             ],
             "ko": [
-              "FIFA Online 4 **사전등록 500만 달성에 기여**",
+              "FIFA Online 4 출시 전 **대규모 유저 확보에 기여**",
               "한국의 퍼블리셔 협업 모델을 **중국·동남아로 확장**",
               "출시 후 **2년 차의 성공적인 유저 전환과 프랜차이즈 최고매출 기록**을 뒷받침"
             ]
@@ -473,10 +473,10 @@ window.SUNNY_CONTENT = {
           },
           "highlights": [
             {
-              "value": "5M",
+              "value": "LAUNCH",
               "label": {
-                "en": "FIFA Online 4 pre-registrations",
-                "ko": "FIFA Online 4 사전등록"
+                "en": "Large-scale player acquisition",
+                "ko": "대규모 출시 전 유저 확보"
               }
             }
           ],
@@ -579,12 +579,12 @@ window.SUNNY_CONTENT = {
           "impact": {
             "en": [
               "Contribute to the brand growth of a franchise recording **20M+ cumulative downloads in Korea**.",
-              "Apply measurement findings to **US$20M+ in annual brand marketing investment** and media allocation.",
+              "Apply measurement findings to **large-scale annual brand marketing investment** and media allocation.",
               "Earn **Effie Korea Bronze in 2016** for a Candy Crush Soda campaign."
             ],
             "ko": [
               "한국 **누적 다운로드 2,000만 건 이상**을 기록한 캔디크러쉬 프랜차이즈의 브랜드 성장에 기여",
-              "측정 결과를 **연간 2,000만 달러 이상**의 브랜드 마케팅 투자 및 미디어 배분에 활용",
+              "측정 결과를 **대규모 연간 브랜드 마케팅 투자**와 미디어 배분에 활용",
               "캔디크러쉬 소다 캠페인 **Effie Korea Bronze 수상(2016)**"
             ]
           },
@@ -3192,8 +3192,8 @@ window.SUNNY_CONTENT = {
         "ko": "출시와 비즈니스"
       },
       "summary": {
-        "en": "Localised global star assets around new gameplay and secured joint funding → 5M pre-registrations; a launch model extended to China and Southeast Asia.",
-        "ko": "새 게임플레이를 중심으로 글로벌 스타 어셋을 현지화하고 공동 펀딩 확보 → 사전등록 500만; 중국·동남아로 확장된 출시 모델."
+        "en": "Localised global star assets around new gameplay and secured joint funding → drove large-scale pre-launch player acquisition; a launch model extended to China and Southeast Asia.",
+        "ko": "새 게임플레이를 중심으로 글로벌 스타 어셋을 현지화하고 공동 펀딩 확보 → 대규모 출시 전 유저 확보; 중국·동남아로 확장된 출시 모델."
       },
       "context": "",
       "actions": {
@@ -3209,16 +3209,16 @@ window.SUNNY_CONTENT = {
         ]
       },
       "outcome": {
-        "en": "supported 5M pre-registrations and a launch model extended to China and Southeast Asia.",
-        "ko": "사전등록 500만 달성과 중국·동남아 확장에 기여."
+        "en": "supported large-scale pre-launch player acquisition and a launch model extended to China and Southeast Asia.",
+        "ko": "대규모 출시 전 유저 확보와 중국·동남아 확장에 기여."
       },
       "insight": "",
       "metrics": [
         {
-          "value": "5M",
+          "value": "LAUNCH",
           "label": {
-            "en": "launch pre-registrations",
-            "ko": "출시 사전등록"
+            "en": "large-scale pre-launch player acquisition",
+            "ko": "대규모 출시 전 유저 확보"
           }
         }
       ],
@@ -4331,36 +4331,6 @@ window.SUNNY_CONTENT = {
         "uploaded_name": "C74F7632-3263-43A0-B0EC-7D4BBBA2FDFC_4_5005_c.jpeg"
       },
       {
-        "src": "assets/images/behind-work-19.jpg",
-        "width": 360,
-        "height": 480,
-        "uploaded_name": "26F61DB5-612E-497D-9826-098980D4C45A_4_5005_c.jpeg",
-        "id": "behind-19",
-        "caption": {
-          "en": "Together on the pitch",
-          "ko": "축구 피치 위에서 함께"
-        },
-        "alt": {
-          "en": "Together on the pitch",
-          "ko": "축구 피치 위에서 함께"
-        }
-      },
-      {
-        "src": "assets/images/behind-work-20.jpg",
-        "width": 480,
-        "height": 360,
-        "uploaded_name": "4CF5E6E0-D7F6-4D2C-B7E0-FC5C44EB9795_4_5005_c.jpeg",
-        "id": "behind-20",
-        "caption": {
-          "en": "Sharing the matchday experience",
-          "ko": "함께 즐긴 매치데이"
-        },
-        "alt": {
-          "en": "Sharing the matchday experience",
-          "ko": "함께 즐긴 매치데이"
-        }
-      },
-      {
         "src": "assets/images/behind-work-09.jpg",
         "width": 1024,
         "height": 768,
@@ -4376,21 +4346,6 @@ window.SUNNY_CONTENT = {
         }
       },
       {
-        "src": "assets/images/behind-work-18.jpg",
-        "width": 360,
-        "height": 480,
-        "uploaded_name": "765FC3AF-0793-439A-B454-4DFBA09F1F71_4_5005_c.jpeg",
-        "id": "behind-18",
-        "caption": {
-          "en": "A moment in the FC journey",
-          "ko": "FC 여정 속 한 순간"
-        },
-        "alt": {
-          "en": "A moment in the FC journey",
-          "ko": "FC 여정 속 한 순간"
-        }
-      },
-      {
         "src": "assets/images/behind-work-13.jpg",
         "width": 360,
         "height": 360,
@@ -4403,36 +4358,6 @@ window.SUNNY_CONTENT = {
         "alt": {
           "en": "A football campaign moment",
           "ko": "축구 캠페인의 한 장면"
-        }
-      },
-      {
-        "src": "assets/images/behind-work-16.jpg",
-        "width": 768,
-        "height": 1024,
-        "uploaded_name": "EBCEDDC8-69C8-4582-A970-E9CAE943C4C5_1_105_c.jpeg",
-        "id": "behind-16",
-        "caption": {
-          "en": "A partnership moment",
-          "ko": "파트너십의 한 순간"
-        },
-        "alt": {
-          "en": "A partnership moment",
-          "ko": "파트너십의 한 순간"
-        }
-      },
-      {
-        "src": "assets/images/behind-work-14.jpg",
-        "width": 768,
-        "height": 1024,
-        "uploaded_name": "AE852FA3-5B2F-4F8B-9596-AFB296F1E6A0_1_105_c.jpeg",
-        "id": "behind-14",
-        "caption": {
-          "en": "With the creative community",
-          "ko": "크리에이티브 커뮤니티와 함께"
-        },
-        "alt": {
-          "en": "With the creative community",
-          "ko": "크리에이티브 커뮤니티와 함께"
         }
       },
       {
@@ -4481,111 +4406,6 @@ window.SUNNY_CONTENT = {
         }
       },
       {
-        "src": "assets/images/behind-work-03.jpg",
-        "width": 640,
-        "height": 360,
-        "uploaded_name": "26A0050A-753B-4C22-8CF5-343483396F78_4_5005_c.jpeg",
-        "id": "behind-03",
-        "caption": {
-          "en": "Around the table, building together",
-          "ko": "같은 테이블에서 함께 만드는 시간"
-        },
-        "alt": {
-          "en": "Around the table, building together",
-          "ko": "같은 테이블에서 함께 만드는 시간"
-        }
-      },
-      {
-        "src": "assets/images/behind-work-11.jpg",
-        "width": 480,
-        "height": 360,
-        "uploaded_name": "CFB207B8-2EA1-4DF2-9ED3-19E650C05124_4_5005_c.jpeg",
-        "id": "behind-11",
-        "caption": {
-          "en": "The team, after the work",
-          "ko": "일을 마친 뒤 팀과 함께"
-        },
-        "alt": {
-          "en": "The team, after the work",
-          "ko": "일을 마친 뒤 팀과 함께"
-        }
-      },
-      {
-        "src": "assets/images/behind-work-12.jpg",
-        "width": 768,
-        "height": 1024,
-        "uploaded_name": "55DAF494-8F72-42A9-A7AC-0AE27A72F396_1_105_c.jpeg",
-        "id": "behind-12",
-        "caption": {
-          "en": "Conversations over a shared meal",
-          "ko": "식탁에서 이어지는 대화"
-        },
-        "alt": {
-          "en": "Conversations over a shared meal",
-          "ko": "식탁에서 이어지는 대화"
-        }
-      },
-      {
-        "src": "assets/images/behind-work-05.jpg",
-        "width": 360,
-        "height": 480,
-        "uploaded_name": "9376C759-F895-4EA8-B95C-68A14D2467AC_4_5005_c.jpeg",
-        "id": "behind-05",
-        "caption": {
-          "en": "A moment with collaborators",
-          "ko": "함께 일한 사람들과의 순간"
-        },
-        "alt": {
-          "en": "A moment with collaborators",
-          "ko": "함께 일한 사람들과의 순간"
-        }
-      },
-      {
-        "src": "assets/images/behind-work-07.jpg",
-        "width": 768,
-        "height": 1024,
-        "uploaded_name": "6083F0AA-5A36-4FE4-A785-A511A4C5E83E_1_105_c.jpeg",
-        "id": "behind-07",
-        "caption": {
-          "en": "Shared moments beyond the work",
-          "ko": "일 밖에서도 함께한 순간"
-        },
-        "alt": {
-          "en": "Shared moments beyond the work",
-          "ko": "일 밖에서도 함께한 순간"
-        }
-      },
-      {
-        "src": "assets/images/behind-work-08.jpg",
-        "width": 768,
-        "height": 1024,
-        "uploaded_name": "13323233-DD89-4AFD-8851-CBAA237A076E_1_105_c.jpeg",
-        "id": "behind-08",
-        "caption": {
-          "en": "Celebrating together",
-          "ko": "함께 즐기는 시간"
-        },
-        "alt": {
-          "en": "Celebrating together",
-          "ko": "함께 즐기는 시간"
-        }
-      },
-      {
-        "id": "behind-b01",
-        "src": "assets/images/behind-work-b01.jpg",
-        "width": 1200,
-        "height": 1600,
-        "caption": {
-          "en": "Matchday with colleagues",
-          "ko": "동료들과 함께한 매치데이"
-        },
-        "alt": {
-          "en": "Matchday with colleagues",
-          "ko": "동료들과 함께한 매치데이"
-        },
-        "uploaded_name": "57290173-A821-4ED2-8DE7-E1DA45492160_1_102_o.jpeg"
-      },
-      {
         "id": "behind-b02",
         "src": "assets/images/behind-work-b02.jpg",
         "width": 1024,
@@ -4599,21 +4419,6 @@ window.SUNNY_CONTENT = {
           "ko": "축구 파트너십을 함께 만든 사람들"
         },
         "uploaded_name": "725533B7-DC4D-4584-8457-0BAD5B89CB2E_1_105_c.jpeg"
-      },
-      {
-        "id": "behind-b04",
-        "src": "assets/images/behind-work-b04.jpg",
-        "width": 360,
-        "height": 480,
-        "caption": {
-          "en": "A football event moment",
-          "ko": "축구 행사에서 함께한 순간"
-        },
-        "alt": {
-          "en": "A football event moment",
-          "ko": "축구 행사에서 함께한 순간"
-        },
-        "uploaded_name": "78CA5D8D-A312-483F-83E7-28256EC68249_4_5005_c.jpeg"
       },
       {
         "id": "behind-b05",
@@ -4631,66 +4436,6 @@ window.SUNNY_CONTENT = {
         "uploaded_name": "2F86CE2B-2956-4597-B167-685449D3699F_1_105_c.jpeg"
       },
       {
-        "id": "behind-b06",
-        "src": "assets/images/behind-work-b06.jpg",
-        "width": 480,
-        "height": 360,
-        "caption": {
-          "en": "After the work, around the table",
-          "ko": "일을 마친 뒤 함께한 식탁"
-        },
-        "alt": {
-          "en": "After the work, around the table",
-          "ko": "일을 마친 뒤 함께한 식탁"
-        },
-        "uploaded_name": "E76AC364-BE48-4AE5-AB22-759F516D0944_4_5005_c.jpeg"
-      },
-      {
-        "id": "behind-b07",
-        "src": "assets/images/behind-work-b07.jpg",
-        "width": 480,
-        "height": 360,
-        "caption": {
-          "en": "Connections across markets",
-          "ko": "서로 다른 시장을 잇는 사람들"
-        },
-        "alt": {
-          "en": "Connections across markets",
-          "ko": "서로 다른 시장을 잇는 사람들"
-        },
-        "uploaded_name": "941EAEDA-4DB4-4F47-BEBE-F2813271E298_4_5005_c.jpeg"
-      },
-      {
-        "id": "behind-b08",
-        "src": "assets/images/behind-work-b08.jpg",
-        "width": 480,
-        "height": 360,
-        "caption": {
-          "en": "Shared moments in Seoul",
-          "ko": "서울에서 함께한 순간"
-        },
-        "alt": {
-          "en": "Shared moments in Seoul",
-          "ko": "서울에서 함께한 순간"
-        },
-        "uploaded_name": "C1D7EAF3-36E9-49F7-9926-B960CF35CC4E_4_5005_c.jpeg"
-      },
-      {
-        "id": "behind-b10",
-        "src": "assets/images/behind-work-b10.jpg",
-        "width": 1200,
-        "height": 1600,
-        "caption": {
-          "en": "Sharing the stadium experience",
-          "ko": "함께 즐긴 스타디움 경험"
-        },
-        "alt": {
-          "en": "Sharing the stadium experience",
-          "ko": "함께 즐긴 스타디움 경험"
-        },
-        "uploaded_name": "1605CDE8-734C-4C98-A58C-E3B21CE5AE95_1_102_o.jpeg"
-      },
-      {
         "id": "behind-b11",
         "src": "assets/images/behind-work-b11.jpg",
         "width": 360,
@@ -4704,36 +4449,6 @@ window.SUNNY_CONTENT = {
           "ko": "축구의 역사와 만나는 순간"
         },
         "uploaded_name": "C725810B-2A79-49FE-9D41-B6E154AE6B23_4_5005_c.jpeg"
-      },
-      {
-        "id": "behind-b12",
-        "src": "assets/images/behind-work-b12.jpg",
-        "width": 1200,
-        "height": 1600,
-        "caption": {
-          "en": "A partnership conversation",
-          "ko": "파트너들과 함께한 시간"
-        },
-        "alt": {
-          "en": "A partnership conversation",
-          "ko": "파트너들과 함께한 시간"
-        },
-        "uploaded_name": "3CDE1063-E5F3-45C8-A573-3174559E8E51_1_102_o.jpeg"
-      },
-      {
-        "id": "behind-b13",
-        "src": "assets/images/behind-work-b13.jpg",
-        "width": 768,
-        "height": 1024,
-        "caption": {
-          "en": "The team behind the programme",
-          "ko": "프로그램 뒤의 팀"
-        },
-        "alt": {
-          "en": "The team behind the programme",
-          "ko": "프로그램 뒤의 팀"
-        },
-        "uploaded_name": "766DCBD2-27DE-41CE-B2F4-B5EFFD827073_1_105_c.jpeg"
       },
       {
         "id": "behind-b14",
@@ -4751,66 +4466,6 @@ window.SUNNY_CONTENT = {
         "uploaded_name": "DC3ACE92-8CEC-4F27-A9FC-C61EAC5DDB91_4_5005_c.jpeg"
       },
       {
-        "id": "behind-b15",
-        "src": "assets/images/behind-work-b15.jpg",
-        "width": 768,
-        "height": 1024,
-        "caption": {
-          "en": "A shared FC experience",
-          "ko": "함께한 FC 경험"
-        },
-        "alt": {
-          "en": "A shared FC experience",
-          "ko": "함께한 FC 경험"
-        },
-        "uploaded_name": "A8A29C78-0C19-46A3-A5E2-16A3E126A986_1_105_c.jpeg"
-      },
-      {
-        "id": "behind-b16",
-        "src": "assets/images/behind-work-b16.jpg",
-        "width": 655,
-        "height": 1198,
-        "caption": {
-          "en": "A moment at the stadium",
-          "ko": "스타디움에서의 한 순간"
-        },
-        "alt": {
-          "en": "A moment at the stadium",
-          "ko": "스타디움에서의 한 순간"
-        },
-        "uploaded_name": "BEFB2F23-ADD0-4A9A-B021-0DC0C99B86F1_1_105_c.jpeg"
-      },
-      {
-        "id": "behind-b18",
-        "src": "assets/images/behind-work-b18.jpg",
-        "width": 1200,
-        "height": 1600,
-        "caption": {
-          "en": "A moment in the football journey",
-          "ko": "축구 여정 속 한 순간"
-        },
-        "alt": {
-          "en": "A moment in the football journey",
-          "ko": "축구 여정 속 한 순간"
-        },
-        "uploaded_name": "216064F8-8A7C-4E2F-8054-B382388C32AC_1_102_o.jpeg"
-      },
-      {
-        "id": "behind-b19",
-        "src": "assets/images/behind-work-b19.jpg",
-        "width": 1200,
-        "height": 1600,
-        "caption": {
-          "en": "Celebrating The Sims together",
-          "ko": "심즈를 함께 기념하며"
-        },
-        "alt": {
-          "en": "Celebrating The Sims together",
-          "ko": "심즈를 함께 기념하며"
-        },
-        "uploaded_name": "0CE11B2E-8067-40C0-883A-EDB67C8A540C_1_102_o.jpeg"
-      },
-      {
         "id": "behind-c01",
         "src": "assets/images/behind-work-c01.jpg",
         "width": 480,
@@ -4824,36 +4479,6 @@ window.SUNNY_CONTENT = {
           "ko": "FIFA Online 4 미디어 행사 현장"
         },
         "uploaded_name": "F557925D-4CB5-421B-9EEC-650F25F37E75_4_5005_c.jpeg"
-      },
-      {
-        "id": "behind-c02",
-        "src": "assets/images/behind-work-c02.jpg",
-        "width": 1080,
-        "height": 1082,
-        "caption": {
-          "en": "The energy of a gaming event",
-          "ko": "게임 행사 현장의 에너지"
-        },
-        "alt": {
-          "en": "The energy of a gaming event",
-          "ko": "게임 행사 현장의 에너지"
-        },
-        "uploaded_name": "68DC92FE-C67D-4BF2-9227-7C90607135B1.jpeg"
-      },
-      {
-        "id": "behind-c03",
-        "src": "assets/images/behind-work-c03.jpg",
-        "width": 480,
-        "height": 360,
-        "caption": {
-          "en": "Bringing games to the audience",
-          "ko": "게임과 관객이 만나는 현장"
-        },
-        "alt": {
-          "en": "Bringing games to the audience",
-          "ko": "게임과 관객이 만나는 현장"
-        },
-        "uploaded_name": "92AC6F50-4A2A-43D0-8C52-DE6C3D9AACFB_4_5005_c.jpeg"
       },
       {
         "id": "behind-c04",
@@ -4884,81 +4509,6 @@ window.SUNNY_CONTENT = {
           "ko": "유저 커뮤니티와 함께하는 현장"
         },
         "uploaded_name": "67585ABF-0892-4315-B45A-B717C2752924_4_5005_c.jpeg"
-      },
-      {
-        "id": "behind-c06",
-        "src": "assets/images/behind-work-c06.jpg",
-        "width": 480,
-        "height": 360,
-        "caption": {
-          "en": "Football culture in the city",
-          "ko": "도시 속 축구 문화"
-        },
-        "alt": {
-          "en": "Football culture in the city",
-          "ko": "도시 속 축구 문화"
-        },
-        "uploaded_name": "E7D7AB3D-4425-4788-8ACA-CB35954CB71A_4_5005_c.jpeg"
-      },
-      {
-        "id": "behind-c07",
-        "src": "assets/images/behind-work-c07.jpg",
-        "width": 768,
-        "height": 1024,
-        "caption": {
-          "en": "Connections beyond the meeting room",
-          "ko": "회의실 밖에서도 이어지는 관계"
-        },
-        "alt": {
-          "en": "Connections beyond the meeting room",
-          "ko": "회의실 밖에서도 이어지는 관계"
-        },
-        "uploaded_name": "A3711488-397D-4C02-B279-68E6BA2EB15B_1_105_c.jpeg"
-      },
-      {
-        "id": "behind-c08",
-        "src": "assets/images/behind-work-c08.jpg",
-        "width": 1576,
-        "height": 1600,
-        "caption": {
-          "en": "A moment at the K League Awards",
-          "ko": "K리그 시상식에서의 한 순간"
-        },
-        "alt": {
-          "en": "A moment at the K League Awards",
-          "ko": "K리그 시상식에서의 한 순간"
-        },
-        "uploaded_name": "F513F9AD-0272-42E1-B056-C5F06CB8B91E_1_102_a.jpeg"
-      },
-      {
-        "id": "behind-c09",
-        "src": "assets/images/behind-work-c09.jpg",
-        "width": 359,
-        "height": 446,
-        "caption": {
-          "en": "With the people behind the work",
-          "ko": "함께 일한 사람들과"
-        },
-        "alt": {
-          "en": "With the people behind the work",
-          "ko": "함께 일한 사람들과"
-        },
-        "uploaded_name": "E7C18E06-DD56-4A76-B1A7-387DBA9B1D8E_4_5005_c.jpeg"
-      },
-      {
-        "id": "behind-c11",
-        "src": "assets/images/behind-work-c11.jpg",
-        "width": 1600,
-        "height": 1200,
-        "caption": {
-          "en": "A moment with the gaming community",
-          "ko": "게임 커뮤니티와 함께한 순간"
-        },
-        "alt": {
-          "en": "A moment with the gaming community",
-          "ko": "게임 커뮤니티와 함께한 순간"
-        },
-        "uploaded_name": "68558155-A4D5-4C4F-B7BC-BD571E88B9D1_1_102_o.jpeg"
       }
     ]
   },
@@ -5309,7 +4859,8 @@ window.SUNNY_CONTENT = {
       "behindIntro": "The people, places and shared moments behind the work. From creative development to time on the pitch — an ongoing journey built together.",
       "moreMoments": "More moments",
       "projectScaleLabel": "Football work at a glance",
-      "projectArchiveCredit": "From Sunny’s personal project archive."
+      "projectArchiveCredit": "From Sunny’s personal project archive.",
+      "projectRightsNote": "Selected work was delivered with cross-functional teams and external partners. All trademarks and project assets remain the property of their respective owners."
     },
     "ko": {
       "navCareer": "커리어",
@@ -5404,7 +4955,8 @@ window.SUNNY_CONTENT = {
       "behindIntro": "결과물 뒤에는 함께한 사람들과 시간이 있습니다. 크리에이티브를 준비하는 현장부터 축구 피치 위의 순간까지, 함께 만들어온 여정의 기록입니다.",
       "moreMoments": "더 많은 순간 보기",
       "projectScaleLabel": "축구 프로젝트 규모",
-      "projectArchiveCredit": "Sunny의 개인 프로젝트 기록 사진."
+      "projectArchiveCredit": "Sunny의 개인 프로젝트 기록 사진.",
+      "projectRightsNote": "모든 프로젝트는 다양한 내부 팀 및 외부 파트너와 함께 진행했습니다. 상표와 프로젝트 자산의 권리는 각 권리자에게 있습니다."
     }
   },
   "projectIntroduction": {
@@ -5703,7 +5255,7 @@ window.SUNNY_CONTENT = {
   "additionalProjectIds": [
     "sims"
   ],
-  "release": "20261014-football-3",
+  "release": "20261016-portfolio-2",
   "projectScale": [
     {
       "value": "9",
@@ -5734,10 +5286,10 @@ window.SUNNY_CONTENT = {
       }
     },
     {
-      "value": "5M",
+      "value": "SCALE",
       "label": {
-        "en": "pre-registrations",
-        "ko": "사전등록"
+        "en": "pre-launch player acquisition",
+        "ko": "출시 전 대규모 유저 확보"
       }
     }
   ]

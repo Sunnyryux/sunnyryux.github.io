@@ -124,6 +124,7 @@ html{background:#090909;scroll-behavior:smooth}body{margin:0}
 #sunny-brand .case-media-gallery{margin:56px 0}#sunny-brand .media-grid{display:grid;grid-template-columns:1fr 1fr;gap:34px 24px;margin-top:24px}
 #sunny-brand .related-stories{margin-top:80px}#sunny-brand .related-stories>h2{font:600 38px/1.1 var(--sunny-display);margin-bottom:28px}
 #sunny-brand .case-footer{display:flex;align-items:center;gap:26px;flex-wrap:wrap;border-top:1px solid var(--sunny-line);padding-top:24px;margin-top:64px;font-size:12px}
+#sunny-brand .project-rights-note{margin:72px 0 0;padding-top:22px;border-top:1px solid var(--sunny-line);font-size:10px;line-height:1.7;letter-spacing:.02em;color:var(--sunny-muted)}
 #sunny-brand .kit-collection{margin:72px 0}#sunny-brand .kit-collection>.eyebrow{font:700 43px/1.1 var(--sunny-display);letter-spacing:0;text-transform:none;color:#fff}#sunny-brand .collection-intro{font-size:14px;color:var(--sunny-muted);margin-bottom:32px}
 #sunny-brand .kit-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:34px 26px}#sunny-brand .kit-item{border-top:1px solid var(--sunny-line);padding-top:20px;min-width:0}
 #sunny-brand .kit-item .image-poster{aspect-ratio:4/3;margin-bottom:20px}#sunny-brand .kit-item .film-poster{margin-bottom:20px}#sunny-brand .kit-item h3{font-size:16px;font-weight:700;margin-bottom:12px}

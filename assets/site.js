@@ -129,9 +129,9 @@
   }
   function renderBehindGallery() {
     const photos=data.about.gallery||[];
-    const tile=(p,i)=>'<figure class="behind-moment"><button type="button" class="behind-photo" data-about-photo="'+i+'" aria-label="'+escape(ui('viewImage')+': '+local(p.alt))+'">'+image(p.src,p.alt,'width="'+Number(p.width)+'" height="'+Number(p.height)+'"')+'</button><figcaption>'+inline(p.caption)+'</figcaption></figure>';
+    const tile=p=>'<figure class="behind-moment"><button type="button" class="behind-photo" data-about-photo="'+escape(p.id)+'" aria-label="'+escape(ui('viewImage')+': '+local(p.alt))+'">'+image(p.src,p.alt,'width="'+Number(p.width)+'" height="'+Number(p.height)+'"')+'</button><figcaption>'+inline(p.caption)+'</figcaption></figure>';
     find('behind-work').hidden=!photos.length;
-    find('behind-gallery').innerHTML='<div class="behind-grid">'+photos.slice(0,6).map(tile).join('')+'</div>'+(photos.length>6?'<details class="behind-more" id="behind-more"'+(behindMoreOpen?' open':'')+'><summary><span>'+label('moreMoments')+' <span class="moment-count">'+(photos.length-6)+'</span></span><span aria-hidden="true">+</span></summary><div class="behind-grid">'+photos.slice(6).map((p,i)=>tile(p,i+6)).join('')+'</div></details>':'');
+    find('behind-gallery').innerHTML='<div class="behind-grid">'+photos.slice(0,6).map(tile).join('')+'</div>'+(photos.length>6?'<details class="behind-more" id="behind-more"'+(behindMoreOpen?' open':'')+'><summary><span>'+label('moreMoments')+' <span class="moment-count">'+(photos.length-6)+'</span></span><span aria-hidden="true">+</span></summary><div class="behind-grid">'+photos.slice(6).map(tile).join('')+'</div></details>':'');
   }
   function mediaMarkup(m,index,pid,large=false) {
     const key=escape(pid+':'+index);
@@ -216,7 +216,7 @@
     }
     const back=event.target.closest('[data-case-back]');if(back){const context=returnContext;navigate(context?.hash||'#project',context);return;}
     const aboutPhoto=event.target.closest('[data-about-photo]');
-    if(aboutPhoto){const p=data.about.gallery?.[Number(aboutPhoto.dataset.aboutPhoto)];if(p)showMedia({kind:'image',src:p.src},p.caption,aboutPhoto);return;}
+    if(aboutPhoto){const p=data.about.gallery?.find(item=>item.id===aboutPhoto.dataset.aboutPhoto);if(p)showMedia({kind:'image',src:p.src},p.caption,aboutPhoto);return;}
     const film=event.target.closest('[data-film]'), photo=event.target.closest('[data-photo]');
     if(film || photo){const key=(film||photo).dataset[film?'film':'photo'];const split=key.lastIndexOf(':');const p=projectById(key.slice(0,split));const m=p?.media[Number(key.slice(split+1))];if(m)showMedia(m,m.caption||p.title,film||photo);return;}
     const kit=event.target.closest('[data-kit]'), kitFilm=event.target.closest('[data-kit-film]');
