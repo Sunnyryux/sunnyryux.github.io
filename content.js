@@ -45,10 +45,10 @@ window.SUNNY_CONTENT = {
   "careers": [
     {
       "id": "dream-games",
-      "company": "Dream Games",
+      "company": "Global Mobile Game Publisher",
       "period": {
-        "en": "Mar 2026 — Present · Consulting Engagement",
-        "ko": "2026.03–현재 · 프로젝트 계약"
+        "en": "Apr 2026 — Present · Consulting Engagement",
+        "ko": "2026.04–현재 · 프로젝트 계약"
       },
       "years": {
         "en": "2026 — NOW",
@@ -77,8 +77,8 @@ window.SUNNY_CONTENT = {
             "ko": "한국 시장 전략·마케팅 독립 컨설턴트"
           },
           "period": {
-            "en": "Mar 2026 — Present · Consulting Engagement",
-            "ko": "2026.03–현재 · 프로젝트 계약"
+            "en": "Apr 2026 — Present · Consulting Engagement",
+            "ko": "2026.04–현재 · 프로젝트 계약"
           },
           "challenge": {
             "en": [
@@ -92,12 +92,12 @@ window.SUNNY_CONTENT = {
           },
           "approach": {
             "en": [
-              "Analyse Royal Match and Royal Kingdom player and market insight.",
+              "Analyse player behaviour, market signals and category dynamics across flagship mobile puzzle titles.",
               "Recommend creative, media and partnership priorities.",
               "Review market fit, execution risks and measurement with global teams and agencies."
             ],
             "ko": [
-              "Royal Match·Royal Kingdom의 유저·시장 인사이트 분석",
+              "대표 모바일 퍼즐 타이틀의 유저 행동, 시장 신호와 카테고리 동향 분석",
               "크리에이티브·미디어·파트너십 우선순위 제안",
               "글로벌 팀·에이전시와 시장 적합성, 실행 리스크, 측정 방향 검토"
             ]
@@ -122,8 +122,8 @@ window.SUNNY_CONTENT = {
             "ko": "쌓아온 경험으로 시장의 다음 성장 기회를 찾다"
           },
           "summary": {
-            "en": "An independent consulting engagement supporting Dream Games' Korea growth through cultural insight, consumer understanding and integrated marketing strategy.",
-            "ko": "Dream Games의 독립 컨설턴트로서 문화·고객·파트너십에 대한 이해를 바탕으로 한국 시장의 성장과 통합 마케팅 전략을 지원하는 현재 진행형의 프로젝트입니다."
+            "en": "An independent consulting engagement supporting a global mobile game publisher's Korea growth through cultural insight, consumer understanding and integrated marketing strategy.",
+            "ko": "글로벌 모바일 게임 퍼블리셔의 독립 컨설턴트로서 문화·고객·파트너십에 대한 이해를 바탕으로 한국 시장의 성장과 통합 마케팅 전략을 지원하는 현재 진행형의 프로젝트입니다."
           },
           "keywords": {
             "en": [
@@ -440,12 +440,12 @@ window.SUNNY_CONTENT = {
           },
           "impact": {
             "en": [
-              "Contribute to **5M FIFA Online 4 pre-registrations**.",
+              "Drive **large-scale pre-launch player acquisition** for FIFA Online 4.",
               "Extend the Korean publisher collaboration model to **China and Southeast Asia**.",
               "Support a successful franchise player transition and record franchise revenue in **the second year after launch**."
             ],
             "ko": [
-              "FIFA Online 4 **사전등록 500만 달성에 기여**",
+              "FIFA Online 4 출시 전 **대규모 유저 확보에 기여**",
               "한국의 퍼블리셔 협업 모델을 **중국·동남아로 확장**",
               "출시 후 **2년 차의 성공적인 유저 전환과 프랜차이즈 최고매출 기록**을 뒷받침"
             ]
@@ -473,10 +473,10 @@ window.SUNNY_CONTENT = {
           },
           "highlights": [
             {
-              "value": "5M",
+              "value": "LAUNCH",
               "label": {
-                "en": "FIFA Online 4 pre-registrations",
-                "ko": "FIFA Online 4 사전등록"
+                "en": "Large-scale player acquisition",
+                "ko": "대규모 출시 전 유저 확보"
               }
             }
           ],
@@ -579,12 +579,12 @@ window.SUNNY_CONTENT = {
           "impact": {
             "en": [
               "Contribute to the brand growth of a franchise recording **20M+ cumulative downloads in Korea**.",
-              "Apply measurement findings to **US$20M+ in annual brand marketing investment** and media allocation.",
+              "Apply measurement findings to **large-scale annual brand marketing investment** and media allocation.",
               "Earn **Effie Korea Bronze in 2016** for a Candy Crush Soda campaign."
             ],
             "ko": [
               "한국 **누적 다운로드 2,000만 건 이상**을 기록한 캔디크러쉬 프랜차이즈의 브랜드 성장에 기여",
-              "측정 결과를 **연간 2,000만 달러 이상**의 브랜드 마케팅 투자 및 미디어 배분에 활용",
+              "측정 결과를 **대규모 연간 브랜드 마케팅 투자**와 미디어 배분에 활용",
               "캔디크러쉬 소다 캠페인 **Effie Korea Bronze 수상(2016)**"
             ]
           },
@@ -3192,8 +3192,8 @@ window.SUNNY_CONTENT = {
         "ko": "출시와 비즈니스"
       },
       "summary": {
-        "en": "Localised global star assets around new gameplay and secured joint funding → 5M pre-registrations; a launch model extended to China and Southeast Asia.",
-        "ko": "새 게임플레이를 중심으로 글로벌 스타 어셋을 현지화하고 공동 펀딩 확보 → 사전등록 500만; 중국·동남아로 확장된 출시 모델."
+        "en": "Localised global star assets around new gameplay and secured joint funding → drove large-scale pre-launch player acquisition; a launch model extended to China and Southeast Asia.",
+        "ko": "새 게임플레이를 중심으로 글로벌 스타 어셋을 현지화하고 공동 펀딩 확보 → 대규모 출시 전 유저 확보; 중국·동남아로 확장된 출시 모델."
       },
       "context": "",
       "actions": {
@@ -3209,16 +3209,16 @@ window.SUNNY_CONTENT = {
         ]
       },
       "outcome": {
-        "en": "supported 5M pre-registrations and a launch model extended to China and Southeast Asia.",
-        "ko": "사전등록 500만 달성과 중국·동남아 확장에 기여."
+        "en": "supported large-scale pre-launch player acquisition and a launch model extended to China and Southeast Asia.",
+        "ko": "대규모 출시 전 유저 확보와 중국·동남아 확장에 기여."
       },
       "insight": "",
       "metrics": [
         {
-          "value": "5M",
+          "value": "LAUNCH",
           "label": {
-            "en": "launch pre-registrations",
-            "ko": "출시 사전등록"
+            "en": "large-scale pre-launch player acquisition",
+            "ko": "대규모 출시 전 유저 확보"
           }
         }
       ],
@@ -4962,6 +4962,27 @@ window.SUNNY_CONTENT = {
       }
     ]
   },
+  "aboutGalleryIds": [
+    "behind-b17",
+    "behind-17",
+    "behind-c10",
+    "behind-10",
+    "behind-b03",
+    "behind-01",
+    "behind-b09",
+    "behind-09",
+    "behind-13",
+    "behind-06",
+    "behind-04",
+    "behind-02",
+    "behind-b02",
+    "behind-b05",
+    "behind-b11",
+    "behind-b14",
+    "behind-c01",
+    "behind-c04",
+    "behind-c05"
+  ],
   "reels": [
     {
       "id": "KdH1lE6wl4o",
@@ -5309,7 +5330,8 @@ window.SUNNY_CONTENT = {
       "behindIntro": "The people, places and shared moments behind the work. From creative development to time on the pitch — an ongoing journey built together.",
       "moreMoments": "More moments",
       "projectScaleLabel": "Football work at a glance",
-      "projectArchiveCredit": "From Sunny’s personal project archive."
+      "projectArchiveCredit": "From Sunny’s personal project archive.",
+      "projectRightsNote": "Selected work was delivered with cross-functional teams and external partners. All trademarks and project assets remain the property of their respective owners."
     },
     "ko": {
       "navCareer": "커리어",
@@ -5404,7 +5426,8 @@ window.SUNNY_CONTENT = {
       "behindIntro": "결과물 뒤에는 함께한 사람들과 시간이 있습니다. 크리에이티브를 준비하는 현장부터 축구 피치 위의 순간까지, 함께 만들어온 여정의 기록입니다.",
       "moreMoments": "더 많은 순간 보기",
       "projectScaleLabel": "축구 프로젝트 규모",
-      "projectArchiveCredit": "Sunny의 개인 프로젝트 기록 사진."
+      "projectArchiveCredit": "Sunny의 개인 프로젝트 기록 사진.",
+      "projectRightsNote": "모든 프로젝트는 다양한 내부 팀 및 외부 파트너와 함께 진행했습니다. 상표와 프로젝트 자산의 권리는 각 권리자에게 있습니다."
     }
   },
   "projectIntroduction": {
@@ -5703,7 +5726,7 @@ window.SUNNY_CONTENT = {
   "additionalProjectIds": [
     "sims"
   ],
-  "release": "20261014-football-3",
+  "release": "20261016-portfolio-1",
   "projectScale": [
     {
       "value": "9",
@@ -5734,10 +5757,10 @@ window.SUNNY_CONTENT = {
       }
     },
     {
-      "value": "5M",
+      "value": "SCALE",
       "label": {
-        "en": "pre-registrations",
-        "ko": "사전등록"
+        "en": "pre-launch player acquisition",
+        "ko": "출시 전 대규모 유저 확보"
       }
     }
   ]
