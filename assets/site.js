@@ -95,7 +95,9 @@
     const key=career.id+'/'+role.id;
     find('career-nav').innerHTML=data.careers.map(c=>'<button type="button" class="chapter-button" data-career="'+escape(c.id)+'" aria-controls="career-detail" aria-pressed="'+(c.id===career.id)+'"><span>'+inline(c.years)+'</span><strong>'+escape(c.company)+'</strong></button>').join('');
     const tabs=career.roles.length>1 ? '<div class="role-tabs" aria-label="'+escape(ui('roleNav'))+'">'+career.roles.map((r,i)=>'<button type="button" data-role="'+i+'" aria-pressed="'+(r===role)+'" aria-controls="career-role">'+heading(r.shortTitle||r.title)+'</button>').join('')+'</div><p class="overlap-note">'+inline(career.overlapNote)+'</p>' : '';
-    const projects=(role.projects||career.projects||[]).map(projectById).filter(Boolean);
+    const companyProjectIds=data.projects.filter(p=>p.career===career.id).map(p=>p.id);
+    const projectIds=[...new Set([...(career.projects||[]),...(role.projects||[]),...companyProjectIds])];
+    const projects=projectIds.map(projectById).filter(Boolean);
     const illustrated=projects.filter(p=>p.image), textProjects=projects.filter(p=>!p.image);
     const related=projects.length ? '<section class="related-work"><p class="small-label">'+label('relatedWork')+'</p>'+(illustrated.length?'<div class="career-projects">'+illustrated.map(thumbCard).join('')+'</div>':'')+(textProjects.length?'<div class="related-text-projects">'+textProjects.map(thumbCard).join('')+'</div>':'')+'</section>' : '';
     const highlights=(role.highlights||[]).length ? '<div class="career-highlights">'+role.highlights.map(h=>'<div><p class="highlight-value">'+escape(h.value)+'</p><p class="highlight-label">'+inline(h.label)+'</p></div>').join('')+'</div>' : '';
@@ -122,10 +124,17 @@
       const projects=g.projectIds.map(projectById).filter(Boolean);const cover=projects.find(p=>p.image);
       return '<details class="programme-group" data-programme="'+escape(g.id)+'"'+(groupOpen[g.id]?' open':'')+'><summary><span class="programme-index">'+String(i+1).padStart(2,'0')+'</span>'+(cover?'<div class="programme-thumb">'+image(cover.image,cover.imageAlt)+'</div>':'')+'<div class="programme-title"><h3>'+heading(g.title)+'</h3><span>'+escape(g.period)+'</span></div><span class="programme-plus" aria-hidden="true">+</span></summary><div class="programme-items">'+projects.map(projectRow).join('')+'</div></details>';
     };
-    const football=data.projectGroups.filter(g=>!g.company);
-    const earlier=data.projectGroups.filter(g=>g.company);
-    find('programme-list').innerHTML=football.map(renderGroup).join('')+(earlier.length?'<details class="earlier-work" id="earlier-work"'+(earlierWorkOpen?' open':'')+'><summary><span>'+label('kingWork')+'</span><span aria-hidden="true">+</span></summary><div>'+earlier.map((g,i)=>renderGroup(g,football.length+i)).join('')+'</div></details>':'');
-    find('additional-work').innerHTML=data.additionalProjectIds?.length ? '<section class="additional-work"><p class="small-label">'+label('additionalWork')+'</p>'+data.additionalProjectIds.map(projectById).filter(Boolean).map(projectRow).join('')+'</section>' : '';
+    const groupsById=new Map(data.projectGroups.map(g=>[g.id,g]));
+    let groupIndex=0;
+    const renderCompany=section=>{
+      const groups=(section.groupIds||[]).map(id=>groupsById.get(id)).filter(Boolean);
+      const projects=(section.projectIds||[]).map(projectById).filter(Boolean);
+      const groupMarkup=groups.map(g=>renderGroup(g,groupIndex++)).join('');
+      const projectMarkup=projects.length?'<div class="company-projects">'+projects.map(projectRow).join('')+'</div>':'';
+      return '<section class="project-company-section" data-project-company="'+escape(section.id)+'"><header class="project-company-heading"><h2>'+heading(section.title)+'</h2><p>'+inline(section.intro)+'</p></header>'+groupMarkup+projectMarkup+'</section>';
+    };
+    find('programme-list').innerHTML=(data.projectCompanySections||[]).map(renderCompany).join('');
+    find('additional-work').innerHTML='';
   }
   function renderBehindGallery() {
     const photos=data.about.gallery||[];
@@ -145,7 +154,8 @@
     return '<nav class="'+(bottom?'case-footer':'case-toolbar')+'" aria-label="'+escape(ui('projectNav'))+'"><button type="button" class="case-back" data-case-back>'+label(backLabel)+'</button>'+(origin!=='#project'?'<a href="#project">'+label('allProjects')+'</a>':'')+'<div class="case-adjacent"><a href="'+projectHref(previous.id)+'" aria-label="'+escape((language==='ko'?'이전 프로젝트: ':'Previous project: ')+local(previous.title))+'">←</a><a href="'+projectHref(next.id)+'" aria-label="'+escape((language==='ko'?'다음 프로젝트: ':'Next project: ')+local(next.title))+'">'+label('nextProject')+'</a></div></nav>';
   }
   function collectionMarkup() {
-    return '<section class="kit-collection"><p class="eyebrow">'+label('collectionHeading')+'</p><p class="collection-intro">'+label('collectionIntro')+'</p><div class="kit-grid">'+data.kitCollection.map(k=>'<article class="kit-item'+(!k.image&&!k.video?' kit-text':'')+'">'+(k.image?'<button type="button" class="image-poster contain" data-kit="'+escape(k.id)+'" aria-label="'+escape(ui('viewImage')+': '+local(k.title))+'">'+image(k.image,k.title)+'</button>':k.video?'<button type="button" class="film-poster" data-kit-film="'+escape(k.id)+'" aria-label="'+escape(ui('playFilmLabel')+': '+local(k.title))+'">'+image(k.video.poster,k.title)+'<span class="film-play">▶ '+label('playFilm')+'</span></button>':'')+'<p class="programme-period">'+escape(k.period)+'</p><h3>'+heading(k.title)+'</h3>'+copy(k.summary)+'</article>').join('')+'</div></section>';
+    const actions=k=>(k.video&&k.image?'<button type="button" class="action action-outline kit-action" data-kit-film="'+escape(k.id)+'">▶ '+label('playFilm')+'</button>':'')+(k.source?'<a class="action action-outline kit-action" href="'+escape(k.source)+'" target="_blank" rel="noopener noreferrer">'+(language==='ko'?'컬렉션 보기 ↗':'View collection ↗')+'</a>':'');
+    return '<section class="kit-collection"><p class="eyebrow">'+label('collectionHeading')+'</p><p class="collection-intro">'+label('collectionIntro')+'</p><div class="kit-grid">'+data.kitCollection.map(k=>'<article class="kit-item'+(!k.image&&!k.video?' kit-text':'')+'">'+(k.image?'<button type="button" class="image-poster contain" data-kit="'+escape(k.id)+'" aria-label="'+escape(ui('viewImage')+': '+local(k.title))+'">'+image(k.image,k.title)+'</button>':k.video?'<button type="button" class="film-poster" data-kit-film="'+escape(k.id)+'" aria-label="'+escape(ui('playFilmLabel')+': '+local(k.title))+'">'+image(k.video.poster,k.title)+'<span class="film-play">▶ '+label('playFilm')+'</span></button>':'')+'<p class="programme-period">'+escape(k.period)+'</p><h3>'+heading(k.title)+'</h3>'+copy(k.summary)+(k.video||k.source?'<div class="kit-actions">'+actions(k)+'</div>':'')+'</article>').join('')+'</div></section>';
   }
   function renderProject(id) {
     const p=projectById(id);
