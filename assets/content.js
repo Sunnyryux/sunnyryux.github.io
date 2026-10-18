@@ -288,6 +288,10 @@ window.SUNNY_CONTENT = {
           "projects": [
             "kleague-ratings",
             "fc-futures",
+            "football-festival",
+            "beckham-china-tour",
+            "zidane-china-tour",
+            "jude-asia-activation",
             "summer-2024",
             "kleague-renewal",
             "worldclass-fc",
@@ -392,6 +396,8 @@ window.SUNNY_CONTENT = {
             "fifa20-adidas",
             "cultural-kits",
             "fc24-house",
+            "soopercup-2024",
+            "creator-network-korea",
             "jonathan",
             "fifa23-pc",
             "sims"
@@ -504,7 +510,13 @@ window.SUNNY_CONTENT = {
         "cultural-kits",
         "kleague-ratings",
         "fc-futures",
+        "football-festival",
         "fc24-house",
+        "soopercup-2024",
+        "creator-network-korea",
+        "beckham-china-tour",
+        "zidane-china-tour",
+        "jude-asia-activation",
         "el-tornado",
         "sims"
       ],
@@ -1366,23 +1378,25 @@ window.SUNNY_CONTENT = {
         "ko": "파트너와 팬덤"
       },
       "summary": {
-        "en": "Enabled club-led ratings content across most K League 1 clubs → more than doubled the in-game K League supporter base in FC 24.",
-        "ko": "K리그1 대부분의 클럽이 각자의 팬 문화에 맞춘 능력치 콘텐츠를 만들도록 협업 지원 → FC24 게임 내 K리그 서포터 팬 규모 2배 이상 성장."
+        "en": "Built a partner-led content framework from FIFA 21 through FC 25 → enabled most K League 1 clubs to engage fans in their own way and more than doubled the in-game K League supporter base in FC 24.",
+        "ko": "FIFA21부터 FC25까지 파트너 주도형 콘텐츠 프레임워크를 구축 → K리그1 대부분의 클럽이 각자의 방식으로 팬과 소통했고 FC24 게임 내 K리그 서포터 팬 규모 2배 이상 성장."
       },
       "context": {
-        "en": "High player ratings alone were not the route to engaging K League fans in a global football game. Each club needed a playful format that suited its own community.",
-        "ko": "글로벌 선수 중심의 게임에서 높은 능력치만으로 한국 축구 팬의 참여를 만들기는 어려웠습니다. 각 클럽과 팬에게 맞는 즐거운 콘텐츠 접점이 필요했습니다."
+        "en": "K League player ratings were not always high in a global football game, but the reveal itself could become a playful annual conversation between clubs, players and their fans.",
+        "ko": "글로벌 축구 게임에서 K리그 선수 능력치가 늘 높지는 않았지만, 능력치 공개 과정 자체는 클럽·선수·팬이 매년 즐겁게 소통하는 계기가 될 수 있었습니다."
       },
       "actions": {
         "en": [
-          "Supported a multi-year content collaboration with K League and most K League 1 clubs.",
-          "Enabled clubs to tailor ratings content to their own audience, tone and engagement goals.",
-          "Connected game content with the fan culture around real players and clubs."
+          "Developed the initiative from FIFA 21 through FC 25 with K League and most K League 1 clubs.",
+          "Created an open framework that let every participating club choose its own cast, tone and fan-engagement format—from Jeonbuk Hyundai Motors featuring Lee Dong-gook to club-specific reveals across the league.",
+          "Equipped partners with game-branded ratings shields, PlayStation rewards and game promotion codes so each club could extend the reveal into supporter participation.",
+          "Provided the shared campaign structure, assets and support while clubs led their own content; scaled the programme by enabling partners rather than centrally producing every execution."
         ],
         "ko": [
-          "K리그와 대부분의 K리그1 클럽이 참여할 수 있는 다년간 제작 협업 지원.",
-          "클럽마다 원하는 팬 참여 방식과 톤으로 능력치 공개 콘텐츠를 만들도록 지원.",
-          "게임의 콘텐츠 자산을 실제 선수·클럽의 팬 문화와 연결."
+          "FIFA21부터 FC25까지 K리그와 대부분의 K리그1 클럽이 참여하는 다년간 이니셔티브로 발전.",
+          "전북현대가 이동국을 출연시켜 화제를 만든 FIFA21 사례처럼, 각 클럽이 출연진·톤·팬 참여 방식을 자유롭게 선택할 수 있는 오픈 프레임워크 제공.",
+          "게임 브랜딩 쉴드, PlayStation 리워드, 게임 프로모션 코드를 제공해 각 클럽이 능력치 공개를 팬 참여로 확장하도록 지원.",
+          "공통 캠페인 구조·어셋·운영 지원은 FC가 제공하고 콘텐츠는 클럽이 직접 리딩하도록 설계해, 중앙에서 모든 실행을 제작하지 않고도 프로그램 규모를 확대."
         ]
       },
       "outcome": {
@@ -1390,8 +1404,8 @@ window.SUNNY_CONTENT = {
         "ko": "FC24 게임 내 K리그 서포터 팬 규모 2배 이상 성장."
       },
       "insight": {
-        "en": "Fan engagement can come from putting the players and clubs people care about at the centre of the story.",
-        "ko": "팬 참여의 가치는 능력치의 높고 낮음보다, 자신이 응원하는 선수와 클럽이 이야기의 주인이 되는 데서 만들어집니다."
+        "en": "A partner programme scales when the brand provides a clear framework, useful assets and fan value—then gives each club the freedom to make its own players and supporter culture the story.",
+        "ko": "브랜드가 명확한 프레임워크·실용적인 어셋·팬 혜택을 제공하고, 각 클럽이 자신의 선수와 팬 문화를 이야기의 중심에 둘 자유를 가질 때 파트너 프로그램은 확장됩니다."
       },
       "metrics": [
         {
@@ -1413,6 +1427,126 @@ window.SUNNY_CONTENT = {
             "en": "Programme reference: Jeonbuk Hyundai Motors · FIFA 23 Ratings Reveal",
             "ko": "프로그램 레퍼런스: 전북현대 · FIFA23 능력치 공개"
           }
+        },
+        {
+          "kind": "video",
+          "videoId": "6vAAt8X3EqQ",
+          "url": "https://www.youtube.com/watch?v=6vAAt8X3EqQ",
+          "poster": "https://i.ytimg.com/vi/6vAAt8X3EqQ/hqdefault.jpg",
+          "caption": {
+            "en": "History film: Jeonbuk Hyundai Motors with Lee Dong-gook · FIFA 21 Ratings Reveal",
+            "ko": "히스토리 영상: 이동국과 함께한 전북현대 · FIFA21 능력치 공개"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "C1UeWjJjoQ8",
+          "url": "https://www.youtube.com/watch?v=C1UeWjJjoQ8",
+          "poster": "https://i.ytimg.com/vi/C1UeWjJjoQ8/hqdefault.jpg",
+          "caption": {
+            "en": "History archive: Jeonbuk Hyundai Motors · FIFA 22 Ratings Reveal",
+            "ko": "히스토리 아카이브: 전북현대 · FIFA22 능력치 공개"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "68yB76oJAmE",
+          "url": "https://www.youtube.com/watch?v=68yB76oJAmE",
+          "poster": "https://i.ytimg.com/vi/68yB76oJAmE/hqdefault.jpg",
+          "caption": {
+            "en": "History archive: Ulsan HD FC · FIFA 22 Ratings Reveal",
+            "ko": "히스토리 아카이브: 울산 HD FC · FIFA22 능력치 공개"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "2vbCesu9m9U",
+          "url": "https://www.youtube.com/watch?v=2vbCesu9m9U",
+          "poster": "https://i.ytimg.com/vi/2vbCesu9m9U/hqdefault.jpg",
+          "caption": {
+            "en": "History archive: Daegu FC · FIFA 22 Ratings Reveal",
+            "ko": "히스토리 아카이브: 대구FC · FIFA22 능력치 공개"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "fILbTc1jR40",
+          "url": "https://www.youtube.com/watch?v=fILbTc1jR40",
+          "poster": "https://i.ytimg.com/vi/fILbTc1jR40/hqdefault.jpg",
+          "caption": {
+            "en": "History archive: Incheon United / Mugoša · FIFA 22 Ratings Reveal",
+            "ko": "히스토리 아카이브: 인천유나이티드 / 무고사 · FIFA22 능력치 공개"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "VH749eVDbNQ",
+          "url": "https://www.youtube.com/watch?v=VH749eVDbNQ",
+          "poster": "https://i.ytimg.com/vi/VH749eVDbNQ/hqdefault.jpg",
+          "caption": {
+            "en": "History archive: FC Seoul · FIFA 23 Ratings Reveal",
+            "ko": "히스토리 아카이브: FC서울 · FIFA23 능력치 공개"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "shJOnP5ADDk",
+          "url": "https://www.youtube.com/watch?v=shJOnP5ADDk",
+          "poster": "https://i.ytimg.com/vi/shJOnP5ADDk/hqdefault.jpg",
+          "caption": {
+            "en": "History archive: Seongnam FC · FIFA 23 Ratings Reveal",
+            "ko": "히스토리 아카이브: 성남FC · FIFA23 능력치 공개"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "uc0EDYQ9qfY",
+          "url": "https://www.youtube.com/watch?v=uc0EDYQ9qfY",
+          "poster": "https://i.ytimg.com/vi/uc0EDYQ9qfY/hqdefault.jpg",
+          "caption": {
+            "en": "History archive: FC Seoul · FC 24 Ratings Reveal",
+            "ko": "히스토리 아카이브: FC서울 · FC24 능력치 공개"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "nBEO5-PT0RU",
+          "url": "https://www.youtube.com/watch?v=nBEO5-PT0RU",
+          "poster": "https://i.ytimg.com/vi/nBEO5-PT0RU/hqdefault.jpg",
+          "caption": {
+            "en": "History archive: Jeonbuk Hyundai Motors · FC 24 Ratings Reveal",
+            "ko": "히스토리 아카이브: 전북현대 · FC24 능력치 공개"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "HNqrgHLGowk",
+          "url": "https://www.youtube.com/watch?v=HNqrgHLGowk",
+          "poster": "https://i.ytimg.com/vi/HNqrgHLGowk/hqdefault.jpg",
+          "caption": {
+            "en": "History archive: Gangwon FC · FC 24 Ratings Reveal",
+            "ko": "히스토리 아카이브: 강원FC · FC24 능력치 공개"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "T3HNlu0w-A0",
+          "url": "https://www.youtube.com/watch?v=T3HNlu0w-A0",
+          "poster": "https://i.ytimg.com/vi/T3HNlu0w-A0/hqdefault.jpg",
+          "caption": {
+            "en": "History archive: Incheon United · FC 24 Ratings Reveal",
+            "ko": "히스토리 아카이브: 인천유나이티드 · FC24 능력치 공개"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "NiCAzeZfdP4",
+          "url": "https://www.youtube.com/watch?v=NiCAzeZfdP4",
+          "poster": "https://i.ytimg.com/vi/NiCAzeZfdP4/hqdefault.jpg",
+          "caption": {
+            "en": "History archive: Daegu FC · FC 24 Ratings Reveal",
+            "ko": "히스토리 아카이브: 대구FC · FC24 능력치 공개"
+          }
         }
       ],
       "related": [],
@@ -1426,42 +1560,42 @@ window.SUNNY_CONTENT = {
     {
       "id": "fc-futures",
       "title": {
-        "en": "EA SPORTS FC Futures × K League",
-        "ko": "EA SPORTS FC Futures × K리그"
+        "en": "EA SPORTS FC Futures 01: School Programme",
+        "ko": "EA SPORTS FC Futures 01: 학교 프로그램"
       },
-      "period": "2024–2025",
+      "period": "Nov 2023–2025",
       "brand": "EA SPORTS FIFA / FC",
       "category": {
         "en": "Grassroots & Community",
         "ko": "축구 저변과 커뮤니티"
       },
       "summary": {
-        "en": "Connected game-based training with schools, coaches and equipment support → enabled football participation for 5,000+ children in Seoul and Gyeonggi.",
-        "ko": "게임 기반 훈련 콘텐츠에 학교·트레이너·운동 킷 지원을 연결 → 서울·경기 어린이 5,000명 이상의 축구 참여 지원."
+        "en": "Turned FC gameplay into an after-school football experience → connected schools with coaches, equipment and training for 5,000+ children across Seoul and Gyeonggi.",
+        "ko": "FC 게임플레이를 방과 후 축구 경험으로 확장 → 학교에 코치·장비·트레이닝을 연결해 서울·경기 어린이 5,000명 이상의 참여 지원."
       },
       "context": {
-        "en": "The connection between digital and real football needed to become an opportunity for children to participate safely, beyond watching content.",
-        "ko": "게임과 실제 축구의 연결을 콘텐츠에 그치지 않고, 어린이가 안전하게 참여할 수 있는 기회와 환경으로 확장하고자 했습니다."
+        "en": "For children, the connection between digital and real football needed to become a safe, repeatable opportunity to play—not simply content to watch.",
+        "ko": "게임과 실제 축구의 연결을 보는 콘텐츠에 그치지 않고, 어린이가 안전하게 반복 참여할 수 있는 플레이 기회로 만들고자 했습니다."
       },
       "actions": {
         "en": [
-          "Connected game-based training content with school programmes through the K League and education partnership.",
-          "Supported coaches and equipment to make real participation possible.",
-          "Helped deliver after-school football training across schools in Seoul and Gyeonggi."
+          "Worked with the K League and participating clubs to bring structured football sessions into elementary after-school classes across Seoul and Gyeonggi.",
+          "Connected schools with coaches, training equipment and safe playing gear so participation did not depend on each school’s existing resources.",
+          "Shaped drills around the movement and decision-making children recognise from EA SPORTS FC gameplay, linking digital familiarity with physical play."
         ],
         "ko": [
-          "K리그·교육부 협업 맥락에서 게임 기반 훈련 콘텐츠를 학교 프로그램과 연결.",
-          "트레이너 운영과 어린이 운동 킷 지원을 통해 실제 참여의 기반 마련.",
-          "서울·경기 학교 현장의 방과 후 축구 훈련 운영 지원."
+          "K리그와 참여 구단을 연결해 서울·경기 초등학교 방과 후 수업에 체계적인 축구 세션을 제공.",
+          "학교별 보유 자원에 구애받지 않도록 코치·훈련 장비·안전한 운동 기어를 함께 지원.",
+          "어린이에게 익숙한 EA SPORTS FC의 움직임과 판단 구조를 실제 드릴에 반영해 디지털 경험을 신체 활동으로 연결."
         ]
       },
       "outcome": {
-        "en": "enabled football participation for 5,000+ children in Seoul and Gyeonggi.",
-        "ko": "서울·경기 어린이 5,000명 이상의 축구 참여 지원."
+        "en": "helped more than 5,000 children access coached football through school and community programmes.",
+        "ko": "학교·커뮤니티 프로그램을 통해 어린이 5,000명 이상에게 코치와 함께하는 축구 참여 기회를 제공."
       },
       "insight": {
-        "en": "Brand value can extend from attracting attention to creating the conditions for people to participate.",
-        "ko": "브랜드의 가치는 관심을 모으는 데서 시작해, 사람들이 실제로 참여할 수 있는 환경을 만드는 데까지 이어질 수 있습니다."
+        "en": "Grassroots growth begins by removing practical barriers—access, equipment and instruction—then making the first experience feel familiar and fun.",
+        "ko": "축구 저변 확대는 장소·장비·지도의 장벽을 낮추고, 첫 경험을 익숙하고 즐겁게 만드는 데서 시작됩니다."
       },
       "metrics": [
         {
@@ -1476,25 +1610,56 @@ window.SUNNY_CONTENT = {
       "media": [
         {
           "kind": "image",
-          "src": "assets/images/futures-schools-2024.jpg",
+          "src": "assets/images/fc-futures-programmes.jpg",
           "alt": {
-            "en": "FC Futures school programme with Seongnam FC in 2024",
-            "ko": "2024 성남FC와 함께한 FC Futures 학교 프로그램"
+            "en": "FC Futures school programme and football festivals",
+            "ko": "FC Futures 학교 프로그램과 풋볼 페스티벌"
           },
           "caption": {
-            "en": "School football programme · Seongnam FC × K League × EA, March 2024",
-            "ko": "학교 축구 프로그램 · 성남FC × K리그 × EA, 2024년 3월"
+            "en": "FC Futures in practice · after-school access, equipment, coaches and festival participation",
+            "ko": "FC Futures 실행 장면 · 방과 후 참여, 장비, 코치와 풋볼 페스티벌"
           },
-          "source": "https://www.kleague.com/news_view.do?orderBy=seq&page=1&seq=89722&viewOption=album"
+          "source": "https://v.daum.net/v/XPJyUMwzwF?f=p"
+        },
+        {
+          "kind": "video",
+          "videoId": "51aDnaZ4T7c",
+          "url": "https://www.youtube.com/watch?v=51aDnaZ4T7c",
+          "poster": "assets/images/futures-schools-2024.jpg",
+          "caption": {
+            "en": "FC Futures school programme · programme story",
+            "ko": "FC Futures 학교 프로그램 · 프로그램 스토리"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "oY4-MLq0g5c",
+          "url": "https://www.youtube.com/watch?v=oY4-MLq0g5c",
+          "poster": "assets/images/futures-schools-2024.jpg",
+          "caption": {
+            "en": "FC Futures school programme · training in action",
+            "ko": "FC Futures 학교 프로그램 · 트레이닝 현장"
+          }
         }
       ],
-      "related": [],
+      "related": [
+        "football-festival"
+      ],
       "career": "ea",
-      "image": "assets/images/futures-schools-2024.jpg",
+      "image": "assets/images/fc-futures-programmes.jpg",
       "imageAlt": {
-        "en": "EA SPORTS FC Futures × K League",
-        "ko": "EA SPORTS FC Futures × K리그"
-      }
+        "en": "EA SPORTS FC Futures school programme",
+        "ko": "EA SPORTS FC Futures 학교 프로그램"
+      },
+      "references": [
+        {
+          "label": {
+            "en": "FC Futures programme introduction",
+            "ko": "FC Futures 프로그램 소개 기사"
+          },
+          "url": "https://v.daum.net/v/XPJyUMwzwF?f=p"
+        }
+      ]
     },
     {
       "id": "fifa21-digital",
@@ -1918,6 +2083,413 @@ window.SUNNY_CONTENT = {
             "ko": "FC26 풋볼 페스티벌 공식 행사 사이트"
           },
           "url": "https://www.fc-festival.com/"
+        }
+      ]
+    },
+    {
+      "id": "soopercup-2024",
+      "title": {
+        "en": "EA SPORTS FC 25 SOOPERCUP × Premier League",
+        "ko": "EA SPORTS FC25 SOOPERCUP × Premier League"
+      },
+      "period": "Sep 2024",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Launch & Creator Culture",
+        "ko": "출시와 크리에이터 문화"
+      },
+      "summary": {
+        "en": "Turned the FC 25 launch into a creator-led Premier League tournament → generated 2M+ aggregate views through a lean activation model.",
+        "ko": "FC25 출시를 크리에이터 중심의 프리미어리그 토너먼트로 전환 → 최소 비용의 액티베이션으로 누적 200만+ 조회 달성."
+      },
+      "context": {
+        "en": "FC 25 needed a launch format that football fans would choose to watch, while making the game’s authentic Premier League experience and Korean commentary immediately tangible.",
+        "ko": "FC25의 실제 프리미어리그 경험과 한국어 해설 업데이트를 축구 팬이 자발적으로 보고 싶어 하는 출시 포맷 안에서 체감시키고자 했습니다."
+      },
+      "actions": {
+        "en": [
+          "Invited top-tier football creators as team captains and built team selection around the Premier League clubs they support.",
+          "Designed the creator tournament so the winning team earned a content opportunity with Son Heung-min and a Premier League club tour.",
+          "Brought FC 25 commentators Bae Seong-jae and Lim Hyeong-chul in as tournament hosts to connect the live experience with the in-game voice update."
+        ],
+        "ko": [
+          "상위 축구 팬·크리에이터를 팀 리더로 초청하고, 각자가 응원하는 프리미어리그 클럽을 중심으로 팀 선택 구조를 설계.",
+          "우승팀 전원에게 손흥민 선수 콘텐츠 촬영과 프리미어리그 클럽 투어 기회를 제공하는 토너먼트 보상 설계.",
+          "FC25 한국어 해설을 녹음한 배성재 캐스터와 임형철 해설위원을 호스트로 초빙해 현장 경험과 게임 내 보이스 업데이트를 연결."
+        ]
+      },
+      "outcome": {
+        "en": "generated more than 2 million aggregate views while encouraging football fandom and FC 25 play at the start of the season.",
+        "ko": "시즌 초반 축구 팬덤과 FC25 플레이를 함께 독려하며 누적 200만+ 조회를 기록."
+      },
+      "insight": {
+        "en": "A launch earns cultural attention when familiar football identities, creator communities and product features compete inside one clear story.",
+        "ko": "익숙한 클럽 정체성·크리에이터 커뮤니티·제품 기능이 하나의 명확한 경쟁 서사 안에서 만날 때 출시가 문화적 관심을 얻습니다."
+      },
+      "metrics": [
+        {
+          "value": "2M+",
+          "label": {
+            "en": "aggregate views · lean activation",
+            "ko": "누적 조회 · 최소 비용 액티베이션"
+          }
+        },
+        {
+          "value": "16",
+          "label": {
+            "en": "football creators",
+            "ko": "축구 크리에이터"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "aroH52DMEFI",
+          "url": "https://www.youtube.com/watch?v=aroH52DMEFI&t=552",
+          "poster": "assets/images/soopercup-2024.jpg",
+          "caption": {
+            "en": "FC 25 SOOPERCUP · Premier League team tournament",
+            "ko": "FC25 SOOPERCUP · 프리미어리그 팀 토너먼트"
+          }
+        }
+      ],
+      "related": [
+        "creator-network-korea",
+        "fc25-commentary",
+        "son-global"
+      ],
+      "career": "ea",
+      "image": "assets/images/soopercup-2024.jpg",
+      "imageAlt": {
+        "en": "EA SPORTS FC 25 SOOPERCUP",
+        "ko": "EA SPORTS FC25 SOOPERCUP"
+      },
+      "references": [
+        {
+          "label": {
+            "en": "SOOPERCUP event report",
+            "ko": "SOOPERCUP 행사 기사"
+          },
+          "url": "https://v.daum.net/v/20240930162341075"
+        }
+      ]
+    },
+    {
+      "id": "jude-asia-activation",
+      "title": {
+        "en": "Jude Bellingham × FC Regional Activation",
+        "ko": "주드 벨링엄 × FC 지역 통합 액티베이션"
+      },
+      "period": "Sep 2025–Feb 2026",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Global Athletes, Regional Growth",
+        "ko": "글로벌 선수와 지역 성장"
+      },
+      "summary": {
+        "en": "Secured one global cover-star access opportunity and built a modular planning framework → enabled locally relevant FC content across seven priority markets.",
+        "ko": "글로벌 커버스타 1회 액세스를 확보하고 모듈형 플래닝 프레임워크를 구축 → 7개 우선 시장의 로컬 맞춤형 FC 콘텐츠로 확장."
+      },
+      "context": {
+        "en": "A single global athlete access window needed to create more than one campaign asset—and serve markets with very different football and gaming cultures.",
+        "ko": "한 번의 글로벌 선수 액세스를 단일 캠페인 어셋으로 끝내지 않고, 축구·게임 문화가 서로 다른 여러 시장의 성장 기회로 확장해야 했습니다."
+      },
+      "actions": {
+        "en": [
+          "Negotiated with global stakeholders to secure Jude Bellingham access for FC’s regional priorities.",
+          "Built the planning framework, market modules and shared production principles for China, Korea, Vietnam, Thailand, Indonesia, Brazil and Saudi Arabia.",
+          "Guided local teams in adapting the global athlete moment to their own cultural and in-game priorities; local teams led market execution."
+        ],
+        "ko": [
+          "글로벌 이해관계자와 협상해 FC의 지역 우선순위를 위한 주드 벨링엄 선수 액세스 확보.",
+          "중국·한국·베트남·태국·인도네시아·브라질·사우디아라비아를 위한 공통 제작 원칙과 시장별 모듈형 플래닝 프레임워크 설계.",
+          "각 로컬 팀이 글로벌 선수 모먼트를 자국의 문화·인게임 우선순위에 맞게 적용하도록 가이드하고, 시장별 실행은 로컬 팀이 리딩."
+        ]
+      },
+      "outcome": {
+        "en": "turned one athlete access opportunity into a multi-market content system supporting brand awareness, traffic and engagement.",
+        "ko": "한 번의 선수 액세스를 여러 시장의 브랜드 인지·트래픽·인게이지먼트를 지원하는 콘텐츠 시스템으로 확장."
+      },
+      "insight": {
+        "en": "Regional scale comes from giving local teams a strong shared platform with enough flexibility to create cultural relevance themselves.",
+        "ko": "지역 확장은 강한 공통 플랫폼과 로컬 팀이 스스로 문화적 맥락을 만들 수 있는 유연성을 함께 제공할 때 가능합니다."
+      },
+      "metrics": [
+        {
+          "value": "7",
+          "label": {
+            "en": "priority markets activated",
+            "ko": "우선 시장 액티베이션"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "video",
+          "videoId": "--VhW0EZeuc",
+          "url": "https://www.youtube.com/watch?v=--VhW0EZeuc",
+          "poster": "assets/images/jude-asia-activation.jpg",
+          "caption": {
+            "en": "Jude Bellingham × FC · regional activation example 01",
+            "ko": "주드 벨링엄 × FC · 지역 액티베이션 예시 01"
+          }
+        },
+        {
+          "kind": "video",
+          "videoId": "2TcWeut9Xs8",
+          "url": "https://www.youtube.com/watch?v=2TcWeut9Xs8",
+          "poster": "assets/images/jude-asia-activation.jpg",
+          "caption": {
+            "en": "Jude Bellingham × FC · regional activation example 02",
+            "ko": "주드 벨링엄 × FC · 지역 액티베이션 예시 02"
+          }
+        }
+      ],
+      "related": [
+        "beckham-china-tour",
+        "zidane-china-tour"
+      ],
+      "career": "ea",
+      "image": "assets/images/jude-asia-activation.jpg",
+      "imageAlt": {
+        "en": "Jude Bellingham regional FC activation",
+        "ko": "주드 벨링엄 지역 FC 액티베이션"
+      }
+    },
+    {
+      "id": "beckham-china-tour",
+      "title": {
+        "en": "David Beckham × FC China Tour",
+        "ko": "데이비드 베컴 × FC 차이나 투어"
+      },
+      "period": "Nov 2024",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Global Athletes, Regional Growth",
+        "ko": "글로벌 선수와 지역 성장"
+      },
+      "summary": {
+        "en": "Unlocked Beckham’s China visit through global negotiation and set the growth direction → enabled the China team and Tencent to build a locally relevant tour and game moment.",
+        "ko": "글로벌 협상으로 베컴의 중국 방문 기회를 확보하고 성장 방향을 제시 → 중국 로컬 팀과 텐센트가 현지에 맞는 투어·게임 모먼트를 실행하도록 지원."
+      },
+      "context": {
+        "en": "FC awareness constrained growth in China, while market insight showed stronger affinity for global football legends than for domestic professional football fandom.",
+        "ko": "중국에서 FC 인지도가 성장의 제약이었고, 현지 인사이트상 프로축구 팬덤보다 글로벌 레전드 스타에 대한 관심이 더 강했습니다."
+      },
+      "actions": {
+        "en": [
+          "Built the case with global stakeholders and secured the opportunity to bring David Beckham to China.",
+          "Provided the local marketing team with strategic guidance and a planning direction designed to turn athlete access into brand and game growth.",
+          "The China marketing team and Tencent translated that direction into the tour, event programme and local executions, including a Three Kingdoms-inspired FC Mobile content moment."
+        ],
+        "ko": [
+          "글로벌 이해관계자에게 비즈니스 케이스를 제시하고 협상해 데이비드 베컴 중국 투어 기회를 확보.",
+          "선수 액세스가 브랜드와 게임 성장으로 이어지도록 로컬 마케팅 팀에 전략적 가이드와 플래닝 방향 제안.",
+          "중국 마케팅 팀과 텐센트가 해당 방향을 투어·이벤트·로컬 실행으로 구체화했으며, 삼국지 문화에서 영감받은 FC Mobile 콘텐츠 모먼트 포함."
+        ]
+      },
+      "outcome": {
+        "en": "the locally executed activation more than doubled game traffic during the campaign period and increased football-fan conversation around FC in China.",
+        "ko": "로컬 팀이 실행한 캠페인 기간 게임 트래픽 2배 이상 성장과 중국 축구 팬 대상 FC 화제성 확대."
+      },
+      "insight": {
+        "en": "Global fame becomes market growth when athlete access is translated through a locally meaningful cultural and product moment.",
+        "ko": "글로벌 스타의 인지도는 현지에 의미 있는 문화·제품 모먼트로 번역될 때 시장 성장으로 이어집니다."
+      },
+      "metrics": [
+        {
+          "value": ">2×",
+          "label": {
+            "en": "game traffic · campaign period",
+            "ko": "게임 트래픽 · 캠페인 기간"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/beckham-china-tour.jpg",
+          "alt": {
+            "en": "David Beckham × FC China Tour",
+            "ko": "데이비드 베컴 × FC 차이나 투어"
+          },
+          "caption": {
+            "en": "China team and Tencent execution · enabled through global athlete access and regional planning guidance",
+            "ko": "글로벌 선수 액세스와 지역 플래닝 가이드를 기반으로 한 중국 팀·텐센트 실행"
+          }
+        }
+      ],
+      "related": [
+        "zidane-china-tour",
+        "jude-asia-activation"
+      ],
+      "career": "ea",
+      "image": "assets/images/beckham-china-tour.jpg",
+      "imageAlt": {
+        "en": "David Beckham × FC China Tour",
+        "ko": "데이비드 베컴 × FC 차이나 투어"
+      }
+    },
+    {
+      "id": "zidane-china-tour",
+      "title": {
+        "en": "Zinedine Zidane × FC China Tour",
+        "ko": "지네딘 지단 × FC 차이나 투어"
+      },
+      "period": "2025",
+      "brand": "EA SPORTS FIFA / FC",
+      "category": {
+        "en": "Global Athletes, Regional Growth",
+        "ko": "글로벌 선수와 지역 성장"
+      },
+      "summary": {
+        "en": "Converted the Beckham tour’s proof point into repeatable global support → secured Zidane access and guided a 360° China activation across football, culture and the game.",
+        "ko": "베컴 투어의 성과를 반복 가능한 글로벌 지원으로 확장 → 지단 액세스를 확보하고 축구·문화·게임을 잇는 중국 360° 액티베이션을 가이드."
+      },
+      "context": {
+        "en": "After the Beckham tour, the opportunity was to establish a recurring model for bringing global football legends into China while making each visit culturally relevant to a new audience.",
+        "ko": "베컴 투어 이후 글로벌 축구 레전드의 중국 방문을 반복 가능한 모델로 만들면서, 매번 새로운 타깃에게 문화적으로 의미 있게 전달할 필요가 있었습니다."
+      },
+      "actions": {
+        "en": [
+          "Negotiated with global stakeholders to unlock Zidane’s China visit and secure global funding for athlete access.",
+          "Provided the strategic guidance and planning framework connecting that access to brand, game and local-culture objectives.",
+          "Supported the China team as it worked with Tencent to plan and deliver the tour, football training, fan engagement, mahjong-inspired creative and a special in-game card."
+        ],
+        "ko": [
+          "글로벌 이해관계자와 지속 협상해 지단의 중국 방문과 선수 액세스 비용에 대한 글로벌 지원 확보.",
+          "선수 액세스를 브랜드·게임·로컬 문화 목표에 연결하는 전략적 가이드와 플래닝 프레임워크 제공.",
+          "중국 팀이 텐센트와 함께 투어·축구 트레이닝·팬 인게이지먼트·마작 모티프 크리에이티브·스페셜 인게임 카드를 기획하고 실행하도록 지원."
+        ]
+      },
+      "outcome": {
+        "en": "the locally delivered 360° activation became a global marketing reference and strengthened the case for Asia in future ambassador planning.",
+        "ko": "로컬 팀이 실행한 360° 액티베이션이 글로벌 마케팅 벤치마크가 되었고, 이후 앰베서더 계획에서 아시아의 우선순위를 높이는 근거로 작동."
+      },
+      "insight": {
+        "en": "A successful regional pilot becomes a capability when the result changes how global teams allocate future talent access and investment.",
+        "ko": "지역의 성공 사례가 향후 글로벌 선수 액세스와 투자 배분 방식까지 바꿀 때, 일회성 캠페인은 조직의 역량이 됩니다."
+      },
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/zidane-china-tour.jpg",
+          "alt": {
+            "en": "Zinedine Zidane × FC China Tour, including mahjong-inspired creative",
+            "ko": "마작 모티프 크리에이티브를 포함한 지네딘 지단 × FC 차이나 투어"
+          },
+          "caption": {
+            "en": "China team and Tencent execution · football, fan and mahjong-inspired game moments",
+            "ko": "중국 팀·텐센트 실행 · 축구, 팬 경험과 마작 모티프 게임 모먼트"
+          }
+        }
+      ],
+      "related": [
+        "beckham-china-tour",
+        "jude-asia-activation"
+      ],
+      "career": "ea",
+      "image": "assets/images/zidane-china-tour.jpg",
+      "imageAlt": {
+        "en": "Zinedine Zidane × FC China Tour",
+        "ko": "지네딘 지단 × FC 차이나 투어"
+      }
+    },
+    {
+      "id": "creator-network-korea",
+      "title": {
+        "en": "EA Korea Creator Network Programme Launch",
+        "ko": "EA Korea Creator Network 프로그램 론칭"
+      },
+      "period": "Jun 2022",
+      "brand": "EA",
+      "category": {
+        "en": "Creator Ecosystem",
+        "ko": "크리에이터 생태계"
+      },
+      "summary": {
+        "en": "Reinterpreted EA’s global creator programme for Korea → built a 100+ creator network in year one with minimal incremental marketing spend.",
+        "ko": "EA 글로벌 크리에이터 프로그램을 한국 시장에 맞게 재해석 → 추가 마케팅 비용을 거의 들이지 않고 1년 차에 100명+ 네트워크 구축."
+      },
+      "context": {
+        "en": "Limited budgets and resources required a sustainable alternative to one-off paid broadcasts—one that helped emerging creators and EA games grow together.",
+        "ko": "제한된 예산과 리소스 속에서 일회성 숙제 방송을 넘어, 성장 단계의 크리에이터와 EA 게임이 함께 커질 수 있는 지속 가능한 방식이 필요했습니다."
+      },
+      "actions": {
+        "en": [
+          "Localized EA’s global creator-network model around Korea’s platforms, creator sizes and community behaviours.",
+          "Designed open participation and tiered opportunities based on readiness and engagement—from early access to club tours and global events.",
+          "Enabled collaboration across FC, The Sims, Star Wars, Battlefield, Apex Legends, It Takes Two and Dead Space without treating creators as paid media inventory."
+        ],
+        "ko": [
+          "EA 글로벌 크리에이터 네트워크 모델을 한국의 플랫폼·크리에이터 규모·커뮤니티 행동에 맞게 현지화.",
+          "최소 요건을 갖춘 크리에이터가 지원하고 규모·인게이지먼트에 따라 얼리 액세스, 클럽 투어, 글로벌 행사 기회를 얻는 단계형 구조 설계.",
+          "크리에이터를 단순 유료 미디어로 보지 않고 FC·심즈·스타워즈·배틀필드·Apex Legends·It Takes Two·Dead Space 협업으로 확장."
+        ]
+      },
+      "outcome": {
+        "en": "recruited more than 100 creators in the first year and created a reusable collaboration base across seven-plus EA franchises.",
+        "ko": "1년 차에 100명 이상의 크리에이터를 확보하고, 7개 이상 EA 프랜차이즈에서 반복 활용 가능한 협업 기반 구축."
+      },
+      "insight": {
+        "en": "A creator programme scales when access and growth opportunities—not only fees—form a credible value exchange for both sides.",
+        "ko": "비용뿐 아니라 액세스와 성장 기회가 양측에 신뢰할 수 있는 가치 교환이 될 때 크리에이터 프로그램은 확장됩니다."
+      },
+      "metrics": [
+        {
+          "value": "100+",
+          "label": {
+            "en": "creators · first year",
+            "ko": "크리에이터 · 1년 차"
+          }
+        },
+        {
+          "value": "7+",
+          "label": {
+            "en": "EA franchises supported",
+            "ko": "지원한 EA 프랜차이즈"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/creator-network-korea.jpg",
+          "alt": {
+            "en": "EA Korea Creator Network programme launch",
+            "ko": "EA Korea Creator Network 프로그램 론칭"
+          },
+          "caption": {
+            "en": "EA Korea Creator Network launch · official article image",
+            "ko": "EA Korea Creator Network 론칭 · 공식 기사 이미지"
+          },
+          "source": "https://game.donga.com/103465/"
+        }
+      ],
+      "related": [
+        "soopercup-2024",
+        "jonathan"
+      ],
+      "career": "ea",
+      "image": "assets/images/creator-network-korea.jpg",
+      "imageAlt": {
+        "en": "EA Korea Creator Network programme",
+        "ko": "EA Korea Creator Network 프로그램"
+      },
+      "references": [
+        {
+          "label": {
+            "en": "EA Korea Creator Network launch article",
+            "ko": "EA Korea Creator Network 론칭 기사"
+          },
+          "url": "https://game.donga.com/103465/"
         }
       ]
     },
@@ -3006,60 +3578,105 @@ window.SUNNY_CONTENT = {
     {
       "id": "football-festival",
       "title": {
-        "en": "FC × K League Football Festival",
-        "ko": "FC × K리그 풋볼 페스티벌"
+        "en": "EA SPORTS FC Futures 02: Football Festival",
+        "ko": "EA SPORTS FC Futures 02: 풋볼 페스티벌"
       },
-      "period": "2024–2025",
-      "brand": "FIFA ONLINE",
+      "period": "Mar 2024 · May 2025",
+      "brand": "EA SPORTS FIFA / FC",
       "category": {
         "en": "Grassroots & Community",
         "ko": "축구 저변과 커뮤니티"
       },
       "summary": {
-        "en": "Connected gameplay and football training in a day for families → extended children’s participation into a community experience.",
-        "ko": "게임과 실제 축구 훈련을 가족이 함께 즐기는 하루로 구성 → 어린이의 축구 참여를 지역 커뮤니티 경험으로 확장."
+        "en": "Turned a one-day training programme into a spring football festival → brought children, youth clubs, coaches, players and families together around play.",
+        "ko": "원데이 트레이닝을 봄날의 축구 페스티벌로 확장 → 어린이·유스클럽·코치·선수·가족이 함께 플레이하는 장을 마련."
       },
-      "context": "",
+      "context": {
+        "en": "The school programme created regular access; the festival needed to give children a bigger shared moment—one that felt like both football training and a family day out.",
+        "ko": "학교 프로그램이 일상적인 참여 기회를 만들었다면, 페스티벌은 어린이에게 축구 훈련이자 가족 나들이처럼 기억될 더 큰 공동의 순간이 필요했습니다."
+      },
       "actions": {
         "en": [
-          "Connected gameplay and football training in a day for families"
+          "Co-created annual spring editions with the K League in March 2024 and May 2025 for invited children and youth clubs.",
+          "Designed a one-day flow combining FC-inspired drills, team play, game experiences and family-friendly festival moments.",
+          "Created opportunities for football coaches to lead sessions; the first edition also brought players including Ki Sung-yueng into the children’s experience."
         ],
         "ko": [
-          "게임과 실제 축구 훈련을 가족이 함께 즐기는 하루로 구성"
+          "K리그와 함께 2024년 3월과 2025년 5월, 어린이와 유스클럽을 초청하는 연례 봄 프로그램 공동 기획.",
+          "FC에서 영감받은 드릴·팀 플레이·게임 체험·가족 친화형 축제 요소를 원데이 동선으로 설계.",
+          "축구 코치에게 세션을 리딩할 기회를 제공하고, 첫해에는 기성용을 비롯한 선수들이 어린이 경험에 함께하도록 구성."
         ]
       },
       "outcome": {
-        "en": "extended children’s participation into a community experience.",
-        "ko": "어린이의 축구 참여를 지역 커뮤니티 경험으로 확장."
+        "en": "established a repeatable annual format that extended grassroots participation into a shared community and family experience.",
+        "ko": "어린이의 축구 참여를 커뮤니티와 가족이 함께하는 반복 가능한 연례 포맷으로 확장."
       },
-      "insight": "",
-      "metrics": [],
+      "insight": {
+        "en": "Participation grows when training feels less like a lesson and more like a memorable day that children, coaches and families all want to join.",
+        "ko": "훈련이 수업보다 모두가 참여하고 싶은 기억에 남는 하루로 느껴질 때, 어린이·코치·가족의 참여는 함께 커집니다."
+      },
+      "metrics": [
+        {
+          "value": "2",
+          "label": {
+            "en": "annual spring editions · 2024–2025",
+            "ko": "연례 봄 행사 · 2024–2025"
+          }
+        }
+      ],
       "keywords": [],
       "media": [
         {
           "kind": "image",
-          "src": "assets/images/futures-training.jpg",
+          "src": "assets/images/fc-futures-programmes.jpg",
           "alt": {
-            "en": "FC Futures football festival · training and participation, 2025",
-            "ko": "FC Futures 풋볼 페스티벌 · 훈련과 참여, 2025"
+            "en": "FC Futures school programme and 2024–2025 football festivals",
+            "ko": "FC Futures 학교 프로그램과 2024–2025 풋볼 페스티벌"
           },
           "caption": {
-            "en": "FC Futures football festival · training and participation, 2025",
-            "ko": "FC Futures 풋볼 페스티벌 · 훈련과 참여, 2025"
+            "en": "FC Futures · school access and annual football festival scenes, 2023–2025",
+            "ko": "FC Futures · 학교 참여와 연례 풋볼 페스티벌 현장, 2023–2025"
           },
-          "source": "https://www.sportsseoul.com/news/read/1516350",
+          "source": "https://www.kleague.com/news_view.do?seq=89779&category=league&orderBy=seq&viewOption=al&page=1",
           "contain": false
+        },
+        {
+          "kind": "video",
+          "videoId": "wxYd1wOALmw",
+          "url": "https://www.youtube.com/watch?v=wxYd1wOALmw",
+          "poster": "assets/images/futures-training.jpg",
+          "caption": {
+            "en": "EA SPORTS FC Futures Football Festival · 2025",
+            "ko": "EA SPORTS FC Futures 풋볼 페스티벌 · 2025"
+          }
         }
       ],
       "related": [
+        "fc-futures",
         "worldclass-fc"
       ],
       "career": "ea",
-      "image": "assets/images/futures-training.jpg",
+      "image": "assets/images/fc-futures-programmes.jpg",
       "imageAlt": {
-        "en": "FC × K League Football Festival",
-        "ko": "FC × K리그 풋볼 페스티벌"
-      }
+        "en": "EA SPORTS FC Futures Football Festival",
+        "ko": "EA SPORTS FC Futures 풋볼 페스티벌"
+      },
+      "references": [
+        {
+          "label": {
+            "en": "2024 Football Festival · K League",
+            "ko": "2024 풋볼 페스티벌 · K리그"
+          },
+          "url": "https://www.kleague.com/news_view.do?seq=89779&category=league&orderBy=seq&viewOption=al&page=1"
+        },
+        {
+          "label": {
+            "en": "2024 Football Festival · Footballist",
+            "ko": "2024 풋볼 페스티벌 · 풋볼리스트"
+          },
+          "url": "https://www.footballist.co.kr/news/articleView.html?idxno=181316"
+        }
+      ]
     },
     {
       "id": "fo4-reveal",
@@ -4989,6 +5606,7 @@ window.SUNNY_CONTENT = {
         "fifa21-digital",
         "fifa22-digital",
         "fifa23-pc",
+        "soopercup-2024",
         "fc25-psg",
         "fc26-popup"
       ]
@@ -5048,6 +5666,19 @@ window.SUNNY_CONTENT = {
       ]
     },
     {
+      "id": "global-athletes",
+      "title": {
+        "en": "Global Athletes, Regional Growth",
+        "ko": "글로벌 선수와 지역 성장"
+      },
+      "period": "2024–2026",
+      "projectIds": [
+        "beckham-china-tour",
+        "zidane-china-tour",
+        "jude-asia-activation"
+      ]
+    },
+    {
       "id": "youth",
       "title": {
         "en": "Grassroots & Family Football",
@@ -5055,18 +5686,20 @@ window.SUNNY_CONTENT = {
       },
       "period": "2023–2025",
       "projectIds": [
-        "worldclass-fc",
-        "football-festival"
+        "fc-futures",
+        "football-festival",
+        "worldclass-fc"
       ]
     },
     {
       "id": "creators",
       "title": {
-        "en": "Creator-led Football Culture",
-        "ko": "크리에이터와 축구 문화"
+        "en": "Creator Ecosystems & Football Culture",
+        "ko": "크리에이터 생태계와 축구 문화"
       },
-      "period": "2022–2023",
+      "period": "2022–2024",
       "projectIds": [
+        "creator-network-korea",
         "jonathan"
       ]
     },
