@@ -4798,6 +4798,622 @@ window.SUNNY_CONTENT = {
       "keywords": [],
       "related": [],
       "career": "ea"
+    },
+    {
+      "id": "cisco-mso-play",
+      "title": {
+        "en": "MSO Play · Always-on Account Programme",
+        "ko": "MSO Play · 상시 어카운트 마케팅 프로그램"
+      },
+      "period": "2011–2013",
+      "brand": "CISCO",
+      "category": {
+        "en": "Data-led Demand Generation",
+        "ko": "데이터 기반 수요 창출"
+      },
+      "summary": {
+        "en": "Unified Cisco, sales and partner data into one account history and ran a twice-weekly, signal-based contact programme for SMB and mid-market accounts → marketing-lead-to-sales conversion rose from 33% to 77%.",
+        "ko": "시스코·세일즈·파트너 데이터를 하나의 어카운트 히스토리로 통합하고 주 2회 신호 기반 컨택 프로그램을 운영 → 마케팅 리드 대비 세일즈 전환율 33%에서 77%로 상승."
+      },
+      "context": {
+        "en": "For SMB and mid-market accounts, Cisco, its sales teams and its channel partners each kept their own customer and sales data. Marketing could not see which accounts were ready to buy, and leads reached sales without the history needed to act on them.",
+        "ko": "중소·중견기업 어카운트의 고객·세일즈 데이터를 시스코, 세일즈팀, 채널 파트너가 각각 따로 관리하고 있었습니다. 마케팅은 어떤 어카운트가 구매할 준비가 됐는지 알 수 없었고, 세일즈는 맥락 없는 리드를 받고 있었습니다."
+      },
+      "actions": {
+        "en": [
+          "Listened first to the biggest problems of partners and sales teams, and designed the programme around them.",
+          "Merged Cisco purchase history, partner and sales data, and web and campaign engagement into the Cisco marketing platform as one account history.",
+          "Linked each account’s last purchase per product line with its web research behaviour to predict refresh and service-renewal timing.",
+          "Selected accounts twice a week by account, industry and product line, and optimised the contact journey across EDM/DM, web, SEM/SEO and telemarketing.",
+          "Fed every response back into the account history for the next selection cycle."
+        ],
+        "ko": [
+          "파트너와 세일즈팀이 겪는 가장 큰 문제를 먼저 직접 듣고, 이를 중심으로 프로그램 설계.",
+          "시스코 구매 이력, 파트너·세일즈 데이터, 웹·캠페인 반응을 시스코 마케팅 툴에 하나의 어카운트 히스토리로 통합.",
+          "제품군별 마지막 구매 이력과 웹사이트 정보 탐색 데이터를 연결해 제품 교체·서비스 갱신 시점 예측.",
+          "어카운트·산업군·제품군별로 주 2회 대상을 선별하고, EDM/DM·웹·SEM/SEO·TM 컨택 저니 최적화.",
+          "모든 고객 반응을 다시 어카운트 히스토리에 쌓아 다음 선별에 반영."
+        ]
+      },
+      "outcome": {
+        "en": "Marketing-lead-to-sales conversion rose from 33% to 77%, and the programme was selected as an Asia-region best practice.",
+        "ko": "마케팅 리드 대비 세일즈 전환율이 33%에서 77%로 높아졌고, 아시아 리전 베스트 프랙티스로 선정되었습니다."
+      },
+      "insight": {
+        "en": "Data becomes a growth engine when it starts from the problems of the people who use it.",
+        "ko": "데이터는 그것을 쓰는 사람들의 문제에서 출발할 때 성장의 엔진이 됩니다."
+      },
+      "metrics": [
+        {
+          "value": "33% → 77%",
+          "label": {
+            "en": "marketing-lead-to-sales conversion",
+            "ko": "마케팅 리드 대비 세일즈 전환율"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/mso-play-journey-en.png",
+          "alt": {
+            "en": "MSO Play customer programme journey",
+            "ko": "MSO Play 고객 프로그램 저니"
+          },
+          "caption": {
+            "en": "MSO Play · from scattered signals to sales conversion",
+            "ko": "MSO Play · 흩어진 신호에서 세일즈 전환까지"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — programme diagram"
+        }
+      ],
+      "references": [],
+      "related": [
+        "cisco-data-profiling",
+        "cisco-connect-2013"
+      ],
+      "career": "cisco",
+      "image": "assets/images/mso-play-journey-en.png",
+      "imageAlt": {
+        "en": "MSO Play · Always-on Account Programme",
+        "ko": "MSO Play · 상시 어카운트 마케팅 프로그램"
+      },
+      "posterContain": true
+    },
+    {
+      "id": "cisco-data-profiling",
+      "title": {
+        "en": "Customer Data Profiling Project",
+        "ko": "고객 데이터 프로파일링 프로젝트"
+      },
+      "period": "2011",
+      "brand": "CISCO",
+      "category": {
+        "en": "Data Foundations",
+        "ko": "데이터 기반 구축"
+      },
+      "summary": {
+        "en": "Rebuilt the account and contact data behind every digital and sales programme → reachable customer contacts rose from under 50% to 95%.",
+        "ko": "모든 디지털·세일즈 프로그램의 바탕이 되는 어카운트·컨택 데이터를 다시 정비 → 연락 가능한 고객 비율 50% 미만에서 95%로 개선."
+      },
+      "context": {
+        "en": "Customer data from demand generation and field marketing events sat on the digital platform, but contacts were often wrong and prospect information was thin. Programmes reached the wrong people, and sales conversion suffered.",
+        "ko": "수요 창출과 필드 마케팅 이벤트로 유입된 고객 데이터가 디지털 플랫폼에 쌓여 있었지만, 담당자 연락처가 부정확하고 잠재고객 선별 정보가 부족했습니다. 프로그램이 맞는 사람에게 닿지 못해 세일즈 전환이 어려웠습니다."
+      },
+      "actions": {
+        "en": [
+          "Audited the full customer and account database soon after joining Cisco.",
+          "Corrected account information and organised contacts by customer segment.",
+          "Mapped each account’s current Cisco products and services to support targeting."
+        ],
+        "ko": [
+          "시스코 입사 직후 전체 고객·어카운트 데이터베이스를 점검.",
+          "올바른 어카운트 정보로 정비하고 고객군별 컨택 정보 정리.",
+          "어카운트별 시스코 제품·서비스 도입 현황을 정리해 타기팅 기반 마련."
+        ]
+      },
+      "outcome": {
+        "en": "The reachable contact rate rose from under 50% to 95%, creating the data foundation for the MSO Play programme.",
+        "ko": "고객 컨택 비율이 50% 미만에서 95%로 개선되었고, 이후 MSO Play 프로그램의 데이터 기반이 되었습니다."
+      },
+      "insight": {
+        "en": "Every growth programme is only as good as the data it starts from.",
+        "ko": "모든 성장 프로그램의 성과는 출발점이 되는 데이터의 품질을 넘지 못합니다."
+      },
+      "metrics": [
+        {
+          "value": "<50% → 95%",
+          "label": {
+            "en": "reachable customer contacts",
+            "ko": "고객 컨택 가능 비율"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [],
+      "references": [],
+      "related": [
+        "cisco-mso-play"
+      ],
+      "career": "cisco",
+      "image": "",
+      "imageAlt": {
+        "en": "Customer Data Profiling Project",
+        "ko": "고객 데이터 프로파일링 프로젝트"
+      }
+    },
+    {
+      "id": "cisco-connect-2013",
+      "title": {
+        "en": "Cisco Connect Korea 2013 · Digital Marketing",
+        "ko": "Cisco Connect Korea 2013 · 디지털 마케팅"
+      },
+      "period": "2013",
+      "brand": "CISCO",
+      "category": {
+        "en": "Event Demand Generation",
+        "ko": "이벤트 기반 수요 창출"
+      },
+      "summary": {
+        "en": "Led digital marketing for Cisco Korea’s annual product and solutions conference, using behavioural data to invite the accounts most likely to buy and to shape the event around them.",
+        "ko": "시스코 코리아 연례 제품·솔루션 통합 세미나의 디지털 마케팅을 총괄하며, 행동 데이터로 구매 가능성이 높은 어카운트를 선별해 초대하고 행사에 반영."
+      },
+      "context": {
+        "en": "Cisco Connect was Cisco Korea’s largest annual event for customers and partners. Its value depended on bringing the right accounts into the room and turning their attendance into sales conversations.",
+        "ko": "Cisco Connect는 시스코 코리아가 매년 고객과 파트너를 대상으로 여는 가장 큰 행사였습니다. 행사의 가치는 맞는 어카운트를 행사장에 오게 하고, 참석을 세일즈 대화로 연결하는 데 달려 있었습니다."
+      },
+      "actions": {
+        "en": [
+          "Worked with channel partners, field marketing and sales to segment accounts by industry and business size.",
+          "Created and distributed tailored email content based on each segment’s digital behaviour.",
+          "Selected high-conversion accounts for invitation and designed the customer contact journey before and after the event.",
+          "Analysed customer behaviour data and fed it into the event programme."
+        ],
+        "ko": [
+          "채널 파트너, 필드 마케팅, 세일즈팀과 함께 산업군·비즈니스 규모별로 고객 세그먼트 분리.",
+          "세그먼트별 디지털 행동 데이터를 바탕으로 맞춤 이메일 콘텐츠 제작·배포.",
+          "세일즈 전환 가능성이 높은 어카운트를 선별해 초대하고, 행사 전후 고객 컨택 저니 설계.",
+          "고객 행동 데이터를 분석해 세미나 프로그램에 반영."
+        ]
+      },
+      "outcome": {
+        "en": "Connected event attendance with account-level sales follow-up, extending the MSO Play approach to Cisco’s flagship event.",
+        "ko": "행사 참석을 어카운트 단위 세일즈 후속 활동으로 연결하며, MSO Play의 방식을 시스코 대표 행사로 확장했습니다."
+      },
+      "insight": {
+        "en": "An event works hardest when the invitation list is a sales strategy.",
+        "ko": "초대 명단이 곧 세일즈 전략일 때, 이벤트는 가장 큰 성과를 냅니다."
+      },
+      "metrics": [],
+      "keywords": [],
+      "media": [],
+      "references": [],
+      "related": [
+        "cisco-mso-play"
+      ],
+      "career": "cisco",
+      "image": "",
+      "imageAlt": {
+        "en": "Cisco Connect Korea 2013",
+        "ko": "Cisco Connect Korea 2013"
+      }
+    },
+    {
+      "id": "ms-office-2010",
+      "title": {
+        "en": "2010 Microsoft New Product Launch · The Future of Productivity",
+        "ko": "2010 마이크로소프트 신제품 발표회 · The Future of Productivity"
+      },
+      "period": "Mar–Jul 2010",
+      "brand": "MICROSOFT",
+      "category": {
+        "en": "Integrated Launch Campaign",
+        "ko": "통합 출시 캠페인"
+      },
+      "summary": {
+        "en": "Led the Korean launch of Office 2010 and its product family from first direction to delivery — concept, campaign and launch event, built on the global brief → response rate 14× Microsoft’s three-year launch benchmark, 70%+ of top-priority customers attended, 80%+ of attendees would recommend.",
+        "ko": "글로벌 방향을 바탕으로 Office 2010과 통합 제품군의 한국 출시를 방향성·컨셉·캠페인 기획부터 운영까지 처음부터 리딩 → 최근 3년 MS 출시 캠페인 벤치마크 대비 응답률 14배, 최우선 고객 70% 이상 참석, 참석자 80% 이상 신제품 추천 의향."
+      },
+      "context": {
+        "en": "Office 2010, SharePoint 2010, SQL Server 2008 R2, Project 2010 and Visio 2010 launched together in Korea, first for enterprise customers in May 2010 and then for consumers in June. One launch had to reach employees, partners, business decision-makers and consumers with a single, locally relevant story.",
+        "ko": "Office 2010, SharePoint 2010, SQL Server 2008 R2, Project 2010, Visio 2010이 함께 출시되었고, 2010년 5월 기업 고객, 6월 소비자 순으로 이어졌습니다. 하나의 출시로 내부 직원, 파트너, 기업 의사결정자, 소비자에게 한국에 맞는 하나의 이야기를 전해야 했습니다."
+      },
+      "actions": {
+        "en": [
+          "Took the lead from the start: set the Korean direction and concept, ‘The Future of Productivity — anywhere, easier, faster’, adapting the global brief.",
+          "Planned the integrated campaign across internal, partner, B2B and B2C audiences with Microsoft product managers.",
+          "Planned and ran the 2010 Microsoft New Product Launch, with keynotes, product sessions and a partner exhibition.",
+          "Built the launch microsite and turned recorded sessions into a virtual campaign for customers who could not attend.",
+          "Ran the internal ‘Office Wave 14’ campaign, including an Office Day and a quiz event, so employees became the first users and advocates."
+        ],
+        "ko": [
+          "출시 초기부터 리딩하며 글로벌 방향을 한국에 맞게 해석해 방향성과 컨셉 ‘The Future of Productivity — 언제 어디서나, 쉽고 빠르게’ 수립.",
+          "마이크로소프트 PM과 함께 내부·파트너·B2B·B2C를 아우르는 통합 캠페인 기획.",
+          "키노트, 제품 세션, 파트너 전시로 구성한 2010 마이크로소프트 신제품 발표회 기획·운영.",
+          "출시 마이크로사이트를 만들고, 녹화한 세션으로 참석하지 못한 고객 대상 버추얼 캠페인 운영.",
+          "직원이 먼저 쓰고 알리는 사람이 되도록 Office Day, 도전 골든벨 등 사내 ‘Office Wave 14’ 캠페인 운영."
+        ]
+      },
+      "outcome": {
+        "en": "The campaign’s response rate was 14 times Microsoft’s three-year launch-campaign benchmark. More than 70% of top-priority customers attended, and more than 80% of attendees said they would recommend the new products.",
+        "ko": "캠페인 응답률은 최근 3년간 마이크로소프트 출시 캠페인 벤치마크의 14배를 기록했습니다. 최우선 고객의 70% 이상이 참석했고, 참석 고객의 80% 이상이 신제품 추천 의향을 밝혔습니다."
+      },
+      "insight": {
+        "en": "A global launch lands when one local story connects employees, partners and customers.",
+        "ko": "글로벌 출시는 직원, 파트너, 고객을 하나의 로컬 스토리로 연결할 때 성과를 냅니다."
+      },
+      "metrics": [
+        {
+          "value": "14×",
+          "label": {
+            "en": "response rate vs three-year Microsoft launch benchmark",
+            "ko": "최근 3년 MS 출시 캠페인 벤치마크 대비 응답률"
+          }
+        },
+        {
+          "value": "70%+",
+          "label": {
+            "en": "top-priority customers attended",
+            "ko": "최우선 고객 참석률"
+          }
+        },
+        {
+          "value": "80%+",
+          "label": {
+            "en": "attendees would recommend the new products",
+            "ko": "참석자 신제품 추천 의향"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/office2010-launch-event.jpg",
+          "alt": {
+            "en": "2010 Microsoft New Product Launch · keynote and sessions",
+            "ko": "2010 마이크로소프트 신제품 발표회 · 키노트와 세션"
+          },
+          "caption": {
+            "en": "2010 Microsoft New Product Launch · keynote and sessions",
+            "ko": "2010 마이크로소프트 신제품 발표회 · 키노트와 세션"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/office2010-partner-expo.jpg",
+          "alt": {
+            "en": "Registration and partner exhibition",
+            "ko": "등록 현장과 파트너 전시"
+          },
+          "caption": {
+            "en": "Registration and partner exhibition",
+            "ko": "등록 현장과 파트너 전시"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/office2010-microsite.jpg",
+          "alt": {
+            "en": "Launch microsite and session videos for the virtual campaign",
+            "ko": "출시 마이크로사이트와 버추얼 캠페인용 세션 영상"
+          },
+          "caption": {
+            "en": "Launch microsite and session videos for the virtual campaign",
+            "ko": "출시 마이크로사이트와 버추얼 캠페인용 세션 영상"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/office2010-internal-launch.jpg",
+          "alt": {
+            "en": "Internal ‘Office Wave 14’ launch · Office Day and quiz event",
+            "ko": "사내 ‘Office Wave 14’ 런칭 · Office Day와 도전 골든벨"
+          },
+          "caption": {
+            "en": "Internal ‘Office Wave 14’ launch · Office Day and quiz event",
+            "ko": "사내 ‘Office Wave 14’ 런칭 · Office Day와 도전 골든벨"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/office2010-internal-campaign.jpg",
+          "alt": {
+            "en": "Internal campaign materials and newsletter",
+            "ko": "사내 캠페인 홍보물과 뉴스레터"
+          },
+          "caption": {
+            "en": "Internal campaign materials and newsletter",
+            "ko": "사내 캠페인 홍보물과 뉴스레터"
+          },
+          "contain": true,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        }
+      ],
+      "references": [
+        {
+          "label": {
+            "en": "Office 2010 Korea launch (ZDNet Korea)",
+            "ko": "한국MS 오피스 2010 출시 (ZDNet Korea)"
+          },
+          "url": "https://zdnet.co.kr/view/?no=20100519111557"
+        }
+      ],
+      "related": [
+        "ms-heroes-happen-here"
+      ],
+      "career": "wunderman",
+      "image": "assets/images/office2010-launch-event.jpg",
+      "imageAlt": {
+        "en": "2010 Microsoft New Product Launch",
+        "ko": "2010 마이크로소프트 신제품 발표회"
+      },
+      "photoGallery": true
+    },
+    {
+      "id": "ms-heroes-happen-here",
+      "title": {
+        "en": "Microsoft “Heroes Happen Here” 2008 Launch",
+        "ko": "마이크로소프트 ‘Heroes Happen Here’ 2008 출시 행사"
+      },
+      "period": "Mar 2008",
+      "brand": "MICROSOFT",
+      "category": {
+        "en": "Launch Operations",
+        "ko": "출시 행사 운영"
+      },
+      "summary": {
+        "en": "Planned and ran on-site operations for Microsoft Korea’s joint launch of Windows Server 2008, SQL Server 2008 and Visual Studio 2008 → delivered smoothly in my first weeks at Wunderman.",
+        "ko": "Windows Server 2008·SQL Server 2008·Visual Studio 2008 통합 출시 행사의 현장 운영 계획을 세우고 운영 → 원더맨 입사 직후 투입되어 차질 없이 진행."
+      },
+      "context": {
+        "en": "Microsoft described the 2008 wave as the largest enterprise launch in its history, with events in markets worldwide. The Korean launch had to bring three flagship products to IT professionals and developers in one large-scale event.",
+        "ko": "마이크로소프트는 2008년 출시를 회사 역사상 가장 큰 엔터프라이즈 출시라고 소개했고, 전 세계 시장에서 행사가 열렸습니다. 한국 출시 행사는 세 가지 핵심 제품을 IT 전문가와 개발자에게 한 번에 선보여야 했습니다."
+      },
+      "actions": {
+        "en": [
+          "Joined Wunderman and moved straight onto the launch.",
+          "Built the on-site operations plan for a large-scale event.",
+          "Applied COEX exhibition experience to run the day smoothly with Microsoft and vendor teams."
+        ],
+        "ko": [
+          "원더맨 입사와 동시에 출시 행사에 투입.",
+          "대규모 행사의 현장 운영 계획 수립.",
+          "코엑스에서 쌓은 전시 운영 경험으로 마이크로소프트·협력사 팀과 현장을 차질 없이 운영."
+        ]
+      },
+      "outcome": {
+        "en": "The launch ran smoothly, and the work became the starting point for three years of Microsoft launch and GTM consulting.",
+        "ko": "출시 행사를 차질 없이 마쳤고, 이후 3년간 이어진 마이크로소프트 출시·GTM 컨설팅의 출발점이 되었습니다."
+      },
+      "insight": {
+        "en": "Operating discipline travels: what works in an exhibition hall works in a launch.",
+        "ko": "운영의 기본기는 어디서든 통합니다. 전시장에서 통한 방식은 출시 현장에서도 통했습니다."
+      },
+      "metrics": [
+        {
+          "value": "3",
+          "label": {
+            "en": "flagship products in one launch",
+            "ko": "한 번에 출시한 핵심 제품"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/heroes-happen-here-2008.jpg",
+          "alt": {
+            "en": "Launch keynote announcing Visual Studio 2008, Windows Server 2008 and SQL Server 2008",
+            "ko": "Visual Studio 2008·Windows Server 2008·SQL Server 2008 발표 키노트"
+          },
+          "caption": {
+            "en": "Launch keynote announcing Visual Studio 2008, Windows Server 2008 and SQL Server 2008",
+            "ko": "Visual Studio 2008·Windows Server 2008·SQL Server 2008 발표 키노트"
+          },
+          "contain": false,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        }
+      ],
+      "references": [
+        {
+          "label": {
+            "en": "Microsoft: biggest enterprise launch wave",
+            "ko": "마이크로소프트 2008 출시 발표"
+          },
+          "url": "https://news.microsoft.com/source/2007/12/05/microsoft-and-industry-partners-gear-up-for-biggest-enterprise-launch-wave-in-the-companys-history/"
+        }
+      ],
+      "related": [
+        "ms-office-2010"
+      ],
+      "career": "wunderman",
+      "image": "assets/images/heroes-happen-here-2008.jpg",
+      "imageAlt": {
+        "en": "Heroes Happen Here 2008",
+        "ko": "Heroes Happen Here 2008"
+      }
+    },
+    {
+      "id": "coex-public-design-expo",
+      "title": {
+        "en": "2007 Korea Public Design Expo",
+        "ko": "2007 대한민국 공공디자인엑스포"
+      },
+      "period": "Oct 2007",
+      "brand": "COEX",
+      "category": {
+        "en": "Public-Sector Exhibition",
+        "ko": "공공 전시 기획"
+      },
+      "summary": {
+        "en": "Helped launch Korea’s first public design exhibition with the National Assembly and the Ministry of Culture and Tourism → 65 organisations, 400 booths, and a ministerial commendation.",
+        "ko": "국회, 문화관광부와 함께 국내 최초의 공공디자인 전시회 개최를 지원 → 65개 기관·400개 부스 규모로 개최하고 문화관광부 장관 표창 수상."
+      },
+      "context": {
+        "en": "Public design was a new idea in Korea. The first expo had to raise public awareness of why it matters for quality of life and city competitiveness, and bring government bodies, local authorities and companies into one show.",
+        "ko": "공공디자인은 한국에서 아직 낯선 개념이었습니다. 첫 엑스포는 공공디자인이 삶의 질과 도시 경쟁력에 왜 중요한지 알리고, 중앙부처·지자체·기업을 하나의 전시로 모아야 했습니다."
+      },
+      "actions": {
+        "en": [
+          "Supported preparations with the organising committee, the National Assembly’s public design forum and the ministry.",
+          "Led exhibitor recruitment and overall marketing planning, content production and operations to promote the expo.",
+          "Created process-by-process operating templates that other COEX exhibitions could reuse."
+        ],
+        "ko": [
+          "조직위원회, 국회 공공디자인문화포럼, 문화관광부와 함께 전시회 준비 지원.",
+          "부스 유치와 전시회 홍보를 위한 마케팅 기획, 콘텐츠 제작, 운영 관리.",
+          "다른 전시회에서도 쓸 수 있는 프로세스별 운영 템플릿을 제작해 전시 준비 효율 개선."
+        ]
+      },
+      "outcome": {
+        "en": "The first Korea Public Design Expo opened at COEX on 17–20 October 2007 with 65 organisations and 400 booths. My work on the programme was recognised with a Ministry of Culture and Tourism commendation.",
+        "ko": "첫 대한민국 공공디자인엑스포는 2007년 10월 17–20일 코엑스에서 65개 기관, 400개 부스 규모로 열렸습니다. 프로그램을 기획하고 리딩한 성과로 문화관광부 표창을 받았습니다."
+      },
+      "insight": {
+        "en": "When a new idea has no audience yet, the first event has to create one.",
+        "ko": "아직 관객이 없는 새로운 개념이라면, 첫 행사가 그 관객을 만들어야 합니다."
+      },
+      "metrics": [
+        {
+          "value": "1st",
+          "label": {
+            "en": "public design expo in Korea",
+            "ko": "국내 최초 공공디자인 전시회"
+          }
+        },
+        {
+          "value": "400",
+          "label": {
+            "en": "booths · 65 organisations",
+            "ko": "부스 · 65개 기관 참가"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/public-design-expo-2007.jpg",
+          "alt": {
+            "en": "Opening ceremony · 2007 Korea Public Design Expo · COEX, 17 Oct 2007",
+            "ko": "개막식 · 2007 대한민국 공공디자인엑스포 · 코엑스, 2007년 10월 17일"
+          },
+          "caption": {
+            "en": "Opening ceremony · 2007 Korea Public Design Expo · COEX, 17 Oct 2007",
+            "ko": "개막식 · 2007 대한민국 공공디자인엑스포 · 코엑스, 2007년 10월 17일"
+          },
+          "contain": false,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        }
+      ],
+      "references": [
+        {
+          "label": {
+            "en": "Ministry press release (Korean)",
+            "ko": "문화관광부 보도자료"
+          },
+          "url": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=8933"
+        }
+      ],
+      "related": [
+        "coex-homdex"
+      ],
+      "career": "coex",
+      "image": "assets/images/public-design-expo-2007.jpg",
+      "imageAlt": {
+        "en": "2007 Korea Public Design Expo",
+        "ko": "2007 대한민국 공공디자인엑스포"
+      }
+    },
+    {
+      "id": "coex-homdex",
+      "title": {
+        "en": "HOMDEX 2007 · Home & Housing Builders Expo",
+        "ko": "홈덱스 2007 · 건축·인테리어 박람회"
+      },
+      "period": "2007",
+      "brand": "COEX",
+      "category": {
+        "en": "Exhibition Sales & Operations",
+        "ko": "전시 세일즈와 운영"
+      },
+      "summary": {
+        "en": "Sold booths and sponsorships, created promotion and PR content, and ran operations and reporting for a COEX housing and interior exhibition.",
+        "ko": "코엑스 건축·인테리어 전시회의 부스·스폰서십 세일즈, 홍보 콘텐츠 제작, 현장 운영과 결과 보고까지 담당."
+      },
+      "context": {
+        "en": "HOMDEX, in its ninth edition in 2007, was COEX’s annual exhibition for country houses, building materials, interiors, landscaping and home networking, organised with the Chosun Ilbo and HOMDEX Co.",
+        "ko": "2007년 9회째를 맞은 홈덱스는 조선일보 주최, 코엑스·(주)홈덱스 주관으로 매년 열린 전원주택·건축자재·인테리어·조경·홈네트워크 전시회입니다."
+      },
+      "actions": {
+        "en": [
+          "Sold exhibition booths and sponsorships.",
+          "Planned and produced booth fit-out, marketing promotions and PR content.",
+          "Ran exhibition operations, managed visitor and exhibitor data, and published the results report."
+        ],
+        "ko": [
+          "전시 부스와 스폰서십 세일즈.",
+          "장치 부스, 마케팅 프로모션, 홍보 콘텐츠 기획·제작·발행.",
+          "전시회 운영, 방문객·참가사 데이터 관리, 결과 보고서 발행."
+        ]
+      },
+      "outcome": {
+        "en": "Covered the full exhibition cycle, from commercial sales to on-site delivery and post-event reporting.",
+        "ko": "세일즈부터 현장 운영, 사후 보고까지 전시회 전 과정을 경험했습니다."
+      },
+      "insight": {
+        "en": "An exhibition is a business before it is an event.",
+        "ko": "전시회는 이벤트이기 전에 하나의 비즈니스입니다."
+      },
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/homdex-2007.jpg",
+          "alt": {
+            "en": "HOMDEX 2007 · exhibition floor at COEX",
+            "ko": "홈덱스 2007 · 코엑스 전시장"
+          },
+          "caption": {
+            "en": "HOMDEX 2007 · exhibition floor at COEX",
+            "ko": "홈덱스 2007 · 코엑스 전시장"
+          },
+          "contain": false,
+          "nativeAspect": true,
+          "credit": "Sunny Ryu — supplied project photograph"
+        }
+      ],
+      "references": [],
+      "related": [
+        "coex-public-design-expo"
+      ],
+      "career": "coex",
+      "image": "assets/images/homdex-2007.jpg",
+      "imageAlt": {
+        "en": "HOMDEX 2007",
+        "ko": "홈덱스 2007"
+      }
     }
   ],
   "about": {
@@ -5492,7 +6108,7 @@ window.SUNNY_CONTENT = {
       "collectionHeading": "Culture, made wearable.",
       "collectionIntro": "Korean heritage, places and supporter culture, expressed through football design.",
       "additionalWork": "Beyond football",
-      "kingWork": "Earlier Work · King",
+      "kingWork": "Earlier Work · King, Cisco, Wunderman, COEX",
       "references": "Programme references",
       "viewSource": "View programme reference ↗",
       "viewImage": "View full image",
@@ -5588,7 +6204,7 @@ window.SUNNY_CONTENT = {
       "collectionHeading": "입을 수 있는 문화.",
       "collectionIntro": "한국의 전통, 지역, 응원 문화를 축구 디자인으로 표현한 컬렉션.",
       "additionalWork": "축구를 넘어",
-      "kingWork": "Earlier Work · King",
+      "kingWork": "이전 경력 · King, Cisco, Wunderman, COEX",
       "references": "프로그램 레퍼런스",
       "viewSource": "프로그램 레퍼런스 보기 ↗",
       "viewImage": "이미지 크게 보기",
@@ -5782,6 +6398,46 @@ window.SUNNY_CONTENT = {
         "king-vip-google-play"
       ],
       "company": "king"
+    },
+    {
+      "id": "cisco-demand",
+      "title": {
+        "en": "Data-led Demand Generation",
+        "ko": "데이터 기반 수요 창출"
+      },
+      "period": "2011–2013",
+      "projectIds": [
+        "cisco-mso-play",
+        "cisco-data-profiling",
+        "cisco-connect-2013"
+      ],
+      "company": "cisco"
+    },
+    {
+      "id": "wunderman-launches",
+      "title": {
+        "en": "Microsoft Launches & GTM",
+        "ko": "마이크로소프트 출시와 GTM"
+      },
+      "period": "2008–2010",
+      "projectIds": [
+        "ms-office-2010",
+        "ms-heroes-happen-here"
+      ],
+      "company": "wunderman"
+    },
+    {
+      "id": "coex-exhibitions",
+      "title": {
+        "en": "Exhibitions & Public Programmes",
+        "ko": "전시와 공공 프로그램"
+      },
+      "period": "2007",
+      "projectIds": [
+        "coex-public-design-expo",
+        "coex-homdex"
+      ],
+      "company": "coex"
     }
   ],
   "kitCollection": [

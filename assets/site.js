@@ -122,8 +122,8 @@
       const projects=g.projectIds.map(projectById).filter(Boolean);const cover=projects.find(p=>p.image);
       return '<details class="programme-group" data-programme="'+escape(g.id)+'"'+(groupOpen[g.id]?' open':'')+'><summary><span class="programme-index">'+String(i+1).padStart(2,'0')+'</span>'+(cover?'<div class="programme-thumb">'+image(cover.image,cover.imageAlt)+'</div>':'')+'<div class="programme-title"><h3>'+heading(g.title)+'</h3><span>'+escape(g.period)+'</span></div><span class="programme-plus" aria-hidden="true">+</span></summary><div class="programme-items">'+projects.map(projectRow).join('')+'</div></details>';
     };
-    const football=data.projectGroups.filter(g=>g.company!=='king');
-    const earlier=data.projectGroups.filter(g=>g.company==='king');
+    const football=data.projectGroups.filter(g=>!g.company);
+    const earlier=data.projectGroups.filter(g=>g.company);
     find('programme-list').innerHTML=football.map(renderGroup).join('')+(earlier.length?'<details class="earlier-work" id="earlier-work"'+(earlierWorkOpen?' open':'')+'><summary><span>'+label('kingWork')+'</span><span aria-hidden="true">+</span></summary><div>'+earlier.map((g,i)=>renderGroup(g,football.length+i)).join('')+'</div></details>':'');
     find('additional-work').innerHTML=data.additionalProjectIds?.length ? '<section class="additional-work"><p class="small-label">'+label('additionalWork')+'</p>'+data.additionalProjectIds.map(projectById).filter(Boolean).map(projectRow).join('')+'</section>' : '';
   }
