@@ -1359,10 +1359,10 @@ window.SUNNY_CONTENT = {
       ],
       "related": [],
       "career": "ea",
-      "image": "assets/images/kit-jeju-1.jpg",
+      "image": "assets/images/kit-red-devils.jpg",
       "imageAlt": {
-        "en": "Korean Cultural Kit Collection",
-        "ko": "한국 문화 기반 킷 컬렉션"
+        "en": "EA SPORTS FUT 23 Red Devils Korea Kit",
+        "ko": "EA SPORTS FUT 23 붉은악마 코리아 킷"
       }
     },
     {
