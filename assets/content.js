@@ -3100,6 +3100,19 @@ window.SUNNY_CONTENT = {
           },
           "source": "https://v.daum.net/v/20230726155637585",
           "contain": true
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/man-city-voucher-2023.jpg",
+          "nativeAspect": true,
+          "alt": {
+            "en": "Manchester City fan voucher activation for FIFA Online 4",
+            "ko": "맨체스터 시티 팬 대상 FIFA Online 4 바우처 액티베이션"
+          },
+          "caption": {
+            "en": "Manchester City fan voucher · connecting the Korea tour with in-game rewards, 2023",
+            "ko": "맨체스터 시티 팬 바우처 · 내한 경기와 게임 리워드를 연결한 액티베이션, 2023"
+          }
         }
       ],
       "related": [
@@ -3147,14 +3160,27 @@ window.SUNNY_CONTENT = {
       "media": [
         {
           "kind": "image",
-          "src": "assets/images/partnerships-main.jpg",
+          "src": "assets/images/spurs-jersey-2024.jpg",
           "alt": {
-            "en": "2024 Team K League jersey and FC Online rewards",
-            "ko": "2024 팀 K리그 유니폼과 FC Online 리워드"
+            "en": "Son Heung-min and Tottenham jersey featuring the FC Online reward mark",
+            "ko": "FC Online 리워드 마크가 적용된 손흥민 선수와 토트넘 유니폼"
           },
           "caption": {
-            "en": "Team K League · FC Online jersey rewards, 2024",
-            "ko": "팀 K리그 · FC Online 유니폼 리워드, 2024"
+            "en": "Team K League × Tottenham · jersey-to-game reward activation, 2024",
+            "ko": "팀 K리그 × 토트넘 · 유니폼에서 게임 리워드로 연결한 액티베이션, 2024"
+          }
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/spurs-activation-2024.jpg",
+          "nativeAspect": true,
+          "alt": {
+            "en": "Son Heung-min wearing the Tottenham Korea-tour jersey with the FC Online reward mark",
+            "ko": "FC Online 리워드 마크가 적용된 토트넘 내한 경기 유니폼을 입은 손흥민 선수"
+          },
+          "caption": {
+            "en": "The activation made the game reward visible in the live football moment, 2024",
+            "ko": "실제 축구 모먼트 안에서 게임 리워드를 가시화한 현장 장면, 2024"
           }
         }
       ],
@@ -3162,7 +3188,7 @@ window.SUNNY_CONTENT = {
         "summer-2023"
       ],
       "career": "ea",
-      "image": "assets/images/partnerships-main.jpg",
+      "image": "assets/images/spurs-jersey-2024.jpg",
       "imageAlt": {
         "en": "Team K League × Tottenham: Jersey-to-Game Rewards",
         "ko": "팀 K리그 × Tottenham: 유니폼·게임 리워드 액티베이션"
