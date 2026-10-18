@@ -878,12 +878,16 @@ window.SUNNY_CONTENT = {
             }
           ],
           "projects": [
-            "cisco-demand-generation"
+            "cisco-mso-play",
+            "cisco-connect-2013",
+            "cisco-data-profiling"
           ]
         }
       ],
       "projects": [
-        "cisco-demand-generation"
+        "cisco-mso-play",
+        "cisco-connect-2013",
+        "cisco-data-profiling"
       ],
       "summary": ""
     },
@@ -995,11 +999,17 @@ window.SUNNY_CONTENT = {
             }
           ],
           "projects": [
+            "wunderman-office-2010",
+            "wunderman-heroes-happen-here-2008",
+            "wunderman-windows-7-launch",
             "wunderman-microsoft-gtm"
           ]
         }
       ],
       "projects": [
+        "wunderman-office-2010",
+        "wunderman-heroes-happen-here-2008",
+        "wunderman-windows-7-launch",
         "wunderman-microsoft-gtm"
       ],
       "summary": ""
@@ -1110,12 +1120,14 @@ window.SUNNY_CONTENT = {
             }
           ],
           "projects": [
-            "coex-public-design-expo"
+            "coex-public-design-expo",
+            "coex-homdex-2006"
           ]
         }
       ],
       "projects": [
-        "coex-public-design-expo"
+        "coex-public-design-expo",
+        "coex-homdex-2006"
       ],
       "summary": ""
     }
@@ -4755,10 +4767,10 @@ window.SUNNY_CONTENT = {
       "career": "ea"
     },
     {
-      "id": "cisco-demand-generation",
+      "id": "cisco-mso-play",
       "title": {
-        "en": "APAC Demand Generation: From Customer Signals to Sales",
-        "ko": "APAC Demand Generation: 고객 신호를 세일즈로"
+        "en": "MSO Play · Always-on Account Marketing",
+        "ko": "MSO Play · 상시 어카운트 마케팅 프로그램"
       },
       "period": "2011–2013",
       "brand": "CISCO SYSTEMS",
@@ -4767,23 +4779,27 @@ window.SUNNY_CONTENT = {
         "ko": "데이터·채널·전환"
       },
       "summary": {
-        "en": "Connected fragmented customer data across marketing, channel and sales → increased measured sales conversion from 33% to over 77% and established the Korean model as an Asian benchmark.",
-        "ko": "마케팅·채널·세일즈에 흩어진 고객 데이터를 하나의 구매 여정으로 연결 → 측정된 세일즈 전환율을 33%에서 77% 이상으로 높이고 한국 모델을 아시아 벤치마크로 확산."
+        "en": "Unified Cisco, sales, partner and digital engagement data into one SMB and mid-market account history, then ran an always-on programme twice a week → increased marketing-lead-to-sales conversion from 33% to 77% and became an Asia regional best practice.",
+        "ko": "Cisco 구매·웹·마케팅 활동과 세일즈·파트너 데이터를 중소·중견기업 어카운트의 하나의 히스토리로 통합하고 주 2회 상시 프로그램을 운영 → 마케팅 리드 대비 세일즈 전환율을 33%에서 77%로 높여 아시아 리전 베스트 프랙티스로 선정."
       },
       "context": {
-        "en": "Field, digital, channel and sales teams were reading customer intent through different data and definitions, making it difficult to identify likely buyers and coordinate the next action.",
-        "ko": "필드·디지털·유통·세일즈 조직이 서로 다른 데이터와 기준으로 고객 의도를 판단해, 구매 가능성이 높은 고객을 찾고 다음 행동을 연결하기 어려웠습니다."
+        "en": "Cisco, sales teams and channel partners managed customer data separately. The fragmented view made it difficult to predict when an SMB or mid-market account might replace a product or renew a service, and to coordinate the right contact journey.",
+        "ko": "Cisco와 세일즈팀, 채널 파트너가 고객 데이터를 각각 관리하고 있어 중소·중견기업 고객의 제품 교체와 서비스 갱신 시점을 예측하고 적절한 컨택 여정을 연결하기 어려웠습니다."
       },
       "actions": {
         "en": [
-          "Aligned marketing and sales definitions for customer stages and buying intent.",
-          "Combined digital behaviour with purchase history to identify priority audiences.",
-          "Built business-line nurture programmes with Korean channel partners and connected qualified signals to sales action."
+          "Listened directly to sales and channel partners to identify the gaps that most affected customer contact and conversion.",
+          "Combined Cisco purchase history, partner and sales account data, website research signals and campaign responses in Cisco’s marketing platform.",
+          "Selected accounts twice a week by account, industry and product line, using the last purchase and digital behaviour to anticipate replacement or renewal timing.",
+          "Optimised each segment’s contact journey across web, SEM, SEO, telemarketing, direct mail and EDM, then returned every response to the account history.",
+          "Passed qualified accounts and their histories to Cisco sales teams and channel partners for follow-up."
         ],
         "ko": [
-          "마케팅과 세일즈가 사용하는 고객 단계·구매 의도 기준을 정렬.",
-          "디지털 행동과 구매 이력을 결합해 우선순위 고객군을 정의.",
-          "한국 유통 파트너와 사업군별 상시 육성 프로그램을 구축하고 유효 신호를 세일즈 행동으로 연결."
+          "세일즈팀과 채널 파트너의 문제를 직접 듣고 고객 컨택과 전환을 막는 데이터 공백을 정의.",
+          "Cisco 구매 이력, 파트너·세일즈 어카운트 데이터, 웹 정보 탐색 신호와 캠페인 반응을 Cisco 마케팅 플랫폼에 통합.",
+          "마지막 구매 이력과 디지털 행동을 바탕으로 교체·갱신 가능성이 높은 어카운트를 산업군·제품군별로 주 2회 선별.",
+          "웹, SEM, SEO, 텔레마케팅, DM과 EDM을 고객군별로 최적화하고 모든 반응을 다시 어카운트 히스토리에 축적.",
+          "선별된 어카운트와 전체 히스토리를 Cisco 세일즈팀과 채널 파트너에 전달해 후속 행동으로 연결."
         ]
       },
       "outcome": {
@@ -4804,15 +4820,454 @@ window.SUNNY_CONTENT = {
         }
       ],
       "keywords": [],
-      "media": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/cisco-mso-play-journey-en.webp",
+          "nativeAspect": true,
+          "contain": true,
+          "alt": {
+            "en": "MSO Play always-on account programme journey in English",
+            "ko": "MSO Play 상시 어카운트 프로그램 영문 다이어그램"
+          },
+          "caption": {
+            "en": "MSO Play customer journey · English",
+            "ko": "MSO Play 고객 프로그램 여정 · 영문"
+          }
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/cisco-mso-play-journey-ko.webp",
+          "nativeAspect": true,
+          "contain": true,
+          "alt": {
+            "en": "MSO Play always-on account programme journey in Korean",
+            "ko": "MSO Play 상시 어카운트 프로그램 국문 다이어그램"
+          },
+          "caption": {
+            "en": "MSO Play customer journey · Korean",
+            "ko": "MSO Play 고객 프로그램 여정 · 국문"
+          }
+        }
+      ],
       "related": [
-        "wunderman-microsoft-gtm"
+        "cisco-connect-2013",
+        "cisco-data-profiling"
+      ],
+      "career": "cisco",
+      "image": "assets/images/cisco-mso-play-journey-en.webp",
+      "imageAlt": {
+        "en": "MSO Play always-on account programme journey",
+        "ko": "MSO Play 상시 어카운트 프로그램 여정"
+      },
+      "photoGallery": true
+    },
+    {
+      "id": "cisco-connect-2013",
+      "title": {
+        "en": "Cisco Connect Korea 2013 · Digital Customer Journey",
+        "ko": "Cisco Connect Korea 2013 · 디지털 고객 여정"
+      },
+      "period": "Mar 2013",
+      "brand": "CISCO SYSTEMS",
+      "category": {
+        "en": "Event Demand Generation",
+        "ko": "이벤트 수요 창출"
+      },
+      "summary": {
+        "en": "Led digital marketing for Cisco Korea’s annual product and service conference → used account segments and behavioural signals to prioritise high-conversion audiences and connect event participation with sales follow-up.",
+        "ko": "Cisco의 연간 제품·서비스 통합 세미나 디지털 마케팅을 총괄 → 어카운트 세그먼트와 디지털 행동 데이터를 활용해 전환 가능성이 높은 고객을 선별하고 행사 참여를 세일즈 후속 활동으로 연결."
+      },
+      "context": {
+        "en": "A large annual conference needed to attract the right accounts, personalise communication across industries and business sizes, and turn event engagement into useful sales signals.",
+        "ko": "대규모 연례 컨퍼런스에 적합한 어카운트를 초대하고, 산업군과 비즈니스 규모에 맞는 커뮤니케이션을 제공하며 행사 참여를 유효한 세일즈 신호로 전환해야 했습니다."
+      },
+      "actions": {
+        "en": [
+          "Worked with channel partners, field marketing and sales teams to segment accounts by industry and business size.",
+          "Used account-level digital behaviour to create and distribute tailored email content.",
+          "Designed the pre-event contact journey and analysed response data to identify accounts with stronger conversion potential.",
+          "Fed audience and behaviour insights into event planning and post-event sales follow-up."
+        ],
+        "ko": [
+          "채널 파트너, 필드 마케팅과 세일즈팀과 협업해 산업군·비즈니스 규모별 어카운트 세그먼트 설계.",
+          "어카운트 고객군의 디지털 행동 데이터를 바탕으로 맞춤형 이메일 콘텐츠 제작·배포.",
+          "행사 전 고객 컨택 여정을 설계하고 반응 데이터를 분석해 전환 가능성이 높은 어카운트 선별.",
+          "고객과 행동 인사이트를 행사 기획과 행사 후 세일즈 후속 활동에 반영."
+        ]
+      },
+      "outcome": {
+        "en": "Created a clearer path from digital response to conference attendance and sales follow-up, giving field and sales teams a more useful view of priority accounts.",
+        "ko": "디지털 반응에서 세미나 참석, 세일즈 후속 활동까지 이어지는 경로를 설계해 필드·세일즈팀이 우선순위 어카운트를 더 명확하게 파악하도록 지원했습니다."
+      },
+      "insight": {
+        "en": "An event creates more commercial value when audience selection and follow-up start before registration opens.",
+        "ko": "이벤트의 사업적 가치는 등록 이후가 아니라, 초대할 고객을 선별하고 후속 여정을 설계하는 단계부터 만들어집니다."
+      },
+      "metrics": [],
+      "keywords": [],
+      "media": [],
+      "references": [
+        {
+          "label": {
+            "en": "Cisco Connect Korea 2013 event release",
+            "ko": "Cisco Connect Korea 2013 행사 보도자료"
+          },
+          "url": "https://www.newswire.co.kr/newsRead.php?no=686722"
+        }
+      ],
+      "related": [
+        "cisco-mso-play",
+        "cisco-data-profiling"
       ],
       "career": "cisco",
       "image": "",
       "imageAlt": {
-        "en": "Cisco APAC demand-generation programme",
-        "ko": "Cisco APAC 수요 창출 프로그램"
+        "en": "Cisco Connect Korea 2013 digital customer journey",
+        "ko": "Cisco Connect Korea 2013 디지털 고객 여정"
+      }
+    },
+    {
+      "id": "cisco-data-profiling",
+      "title": {
+        "en": "Customer Data Profiling Project",
+        "ko": "Customer Data Profiling Project"
+      },
+      "period": "2011",
+      "brand": "CISCO SYSTEMS",
+      "category": {
+        "en": "Data Quality & Sales Readiness",
+        "ko": "데이터 품질과 세일즈 준비도"
+      },
+      "summary": {
+        "en": "Rebuilt incomplete customer and account records around verified contacts and product adoption → increased the customer contact rate from below 50% to 95%.",
+        "ko": "부정확한 고객·어카운트 데이터를 검증된 연락처와 제품·서비스 도입 현황 중심으로 재정비 → 고객 컨택 비율을 50% 미만에서 95%까지 개선."
+      },
+      "context": {
+        "en": "Customer data collected through demand generation and field marketing events lacked accurate contact details and enough account information to identify useful sales prospects.",
+        "ko": "Demand Generation과 필드 마케팅 이벤트로 확보한 데이터의 담당자 연락처가 부정확하고 잠재고객을 선별할 정보가 부족해 디지털 마케팅과 세일즈 전환에 어려움이 있었습니다."
+      },
+      "actions": {
+        "en": [
+          "Audited the full customer and account database to identify missing and unreliable fields.",
+          "Corrected account information and reorganised contact data by customer segment.",
+          "Added product and service adoption status so marketing and sales teams could select prospects with clearer context."
+        ],
+        "ko": [
+          "전체 고객·어카운트 데이터베이스를 점검해 누락되거나 신뢰하기 어려운 정보 정의.",
+          "올바른 어카운트 정보로 정비하고 고객군별 담당자 연락처를 재구성.",
+          "제품·서비스 도입 현황을 추가해 마케팅과 세일즈가 더 명확한 맥락에서 잠재고객을 선별하도록 지원."
+        ]
+      },
+      "outcome": {
+        "en": "Raised the customer contact rate from below 50% to 95%, creating a more reliable base for demand generation and sales programmes.",
+        "ko": "고객 컨택 비율을 50% 미만에서 95%까지 높여 Demand Generation과 세일즈 프로그램의 신뢰도 높은 데이터 기반을 마련했습니다."
+      },
+      "insight": {
+        "en": "Better targeting starts with data that sales teams can trust and act on.",
+        "ko": "정교한 타기팅은 세일즈팀이 신뢰하고 바로 행동할 수 있는 데이터에서 시작됩니다."
+      },
+      "metrics": [
+        {
+          "value": "<50% → 95%",
+          "label": {
+            "en": "customer contact rate",
+            "ko": "고객 컨택 비율"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [],
+      "related": [
+        "cisco-mso-play",
+        "cisco-connect-2013"
+      ],
+      "career": "cisco",
+      "image": "",
+      "imageAlt": {
+        "en": "Cisco customer data profiling project",
+        "ko": "Cisco 고객 데이터 프로파일링 프로젝트"
+      }
+    },
+    {
+      "id": "wunderman-office-2010",
+      "title": {
+        "en": "Microsoft 2010 Integrated Product Launch · The Future of Productivity",
+        "ko": "2010 마이크로소프트 신제품 발표회 · The Future of Productivity"
+      },
+      "period": "Mar–Jul 2010",
+      "brand": "WUNDERMAN / WPP × MICROSOFT",
+      "category": {
+        "en": "Integrated Product Launch",
+        "ko": "통합 신제품 출시"
+      },
+      "summary": {
+        "en": "Led the project from the initial direction and concept through integrated campaign planning and delivery, building on Microsoft’s global strategy → achieved a response rate 14× the benchmark from Microsoft launch campaigns over the previous three years.",
+        "ko": "Microsoft의 글로벌 방향성을 바탕으로 초기 방향 설정부터 콘셉트, 통합 캠페인 기획과 운영까지 리딩 → 최근 3년간 Microsoft 출시 캠페인 벤치마크 대비 14배의 응답률 달성."
+      },
+      "context": {
+        "en": "A portfolio of new productivity products needed to be introduced as one connected customer story rather than as separate technical announcements. The challenge was to translate Microsoft’s global product direction into a locally relevant launch journey for priority customers, partners, employees and virtual audiences.",
+        "ko": "여러 생산성 신제품을 개별 기술 발표가 아닌 하나의 연결된 고객 이야기로 소개해야 했습니다. Microsoft의 글로벌 제품 방향을 한국의 최우선 고객, 파트너, 임직원과 온라인 오디언스에게 의미 있는 출시 여정으로 전환하는 것이 과제였습니다."
+      },
+      "actions": {
+        "en": [
+          "Led the project from the outset: strategic direction, the ‘The Future of Productivity’ concept, integrated campaign planning and delivery.",
+          "Translated the value proposition into a clear local promise: ‘Anytime, anywhere — easy and fast.’",
+          "Designed the product launch event and partner exhibition as one connected experience for priority customers and channel partners.",
+          "Extended the launch through a campaign microsite and virtual programme, creating additional paths to explore the product portfolio.",
+          "Created the internal ‘Office Wave 14’ campaign to help employees understand, experience and advocate for the new products."
+        ],
+        "ko": [
+          "프로젝트 초기부터 전략 방향, ‘The Future of Productivity’ 콘셉트, 통합 캠페인 기획과 운영까지 리딩.",
+          "신제품의 가치를 ‘언제 어디서나, 쉽고 빠르게’라는 한국 시장의 명확한 약속으로 구체화.",
+          "최우선 고객과 채널 파트너가 제품을 한 흐름으로 경험하도록 신제품 발표회와 파트너 전시를 통합 설계.",
+          "마이크로사이트와 버추얼 캠페인으로 출시 경험을 확장하고 제품군을 탐색할 수 있는 추가 접점 구축.",
+          "임직원이 신제품을 이해하고 직접 경험하며 확산할 수 있도록 사내 ‘Office Wave 14’ 캠페인 기획·운영."
+        ]
+      },
+      "outcome": {
+        "en": "Delivered a response rate 14× Microsoft’s launch-campaign benchmark from the previous three years. More than 70% of top-priority customers attended, and over 80% of participants said they would recommend the new products.",
+        "ko": "최근 3년간 Microsoft 출시 캠페인 응답률 벤치마크 대비 14배를 기록했습니다. 최우선 고객의 70% 이상이 참석했고, 참여 고객의 80% 이상이 신제품을 추천할 의향이 있다고 응답했습니다."
+      },
+      "insight": {
+        "en": "An integrated launch becomes more persuasive when product, partner, employee and digital touchpoints all deliver one simple customer promise.",
+        "ko": "제품, 파트너, 임직원과 디지털 접점이 하나의 단순하고 명확한 고객 약속을 전달할 때 통합 출시는 더 강한 설득력을 만듭니다."
+      },
+      "metrics": [
+        {
+          "value": "14×",
+          "label": {
+            "en": "response-rate benchmark",
+            "ko": "최근 3년 출시 캠페인 응답률 벤치마크 대비"
+          }
+        },
+        {
+          "value": "70%+",
+          "label": {
+            "en": "top-priority customers attended",
+            "ko": "최우선 고객 참석"
+          }
+        },
+        {
+          "value": "80%+",
+          "label": {
+            "en": "willing to recommend",
+            "ko": "참여 고객 신제품 추천 의향"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/ms-office2010-launch-event.webp",
+          "nativeAspect": true,
+          "alt": {
+            "en": "Microsoft 2010 integrated product launch event, The Future of Productivity",
+            "ko": "2010 마이크로소프트 통합 신제품 발표회 The Future of Productivity"
+          },
+          "caption": {
+            "en": "2010 Microsoft integrated product launch · The Future of Productivity",
+            "ko": "2010 마이크로소프트 통합 신제품 발표회 · The Future of Productivity"
+          }
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/ms-office2010-microsite.webp",
+          "nativeAspect": true,
+          "alt": {
+            "en": "Microsoft 2010 product-launch microsite",
+            "ko": "2010 마이크로소프트 신제품 출시 마이크로사이트"
+          },
+          "caption": {
+            "en": "Campaign microsite and virtual product journey",
+            "ko": "캠페인 마이크로사이트와 버추얼 제품 여정"
+          }
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/ms-office2010-wave14-office.webp",
+          "nativeAspect": true,
+          "alt": {
+            "en": "Office Wave 14 employee activation at Microsoft Korea",
+            "ko": "Microsoft Korea 사내 Office Wave 14 캠페인"
+          },
+          "caption": {
+            "en": "Internal Office Wave 14 experience campaign",
+            "ko": "사내 Office Wave 14 체험 캠페인"
+          }
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/ms-office2010-wave14-comms.webp",
+          "nativeAspect": true,
+          "alt": {
+            "en": "Office Wave 14 campaign communications and employee newsletter",
+            "ko": "Office Wave 14 캠페인 커뮤니케이션과 임직원 뉴스레터"
+          },
+          "caption": {
+            "en": "Office Wave 14 employee communications",
+            "ko": "Office Wave 14 임직원 커뮤니케이션"
+          }
+        },
+        {
+          "kind": "image",
+          "src": "assets/images/ms-office2010-partner-exhibition.webp",
+          "nativeAspect": true,
+          "alt": {
+            "en": "Partner exhibition at the Microsoft 2010 product launch",
+            "ko": "2010 마이크로소프트 신제품 발표회 파트너 전시"
+          },
+          "caption": {
+            "en": "Partner exhibition and hands-on product experience",
+            "ko": "파트너 전시와 신제품 체험"
+          }
+        }
+      ],
+      "photoGallery": true,
+      "related": [
+        "wunderman-heroes-happen-here-2008",
+        "wunderman-windows-7-launch",
+        "wunderman-microsoft-gtm"
+      ],
+      "career": "wunderman",
+      "image": "assets/images/ms-office2010-launch-event.webp",
+      "imageAlt": {
+        "en": "Microsoft 2010 integrated product launch event",
+        "ko": "2010 마이크로소프트 통합 신제품 발표회"
+      }
+    },
+    {
+      "id": "wunderman-heroes-happen-here-2008",
+      "title": {
+        "en": "Microsoft Heroes Happen Here 2008",
+        "ko": "Microsoft Heroes Happen Here 2008"
+      },
+      "period": "Mar 2008",
+      "brand": "WUNDERMAN / WPP × MICROSOFT",
+      "category": {
+        "en": "Developer Platform Launch",
+        "ko": "개발자 플랫폼 출시"
+      },
+      "summary": {
+        "en": "Joined the project immediately after moving from COEX and supported the operating plan for Microsoft’s large integrated product launch → applied exhibition experience to deliver the live event smoothly.",
+        "ko": "원더맨 입사 직후 Microsoft 핵심 제품군 통합 신제품 발표회에 투입되어 현장 운영 계획과 실행을 지원 → COEX에서 쌓은 전시·이벤트 경험을 활용해 대규모 행사를 안정적으로 운영."
+      },
+      "context": {
+        "en": "Windows Server 2008, SQL Server 2008 and Visual Studio 2008 needed a unified launch story that made a complex technology portfolio relevant to Korea’s developer and enterprise audiences.",
+        "ko": "Windows Server 2008, SQL Server 2008과 Visual Studio 2008을 복잡한 개별 기술이 아닌 하나의 통합된 이야기로 한국 개발자와 기업 고객에게 전달해야 했습니다."
+      },
+      "actions": {
+        "en": [
+          "Joined the existing launch workstream and helped translate the event plan into detailed on-site operations.",
+          "Coordinated the keynote flow, product experience and operational requirements with the Microsoft team and delivery partners.",
+          "Applied large-exhibition experience from COEX to anticipate risks and keep delivery on schedule."
+        ],
+        "ko": [
+          "기존 출시 프로젝트에 합류해 행사 계획을 세부 현장 운영안으로 구체화.",
+          "Microsoft 팀과 실행 파트너 사이에서 키노트 동선, 제품 체험과 운영 요건을 조율.",
+          "COEX의 대규모 전시 운영 경험을 활용해 현장 리스크를 사전에 점검하고 일정에 맞춰 실행."
+        ]
+      },
+      "outcome": {
+        "en": "Helped deliver the large-scale launch event smoothly while building a foundation for later ownership of Microsoft product launches and integrated campaigns.",
+        "ko": "대규모 통합 신제품 발표회의 안정적인 현장 운영에 기여했고, 이후 Microsoft 제품 출시와 통합 캠페인을 주도할 수 있는 기반을 쌓았습니다."
+      },
+      "insight": {
+        "en": "Complex technology becomes memorable when multiple products are organised around one human story and one clear stage moment.",
+        "ko": "복잡한 기술도 여러 제품을 하나의 사람 중심 이야기와 명확한 무대 경험으로 묶으면 기억되는 브랜드 경험이 됩니다."
+      },
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/ms-heroes-happen-here-2008.webp",
+          "nativeAspect": true,
+          "alt": {
+            "en": "ANNOUNCING keynote at Microsoft Heroes Happen Here 2008",
+            "ko": "Microsoft Heroes Happen Here 2008 ANNOUNCING 키노트"
+          },
+          "caption": {
+            "en": "‘ANNOUNCING’ keynote · Heroes Happen Here 2008",
+            "ko": "‘ANNOUNCING’ 키노트 · Heroes Happen Here 2008"
+          }
+        }
+      ],
+      "related": [
+        "wunderman-office-2010",
+        "wunderman-windows-7-launch",
+        "wunderman-microsoft-gtm"
+      ],
+      "career": "wunderman",
+      "image": "assets/images/ms-heroes-happen-here-2008.webp",
+      "imageAlt": {
+        "en": "Microsoft Heroes Happen Here 2008 keynote",
+        "ko": "Microsoft Heroes Happen Here 2008 키노트"
+      }
+    },
+    {
+      "id": "wunderman-windows-7-launch",
+      "title": {
+        "en": "Windows 7 Commercial Launch",
+        "ko": "Windows 7 Commercial Launch"
+      },
+      "period": "Oct 2009",
+      "brand": "WUNDERMAN / WPP × MICROSOFT",
+      "category": {
+        "en": "Commercial Product Launch",
+        "ko": "기업용 제품 출시"
+      },
+      "summary": {
+        "en": "Supported sub-planning and on-site delivery for the Korean commercial launch of Windows 7 → helped turn the product story into a clear event experience for business customers.",
+        "ko": "Windows 7 한국 기업용 출시 행사의 세부 기획과 현장 운영을 지원 → 제품 메시지가 기업 고객에게 명확하게 전달되는 출시 경험 구현에 기여."
+      },
+      "context": {
+        "en": "Windows 7 introduced new enterprise capabilities and needed a launch experience that helped Korean business customers understand the product in the context of desktop management and productivity.",
+        "ko": "Windows 7의 기업용 기능을 한국 비즈니스 고객이 데스크톱 관리와 생산성의 맥락에서 이해할 수 있도록 출시 경험을 구성해야 했습니다."
+      },
+      "actions": {
+        "en": [
+          "Supported the detailed planning of the commercial launch event.",
+          "Worked with Microsoft product stakeholders and delivery partners on event readiness.",
+          "Managed assigned on-site operations so the programme and customer experience ran as planned."
+        ],
+        "ko": [
+          "기업용 출시 행사의 세부 기획 지원.",
+          "Microsoft 제품 담당자와 실행 파트너의 행사 준비 사항 조율.",
+          "담당 현장 운영을 관리해 프로그램과 고객 경험이 계획대로 진행되도록 지원."
+        ]
+      },
+      "outcome": {
+        "en": "Contributed to the delivery of the Korean commercial launch and expanded hands-on experience across Microsoft product GTM and live event operations.",
+        "ko": "Windows 7 한국 기업용 출시 행사의 실행에 기여하며 Microsoft 제품 GTM과 라이브 이벤트 운영 경험을 확장했습니다."
+      },
+      "insight": {
+        "en": "Strong launch operations make a technical product story easier for customers to understand and act on.",
+        "ko": "완성도 높은 출시 운영은 기술 중심의 제품 이야기를 고객이 이해하고 행동하기 쉬운 경험으로 바꿉니다."
+      },
+      "metrics": [],
+      "keywords": [],
+      "media": [],
+      "references": [
+        {
+          "label": {
+            "en": "Windows 7 Korea official launch · Oct 2009",
+            "ko": "Windows 7 한국 공식 출시 · 2009.10"
+          },
+          "url": "https://kr.aving.net/news/articleView.html?idxno=138658"
+        }
+      ],
+      "related": [
+        "wunderman-heroes-happen-here-2008",
+        "wunderman-office-2010",
+        "wunderman-microsoft-gtm"
+      ],
+      "career": "wunderman",
+      "image": "",
+      "imageAlt": {
+        "en": "Windows 7 commercial launch",
+        "ko": "Windows 7 기업용 출시 행사"
       }
     },
     {
@@ -4867,8 +5322,9 @@ window.SUNNY_CONTENT = {
       "keywords": [],
       "media": [],
       "related": [
-        "cisco-demand-generation",
-        "coex-public-design-expo"
+        "wunderman-office-2010",
+        "wunderman-heroes-happen-here-2008",
+        "wunderman-windows-7-launch"
       ],
       "career": "wunderman",
       "image": "",
@@ -4883,7 +5339,7 @@ window.SUNNY_CONTENT = {
         "en": "Korea Public Design Expo: Planning the Experience System",
         "ko": "한국 공공디자인 엑스포: 경험을 만드는 운영 시스템"
       },
-      "period": "2006–2008",
+      "period": "Oct 2007",
       "brand": "COEX",
       "category": {
         "en": "Experience & Commercial Planning",
@@ -4894,24 +5350,24 @@ window.SUNNY_CONTENT = {
         "ko": "한국 최초의 공공디자인 엑스포를 초기 단계부터 함께 기획 → 팀과 파트너, 방문객 경험과 사업 운영을 연결하는 실행 기반 마련."
       },
       "context": {
-        "en": "A new public-design exhibition needed not only a visitor-facing concept, but also repeatable workflows, clear ownership and a commercial operating plan.",
-        "ko": "새로운 공공디자인 전시는 방문객을 위한 콘셉트뿐 아니라, 반복 가능한 업무 흐름과 명확한 역할, 사업 운영 계획이 함께 필요했습니다."
+        "en": "Korea’s first public-interest exhibition dedicated to public design needed to build awareness of the concept and its value while coordinating government institutions, exhibitors and delivery partners.",
+        "ko": "국회와 문화체육관광부 등 정부기관과 협업해 공공디자인의 개념과 필요성을 알리는 국내 최초의 공공성 전시를 준비해야 했습니다."
       },
       "actions": {
         "en": [
-          "Participated in planning the expo from its early development stage.",
-          "Mapped exhibition workflows and developed reusable manuals and templates.",
-          "Coordinated event operations, P&L management and sponsorship sales across internal teams and external partners."
+          "Supported programme planning from the early development stage and coordinated work with government institutions and external partners.",
+          "Planned the exhibition’s marketing, produced promotional content and managed execution to attract exhibitors and audiences.",
+          "Created process-based operating templates that other exhibitions could reuse, improving preparation efficiency."
         ],
         "ko": [
-          "엑스포 초기 개발 단계부터 기획에 참여.",
-          "전시 업무 흐름을 정리하고 재사용 가능한 매뉴얼과 템플릿을 개발.",
-          "내부 팀과 외부 파트너를 연결하며 행사 운영, 손익 관리와 스폰서십 영업을 수행."
+          "전시 초기 개발 단계부터 프로그램 기획을 지원하고 정부기관·외부 파트너와 실행 사항 조율.",
+          "부스 유치와 관람객 인지 확대를 위한 전반적인 마케팅 기획, 홍보 콘텐츠 제작과 운영 관리.",
+          "다른 전시에서도 재사용할 수 있는 프로세스별 운영 템플릿을 제작해 준비 효율 개선."
         ]
       },
       "outcome": {
-        "en": "Helped establish the operating foundation for Korea’s first Public Design Expo while building experience across exhibitions and conventions serving more than 100,000 attendees.",
-        "ko": "한국 최초 공공디자인 엑스포의 운영 기반을 마련하는 데 기여하고, 10만 명 이상이 참여하는 전시·컨벤션 운영 경험을 축적했습니다."
+        "en": "Helped establish the operating foundation for Korea’s first Public Design Expo. Recognition from Korea’s Ministry of Culture, Sports and Tourism followed the programme planning and delivery contribution.",
+        "ko": "한국 최초 공공디자인엑스포의 운영 기반과 재사용 가능한 업무 체계를 마련하는 데 기여했고, 프로그램 기획과 실행 성과로 문화체육관광부 표창을 받았습니다."
       },
       "insight": {
         "en": "A strong public experience depends on clear ownership, prepared systems and commercial discipline behind the scenes.",
@@ -4924,18 +5380,107 @@ window.SUNNY_CONTENT = {
             "en": "Public Design Expo in Korea",
             "ko": "한국 공공디자인 엑스포"
           }
+        },
+        {
+          "value": "MCST",
+          "label": {
+            "en": "programme recognition",
+            "ko": "문화체육관광부 표창"
+          }
         }
       ],
       "keywords": [],
-      "media": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/coex-public-design-expo-2007.webp",
+          "nativeAspect": true,
+          "alt": {
+            "en": "Opening ceremony of the 2007 Korea Public Design Expo",
+            "ko": "2007 대한민국 공공디자인엑스포 개막식"
+          },
+          "caption": {
+            "en": "2007 Korea Public Design Expo opening",
+            "ko": "2007 대한민국 공공디자인엑스포 개막"
+          }
+        }
+      ],
       "related": [
+        "coex-homdex-2006",
         "wunderman-microsoft-gtm"
       ],
       "career": "coex",
-      "image": "",
+      "image": "assets/images/coex-public-design-expo-2007.webp",
       "imageAlt": {
         "en": "Korea Public Design Expo planning",
         "ko": "한국 공공디자인 엑스포 기획"
+      }
+    },
+    {
+      "id": "coex-homdex-2006",
+      "title": {
+        "en": "HOMDEX 2006 · Exhibition Planning & Operations",
+        "ko": "HOMDEX 2006 · 전시 기획과 운영"
+      },
+      "period": "2006",
+      "brand": "COEX",
+      "category": {
+        "en": "Exhibition Operations",
+        "ko": "전시 운영"
+      },
+      "summary": {
+        "en": "Managed booth and sponsorship sales alongside exhibition marketing and operations → connected commercial targets, exhibitor delivery and the visitor experience for HOMDEX 2006.",
+        "ko": "부스·스폰서십 세일즈와 전시 마케팅·운영을 담당 → HOMDEX 2006의 사업 목표, 참가사 실행과 방문객 경험을 연결."
+      },
+      "context": {
+        "en": "A consumer exhibition brings together many independent exhibitors and partners, making clear workflows and coordinated delivery essential to the visitor experience.",
+        "ko": "소비자 전시는 다수의 참가사와 파트너가 함께 움직이기 때문에, 명확한 업무 흐름과 조율된 현장 실행이 방문객 경험을 좌우합니다."
+      },
+      "actions": {
+        "en": [
+          "Managed booth sales and sponsorship sales for the exhibition.",
+          "Planned and produced booth displays, marketing promotions and publicity content.",
+          "Managed exhibition operations and data, then produced the post-event report."
+        ],
+        "ko": [
+          "전시 부스 유치와 스폰서십 세일즈 담당.",
+          "장치 부스, 마케팅 프로모션과 홍보 콘텐츠 기획·제작·발행.",
+          "전시회 현장 운영과 데이터 관리, 결과보고서 발행."
+        ]
+      },
+      "outcome": {
+        "en": "Applied academic training in the MICE industry to commercial exhibition planning and built practical experience across sales, marketing, operations and reporting.",
+        "ko": "대학에서 배운 MICE 산업 지식을 실제 상업 전시에 적용하며 세일즈, 마케팅, 운영과 결과 관리까지 전시 사업의 전 과정을 경험했습니다."
+      },
+      "insight": {
+        "en": "The quality of a large public experience is determined by how well the invisible operational details work together.",
+        "ko": "대규모 공공 경험의 완성도는 보이지 않는 운영 디테일이 얼마나 유기적으로 맞물리는지에 달려 있습니다."
+      },
+      "metrics": [],
+      "keywords": [],
+      "media": [
+        {
+          "kind": "image",
+          "src": "assets/images/coex-homdex-2006.webp",
+          "nativeAspect": true,
+          "alt": {
+            "en": "HOMDEX 2006 exhibition floor",
+            "ko": "HOMDEX 2006 전시장 전경"
+          },
+          "caption": {
+            "en": "HOMDEX 2006 exhibition floor",
+            "ko": "HOMDEX 2006 전시장 전경"
+          }
+        }
+      ],
+      "related": [
+        "coex-public-design-expo"
+      ],
+      "career": "coex",
+      "image": "assets/images/coex-homdex-2006.webp",
+      "imageAlt": {
+        "en": "HOMDEX 2006 exhibition floor",
+        "ko": "HOMDEX 2006 전시장 전경"
       }
     }
   ],
@@ -5757,7 +6302,8 @@ window.SUNNY_CONTENT = {
     "football-culture": "fc24-house",
     "partnerships": "kleague-ratings",
     "fo4": "el-tornado",
-    "player-first": "fo4-reveal"
+    "player-first": "fo4-reveal",
+    "cisco-demand-generation": "cisco-mso-play"
   },
   "projectGroups": [
     {
@@ -5987,7 +6533,9 @@ window.SUNNY_CONTENT = {
         "ko": "고객 데이터와 채널 협업, 수요 창출을 측정 가능한 세일즈 행동으로 연결한 경험."
       },
       "projectIds": [
-        "cisco-demand-generation"
+        "cisco-mso-play",
+        "cisco-connect-2013",
+        "cisco-data-profiling"
       ]
     },
     {
@@ -6001,6 +6549,9 @@ window.SUNNY_CONTENT = {
         "ko": "Microsoft 글로벌 제품을 한국 고객과 채널의 실행 계획으로 연결한 외부 GTM 컨설팅."
       },
       "projectIds": [
+        "wunderman-office-2010",
+        "wunderman-heroes-happen-here-2008",
+        "wunderman-windows-7-launch",
         "wunderman-microsoft-gtm"
       ]
     },
@@ -6015,7 +6566,8 @@ window.SUNNY_CONTENT = {
         "ko": "대규모 공공 경험을 완성하는 전시 기획, 운영 시스템과 사업 실행."
       },
       "projectIds": [
-        "coex-public-design-expo"
+        "coex-public-design-expo",
+        "coex-homdex-2006"
       ]
     }
   ],
