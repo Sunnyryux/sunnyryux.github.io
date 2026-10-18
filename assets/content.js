@@ -877,10 +877,14 @@ window.SUNNY_CONTENT = {
               }
             }
           ],
-          "projects": []
+          "projects": [
+            "cisco-demand-generation"
+          ]
         }
       ],
-      "projects": [],
+      "projects": [
+        "cisco-demand-generation"
+      ],
       "summary": ""
     },
     {
@@ -990,10 +994,14 @@ window.SUNNY_CONTENT = {
               }
             }
           ],
-          "projects": []
+          "projects": [
+            "wunderman-microsoft-gtm"
+          ]
         }
       ],
-      "projects": [],
+      "projects": [
+        "wunderman-microsoft-gtm"
+      ],
       "summary": ""
     },
     {
@@ -1101,10 +1109,14 @@ window.SUNNY_CONTENT = {
               }
             }
           ],
-          "projects": []
+          "projects": [
+            "coex-public-design-expo"
+          ]
         }
       ],
-      "projects": [],
+      "projects": [
+        "coex-public-design-expo"
+      ],
       "summary": ""
     }
   ],
@@ -4741,6 +4753,190 @@ window.SUNNY_CONTENT = {
       "keywords": [],
       "related": [],
       "career": "ea"
+    },
+    {
+      "id": "cisco-demand-generation",
+      "title": {
+        "en": "APAC Demand Generation: From Customer Signals to Sales",
+        "ko": "APAC Demand Generation: 고객 신호를 세일즈로"
+      },
+      "period": "2011–2013",
+      "brand": "CISCO SYSTEMS",
+      "category": {
+        "en": "Data, Channel & Conversion",
+        "ko": "데이터·채널·전환"
+      },
+      "summary": {
+        "en": "Connected fragmented customer data across marketing, channel and sales → increased measured sales conversion from 33% to over 77% and established the Korean model as an Asian benchmark.",
+        "ko": "마케팅·채널·세일즈에 흩어진 고객 데이터를 하나의 구매 여정으로 연결 → 측정된 세일즈 전환율을 33%에서 77% 이상으로 높이고 한국 모델을 아시아 벤치마크로 확산."
+      },
+      "context": {
+        "en": "Field, digital, channel and sales teams were reading customer intent through different data and definitions, making it difficult to identify likely buyers and coordinate the next action.",
+        "ko": "필드·디지털·유통·세일즈 조직이 서로 다른 데이터와 기준으로 고객 의도를 판단해, 구매 가능성이 높은 고객을 찾고 다음 행동을 연결하기 어려웠습니다."
+      },
+      "actions": {
+        "en": [
+          "Aligned marketing and sales definitions for customer stages and buying intent.",
+          "Combined digital behaviour with purchase history to identify priority audiences.",
+          "Built business-line nurture programmes with Korean channel partners and connected qualified signals to sales action."
+        ],
+        "ko": [
+          "마케팅과 세일즈가 사용하는 고객 단계·구매 의도 기준을 정렬.",
+          "디지털 행동과 구매 이력을 결합해 우선순위 고객군을 정의.",
+          "한국 유통 파트너와 사업군별 상시 육성 프로그램을 구축하고 유효 신호를 세일즈 행동으로 연결."
+        ]
+      },
+      "outcome": {
+        "en": "Improved measured sales conversion from 33% to over 77%; the Korean operating approach became an internal reference for other Asian markets.",
+        "ko": "측정된 세일즈 전환율을 33%에서 77% 이상으로 개선했으며, 한국의 운영 방식이 다른 아시아 시장의 내부 레퍼런스로 활용되었습니다."
+      },
+      "insight": {
+        "en": "Data creates growth only when teams share its meaning and connect it to a clear next action.",
+        "ko": "데이터는 조직이 같은 의미로 이해하고 명확한 다음 행동으로 연결할 때 성장의 도구가 됩니다."
+      },
+      "metrics": [
+        {
+          "value": "33% → 77%+",
+          "label": {
+            "en": "measured sales conversion",
+            "ko": "측정된 세일즈 전환율"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [],
+      "related": [
+        "wunderman-microsoft-gtm"
+      ],
+      "career": "cisco",
+      "image": "",
+      "imageAlt": {
+        "en": "Cisco APAC demand-generation programme",
+        "ko": "Cisco APAC 수요 창출 프로그램"
+      }
+    },
+    {
+      "id": "wunderman-microsoft-gtm",
+      "title": {
+        "en": "Microsoft Korea Product Launch & Seasonal GTM Consulting",
+        "ko": "Microsoft 한국 제품 출시·시즈널 GTM 컨설팅"
+      },
+      "period": "2008–2011",
+      "brand": "WUNDERMAN / WPP × MICROSOFT",
+      "category": {
+        "en": "GTM Consulting",
+        "ko": "GTM 컨설팅"
+      },
+      "summary": {
+        "en": "Advised Korean launches and seasonal GTM for Microsoft products and services as an external marketing consultant → connected global strategy with local customers, retail and sales channels.",
+        "ko": "외부 마케팅 컨설턴트로서 Microsoft 제품·서비스의 한국 출시와 시즈널 GTM을 지원 → 글로벌 전략을 한국 고객과 리테일·세일즈 채널의 맥락에 연결."
+      },
+      "context": {
+        "en": "Windows, Office, developer products and Xbox served different audiences and buying occasions, requiring global product stories to be translated into relevant Korean customer and channel plans.",
+        "ko": "Windows, Office, 개발자 제품과 Xbox는 고객과 구매 상황이 서로 달라, 글로벌 제품 전략을 한국의 고객·채널 환경에 맞는 실행 계획으로 구체화할 필요가 있었습니다."
+      },
+      "actions": {
+        "en": [
+          "Provided launch and seasonal GTM consulting across Microsoft product portfolios.",
+          "Developed segmented messaging and locally relevant integrated campaigns.",
+          "Aligned execution with Microsoft product managers and retail and sales partners."
+        ],
+        "ko": [
+          "Microsoft 제품 포트폴리오의 출시 및 시즌별 GTM 전략을 컨설팅.",
+          "고객군별 메시지와 한국 시장에 맞는 통합 캠페인을 설계.",
+          "Microsoft 제품 담당자 및 리테일·세일즈 파트너와 실행 계획을 정렬."
+        ]
+      },
+      "outcome": {
+        "en": "Supported Korean GTM and sales programmes across multiple products and worked with Windows and Office product teams for more than two years.",
+        "ko": "여러 제품의 한국 GTM과 판매 지원 프로그램에 기여하고, Windows·Office 제품팀과 2년 이상 협업했습니다."
+      },
+      "insight": {
+        "en": "Localisation begins by understanding what a global product means in the customer’s daily life and work.",
+        "ko": "현지화는 글로벌 제품이 고객의 생활과 업무에서 어떤 의미를 갖는지 이해하는 데서 시작됩니다."
+      },
+      "metrics": [
+        {
+          "value": "2+ YEARS",
+          "label": {
+            "en": "with Windows & Office product teams",
+            "ko": "Windows·Office 제품팀 협업"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [],
+      "related": [
+        "cisco-demand-generation",
+        "coex-public-design-expo"
+      ],
+      "career": "wunderman",
+      "image": "",
+      "imageAlt": {
+        "en": "Microsoft Korea product launch and GTM consulting",
+        "ko": "Microsoft 한국 제품 출시 및 GTM 컨설팅"
+      }
+    },
+    {
+      "id": "coex-public-design-expo",
+      "title": {
+        "en": "Korea Public Design Expo: Planning the Experience System",
+        "ko": "한국 공공디자인 엑스포: 경험을 만드는 운영 시스템"
+      },
+      "period": "2006–2008",
+      "brand": "COEX",
+      "category": {
+        "en": "Experience & Commercial Planning",
+        "ko": "경험·사업 기획"
+      },
+      "summary": {
+        "en": "Co-planned Korea’s first Public Design Expo from its earliest stages → built operating foundations that aligned teams, partners, visitor experience and commercial delivery.",
+        "ko": "한국 최초의 공공디자인 엑스포를 초기 단계부터 함께 기획 → 팀과 파트너, 방문객 경험과 사업 운영을 연결하는 실행 기반 마련."
+      },
+      "context": {
+        "en": "A new public-design exhibition needed not only a visitor-facing concept, but also repeatable workflows, clear ownership and a commercial operating plan.",
+        "ko": "새로운 공공디자인 전시는 방문객을 위한 콘셉트뿐 아니라, 반복 가능한 업무 흐름과 명확한 역할, 사업 운영 계획이 함께 필요했습니다."
+      },
+      "actions": {
+        "en": [
+          "Participated in planning the expo from its early development stage.",
+          "Mapped exhibition workflows and developed reusable manuals and templates.",
+          "Coordinated event operations, P&L management and sponsorship sales across internal teams and external partners."
+        ],
+        "ko": [
+          "엑스포 초기 개발 단계부터 기획에 참여.",
+          "전시 업무 흐름을 정리하고 재사용 가능한 매뉴얼과 템플릿을 개발.",
+          "내부 팀과 외부 파트너를 연결하며 행사 운영, 손익 관리와 스폰서십 영업을 수행."
+        ]
+      },
+      "outcome": {
+        "en": "Helped establish the operating foundation for Korea’s first Public Design Expo while building experience across exhibitions and conventions serving more than 100,000 attendees.",
+        "ko": "한국 최초 공공디자인 엑스포의 운영 기반을 마련하는 데 기여하고, 10만 명 이상이 참여하는 전시·컨벤션 운영 경험을 축적했습니다."
+      },
+      "insight": {
+        "en": "A strong public experience depends on clear ownership, prepared systems and commercial discipline behind the scenes.",
+        "ko": "좋은 공공 경험은 보이지 않는 곳의 명확한 역할, 준비된 시스템과 사업적 규율 위에서 완성됩니다."
+      },
+      "metrics": [
+        {
+          "value": "FIRST",
+          "label": {
+            "en": "Public Design Expo in Korea",
+            "ko": "한국 공공디자인 엑스포"
+          }
+        }
+      ],
+      "keywords": [],
+      "media": [],
+      "related": [
+        "wunderman-microsoft-gtm"
+      ],
+      "career": "coex",
+      "image": "",
+      "imageAlt": {
+        "en": "Korea Public Design Expo planning",
+        "ko": "한국 공공디자인 엑스포 기획"
+      }
     }
   ],
   "about": {
@@ -5778,6 +5974,48 @@ window.SUNNY_CONTENT = {
         "king-launches",
         "king-culture",
         "king-community"
+      ]
+    },
+    {
+      "id": "cisco",
+      "title": {
+        "en": "CISCO",
+        "ko": "CISCO"
+      },
+      "intro": {
+        "en": "Customer data, channel collaboration and demand generation connected to measurable sales action.",
+        "ko": "고객 데이터와 채널 협업, 수요 창출을 측정 가능한 세일즈 행동으로 연결한 경험."
+      },
+      "projectIds": [
+        "cisco-demand-generation"
+      ]
+    },
+    {
+      "id": "wunderman",
+      "title": {
+        "en": "WUNDERMAN / WPP",
+        "ko": "WUNDERMAN / WPP"
+      },
+      "intro": {
+        "en": "External GTM consulting that translated Microsoft’s global products into Korean customer and channel plans.",
+        "ko": "Microsoft 글로벌 제품을 한국 고객과 채널의 실행 계획으로 연결한 외부 GTM 컨설팅."
+      },
+      "projectIds": [
+        "wunderman-microsoft-gtm"
+      ]
+    },
+    {
+      "id": "coex",
+      "title": {
+        "en": "COEX",
+        "ko": "COEX"
+      },
+      "intro": {
+        "en": "Exhibition planning, operating systems and commercial delivery behind large public experiences.",
+        "ko": "대규모 공공 경험을 완성하는 전시 기획, 운영 시스템과 사업 실행."
+      },
+      "projectIds": [
+        "coex-public-design-expo"
       ]
     }
   ],

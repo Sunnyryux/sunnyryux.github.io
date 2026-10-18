@@ -95,9 +95,7 @@
     const key=career.id+'/'+role.id;
     find('career-nav').innerHTML=data.careers.map(c=>'<button type="button" class="chapter-button" data-career="'+escape(c.id)+'" aria-controls="career-detail" aria-pressed="'+(c.id===career.id)+'"><span>'+inline(c.years)+'</span><strong>'+escape(c.company)+'</strong></button>').join('');
     const tabs=career.roles.length>1 ? '<div class="role-tabs" aria-label="'+escape(ui('roleNav'))+'">'+career.roles.map((r,i)=>'<button type="button" data-role="'+i+'" aria-pressed="'+(r===role)+'" aria-controls="career-role">'+heading(r.shortTitle||r.title)+'</button>').join('')+'</div><p class="overlap-note">'+inline(career.overlapNote)+'</p>' : '';
-    const companyProjectIds=data.projects.filter(p=>p.career===career.id).map(p=>p.id);
-    const projectIds=[...new Set([...(career.projects||[]),...(role.projects||[]),...companyProjectIds])];
-    const projects=projectIds.map(projectById).filter(Boolean);
+    const projects=data.projects.filter(p=>p.career===career.id);
     const illustrated=projects.filter(p=>p.image), textProjects=projects.filter(p=>!p.image);
     const related=projects.length ? '<section class="related-work"><p class="small-label">'+label('relatedWork')+'</p>'+(illustrated.length?'<div class="career-projects">'+illustrated.map(thumbCard).join('')+'</div>':'')+(textProjects.length?'<div class="related-text-projects">'+textProjects.map(thumbCard).join('')+'</div>':'')+'</section>' : '';
     const highlights=(role.highlights||[]).length ? '<div class="career-highlights">'+role.highlights.map(h=>'<div><p class="highlight-value">'+escape(h.value)+'</p><p class="highlight-label">'+inline(h.label)+'</p></div>').join('')+'</div>' : '';
