@@ -443,14 +443,14 @@ window.SUNNY_CONTENT = {
           },
           "impact": {
             "en": [
-              "Deliver **70+ football partner activations per year**.",
+              "Deliver **70+ football partner activations per year** (K League, Premier League, LALIGA, Bundesliga, Saudi Pro League, Serie A, Ligue 1, Liverpool FC, Manchester City, Paris Saint-Germain, Tottenham Hotspur, Juventus, Borussia Dortmund, Chelsea FC, Real Madrid, and other global and Asian football partners).",
               "Grow fan engagement **150% year on year**.",
               "Reduce average asset approval time from **13 to 8 days**.",
               "Grow measurable direct revenue contribution **more than 2× YoY in the final year**.",
               "Establish a dedicated Asia & MENA function and a repeatable partnership delivery model."
             ],
             "ko": [
-              "**연 70개 이상**의 축구 파트너 액티베이션 실행",
+              "**연 70개 이상**의 축구 파트너 액티베이션 실행 (K리그, 프리미어리그, 라리가, 분데스리가, 사우디 프로리그, 세리에 A, 리그앙, 리버풀 FC, 맨체스터 시티, PSG, 토트넘 홋스퍼, 유벤투스, 보루시아 도르트문트, 첼시 FC, 레알 마드리드 등 전 세계 및 아시아 축구 파트너와 협업)",
               "팬 인게이지먼트 **전년 대비 150% 성장**",
               "평균 어셋 승인 기간 **13일 → 8일**",
               "마지막 연도의 측정 가능한 직접 매출 기여 **전년 대비 2배 이상 성장**",
