@@ -22,6 +22,160 @@ window.SUNNY_CONTENT = {
     "linkedin": "https://www.linkedin.com/in/sunny-ryu-94ba6843",
     "backgroundVideoId": "KdH1lE6wl4o",
     "backgroundPoster": "assets/images/hero-poster.jpg",
+    "backgroundReel": [
+      {
+        "kind": "video",
+        "videoId": "NlOJRRTC6d4",
+        "startSeconds": 15,
+        "duration": 10,
+        "projectId": "fifa20-adidas",
+        "title": {
+          "en": "FIFA 20 Korea Launch Showcase × adidas",
+          "ko": "FIFA20 한국 출시 쇼케이스 × adidas"
+        }
+      },
+      {
+        "kind": "video",
+        "videoId": "KdH1lE6wl4o",
+        "startSeconds": 4,
+        "duration": 10,
+        "projectId": "fc24-house",
+        "title": {
+          "en": "EA SPORTS FC 24: House of Football Fans",
+          "ko": "EA SPORTS FC24: 축덕의 집"
+        }
+      },
+      {
+        "kind": "video",
+        "videoId": "aroH52DMEFI",
+        "startSeconds": 552,
+        "duration": 10,
+        "projectId": "soopercup-2024",
+        "title": {
+          "en": "EA SPORTS FC 25 SOOPERCUP × Premier League",
+          "ko": "EA SPORTS FC25 SOOPERCUP × Premier League"
+        }
+      },
+      {
+        "kind": "video",
+        "videoId": "dDY93Lwku-g",
+        "startSeconds": 8,
+        "duration": 10,
+        "projectId": "fo4-reveal",
+        "title": {
+          "en": "FIFA Online 4 Reveal Showcase",
+          "ko": "FIFA Online 4 최초 공개 쇼케이스"
+        }
+      },
+      {
+        "kind": "video",
+        "videoId": "tCCjBev_vuo",
+        "startSeconds": 3,
+        "duration": 10,
+        "projectId": "fifa22-talent",
+        "title": {
+          "en": "FIFA 22 Korean Talent Launch Campaign",
+          "ko": "FIFA22 한국 축구 선수 출시 캠페인"
+        }
+      },
+      {
+        "kind": "video",
+        "videoId": "51aDnaZ4T7c",
+        "startSeconds": 8,
+        "duration": 10,
+        "projectId": "fc-futures",
+        "title": {
+          "en": "EA SPORTS FC Futures: School Programme",
+          "ko": "EA SPORTS FC Futures: 학교 프로그램"
+        }
+      },
+      {
+        "kind": "video",
+        "videoId": "4vvO-NL-HQQ",
+        "startSeconds": 4,
+        "duration": 10,
+        "projectId": "king-soda-infinite-challenge",
+        "title": {
+          "en": "Candy Crush Soda × Infinite Challenge",
+          "ko": "캔디크러쉬소다 × 무한도전"
+        }
+      },
+      {
+        "kind": "video",
+        "videoId": "PYJ60nANmUY",
+        "startSeconds": 4,
+        "duration": 10,
+        "projectId": "king-vip-google-play",
+        "title": {
+          "en": "King VIP Party × Google Play",
+          "ko": "King VIP Party × Google Play"
+        }
+      },
+      {
+        "kind": "image",
+        "src": "assets/images/beckham-china-tour.jpg",
+        "duration": 6,
+        "projectId": "beckham-china-tour",
+        "title": {
+          "en": "David Beckham × FC China Tour",
+          "ko": "데이비드 베컴 × FC 차이나 투어"
+        }
+      },
+      {
+        "kind": "image",
+        "src": "assets/images/zidane-china-tour.jpg",
+        "duration": 6,
+        "projectId": "zidane-china-tour",
+        "title": {
+          "en": "Zinedine Zidane × FC China Tour",
+          "ko": "지네딘 지단 × FC 차이나 투어"
+        }
+      },
+      {
+        "kind": "video",
+        "videoId": "nD_dpemaK28",
+        "startSeconds": 8,
+        "duration": 10,
+        "projectId": "sims",
+        "title": {
+          "en": "Hwasa × The Sims 4: Play With Life Official MV",
+          "ko": "화사 × The Sims 4: Play With Life 공식 MV"
+        }
+      },
+      {
+        "kind": "video",
+        "videoId": "PM06EvWTaSo",
+        "startSeconds": 3,
+        "duration": 10,
+        "projectId": "sims",
+        "title": {
+          "en": "Hwasa × The Sims 4 Campaign Film",
+          "ko": "화사 × The Sims 4 광고 캠페인"
+        }
+      },
+      {
+        "kind": "video",
+        "videoId": "ssctL0kNEk8",
+        "startSeconds": 21,
+        "duration": 10,
+        "projectId": "jonathan",
+        "title": {
+          "en": "EA SPORTS FC: FC Il-jjang with Jonathan",
+          "ko": "EA SPORTS FC: 조나단과 함께한 FC일짱"
+        }
+      },
+      {
+        "kind": "video",
+        "videoId": "Ltdn9S1AIrI",
+        "startSeconds": 6,
+        "duration": 10,
+        "projectId": "son-global",
+        "title": {
+          "en": "Son Heung-min: Global FIFA / FC Ambassador Programme",
+          "ko": "손흥민: 글로벌 FIFA / FC 앰베서더 프로그램"
+        }
+      }
+    ],
     "keywords": [
       {
         "en": "Football Culture",

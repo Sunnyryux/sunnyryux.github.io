@@ -21,19 +21,21 @@ html{background:#090909;scroll-behavior:smooth}body{margin:0}
 #sunny-brand .eyebrow{color:var(--sunny-pink);margin-bottom:22px}#sunny-brand .small-label{margin-bottom:12px}
 /* Hero order: name, expertise, personal brand message. */
 #sunny-brand .hero{position:relative;isolation:isolate;overflow:hidden;height:clamp(650px,calc(100svh - 85px),760px);min-height:650px;background:#121619}
-#sunny-brand .hero-poster{position:absolute;inset:0;height:100%;object-fit:cover;object-position:center;z-index:-3}
-#sunny-brand .hero-video-box{position:absolute;inset:0;overflow:hidden;z-index:-2;pointer-events:none;opacity:0;transition:opacity .5s}#sunny-brand .hero.video-playing .hero-video-box{opacity:1}
+#sunny-brand .hero-poster{position:absolute;inset:0;height:100%;object-fit:cover;object-position:center;z-index:-4}
+#sunny-brand .hero-video-box{position:absolute;inset:0;overflow:hidden;z-index:-3;pointer-events:none;opacity:0;transition:opacity .55s}#sunny-brand .hero.video-playing .hero-video-box{opacity:1}
 #sunny-brand .hero-video-box iframe{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);border:0;max-width:none}
+#sunny-brand .hero-reel-image{position:absolute;inset:0;z-index:-2;pointer-events:none;opacity:0;overflow:hidden;transition:opacity .55s}#sunny-brand .hero-reel-image img{width:100%;height:100%;object-fit:cover;object-position:center;transform:scale(1);will-change:transform}#sunny-brand .hero.image-playing .hero-reel-image{opacity:1}#sunny-brand .hero.image-playing .hero-reel-image img{animation:sunny-reel-image-move var(--reel-duration,6s) ease-out both}#sunny-brand .hero.reel-paused .hero-reel-image img{animation-play-state:paused}
+@keyframes sunny-reel-image-move{from{transform:scale(1)}to{transform:scale(1.07)}}
 #sunny-brand .hero-shade{position:absolute;inset:0;z-index:-1;background:rgba(0,0,0,.20);pointer-events:none}
-#sunny-brand .hero-content{position:relative;padding:40px 5% 82px;max-width:1180px;text-shadow:0 2px 12px rgba(0,0,0,.95)}
-#sunny-brand .hero-eyebrow{color:#fff;margin-bottom:12px}#sunny-brand .hero-name{font:700 clamp(54px,8vw,88px)/.95 "Barlow Condensed","Arial Narrow",Impact,sans-serif;letter-spacing:-.015em;color:#fff;margin-bottom:14px}
-#sunny-brand #profile-focus{font:800 clamp(30px,4.2vw,48px)/1.02 "Barlow Condensed","Arial Narrow",Impact,sans-serif;color:#fff;text-transform:uppercase;max-width:850px;letter-spacing:-.01em}
-#sunny-brand .brand-message{font:800 clamp(16px,1.8vw,20px)/1.4 "Manrope",Arial,sans-serif;color:#fff;text-transform:uppercase;letter-spacing:.08em;margin:12px 0 0;padding-left:14px;border-left:3px solid var(--sunny-pink);animation:sunny-message-reveal .8s cubic-bezier(.2,.7,.3,1) .2s 1 both}
+#sunny-brand .hero-content{position:relative;padding:36px 5% 82px;max-width:1260px;text-shadow:0 2px 12px rgba(0,0,0,.95)}
+#sunny-brand .hero-eyebrow{color:#fff;margin-bottom:12px}#sunny-brand .hero-name{font:700 clamp(58px,8.6vw,96px)/.94 "Barlow Condensed","Arial Narrow",Impact,sans-serif;letter-spacing:-.015em;color:#fff;margin-bottom:14px}
+#sunny-brand #profile-focus{font:800 clamp(33px,4.6vw,53px)/1.01 "Barlow Condensed","Arial Narrow",Impact,sans-serif;color:#fff;text-transform:uppercase;max-width:930px;letter-spacing:-.01em}
+#sunny-brand .brand-message{font:800 clamp(17px,2vw,22px)/1.4 "Manrope",Arial,sans-serif;color:#fff;text-transform:uppercase;letter-spacing:.08em;margin:12px 0 0;padding-left:14px;border-left:3px solid var(--sunny-pink);animation:sunny-message-reveal .8s cubic-bezier(.2,.7,.3,1) .2s 1 both}
 #sunny-brand .brand-progress{display:inline-block;color:var(--sunny-pink);opacity:1;transform:none;animation:sunny-progress-emphasis .9s ease-out .8s 1 both}
 @keyframes sunny-message-reveal{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 @keyframes sunny-progress-emphasis{0%{opacity:.55;transform:translateY(3px)}45%{opacity:1;transform:translateY(0) scale(1.035)}100%{opacity:1;transform:none}}
-#sunny-brand .hero-copy{max-width:1080px;margin:24px 0 22px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:34px;align-items:start}
-#sunny-brand #profile-statement>p,#sunny-brand #profile-mission>p{color:#fff;font-size:14px;line-height:1.65;min-height:0;max-width:510px}
+#sunny-brand .hero-copy{max-width:1160px;margin:23px 0 21px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:38px;align-items:start}
+#sunny-brand #profile-statement>p,#sunny-brand #profile-mission>p{color:#fff;font-size:15px;line-height:1.62;min-height:0;max-width:555px}
 #sunny-brand .hero-mission{padding:0 0 0 30px;border-top:0;border-left:1px solid rgba(255,255,255,.45)}
 #sunny-brand .action{display:inline-flex;align-items:center;justify-content:space-between;gap:38px;padding:11px 20px;min-height:46px;font-size:13px;font-weight:700;transition:transform .2s}
 #sunny-brand .action:hover{transform:translateY(-2px)}#sunny-brand .action-light{background:#fff;color:#090909;text-shadow:none}
