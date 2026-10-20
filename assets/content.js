@@ -3,8 +3,8 @@ window.SUNNY_CONTENT = {
   "profile": {
     "name": "Sunny Ryu",
     "focus": {
-      "en": "GLOBAL BRAND MARKETING\nCULTURE, FOOTBALL & GROWTH",
-      "ko": "GLOBAL BRAND MARKETING\nCULTURE, FOOTBALL & GROWTH"
+      "en": "GLOBAL BRAND MARKETING\nCULTURE, COMMUNICATIONS & GROWTH",
+      "ko": "GLOBAL BRAND MARKETING\nCULTURE, COMMUNICATIONS & GROWTH"
     },
     "location": {
       "en": "Seoul · Korea & Asia",
@@ -15,8 +15,8 @@ window.SUNNY_CONTENT = {
       "ko": "글로벌 브랜드 마케팅 20년, EA에서 축구 비즈니스를 이끈 9년. 한국과 아시아의 팬 인사이트를 바탕으로 축구·게임·문화를 연결하고, 로컬 브랜드 경험과 파트너십을 비즈니스 성장으로 이어왔습니다."
     },
     "mission": {
-      "en": "Turn football passion into participation. Build brand and retail experiences that move fans from digital engagement to real-world action. Bring global teams and local partners together for lasting growth.",
-      "ko": "축구를 향한 열정을 실제 참여로 연결하고 싶습니다. 디지털 팬덤을 현실의 브랜드 경험과 리테일 접점으로 확장하고, 글로벌 팀과 로컬 파트너의 역량을 모아 지속되는 성장을 만들어가겠습니다."
+      "en": "Turn passion and cultural insight into participation and choice. Extend digital fandom into meaningful brand experiences and business growth. Bring global teams and local partners together to create lasting value.",
+      "ko": "사람들의 열정과 문화적 인사이트를 실제 참여와 선택으로 연결하고 싶습니다. 디지털 팬덤을 의미 있는 브랜드 경험과 비즈니스 성장으로 확장하고, 글로벌 팀과 로컬 파트너가 함께 지속되는 가치를 만들도록 이끌겠습니다."
     },
     "email": "sunny.ryu@hotmail.com",
     "linkedin": "https://www.linkedin.com/in/sunny-ryu-94ba6843",
@@ -59,12 +59,34 @@ window.SUNNY_CONTENT = {
       {
         "kind": "video",
         "videoId": "aroH52DMEFI",
-        "startSeconds": 552,
+        "startSeconds": 300,
         "duration": 15,
         "projectId": "soopercup-2024",
         "title": {
-          "en": "EA SPORTS FC 25 SOOPERCUP × Premier League",
-          "ko": "EA SPORTS FC25 SOOPERCUP × Premier League"
+          "en": "FC 25 SOOPERCUP: Hosts & Creator Match-Up",
+          "ko": "FC25 SOOPERCUP: 배성재·임형철과 크리에이터 매치업"
+        }
+      },
+      {
+        "kind": "video",
+        "videoId": "tEeuKjq4Crw",
+        "startSeconds": 35,
+        "duration": 15,
+        "projectId": "fifa23-pc",
+        "title": {
+          "en": "FIFA 23 PC Gaming Launch: Park Ji-sung",
+          "ko": "FIFA23 PC방 출시 쇼케이스: 박지성"
+        }
+      },
+      {
+        "kind": "video",
+        "videoId": "tEeuKjq4Crw",
+        "startSeconds": 100,
+        "duration": 15,
+        "projectId": "fifa23-pc",
+        "title": {
+          "en": "FIFA 23 PC Gaming Launch: Fan Play",
+          "ko": "FIFA23 PC방 출시 쇼케이스: 팬 게임 플레이"
         }
       },
       {
@@ -76,6 +98,17 @@ window.SUNNY_CONTENT = {
         "title": {
           "en": "FIFA Online 4 Reveal Showcase",
           "ko": "FIFA Online 4 최초 공개 쇼케이스"
+        }
+      },
+      {
+        "kind": "video",
+        "videoId": "cUz9Rq-luRI",
+        "startSeconds": 0,
+        "duration": 30,
+        "projectId": "el-tornado",
+        "title": {
+          "en": "FIFA Online 4 Launch Campaign: El Tornado",
+          "ko": "FIFA Online 4 출시 캠페인: El Tornado"
         }
       },
       {
@@ -195,17 +228,6 @@ window.SUNNY_CONTENT = {
         "title": {
           "en": "EA SPORTS FC: FC Il-jjang with Jonathan",
           "ko": "EA SPORTS FC: 조나단과 함께한 FC일짱"
-        }
-      },
-      {
-        "kind": "video",
-        "videoId": "Ltdn9S1AIrI",
-        "startSeconds": 6,
-        "duration": 15,
-        "projectId": "son-global",
-        "title": {
-          "en": "Son Heung-min: Global FIFA / FC Ambassador Programme",
-          "ko": "손흥민: 글로벌 FIFA / FC 앰베서더 프로그램"
         }
       }
     ],
@@ -6287,7 +6309,7 @@ window.SUNNY_CONTENT = {
       "mainNav": "Main navigation",
       "languageNav": "Site language",
       "skip": "Skip to content",
-      "heroEyebrow": "GLOBAL BRANDS / CULTURE / COMMERCIAL GROWTH",
+      "heroEyebrow": "FOOTBALL / GAMES / TECHNOLOGY",
       "perspective": "MY PERSPECTIVE",
       "mission": "NEXT MISSION",
       "exploreJourney": "Explore my journey ↗",
@@ -6384,7 +6406,7 @@ window.SUNNY_CONTENT = {
       "mainNav": "주요 메뉴",
       "languageNav": "사이트 언어",
       "skip": "본문으로 이동",
-      "heroEyebrow": "GLOBAL BRANDS / CULTURE / COMMERCIAL GROWTH",
+      "heroEyebrow": "FOOTBALL / GAMES / TECHNOLOGY",
       "perspective": "나의 관점",
       "mission": "다음 미션",
       "exploreJourney": "커리어 여정 보기 ↗",
