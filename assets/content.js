@@ -38,8 +38,8 @@ window.SUNNY_CONTENT = {
     ],
     "brandMessage": "I'M STILL IN PROGRESS.",
     "journeyIntro": {
-      "en": "From exhibitions and technology to games and sport: understanding customers and markets, connecting teams and partners, and turning growth opportunities into action.",
-      "ko": "전시와 컨벤션에서 기술, 게임, 스포츠로 이어진 여정. 고객과 시장을 이해하고, 서로 다른 팀과 파트너의 역량을 연결하며 성장의 가능성을 실행으로 옮겨왔습니다."
+      "en": "From exhibitions and technology to games and football: understanding customers and markets, connecting teams and partners, and turning growth opportunities into action.",
+      "ko": "전시와 컨벤션에서 기술, 게임, 풋볼로 이어진 여정. 고객과 시장을 이해하고, 서로 다른 팀과 파트너의 역량을 연결하며 성장의 가능성을 실행으로 옮겨왔습니다."
     }
   },
   "careers": [
@@ -6136,7 +6136,8 @@ window.SUNNY_CONTENT = {
       "impact": "GROWTH CONTRIBUTION",
       "insight": "WHAT I LEARNED",
       "chapterDetails": "Explore this chapter",
-      "relatedWork": "RELATED PROJECTS",
+      "relatedWork": "SELECTED PROJECTS",
+      "viewAllProjects": "VIEW ALL PROJECTS ↗",
       "notAdded": "not yet added",
       "extraIntro": "Additional introduction",
       "focusKeywords": "Areas of focus",
@@ -6232,7 +6233,8 @@ window.SUNNY_CONTENT = {
       "impact": "성장 기여",
       "insight": "배움",
       "chapterDetails": "이 여정 자세히 보기",
-      "relatedWork": "관련 프로젝트",
+      "relatedWork": "대표 프로젝트",
+      "viewAllProjects": "전체 프로젝트 보기 ↗",
       "notAdded": "아직 작성 전",
       "extraIntro": "추가 소개",
       "focusKeywords": "전문 분야 키워드",
@@ -6292,12 +6294,50 @@ window.SUNNY_CONTENT = {
   },
   "featuredProjectIds": [
     "fifa20-adidas",
+    "fc24-house",
     "cultural-kits",
-    "kleague-ratings",
+    "king-soda-infinite-challenge",
     "fc-futures",
-    "park-marvel",
-    "fc24-house"
+    "wunderman-office-2010",
+    "cisco-mso-play",
+    "creator-network-korea"
   ],
+  "careerProjectHighlights": {
+    "ea/football": [
+      "fc-futures",
+      "beckham-china-tour",
+      "zidane-china-tour"
+    ],
+    "ea/korea": [
+      "fifa20-adidas",
+      "cultural-kits",
+      "fc24-house"
+    ],
+    "ea/fifa": [
+      "fo4-reveal",
+      "fo4-launch",
+      "el-tornado"
+    ],
+    "king/king": [
+      "king-soda-infinite-challenge",
+      "king-vip-google-play",
+      "king-sweet-soda-play-day"
+    ],
+    "cisco/cisco": [
+      "cisco-mso-play",
+      "cisco-connect-2013",
+      "cisco-data-profiling"
+    ],
+    "wunderman/wunderman": [
+      "wunderman-office-2010",
+      "wunderman-heroes-happen-here-2008",
+      "wunderman-windows-7-launch"
+    ],
+    "coex/coex": [
+      "coex-public-design-expo",
+      "coex-homdex-2006"
+    ]
+  },
   "projectAliases": {
     "football-culture": "fc24-house",
     "partnerships": "kleague-ratings",
