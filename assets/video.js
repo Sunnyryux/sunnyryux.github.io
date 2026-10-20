@@ -59,8 +59,13 @@
   function fitVideo() {
     const rect = hero.getBoundingClientRect();
     if (rect.width === 0 || rect.height === 0 || !ready) return;
-    const width = Math.max(rect.width, rect.height * 16 / 9);
-    const height = width * 9 / 16;
+    const aspect = 16 / 9;
+    let width = rect.width;
+    let height = width / aspect;
+    if (height > rect.height) {
+      height = rect.height;
+      width = height * aspect;
+    }
     const iframe = player.getIframe();
     iframe.style.width = Math.ceil(width) + 'px';
     iframe.style.height = Math.ceil(height) + 'px';

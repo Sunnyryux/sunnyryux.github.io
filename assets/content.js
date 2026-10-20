@@ -3,8 +3,8 @@ window.SUNNY_CONTENT = {
   "profile": {
     "name": "Sunny Ryu",
     "focus": {
-      "en": "FOOTBALL BUSINESS\nMARKETING & PARTNERSHIPS",
-      "ko": "FOOTBALL BUSINESS\nMARKETING & PARTNERSHIPS"
+      "en": "GLOBAL BRAND MARKETING\nCULTURE, PARTNERSHIPS & GROWTH",
+      "ko": "GLOBAL BRAND MARKETING\nCULTURE, PARTNERSHIPS & GROWTH"
     },
     "location": {
       "en": "Seoul · Korea & Asia",
@@ -27,7 +27,7 @@ window.SUNNY_CONTENT = {
         "kind": "video",
         "videoId": "NlOJRRTC6d4",
         "startSeconds": 15,
-        "duration": 10,
+        "duration": 15,
         "projectId": "fifa20-adidas",
         "title": {
           "en": "FIFA 20 Korea Launch Showcase × adidas",
@@ -36,9 +36,20 @@ window.SUNNY_CONTENT = {
       },
       {
         "kind": "video",
+        "videoId": "NlOJRRTC6d4",
+        "startSeconds": 90,
+        "duration": 15,
+        "projectId": "fifa20-adidas",
+        "title": {
+          "en": "FIFA 20 × adidas: Fan Play at the Launch",
+          "ko": "FIFA20 × adidas: 출시 현장의 팬 게임 플레이"
+        }
+      },
+      {
+        "kind": "video",
         "videoId": "KdH1lE6wl4o",
         "startSeconds": 4,
-        "duration": 10,
+        "duration": 15,
         "projectId": "fc24-house",
         "title": {
           "en": "EA SPORTS FC 24: House of Football Fans",
@@ -49,7 +60,7 @@ window.SUNNY_CONTENT = {
         "kind": "video",
         "videoId": "aroH52DMEFI",
         "startSeconds": 552,
-        "duration": 10,
+        "duration": 15,
         "projectId": "soopercup-2024",
         "title": {
           "en": "EA SPORTS FC 25 SOOPERCUP × Premier League",
@@ -59,8 +70,8 @@ window.SUNNY_CONTENT = {
       {
         "kind": "video",
         "videoId": "dDY93Lwku-g",
-        "startSeconds": 8,
-        "duration": 10,
+        "startSeconds": 1805,
+        "duration": 15,
         "projectId": "fo4-reveal",
         "title": {
           "en": "FIFA Online 4 Reveal Showcase",
@@ -71,7 +82,7 @@ window.SUNNY_CONTENT = {
         "kind": "video",
         "videoId": "tCCjBev_vuo",
         "startSeconds": 3,
-        "duration": 10,
+        "duration": 15,
         "projectId": "fifa22-talent",
         "title": {
           "en": "FIFA 22 Korean Talent Launch Campaign",
@@ -82,7 +93,7 @@ window.SUNNY_CONTENT = {
         "kind": "video",
         "videoId": "51aDnaZ4T7c",
         "startSeconds": 8,
-        "duration": 10,
+        "duration": 15,
         "projectId": "fc-futures",
         "title": {
           "en": "EA SPORTS FC Futures: School Programme",
@@ -91,9 +102,20 @@ window.SUNNY_CONTENT = {
       },
       {
         "kind": "video",
+        "videoId": "wxYd1wOALmw",
+        "startSeconds": 20,
+        "duration": 15,
+        "projectId": "fc-futures",
+        "title": {
+          "en": "EA SPORTS FC Futures: Football Festival",
+          "ko": "EA SPORTS FC Futures: 풋볼 페스티벌"
+        }
+      },
+      {
+        "kind": "video",
         "videoId": "4vvO-NL-HQQ",
         "startSeconds": 4,
-        "duration": 10,
+        "duration": 15,
         "projectId": "king-soda-infinite-challenge",
         "title": {
           "en": "Candy Crush Soda × Infinite Challenge",
@@ -102,9 +124,20 @@ window.SUNNY_CONTENT = {
       },
       {
         "kind": "video",
-        "videoId": "PYJ60nANmUY",
+        "videoId": "EMUWJwuTNCM",
         "startSeconds": 4,
-        "duration": 10,
+        "duration": 15,
+        "projectId": "king-candy-crush-jelly",
+        "title": {
+          "en": "Candy Crush Jelly Saga Launch Campaign",
+          "ko": "캔디크러쉬젤리사가 출시 캠페인"
+        }
+      },
+      {
+        "kind": "video",
+        "videoId": "PYJ60nANmUY",
+        "startSeconds": 75,
+        "duration": 15,
         "projectId": "king-vip-google-play",
         "title": {
           "en": "King VIP Party × Google Play",
@@ -135,7 +168,7 @@ window.SUNNY_CONTENT = {
         "kind": "video",
         "videoId": "nD_dpemaK28",
         "startSeconds": 8,
-        "duration": 10,
+        "duration": 15,
         "projectId": "sims",
         "title": {
           "en": "Hwasa × The Sims 4: Play With Life Official MV",
@@ -146,7 +179,7 @@ window.SUNNY_CONTENT = {
         "kind": "video",
         "videoId": "PM06EvWTaSo",
         "startSeconds": 3,
-        "duration": 10,
+        "duration": 15,
         "projectId": "sims",
         "title": {
           "en": "Hwasa × The Sims 4 Campaign Film",
@@ -156,8 +189,8 @@ window.SUNNY_CONTENT = {
       {
         "kind": "video",
         "videoId": "ssctL0kNEk8",
-        "startSeconds": 21,
-        "duration": 10,
+        "startSeconds": 1200,
+        "duration": 15,
         "projectId": "jonathan",
         "title": {
           "en": "EA SPORTS FC: FC Il-jjang with Jonathan",
@@ -168,7 +201,7 @@ window.SUNNY_CONTENT = {
         "kind": "video",
         "videoId": "Ltdn9S1AIrI",
         "startSeconds": 6,
-        "duration": 10,
+        "duration": 15,
         "projectId": "son-global",
         "title": {
           "en": "Son Heung-min: Global FIFA / FC Ambassador Programme",
@@ -6254,7 +6287,7 @@ window.SUNNY_CONTENT = {
       "mainNav": "Main navigation",
       "languageNav": "Site language",
       "skip": "Skip to content",
-      "heroEyebrow": "FOOTBALL / CULTURE / COMMERCIAL GROWTH",
+      "heroEyebrow": "GLOBAL BRANDS / CULTURE / COMMERCIAL GROWTH",
       "perspective": "MY PERSPECTIVE",
       "mission": "NEXT MISSION",
       "exploreJourney": "Explore my journey ↗",
@@ -6351,7 +6384,7 @@ window.SUNNY_CONTENT = {
       "mainNav": "주요 메뉴",
       "languageNav": "사이트 언어",
       "skip": "본문으로 이동",
-      "heroEyebrow": "FOOTBALL / CULTURE / COMMERCIAL GROWTH",
+      "heroEyebrow": "GLOBAL BRANDS / CULTURE / COMMERCIAL GROWTH",
       "perspective": "나의 관점",
       "mission": "다음 미션",
       "exploreJourney": "커리어 여정 보기 ↗",
