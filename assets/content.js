@@ -3,8 +3,8 @@ window.SUNNY_CONTENT = {
   "profile": {
     "name": "Sunny Ryu",
     "focus": {
-      "en": "GLOBAL BRAND MARKETING\nCULTURE, PARTNERSHIPS & GROWTH",
-      "ko": "GLOBAL BRAND MARKETING\nCULTURE, PARTNERSHIPS & GROWTH"
+      "en": "GLOBAL BRAND MARKETING\nCULTURE, FOOTBALL & GROWTH",
+      "ko": "GLOBAL BRAND MARKETING\nCULTURE, FOOTBALL & GROWTH"
     },
     "location": {
       "en": "Seoul · Korea & Asia",

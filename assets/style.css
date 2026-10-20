@@ -20,7 +20,7 @@ html{background:#090909;scroll-behavior:smooth}body{margin:0}
 #sunny-brand .eyebrow,#sunny-brand .small-label{font:700 12px/1.4 var(--sunny-font);letter-spacing:.14em;text-transform:uppercase}
 #sunny-brand .eyebrow{color:var(--sunny-pink);margin-bottom:22px}#sunny-brand .small-label{margin-bottom:12px}
 /* Hero order: name, expertise, personal brand message. */
-#sunny-brand .hero{position:relative;isolation:isolate;overflow:hidden;height:clamp(650px,calc(100svh - 85px),760px);min-height:650px;background:#121619}
+#sunny-brand .hero{position:relative;isolation:isolate;overflow:hidden;height:clamp(600px,43.75vw,680px);min-height:600px;background:#121619}
 #sunny-brand .hero-poster{position:absolute;inset:0;height:100%;object-fit:cover;object-position:center;z-index:-4}
 #sunny-brand .hero-video-box{position:absolute;inset:0;overflow:hidden;z-index:-3;pointer-events:none;opacity:0;transition:opacity .55s;background:#090909}#sunny-brand .hero.video-playing .hero-video-box{opacity:1}
 #sunny-brand .hero-video-box iframe{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);border:0;max-width:none}
