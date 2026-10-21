@@ -64,7 +64,7 @@
     root.querySelectorAll('[data-i18n]').forEach(el => {el.innerHTML=label(el.getAttribute('data-i18n'));});
     root.querySelectorAll('[data-i18n-aria]').forEach(el => {el.setAttribute('aria-label',ui(el.getAttribute('data-i18n-aria')));});
     root.querySelectorAll('[data-language-switch]').forEach(el => {el.setAttribute('aria-pressed',String(el.dataset.languageSwitch===language));});
-    find('home-heading').innerHTML=escape(data.profile.name)+'<span>.</span>';
+    find('home-heading').innerHTML=escape(data.profile.name)+'’ <span class="hero-portfolio">Portfolio</span>';
     root.querySelector('.brand-message').innerHTML=escape(data.profile.brandMessage.toUpperCase()).replace(/\bPROGRESS\b([.!?]?)/,'<span class="brand-progress">$&</span>');
     find('profile-focus').innerHTML=inline(data.profile.focus).replace(/\n/g,'<br>');
     find('profile-statement').innerHTML=copy(data.profile.statement);
@@ -73,8 +73,6 @@
     find('hero-poster').src=data.profile.backgroundPoster;
     find('hero-video-link').href='https://www.youtube.com/watch?v='+encodeURIComponent(data.profile.backgroundVideoId);
     find('profile-keywords').innerHTML=data.profile.keywords.map(v=>'<span>'+inline(v)+'</span>').join('');
-    find('home-journey-intro').textContent=local(data.profile.journeyIntro);
-    find('journey-intro').textContent=local(data.profile.journeyIntro);
     find('project-intro').innerHTML=copy(data.projectIntroduction);
     find('project-scale').innerHTML=(data.projectScale||[]).map(m=>'<li><strong>'+inline(m.value)+'</strong> <span>'+inline(m.label)+'</span></li>').join('');
     renderProjectCards();renderProgrammes();
