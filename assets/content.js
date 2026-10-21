@@ -3,8 +3,8 @@ window.SUNNY_CONTENT = {
   "profile": {
     "name": "Sunny Ryu",
     "focus": {
-      "en": "GLOBAL BRAND MARKETING\nCULTURE, COMMUNICATIONS & GROWTH",
-      "ko": "GLOBAL BRAND MARKETING\nCULTURE, COMMUNICATIONS & GROWTH"
+      "en": "GLOBAL BRAND MARKETING EXPERT\nCULTURE, COMMUNICATIONS & GROWTH",
+      "ko": "GLOBAL BRAND MARKETING EXPERT\nCULTURE, COMMUNICATIONS & GROWTH"
     },
     "location": {
       "en": "Seoul · Korea & Asia",
@@ -245,11 +245,7 @@ window.SUNNY_CONTENT = {
         "ko": "파트너와 성장"
       }
     ],
-    "brandMessage": "I'M STILL IN PROGRESS.",
-    "journeyIntro": {
-      "en": "From exhibitions and technology to games and football: understanding customers and markets, connecting teams and partners, and turning growth opportunities into action.",
-      "ko": "전시와 컨벤션에서 기술, 게임, 풋볼로 이어진 여정. 고객과 시장을 이해하고, 서로 다른 팀과 파트너의 역량을 연결하며 성장의 가능성을 실행으로 옮겨왔습니다."
-    }
+    "brandMessage": "I'M STILL IN PROGRESS."
   },
   "careers": [
     {
