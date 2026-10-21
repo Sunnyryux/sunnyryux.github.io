@@ -172,7 +172,7 @@
   function updateTitle() {
     const p=currentView==='project'?projectById(currentProject):null;
     const name=p?p.title.en:({career:ui('navCareer'),project:ui('navProject'),about:ui('navAbout')}[currentView] || '');
-    document.title=(name?name+' — ':'')+'Sunny Ryu — Football Business, Marketing & Partnerships';
+    document.title=(name?name+' — ':'')+'Sunny Ryu - Life and Work Portfolio';
     const desc=document.querySelector('meta[name="description"]');if(desc)desc.content=p?local(p.summary):local(data.profile.statement);
   }
   function renderCurrent() {
