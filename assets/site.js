@@ -64,7 +64,7 @@
     root.querySelectorAll('[data-i18n]').forEach(el => {el.innerHTML=label(el.getAttribute('data-i18n'));});
     root.querySelectorAll('[data-i18n-aria]').forEach(el => {el.setAttribute('aria-label',ui(el.getAttribute('data-i18n-aria')));});
     root.querySelectorAll('[data-language-switch]').forEach(el => {el.setAttribute('aria-pressed',String(el.dataset.languageSwitch===language));});
-    find('home-heading').innerHTML=escape(data.profile.name)+'’ <span class="hero-portfolio">Portfolio</span>';
+    find('home-heading').innerHTML=escape(data.profile.name)+'’s <span class="hero-portfolio">Portfolio</span>';
     root.querySelector('.brand-message').innerHTML=escape(data.profile.brandMessage.toUpperCase()).replace(/\bPROGRESS\b([.!?]?)/,'<span class="brand-progress">$&</span>');
     find('profile-focus').innerHTML=inline(data.profile.focus).replace(/\n/g,'<br>');
     find('profile-statement').innerHTML=copy(data.profile.statement);
