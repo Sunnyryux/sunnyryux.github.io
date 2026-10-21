@@ -29,6 +29,7 @@ html{background:#090909;scroll-behavior:smooth}body{margin:0}
 #sunny-brand .hero-shade{position:absolute;inset:0;z-index:-1;background:rgba(0,0,0,.20);pointer-events:none}
 #sunny-brand .hero-content{position:relative;padding:36px 5% 82px;max-width:1260px;text-shadow:0 2px 12px rgba(0,0,0,.95)}
 #sunny-brand .hero-eyebrow{color:#fff;margin-bottom:12px}#sunny-brand .hero-name{font:700 clamp(58px,8.6vw,96px)/.94 "Barlow Condensed","Arial Narrow",Impact,sans-serif;letter-spacing:-.015em;color:#fff;margin-bottom:14px}
+#sunny-brand .hero-portfolio{display:inline-block;font-size:.39em;line-height:1;vertical-align:baseline;color:var(--sunny-pink)}
 #sunny-brand #profile-focus{font:800 clamp(33px,4.6vw,53px)/1.01 "Barlow Condensed","Arial Narrow",Impact,sans-serif;color:#fff;text-transform:uppercase;max-width:930px;letter-spacing:-.01em}
 #sunny-brand .brand-message{font:800 clamp(17px,2vw,22px)/1.4 "Manrope",Arial,sans-serif;color:#fff;text-transform:uppercase;letter-spacing:.08em;margin:12px 0 0;padding-left:14px;border-left:3px solid var(--sunny-pink);animation:sunny-message-reveal .8s cubic-bezier(.2,.7,.3,1) .2s 1 both}
 #sunny-brand .brand-progress{display:inline-block;color:var(--sunny-pink);opacity:1;transform:none;animation:sunny-progress-emphasis .9s ease-out .8s 1 both}
