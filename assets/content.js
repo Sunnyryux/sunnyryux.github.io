@@ -11,8 +11,8 @@ window.SUNNY_CONTENT = {
       "ko": "서울 · 한국과 아시아"
     },
     "statement": {
-      "en": "20 years in global brand marketing. Nine years connecting football, gaming and culture at EA — translating fan insight into local relevance, partner activation and commercial growth across Korea and Asia.",
-      "ko": "글로벌 브랜드 마케팅 20년, EA에서 축구 비즈니스를 이끈 9년. 한국과 아시아의 팬 인사이트를 바탕으로 축구·게임·문화를 연결하고, 로컬 브랜드 경험과 파트너십을 비즈니스 성장으로 이어왔습니다."
+      "en": "A career built across global brands, marketing and business. Nine years at EA connecting entertainment, football and culture — turning fan insight into locally relevant experiences, partner ecosystems and business growth across Korea and Asia.",
+      "ko": "글로벌 브랜드와 함께 마케팅과 비즈니스 전반을 경험해 온 커리어. 그중 9년은 EA에서 엔터테인먼트와 축구 문화, 팬 경험을 연결하며 한국과 아시아의 브랜드 경험, 파트너십, 비즈니스 성장을 만들어왔습니다."
     },
     "mission": {
       "en": "Turn passion and cultural insight into participation and choice. Extend digital fandom into meaningful brand experiences and business growth. Bring global teams and local partners together to create lasting value.",
