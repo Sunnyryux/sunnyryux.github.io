@@ -69,6 +69,7 @@
   function scheduleNext(item) {
     clearReelTimer();
     if (!homeVisible() || userPaused) return;
+    if (item?.kind === 'video' && item?.playFull === true) return;
     reelTimer = window.setTimeout(next, durationMs(item));
   }
 
@@ -88,15 +89,17 @@
     hero.classList.remove('image-playing');
     if (!ready) return;
     const start = Math.max(0, Number(item.startSeconds) || 0);
+    const playFull = item.playFull === true;
     const duration = Math.max(2, Number(item.duration) || 10);
-    player.mute();
-    player.setVolume(0);
-    player.loadVideoById({
+    const videoRequest = {
       videoId:item.videoId,
       startSeconds:start,
-      endSeconds:start + duration,
       suggestedQuality:'hd1080'
-    });
+    };
+    if (!playFull) videoRequest.endSeconds = start + duration;
+    player.mute();
+    player.setVolume(0);
+    player.loadVideoById(videoRequest);
     if (!homeVisible() || userPaused) player.pauseVideo();
   }
 
