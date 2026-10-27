@@ -5774,12 +5774,12 @@ window.SUNNY_CONTENT = {
         "width": 638,
         "height": 360,
         "caption": {
-          "en": "Together on the adidas pitch",
-          "ko": "adidas 피치에서 함께"
+          "en": "EA Korea Women’s Ultimate Team ERG activity",
+          "ko": "EA Korea Women’s Ultimate Team ERG 활동"
         },
         "alt": {
-          "en": "Together on the adidas pitch",
-          "ko": "adidas 피치에서 함께"
+          "en": "EA Korea Women’s Ultimate Team ERG activity",
+          "ko": "EA Korea Women’s Ultimate Team ERG 활동"
         },
         "uploaded_name": "BA158120-98F5-45FA-B3F6-1A31C059D726_4_5005_c.jpeg"
       },
