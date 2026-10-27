@@ -157,6 +157,17 @@ window.SUNNY_CONTENT = {
       },
       {
         "kind": "video",
+        "videoId": "IUUfMxmyT4o",
+        "startSeconds": 0,
+        "playFull": true,
+        "projectId": "king-soda-infinite-challenge",
+        "title": {
+          "en": "Candy Crush Soda × Infinite Challenge: Commercial Collection",
+          "ko": "캔디크러쉬소다 × 무한도전 광고 모음"
+        }
+      },
+      {
+        "kind": "video",
         "videoId": "EMUWJwuTNCM",
         "startSeconds": 4,
         "duration": 15,
