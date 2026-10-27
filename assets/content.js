@@ -5774,12 +5774,12 @@ window.SUNNY_CONTENT = {
         "width": 638,
         "height": 360,
         "caption": {
-          "en": "EA Korea Women’s Ultimate Team ERG activity",
-          "ko": "EA Korea Women’s Ultimate Team ERG 활동"
+          "en": "After a women’s futsal training session organised through EA Korea’s Women’s Ultimate Team ERG",
+          "ko": "EA Korea Women’s Ultimate Team 사내 ERG 프로그램으로 진행한 여성 풋살 트레이닝 후"
         },
         "alt": {
-          "en": "EA Korea Women’s Ultimate Team ERG activity",
-          "ko": "EA Korea Women’s Ultimate Team ERG 활동"
+          "en": "After a women’s futsal training session organised through EA Korea’s Women’s Ultimate Team ERG",
+          "ko": "EA Korea Women’s Ultimate Team 사내 ERG 프로그램으로 진행한 여성 풋살 트레이닝 후"
         },
         "uploaded_name": "BA158120-98F5-45FA-B3F6-1A31C059D726_4_5005_c.jpeg"
       },
@@ -5790,12 +5790,12 @@ window.SUNNY_CONTENT = {
         "uploaded_name": "15C60220-60CD-4083-AF19-F7A1E61BF566_1_105_c.jpeg",
         "id": "behind-17",
         "caption": {
-          "en": "Together at FIFA 23",
-          "ko": "FIFA23 현장에서 함께"
+          "en": "After the FIFA 23 launch showcase featuring a world-first hands-on gameplay experience",
+          "ko": "전 세계 최초로 게임플레이 체험을 선보인 FIFA23 출시 쇼케이스 후"
         },
         "alt": {
-          "en": "Together at FIFA 23",
-          "ko": "FIFA23 현장에서 함께"
+          "en": "After the FIFA 23 launch showcase featuring a world-first hands-on gameplay experience",
+          "ko": "전 세계 최초로 게임플레이 체험을 선보인 FIFA23 출시 쇼케이스 후"
         }
       },
       {
@@ -5804,12 +5804,12 @@ window.SUNNY_CONTENT = {
         "width": 1024,
         "height": 768,
         "caption": {
-          "en": "Together for football",
-          "ko": "축구를 위해 함께한 사람들"
+          "en": "With the team behind the 2023 Tottenham Hotspur Summer Tour activation",
+          "ko": "2023년 토트넘 홋스퍼 서머 투어 액티베이션을 함께 준비한 팀"
         },
         "alt": {
-          "en": "Together for football",
-          "ko": "축구를 위해 함께한 사람들"
+          "en": "With the team behind the 2023 Tottenham Hotspur Summer Tour activation",
+          "ko": "2023년 토트넘 홋스퍼 서머 투어 액티베이션을 함께 준비한 팀"
         },
         "uploaded_name": "3E9BDAAC-5454-4AF5-8885-E6F5F7A065F8_1_105_c.jpeg"
       },
@@ -5819,12 +5819,12 @@ window.SUNNY_CONTENT = {
         "width": 1439,
         "height": 1439,
         "caption": {
-          "en": "Sharing ideas and insight",
-          "ko": "생각과 인사이트를 나누며"
+          "en": "Guest lecture at the K League Football Academy",
+          "ko": "K리그 풋볼 아카데미 특별 강연 세션"
         },
         "alt": {
-          "en": "Sharing ideas and insight",
-          "ko": "생각과 인사이트를 나누며"
+          "en": "Guest lecture at the K League Football Academy",
+          "ko": "K리그 풋볼 아카데미 특별 강연 세션"
         },
         "uploaded_name": "C2460769-0A3B-4E7C-8E3D-C27DD4166EBC.jpeg"
       },
@@ -5835,12 +5835,12 @@ window.SUNNY_CONTENT = {
         "uploaded_name": "0F8F85F1-9354-4184-A214-C9F0BB3302F5_4_5005_c.jpeg",
         "id": "behind-10",
         "caption": {
-          "en": "Behind the cameras",
-          "ko": "카메라 뒤의 사람들"
+          "en": "On set for the Candy Crush Soda × Infinite Challenge campaign",
+          "ko": "캔디크러쉬소다 × 무한도전 협업 광고 촬영 현장"
         },
         "alt": {
-          "en": "Behind the cameras",
-          "ko": "카메라 뒤의 사람들"
+          "en": "On set for the Candy Crush Soda × Infinite Challenge campaign",
+          "ko": "캔디크러쉬소다 × 무한도전 협업 광고 촬영 현장"
         }
       },
       {
